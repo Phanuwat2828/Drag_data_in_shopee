@@ -15,7 +15,8 @@ def on_click(x, y, button, pressed):
 with mouse.Listener(on_click=on_click) as listener:
     # Keep the script running
     listener.join()
-
+Mouse clicked at (553, 194) with Button.left
+Mouse clicked at (853, 89) with Button.left
 # from pynput import keyboard
 # import time
 
