@@ -16,7 +16,8 @@ with mouse.Listener(on_click=on_click) as listener:
     # Keep the script running
     listener.join()
 
-
+# Mouse clicked at (529, 151) with Button.left
+# Mouse clicked at (793, 47) with Button.left
 
 
 
