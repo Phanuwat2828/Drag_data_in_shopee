@@ -1,962 +1,965 @@
-[
-  {
-    "Product_1": {
-      "product": "https://shopee.co.th/DAZZLE-ME-Ink-Licious-Lip-Tint-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%AA-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B8%99%E0%B9%88%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%94-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-12%E0%B8%8A%E0%B8%A1.-i.762689085.18408916441?sp_atk=be9631dc-e947-4fdc-bfed-4abbb1e38752&xptdk=be9631dc-e947-4fdc-bfed-4abbb1e38752",
-      "price_product_2": "nan",
-      "price_product_1": "49",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22100-yprhw24dmdiv7b_tn",
-      "discount": "-59%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "DAZZLE ME Ink-Licious Lip Tint ลิปไม่ติดแมส ลิปทินท์เนื้อน้ำ สีแน่นชัด ติดทนนาน 12ชม.",
-      "price_before": "฿119",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 44.7พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
+{
+  "id": "shop01_1_1",
+  "data": [
+    {
+      "Product_1": {
+        "product": "https://shopee.co.th/In2It-Primer-PMP-15g-%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B9%E0%B8%AD%E0%B8%B4%E0%B8%97-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B3%E0%B8%A1%E0%B8%B0%E0%B8%AB%E0%B8%A2%E0%B8%B5%E0%B9%88.-i.70998059.15370525651?sp_atk=0d53afa3-bf94-4c0b-b735-d3c1ae1d730c&xptdk=0d53afa3-bf94-4c0b-b735-d3c1ae1d730c",
+        "price_product_2": "nan",
+        "price_product_1": "170",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbkq-lobxlyd8mv43ed_tn",
+        "discount": "-29%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "In2It Primer++ PMP 15g อินทูอิท ไพรเมอร์เนื้อกำมะหยี่.",
+        "price_before": "฿239",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 26.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_2": {
+        "product": "https://shopee.co.th/LA-GLACE-Ideal-Airy-Skin-Concealer-2g-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1.-i.70998059.23835568850?sp_atk=b88bfbd6-aeeb-4fe8-9c7b-96dab8545be8&xptdk=b88bfbd6-aeeb-4fe8-9c7b-96dab8545be8",
+        "price_product_2": "389.0",
+        "price_product_1": "79",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbm6-loa1q6eksx252a_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "LA GLACE Ideal Airy Skin Concealer 2g คอนซีลเลอร์เนื้อเซรั่ม.",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 84.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_3": {
+        "product": "https://shopee.co.th/%F0%9F%91%AF%E2%80%8D%E2%99%80%EF%B8%8F(%E0%B8%A1%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-4-%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C)-Derra-cushion-%E0%B8%84%E0%B8%B9%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A3%E0%B9%88%E0%B8%B2-SPF-25-PA-10-g.-i.78549877.23930792863?sp_atk=cf8ac4b9-4a42-4447-9481-8393d99bd4f4&xptdk=cf8ac4b9-4a42-4447-9481-8393d99bd4f4",
+        "price_product_2": "nan",
+        "price_product_1": "185",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-oqxsivyligovd7_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "👯‍♀️(มีให้เลือก 4 เบอร์) Derra cushion คูชชั่นเดอร์ร่า SPF 25 PA+++ 10 g.",
+        "price_before": "฿369",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 29พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_4": {
+        "product": "https://shopee.co.th/%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AA-%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%94%E0%B8%B3-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%94%E0%B8%87-The-Skin-Collection-Serum-Niacinamide10-NAG8-30ml-i.345365881.3665808158?sp_atk=8f0a6571-ff0b-419e-b38d-64bc78a78e95&xptdk=8f0a6571-ff0b-419e-b38d-64bc78a78e95",
+        "price_product_2": "nan",
+        "price_product_1": "139",
+        "image_product_1": "https://down-th.img.susercontent.com/file/f607b9a0ad4c7bfbbaf41451ee126408_tn",
+        "discount": "-76%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "เซรั่มช่วยให้ผิวกระจ่างใส แก้ปัญหาผิวจากรอยดำ รอยแดง  The Skin Collection Serum Niacinamide10% + NAG8% 30ml",
+        "price_before": "฿590",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 123.9พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_5": {
+        "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-1-%E0%B8%9A%E0%B8%B2%E0%B8%97-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-CKL719-JMF9924-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B5%E0%B8%94%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A3%E0%B8%B5%E0%B8%94%E0%B8%9C%E0%B8%A1-%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-i.4062349.1098492468?sp_atk=fd24c72e-905d-4f89-9b2f-b4d8b6e48a83&xptdk=fd24c72e-905d-4f89-9b2f-b4d8b6e48a83",
+        "price_product_2": "500.0",
+        "price_product_1": "179",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22120-h5n6hkw1kflv3b_tn",
+        "discount": "-64%",
+        "image_product_2": "nan",
+        "data_product": "ลูกค้าใหม่ 1 บาท เครื่องหนีบผม CKL719 /JMF9924 เครื่องหนีบผม ที่หนีบผม เครื่องรีดผม ที่รีดผม หนีบผม",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 38.4พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_6": {
+        "product": "https://shopee.co.th/CeraVe-Moisturising-Cream-50ml-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%B5-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%A3%E0%B8%8B%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A2.-i.70998059.15393545437?sp_atk=a618b2cc-0b37-47c6-a30e-e91a931f6ce9&xptdk=a618b2cc-0b37-47c6-a30e-e91a931f6ce9",
+        "price_product_2": "nan",
+        "price_product_1": "200",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbm5-lpy0elazcbwl06_tn",
+        "discount": "-5%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "CeraVe Moisturising Cream 50ml เซราวี มอยสเจอร์ไรซิ่งครีมบำรุงผิวหน้าและผิวกาย.",
+        "price_before": "฿210",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 23.2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_7": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94-%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%8B%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B8%B9%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%8B%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99-Srichand-Sunlution-Sunscreen-Luminescence-SPF50-PA-40-ml.-i.62467035.5002199187?sp_atk=3fd93d0f-2157-4e02-a85d-60cee24f4ad8&xptdk=3fd93d0f-2157-4e02-a85d-60cee24f4ad8",
+        "price_product_2": "nan",
+        "price_product_1": "149",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukw-lequcmomn2g319_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "กันแดด ศรีจันทร์ ซันลูชั่น ซันสกรีน Srichand Sunlution Sunscreen / Luminescence SPF50+ PA++++ 40 ml.",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 25.6พัน ชิ้น",
+        "place": "จังหวัดตาก",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_8": {
+        "product": "https://shopee.co.th/%E0%B9%81%E0%B8%97%E0%B9%89%F0%9F%92%AF-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%88%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C-JANUA-30-ml.-%E0%B9%81%E0%B8%88%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A7-i.2614841.20230861328?sp_atk=8a2b10a8-0521-473e-839e-a83614333dbc&xptdk=8a2b10a8-0521-473e-839e-a83614333dbc",
+        "price_product_2": "nan",
+        "price_product_1": "149",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-r1esxvta7sov2a_tn",
+        "discount": "-49%",
+        "image_product_2": "nan",
+        "data_product": "แท้💯% น้ำหอมแจนยัวร์ JANUA 30 ml. แจนชัว",
+        "price_before": "฿290",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 21.9พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_9": {
+        "product": "https://shopee.co.th/%E0%B9%84%E0%B8%94%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%A1-2200-%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B9%8C-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A-5-%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99-%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99-%E0%B8%A5%E0%B8%A1%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%A3%E0%B8%87-%E0%B8%A5%E0%B8%A1%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7-%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%9F%E0%B8%97%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%99-i.240677960.3832789785?sp_atk=f2f581e7-3fdf-4e46-874f-bd0abaa30682&xptdk=f2f581e7-3fdf-4e46-874f-bd0abaa30682",
+        "price_product_2": "100.0",
+        "price_product_1": "99",
+        "image_product_1": "https://down-th.img.susercontent.com/file/5f864091145689738e417638fdaf7e66_tn",
+        "discount": "-16%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "ไดร์เป่าผม 2200 วัตต์ พร้อมฟังก์ชั่นปรับระดับ 5 ระดับร้อน / เย็น ลมร้อนแรง ลมแรงแห้งเร็ว สายไฟทนทาน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 15.6พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_10": {
+        "product": "https://shopee.co.th/Siriraj-%E0%B8%A8%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%A3%E0%B8%B2%E0%B8%8A-Soft-Care-Plus-%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%97%E0%B9%8C%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B9%8C-%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%AA-30-%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87-i.221185877.21002929912?sp_atk=17a1e55c-bdde-4106-a972-0f85be6ccd2c&xptdk=17a1e55c-bdde-4106-a972-0f85be6ccd2c",
+        "price_product_2": "nan",
+        "price_product_1": "56",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qula-lhxo93w5p677f2_tn",
+        "discount": "-43%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "Siriraj ศิริราช Soft Care Plus ซอฟท์แคร์ พลัส 30 กรัม ใช้สำหรับทารักษาผิวแห้ง",
+        "price_before": "฿99",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 55.8พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_11": {
+        "product": "https://shopee.co.th/%F0%9F%A7%9A%E2%80%8D%E2%99%80%EF%B8%8F%E2%80%8D%EF%B8%8FMAGIC-WHITE-BODY-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%88%E0%B8%B4%E0%B8%81%E0%B9%84%E0%B8%A7%E0%B8%97%E0%B9%8C-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%82%E0%B8%B2%E0%B8%A7-%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A2%E0%B8%81%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%97-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1-%E0%B8%A3%E0%B8%A7%E0%B8%A1-500-ml.-i.78549877.16598591185?sp_atk=fb4f0135-8bd3-4b81-9613-6d2dafa7cfbb&xptdk=fb4f0135-8bd3-4b81-9613-6d2dafa7cfbb",
+        "price_product_2": "nan",
+        "price_product_1": "239",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-lkqkzimqj7xaf8_tn",
+        "discount": "-65%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "🧚‍♀️‍️MAGIC WHITE BODY ครีมเมจิกไวท์ ครีมทาผิวขาว ได้ยกเซ็ท เซรั่ม+ครีม รวม 500 ml.",
+        "price_before": "฿690",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 12.2พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_12": {
+        "product": "https://shopee.co.th/%E2%99%A6%EF%B8%8F%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89%C2%B7%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%94%E0%B9%88%E0%B8%A7%E0%B8%99%C2%B7%E0%B8%96%E0%B8%B9%E0%B8%81%E2%99%A6%EF%B8%8FOdbo-Signature-Eyeshadow-Palette-OD276-%E0%B9%82%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B8%9A%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%8B%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C-%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B8%97-x-1-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-dayse-i.11210871.20707414101?sp_atk=5b2dc0a0-b41c-43a4-a0b1-f9f282b1bf29&xptdk=5b2dc0a0-b41c-43a4-a0b1-f9f282b1bf29",
+        "price_product_2": "115.0",
+        "price_product_1": "67",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rblq-lq1gn9v56lb47a_tn",
+        "discount": "-74%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "♦️ของแท้·ส่งด่วน·ถูก♦️Odbo Signature Eyeshadow Palette #OD276 : โอดีบีโอ ซิกเนเจอร์ อายแชโดว์ พาเลท x 1 ชิ้น dayse",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 26พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_13": {
+        "product": "https://shopee.co.th/Srichand-Skin-Moisture-Burst-Gel-Cream-10ml-%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AD%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8B%E0%B8%AD%E0%B8%87.-i.70998059.21217827137?sp_atk=40850b88-1204-4ced-b479-b7c364ad665f&xptdk=40850b88-1204-4ced-b479-b7c364ad665f",
+        "price_product_2": "nan",
+        "price_product_1": "39",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rblq-lobsgw9xsrsga9_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Srichand Skin Moisture Burst Gel Cream 10ml ศรีจันทร์ เจลครีมล็อคผิวอิ่มน้ำ แบบซอง.",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 60พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_14": {
+        "product": "https://shopee.co.th/-%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-1-%E0%B8%9A%E0%B8%B2%E0%B8%97-%E0%B8%A5%E0%B8%94-50-AC10-CKL-JMF-1011-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B3%E0%B8%A7%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1-%E0%B8%87%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2-%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99-4-%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A-i.4062349.215033313?sp_atk=633946aa-22e3-4f50-924c-1106be566ab8&xptdk=633946aa-22e3-4f50-924c-1106be566ab8",
+        "price_product_2": "175.0",
+        "price_product_1": "117",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22120-24olp5qjpglv78_tn",
+        "discount": "-77%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d6d900f677f50efcf8aa1394468bbf73",
+        "data_product": "[ ลูกค้าใหม่ 1 บาท ] ลด 50 AC10 CKL / JMF 1011 เครื่องหนีบผม ที่หนีบผม ทำวอลลุ่ม งุ้มปลาย หนีบผมตรง ปรับความร้อน 4 ระดับ",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 40.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_15": {
+        "product": "https://shopee.co.th/%F0%9F%AB%A7(%E0%B9%81%E0%B8%9E%E0%B8%84%E0%B9%80%E0%B8%81%E0%B8%88%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)-JANUA-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%88%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-5-%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99-30-ml.-i.78549877.21225515360?sp_atk=257c7229-c9b1-4255-967c-a968e7a10281&xptdk=257c7229-c9b1-4255-967c-a968e7a10281",
+        "price_product_2": "nan",
+        "price_product_1": "159",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukz-lil86szdxxg1ab_tn",
+        "discount": "-45%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "🫧(แพคเกจใหม่) JANUA น้ำหอมแจนยัวร์ มีให้เลือก 5 กลิ่น 30 ml.",
+        "price_before": "฿195",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 89.9พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_16": {
+        "product": "https://shopee.co.th/HEINO%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%81%E0%B8%A7%E0%B9%89%E0%B8%B2%E0%B8%8727.6cm%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%AD%E0%B8%B2%E0%B8%873%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A1%E0%B8%B5%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%81-%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%80%E0%B9%80%E0%B8%A7%E0%B8%94-i.58855422.6544513482?sp_atk=df132f4b-6a2a-4bdb-9603-156b3cd654b9&xptdk=df132f4b-6a2a-4bdb-9603-156b3cd654b9",
+        "price_product_2": "110.0",
+        "price_product_1": "45",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lonsp4m99hrx5f_tn",
+        "discount": "-54%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
+        "data_product": "HEINOเพิ่มใหญ่กว้าง27.6cmชั้นวางเครื่องสำอาง3ชั้น อุปกรณ์แต่งหน้า กล่องเก็บเอนกประสงค์แบบมีลิ้นชัก เป็นมิตรกับสิ่งเเวด",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 99.4พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_17": {
+        "product": "https://shopee.co.th/%F0%9F%90%8F(%E0%B9%81%E0%B8%9E%E0%B8%84%E0%B9%80%E0%B8%81%E0%B8%88%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)-CARISTA-GOAT-MILK-KERATIN-%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B8%99%E0%B8%A1%E0%B9%81%E0%B8%9E%E0%B8%B0-500-g.-i.78549877.12557325813?sp_atk=20ee6605-eb42-44bf-91eb-cb4c96c62fdf&xptdk=20ee6605-eb42-44bf-91eb-cb4c96c62fdf",
+        "price_product_2": "175.0",
+        "price_product_1": "27",
+        "image_product_1": "https://down-th.img.susercontent.com/file/dbbb6d1d4a972ca7fdbc263721159442_tn",
+        "discount": "-31%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "🐏(แพคเกจใหม่) CARISTA GOAT MILK KERATIN คาริสต้า เคราตินนมแพะ 500 g.",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 159พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_18": {
+        "product": "https://shopee.co.th/bnb-barenbliss-Peach-Makes-Perfect-Lip-Tint-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%89%E0%B9%88%E0%B8%B3-%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9D%E0%B8%B5%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%8A%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%99-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-12%E0%B8%8A%E0%B8%A1-i.668922905.13089494091?sp_atk=541c8925-d6aa-4972-863e-72733a9aa15e&xptdk=541c8925-d6aa-4972-863e-72733a9aa15e",
+        "price_product_2": "nan",
+        "price_product_1": "183",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r991-lq8jr24ibl5w43_tn",
+        "discount": "-38%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "bnb barenbliss Peach Makes Perfect Lip Tint ลิปทินปากฉ่ำ ริมฝีปากชุ่มชื่น ติดทนนาน 12ชม",
+        "price_before": "฿295",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 21.7พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_19": {
+        "product": "https://shopee.co.th/-Exclusive-FRESH-DROP-Mineral-Spray-(50-ml.)-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%A3%E0%B9%88-EVEANDBOY-i.388038998.9234749012?sp_atk=ae3604d4-0e31-426f-a91f-c21b56352142&xptdk=ae3604d4-0e31-426f-a91f-c21b56352142",
+        "price_product_2": "nan",
+        "price_product_1": "89",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r990-lq4kr9u25xju7d_tn",
+        "discount": "-10%",
+        "image_product_2": "nan",
+        "data_product": "[Exclusive] FRESH DROP - Mineral Spray  (50 ml.) สเปรย์น้ำแร่ EVEANDBOY",
+        "price_before": "฿99",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 20.4พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_20": {
+        "product": "https://shopee.co.th/IN2IT-Primer-PMP-(15-g.)-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C-i.388038998.12073810801?sp_atk=66d543c7-e810-43b1-afe6-f4c63442124d&xptdk=66d543c7-e810-43b1-afe6-f4c63442124d",
+        "price_product_2": "nan",
+        "price_product_1": "199",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lqel0xzajzs404_tn",
+        "discount": "-17%",
+        "image_product_2": "nan",
+        "data_product": "IN2IT - Primer++ PMP (15 g.) ไพร์เมอร์",
+        "price_before": "฿239",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 60.1พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_21": {
+        "product": "https://shopee.co.th/%F0%9F%94%A5%E0%B9%82%E0%B8%9B%E0%B8%A312.12%F0%9F%94%A5%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-30WOW12-%E0%B8%A5%E0%B8%94%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%94-200%E0%B8%BF.-IN2IT-PRIMER-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B3%E0%B8%A1%E0%B8%B0%E0%B8%AB%E0%B8%A2%E0%B8%B5%E0%B9%88-PMP-15ml.-i.28469453.21885097103?sp_atk=d2639283-c492-43da-a423-154eb6aa83b2&xptdk=d2639283-c492-43da-a423-154eb6aa83b2",
+        "price_product_2": "nan",
+        "price_product_1": "139",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lmptwxaktg5j5b_tn",
+        "discount": "-41%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dff11b50c63d4334f32c58f02d1a6898",
+        "data_product": "🔥โปร12.12🔥โค้ด 30WOW12 ลดสูงสุด 200฿.- IN2IT PRIMER++ ไพรเมอร์เนื้อกำมะหยี่ PMP 15ml.",
+        "price_before": "฿235",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 8.2พัน ชิ้น",
+        "place": "จังหวัดนครราชสีมา",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_22": {
+        "product": "https://shopee.co.th/Laka-Fruity-Glam-Tint-Official-Store--i.298113044.10998067233?sp_atk=334d6791-ae4f-4c75-a547-f3e71682e8cd&xptdk=334d6791-ae4f-4c75-a547-f3e71682e8cd",
+        "price_product_2": "nan",
+        "price_product_1": "410",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul3-li2jj36btx5f9b_tn",
+        "discount": "-28%",
+        "image_product_2": "nan",
+        "data_product": "Laka : Fruity Glam Tint [Official Store]",
+        "price_before": "฿570",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 37.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_23": {
+        "product": "https://shopee.co.th/Naturista-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%B5%E0%B8%97%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B1%E0%B8%9A-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%99-Tea-Tree-Essential-Serum-50ml-i.223832803.6916201994?sp_atk=6dd19e35-e9a8-4ceb-8d20-d2a897755940&xptdk=6dd19e35-e9a8-4ceb-8d20-d2a897755940",
+        "price_product_2": "nan",
+        "price_product_1": "159",
+        "image_product_1": "https://down-th.img.susercontent.com/file/5a6988ccd5b20d4dda3ce287fd31cb20_tn",
+        "discount": "-82%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "Naturista เซรั่มจากสารสกัดทีทรีเข้มข้น ช่วยป้องกันปัญหาสิว บำรุงผิวหน้าให้กระชับ เรียบเนียน Tea Tree Essential Serum 50ml",
+        "price_before": "฿890",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 109.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_24": {
+        "product": "https://shopee.co.th/DAZZLE-ME-24-7-Wonderfullip-Serum-%E0%B8%A5%E0%B8%B4%E0%B8%9B-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1-%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9D%E0%B8%B5%E0%B8%9B%E0%B8%B2%E0%B8%81-i.762689085.22736258720?sp_atk=b46e9a84-281d-463d-b62f-5080830e3658&xptdk=b46e9a84-281d-463d-b62f-5080830e3658",
+        "price_product_2": "nan",
+        "price_product_1": "65",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukz-lf272e0zncb5ae_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "DAZZLE ME 24/7 Wonderfullip Serum ลิป เซรั่ม มหัศจรรย์แห่งการบำรุงริมฝีปาก",
+        "price_before": "฿129",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 14พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_25": {
+        "product": "https://shopee.co.th/Naturista-%E0%B9%82%E0%B8%97%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B8%97%E0%B8%A3%E0%B8%B5-%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%95%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%99%E0%B9%83%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B9%89%E0%B8%B3%E0%B8%A5%E0%B8%B6%E0%B8%81-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B9%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%82%E0%B8%99-Tea-Tree-Facial-Toner-250ml-i.223832803.5416200813?sp_atk=4a2946d4-f583-45ae-ac31-dfadf433764e&xptdk=4a2946d4-f583-45ae-ac31-dfadf433764e",
+        "price_product_2": "nan",
+        "price_product_1": "89",
+        "image_product_1": "https://down-th.img.susercontent.com/file/3a2f3064ea7f92bc4f6991fb763373ce_tn",
+        "discount": "-77%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "Naturista โทนเนอร์ทีทรี ทำความสะอาดสิ่งตกค้างบนใบหน้าอย่างล้ำลึก ช่วยป้องกันปัญหาสิว และกระชับรูขุมขน Tea Tree Facial Toner 250ml",
+        "price_before": "฿390",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 281.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_26": {
+        "product": "https://shopee.co.th/-%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%A3%E0%B8%87-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%8C%E0%B8%9A%E0%B8%B9%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%99%E0%B8%AA-Clear-Nose-Skin-Barrier-Moisturizing-Gel-120ml-1%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-(CMO)-i.34669982.15398220210?sp_atk=b3242ed5-03c4-45bd-99fa-23b89793849e&xptdk=b3242ed5-03c4-45bd-99fa-23b89793849e",
+        "price_product_2": "nan",
+        "price_product_1": "598",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98q-lnjx3lx0hz5ca1_tn",
+        "discount": "-40%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "[โปรแรง]มอยส์บูสเตอร์เคลียร์โนส Clear Nose Skin Barrier Moisturizing Gel 120ml 1ชิ้น (CMO)",
+        "price_before": "฿999",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 13.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_27": {
+        "product": "https://shopee.co.th/%F0%9F%92%9C%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B4-RACHI-SPF-50PA-10-g.-i.78549877.8775130420?sp_atk=574f41b1-dee3-4019-b95e-0bed888f69b0&xptdk=574f41b1-dee3-4019-b95e-0bed888f69b0",
+        "price_product_2": "nan",
+        "price_product_1": "116",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lo50yjw56kfk3c_tn",
+        "discount": "-20%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "💜กันแดดราชิ RACHI SPF 50PA+++ 10 g.",
+        "price_before": "฿145",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 81.4พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_28": {
+        "product": "https://shopee.co.th/Bbia-Glow-Lip-Tint-3.2g-%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2-(%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%AD%E0%B8%9A%E0%B8%9F%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%8A%E0%B8%A5%E0%B8%B8%E0%B8%84%E0%B9%82%E0%B8%81%E0%B8%A5%E0%B8%A7%E0%B9%8C)-i.21612020.11112205225?sp_atk=6c448260-fa3c-4518-b90e-802930b4b9c9&xptdk=6c448260-fa3c-4518-b90e-802930b4b9c9",
+        "price_product_2": "345.0",
+        "price_product_1": "284",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98v-lqebu2o3bevu19_tn",
+        "discount": "-4%",
+        "image_product_2": "nan",
+        "data_product": "Bbia Glow Lip Tint 3.2g #เปีย (ลิปทินท์ที่มอบฟินิชลุคโกลว์)",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 14พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_29": {
+        "product": "https://shopee.co.th/4U2-Love-You-Babe-Tint-Matte-2.6g-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%81%E0%B8%A1%E0%B8%97.-i.70998059.19495591153?sp_atk=4f1074cf-70e7-4f4f-a55c-73c1ced72f95&xptdk=4f1074cf-70e7-4f4f-a55c-73c1ced72f95",
+        "price_product_2": "nan",
+        "price_product_1": "179",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbk2-looyh2yyhilv42_tn",
+        "discount": "-40%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "4U2 Love You Babe Tint Matte 2.6g ลิปทินท์แมท.",
+        "price_before": "฿299",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 7.9พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_30": {
+        "product": "https://shopee.co.th/BANOBAGI-Final-Sleeping-Mask-Acne-23ml.-i.70998059.18077268132?sp_atk=16f13015-9380-400c-8f79-3be2f91593ce&xptdk=16f13015-9380-400c-8f79-3be2f91593ce",
+        "price_product_2": "nan",
+        "price_product_1": "51",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbmk-lq1u1az8x9d6e1_tn",
+        "discount": "-42%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "BANOBAGI Final Sleeping Mask Acne 23ml.",
+        "price_before": "฿88",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 98.2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_31": {
+        "product": "https://shopee.co.th/Naturista-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B8%97%E0%B8%A3%E0%B8%B5-pH-Balance-5.5-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%99-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B9%89%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-Tea-Tree-Facial-Cleanser-300ml-i.223832803.3716295861?sp_atk=137d4afc-260e-479f-af58-4a3927e9ce2e&xptdk=137d4afc-260e-479f-af58-4a3927e9ce2e",
+        "price_product_2": "nan",
+        "price_product_1": "89",
+        "image_product_1": "https://down-th.img.susercontent.com/file/82d41d3050c4b4ef8e831c678a527402_tn",
+        "discount": "-88%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "Naturista เจลล้างหน้าทีทรี pH Balance 5.5 สูตรอ่อนโยน สำหรับคนเป็นสิว และผิวแพ้ง่าย Tea Tree Facial Cleanser 300ml",
+        "price_before": "฿750",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 519.6พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_32": {
+        "product": "https://shopee.co.th/-%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-DAZZLE-ME-Get-a-Grip!-Makeup-Setting-Spray-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%B1%E0%B8%9E-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-12-%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%82%E0%B8%A1%E0%B8%87-i.762689085.22248431375?sp_atk=373b8d03-916f-4078-a53f-aedc2c3bb973&xptdk=373b8d03-916f-4078-a53f-aedc2c3bb973",
+        "price_product_2": "nan",
+        "price_product_1": "79",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-loniwq5cdjct82_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "[ใหม่] DAZZLE ME Get a Grip! Makeup Setting Spray สเปรย์ล็อคเมคอัพ ควบคุมความมัน ติดทนนาน 12 ชั่วโมง",
+        "price_before": "฿159",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 52.5พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_33": {
+        "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%9D%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%84%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B4%E0%B8%A7-i.1111988013.25600840401?sp_atk=0e02cf67-2723-4f41-896f-44edfa18879a&xptdk=0e02cf67-2723-4f41-896f-44edfa18879a",
+        "price_product_2": "8.0",
+        "price_product_1": "4",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98v-lo0wq3j8ct47d9_tn",
+        "discount": "-87%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "พัฟแต่งหน้า พัฟแป้งฝุ่น ทรงหยดน้ำ ขนาดใหญ่ หนานุ่มไม่ระคายผิว",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 6.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_34": {
+        "product": "https://shopee.co.th/-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%89%E0%B9%88%E0%B8%B3-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%AA%E0%B8%B1%E0%B8%81%E0%B8%9B%E0%B8%B2%E0%B8%81-%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%AD%E0%B8%A1%E0%B8%8A%E0%B8%A1%E0%B8%9E%E0%B8%B9-1-%E0%B8%AB%E0%B8%A5%E0%B8%AD%E0%B8%94-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89-100--i.35528085.25605313463?sp_atk=bb9d6b08-9168-44af-b012-e52c2f9e2062&xptdk=bb9d6b08-9168-44af-b012-e52c2f9e2062",
+        "price_product_2": "nan",
+        "price_product_1": "40",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lprr4nv24ulgbd_tn",
+        "discount": "-75%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
+        "data_product": "[ส่งฟรี]  ลิปปากฉ่ำ ลิปสักปาก  สวยอมชมพู 1 หลอด ของแท้ 100%",
+        "price_before": "฿159",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 7พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_35": {
+        "product": "https://shopee.co.th/Banana-Boat-Aqua-Daily-Moisture-UV-Protection-Sunscreen-Lotion-SPF50-PA-50ml.-i.70998059.9245467680?sp_atk=bce24879-d9d9-4d75-80a7-98a497dd80a7&xptdk=bce24879-d9d9-4d75-80a7-98a497dd80a7",
+        "price_product_2": "217.0",
+        "price_product_1": "195",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rblr-lpy1ui8idyivf3_tn",
+        "discount": "-55%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Banana Boat Aqua Daily Moisture UV Protection Sunscreen Lotion SPF50+/PA++++ 50ml.",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 76.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_36": {
+        "product": "https://shopee.co.th/%E2%9C%85%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%94-%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%94%E0%B8%B1%E0%B8%87-FilliMilli-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%A5%E0%B8%87%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-Brush-Corrector-811-i.244324453.18476664872?sp_atk=150bcf8a-8c1a-481e-abbf-af8bdb59d792&xptdk=150bcf8a-8c1a-481e-abbf-af8bdb59d792",
+        "price_product_2": "539.0",
+        "price_product_1": "109",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-fm0pxl5jwwov0d_tn",
+        "discount": "-70%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "✅พร้อมส่ง ของแท้ ถูกที่สุด รวมตัวดัง FilliMilli อุปกรณ์แต่งหน้า แปรงลงรองพื้น คอนซิลเลอร์ Brush Corrector 811",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 15.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_37": {
+        "product": "https://shopee.co.th/Srichand-Skin-Moisture-Burst-Gel-Cream-50ml-%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B8%AA%E0%B8%81%E0%B8%B4%E0%B8%99-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%AA-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AD%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3.-i.70998059.12416925549?sp_atk=3fc77133-2a0f-4f4e-8b3d-ef83fb900379&xptdk=3fc77133-2a0f-4f4e-8b3d-ef83fb900379",
+        "price_product_2": "nan",
+        "price_product_1": "229",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbk5-locfn6rjylh47d_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Srichand Skin Moisture Burst Gel Cream 50ml ศรีจันทร์ สกิน มอยส์เจอร์ เบิร์ส เจลครีมล็อคผิวอิ่มน้ำ.",
+        "price_before": "฿455",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 9.2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_38": {
+        "product": "https://shopee.co.th/Rubycell-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%9D%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%84%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B4%E0%B8%A7-i.291114372.18373285225?sp_atk=fc73a3b9-f91e-4be1-b304-db934d6854b1&xptdk=fc73a3b9-f91e-4be1-b304-db934d6854b1",
+        "price_product_2": "14.0",
+        "price_product_1": "9",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-23020-sggnwav52inv3f_tn",
+        "discount": "-82%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
+        "data_product": "Rubycell พัฟแต่งหน้า พัฟแป้งฝุ่น พัฟคุชชั่น ทรงหยดน้ำ ขนาดใหญ่ หนานุ่มไม่ระคายผิว",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 44.5พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_39": {
+        "product": "https://shopee.co.th/Mediheal-Labocare-Panteno-Lips-Healbalm-10ml.-i.70998059.15110477490?sp_atk=44d2a511-3512-46d6-80da-552ff3944014&xptdk=44d2a511-3512-46d6-80da-552ff3944014",
+        "price_product_2": "nan",
+        "price_product_1": "98",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbk7-lo9jwcetmjhbd5_tn",
+        "discount": "-51%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Mediheal Labocare Panteno Lips Healbalm 10ml.",
+        "price_before": "฿199",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 14.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_40": {
+        "product": "https://shopee.co.th/Pramy-Moisturizing-Makeup-Setting-Spray-Matte-Finish-%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%B5%E0%B9%88-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%99-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B8%97-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%A1%E0%B8%B1%E0%B8%99.-i.70998059.14898763090?sp_atk=85dfa66f-78c5-434b-b205-70acfbbe4e10&xptdk=85dfa66f-78c5-434b-b205-70acfbbe4e10",
+        "price_product_2": "189.0",
+        "price_product_1": "139",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbl7-lpxxrpi1ygdi9b_tn",
+        "discount": "-68%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Pramy Moisturizing Makeup Setting Spray Matte Finish ปรามี่ เซ็ตติ้งสเปรย์ที่อ่อนโยน เนื้อแมท สำหรับผิวผสมและผิวมัน.",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 17.4พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_41": {
+        "product": "https://shopee.co.th/-%E2%9C%85%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B9%80%E0%B8%A3%E0%B8%94%E0%B9%80%E0%B8%88%E0%B8%A5-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%A5%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%A7-Klay-%E0%B8%A5%E0%B8%94%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%94%E0%B8%B3-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%AA%E0%B8%B4%E0%B8%A7-Red-Gel-Spotless-Anti-acne-20-%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%A1-i.431187719.22179712286?sp_atk=9c8a8e63-1622-41c2-9892-7d3558b613b8&xptdk=9c8a8e63-1622-41c2-9892-7d3558b613b8",
+        "price_product_2": "349.0",
+        "price_product_1": "189",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lpu7c53w9ceyd9_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "[ ✅ของแท้/พร้อมส่ง ] เรดเจล เจลลบรอยสิว Klay ลดรอยดำ รอยแดงจากสิว Red Gel Spotless Anti-acne 20 กรัม",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 7.4พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_42": {
+        "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%95-KATHY-AMREZ-MINI-MATTE-LIP-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B9%81%E0%B8%A1%E0%B8%97%E0%B8%A5%E0%B8%B4%E0%B8%9B-%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-99.-(%E0%B8%9B%E0%B8%81%E0%B8%95%E0%B8%B4-199.-)-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%81%E0%B8%A1%E0%B8%97%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%95-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%95%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%AA-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%88%E0%B8%B4%E0%B9%8B%E0%B8%A7%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%AA-i.698040092.15864031102?sp_atk=b443c3f5-788f-485a-bdc7-cf179b02feeb&xptdk=b443c3f5-788f-485a-bdc7-cf179b02feeb",
+        "price_product_2": "94.0",
+        "price_product_1": "74",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-loe89bpvam7364_tn",
+        "discount": "-63%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dff11b50c63d4334f32c58f02d1a6898",
+        "data_product": "ลิปกระแต KATHY AMREZ MINI MATTE LIP / มินิแมทลิป ราคา 99.-  (ปกติ 199.-) ลิปแมทกระแต ลิปกระแตไม่ติดแมส ลิปจิ๋วไม่ติดแมส",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 159.4พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_43": {
+        "product": "https://shopee.co.th/Peach-Milk-Honey-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%81%E0%B8%A5%E0%B8%AD%E0%B8%AA-%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87-%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B9%80%E0%B8%97%E0%B8%B2%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87-%E0%B8%8A%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%A2-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C-%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2-%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-i.148820479.23632422982?sp_atk=4263023c-871f-4622-881c-4eec63bfc5fb&xptdk=4263023c-871f-4622-881c-4eec63bfc5fb",
+        "price_product_2": "10.0",
+        "price_product_1": "1",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-23030-c1blndruspovc9_tn",
+        "discount": "-98%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "Peach Milk Honey ลิปกลอส น้ํามันน้ําผึ้ง บรรเทาอาการแห้ง ชุ่มชื้น จางหาย ลิปไลน์ น้ํา เบา ลิปหัวแปรงใหญ่ เกาหลี น่ารัก แต่งหน้า",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 149.9พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_44": {
+        "product": "https://shopee.co.th/FIF-by-Faith-in-Face-Cica5-Truly-Soothing-Cleansing-Water-500ml-%E0%B9%80%E0%B8%9F%E0%B8%98%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%9F%E0%B8%8B-%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B8%8B%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B9%89%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2...-i.70998059.19552559950?sp_atk=75c7bace-46ca-4409-839d-a7ecbe899f18&xptdk=75c7bace-46ca-4409-839d-a7ecbe899f18",
+        "price_product_2": "nan",
+        "price_product_1": "184",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbmm-lobnrohcehm8ef_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "FIF by Faith in Face Cica5 Truly Soothing Cleansing Water 500ml เฟธอินเฟซ คลีนซิ่งสูตรน้ำ สำหรับผิวแพ้ง่ายและมีปัญหา...",
+        "price_before": "฿369",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 13.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_45": {
+        "product": "https://shopee.co.th/Simplus-%E0%B9%84%E0%B8%94%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%A1-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7%E0%B9%84%E0%B8%94%E0%B9%89-3-%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%89%E0%B8%B5%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99-1-%E0%B8%AB%E0%B8%B1%E0%B8%A7-%E0%B8%A5%E0%B8%A1%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9C%E0%B8%A1CFJH001-i.448235616.21478733691?sp_atk=3300a853-1b8f-4237-8ce6-ce2fa523aa2a&xptdk=3300a853-1b8f-4237-8ce6-ce2fa523aa2a",
+        "price_product_2": "349.0",
+        "price_product_1": "269",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r990-lpers3w4xfmx13_tn",
+        "discount": "-46%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "Simplus ไดร์เป่าผม ปรับความเร็วได้ 3 ระดับพร้อมหัวฉีดกระจายความร้อน 1 หัว/ลมเย็นแบบพกพาเครื่องมือจัดแต่งทรงผมCFJH001",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 20.7พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_46": {
+        "product": "https://shopee.co.th/Lip-It-%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%9B-1.9g-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%B2-i.1006027365.23662635032?sp_atk=02cef9cb-51de-48d9-a7ce-f34cfb0c8f97&xptdk=02cef9cb-51de-48d9-a7ce-f34cfb0c8f97",
+        "price_product_2": "nan",
+        "price_product_1": "199",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lp6d9p060lfi7b_tn",
+        "discount": "-23%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "Lip It คลิกคลิกลาวาลิป 1.9g #ลิปลาวา",
+        "price_before": "฿259",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 2.2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_47": {
+        "product": "https://shopee.co.th/%F0%9F%87%B9%F0%9F%87%AD-4-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%87%E0%B8%81-3-%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%A1%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B8%99%E0%B8%B3%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4-1-%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B5%E0%B9%89%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%81%E0%B8%B2%E0%B8%A7%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8B%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%84%E0%B8%94%E0%B9%89-3-%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-i.1040428998.25854109066?sp_atk=6a3d3ebc-6a96-42cc-8ab4-064ab5a9903c&xptdk=6a3d3ebc-6a96-42cc-8ab4-064ab5a9903c",
+        "price_product_2": "49.0",
+        "price_product_1": "10",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lq66rlgjuja0a8_tn",
+        "discount": "-96%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "🇹🇭 4 ชิ้นขนตาแม่เหล็ก 3 มิติพร้อมคลิปขนตาปลอมที่สามารถนำกลับมาใช้ใหม่ได้ง่ายสำหรับการแต่งหน้าขนตาธรรมชาติ 1 คู่ขนตาปาร์ตี้ไม่ต้องใช้กาวใช้ซ้ําได้ 3 วินาที ใช้ง่าย",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 487 ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_48": {
+        "product": "https://shopee.co.th/SASI-Sugar-Rush-Lip-Tint-Vol.2-2g-%E0%B8%A8%E0%B8%A8%E0%B8%B4-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%89%E0%B8%B3.-i.70998059.24350396072?sp_atk=026ed2c5-68f5-4d7e-928a-7f1b9cdac105&xptdk=026ed2c5-68f5-4d7e-928a-7f1b9cdac105",
+        "price_product_2": "nan",
+        "price_product_1": "89",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbk0-lo6dz8zg1smu99_tn",
+        "discount": "-10%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "SASI Sugar Rush Lip Tint Vol.2 2g ศศิ ลิปทินท์เนื้อน้ำ.",
+        "price_before": "฿99",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 5.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_49": {
+        "product": "https://shopee.co.th/Mille-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B8%B9%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%82%E0%B8%99-%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99-Snail-Bright-Primer-i.11199750.1058699484?sp_atk=108b5131-66ad-46fd-89e9-1780ff7736ca&xptdk=108b5131-66ad-46fd-89e9-1780ff7736ca",
+        "price_product_2": "nan",
+        "price_product_1": "599",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-kj2rxo0dheov52_tn",
+        "discount": "-33%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "Mille ไพรเมอร์เบลอรูขุมขน คุมมัน Snail Bright Primer",
+        "price_before": "฿895",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 23.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_50": {
+        "product": "https://shopee.co.th/%F0%9F%87%B0%F0%9F%87%B7(%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B4%E0%B8%A7%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94%E0%B9%80%E0%B8%8A%E0%B9%87%E0%B8%84%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89)-Numju-%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B8%88%E0%B8%B9%E0%B9%82%E0%B8%A5%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-100-g.%E0%B8%97-i.78549877.8926463266?sp_atk=fb8fba99-1f88-448c-8b33-79a4a204b622&xptdk=fb8fba99-1f88-448c-8b33-79a4a204b622",
+        "price_product_2": "nan",
+        "price_product_1": "128",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-lkl7hb7zoogue8_tn",
+        "discount": "-36%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "🇰🇷(มีคิวอาร์โค้ดเช็คของแท้) Numju นัมจูโลชั่น หัวเชื้อวิตามินนำเข้าจากเกาหลี 100 g.ท",
+        "price_before": "฿199",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 170.7พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_51": {
+        "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C-ROM-ND-Juicy-Lasting-Tint-5.5G-%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%87-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-i.295233598.24950464976?sp_atk=271dd3c9-9a80-4686-933a-5360e9dbc7ca&xptdk=271dd3c9-9a80-4686-933a-5360e9dbc7ca",
+        "price_product_2": "189.0",
+        "price_product_1": "187",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-lntw1gdosjzkc2_tn",
+        "discount": "-62%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d6d900f677f50efcf8aa1394468bbf73",
+        "data_product": "ลิปทินท์ ROM&ND Juicy Lasting Tint 5.5G ทาง่าย ไม่ตกร่อง  ติดทนนาน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.7พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_52": {
+        "product": "https://shopee.co.th/bnb-barenbliss-True-Beauty-Inside-Cushion-%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94-SPF45-PA-%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99-%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-24%E0%B8%8A%E0%B8%A1.-i.668922905.17656615411?sp_atk=71cb6ab4-8942-416f-a51d-8a1c7c955ed2&xptdk=71cb6ab4-8942-416f-a51d-8a1c7c955ed2",
+        "price_product_2": "nan",
+        "price_product_1": "479",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lqaacci9bc4a11_tn",
+        "discount": "-14%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "bnb barenbliss True Beauty Inside Cushion คุชชั่นเกาหลีผสมกันแดด SPF45 PA+++ คุมมัน ปกปิดขั้นสุด ติดทนนาน 24ชม.",
+        "price_before": "฿559",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 21.1พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_53": {
+        "product": "https://shopee.co.th/Vaseline-Healthy-Bright-SPF-50-PA-Sun-Pollution-Protection-Concentrate-Brightening-Serum-300ML-%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%A5%E0%B8%B5%E0%B8%99-%E0%B9%80%E0%B8%AE%E0%B8%A5%E0%B8%98%E0%B8%B5-%E0%B9%84%E0%B8%9A%E0%B8%A3%E0%B8%97%E0%B9%8C-%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B8%9F-50-%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%AD-%E0%B8%8B%E0%B8%B1%E0%B8%99-%E0%B9%82%E0%B8%9E%E0%B8%A5%E0%B8%B9%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B9%82%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%94-%E0%B9%84%E0%B8%9A%E0%B8%A3%E0%B9%80%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1-300%E0%B8%A1%E0%B8%A5.-i.325262295.15532514697?sp_atk=5184a6aa-0340-4732-b811-4917f38b915c&xptdk=5184a6aa-0340-4732-b811-4917f38b915c",
+        "price_product_2": "nan",
+        "price_product_1": "137",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134201-7r98t-lq3alnk6vxlwc4_tn",
+        "discount": "-51%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "Vaseline Healthy Bright SPF 50+ PA++++ Sun+Pollution Protection Concentrate Brightening Serum 300ML วาสลีน เฮลธี ไบรท์ เอสพีเอฟ 50+ พีเอ++++ ซัน+โพลูชั่น โพรเทคชั่น คอนเซ็นเทรด ไบรเทนนิ่ง เซรั่ม 300มล.",
+        "price_before": "฿279",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 14.3พัน ชิ้น",
+        "place": "จังหวัดฉะเชิงเทรา",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_54": {
+        "product": "https://shopee.co.th/%F0%9F%8C%B8(%E0%B9%81%E0%B8%9E%E0%B8%84%E0%B9%80%E0%B8%81%E0%B8%88%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)-COSMIC-%E0%B8%84%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B4%E0%B8%84-%E0%B8%84%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B4%E0%B8%81-%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99-%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7-100-ml.-i.78549877.6442547811?sp_atk=45c004f5-26aa-4c61-bf28-55354ffbe726&xptdk=45c004f5-26aa-4c61-bf28-55354ffbe726",
+        "price_product_2": "nan",
+        "price_product_1": "189",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-c0sbznoujdovc6_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "🌸(แพคเกจใหม่) COSMIC คอสมิค คอสมิก มูสเทพกำจัดขน กำจัดขนรักแร้ กำจัดขนน้องสาว 100 ml.",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 53.1พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_55": {
+        "product": "https://shopee.co.th/-%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%A3%E0%B8%87-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%8C%E0%B8%9A%E0%B8%B9%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C%E0%B9%82%E0%B8%99%E0%B8%AA-Clear-Nose-Skin-Barrier-Moisturizing-Gel-10ml-x7%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-(MOS6-1)-i.34669982.21983516452?sp_atk=a673ba99-5822-49c4-b3a0-13f0546bc857&xptdk=a673ba99-5822-49c4-b3a0-13f0546bc857",
+        "price_product_2": "nan",
+        "price_product_1": "294",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-ll1msrmtl1t617_tn",
+        "discount": "-14%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "[โปรแรง]มอยส์บูสเตอร์เคลียร์โนส Clear Nose Skin Barrier Moisturizing Gel 10ml x7ชิ้น (MOS6+1)",
+        "price_before": "฿343",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 9.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_56": {
+        "product": "https://shopee.co.th/YOU-SUNBRELLA-Airy-Outdoor-Sunscreen-Spray-SPF-50-PA-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A2-i.375845828.20083279369?sp_atk=7b51dafd-706f-45a3-8323-39630a3e4aa3&xptdk=7b51dafd-706f-45a3-8323-39630a3e4aa3",
+        "price_product_2": "nan",
+        "price_product_1": "199",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98z-lq1fof9r39ic73_tn",
+        "discount": "-25%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "YOU SUNBRELLA Airy Outdoor Sunscreen Spray SPF 50+ PA ++++ สเปรย์กันแดดสำหรับผิวหน้าและผิวกาย",
+        "price_before": "฿265",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 5.3พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_57": {
+        "product": "https://shopee.co.th/%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B5%E0%B8%9C%E0%B8%A1%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B8%B4%E0%B9%82%E0%B8%84%E0%B8%99-%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%84-%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9C%E0%B8%A1-i.121739699.23550144133?sp_atk=539a59e3-6d60-48a1-aba3-353d02dd8ff6&xptdk=539a59e3-6d60-48a1-aba3-353d02dd8ff6",
+        "price_product_2": "9.0",
+        "price_product_1": "3",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-23030-kevex2mvqaov02_tn",
+        "discount": "-73%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
+        "data_product": "แปรงหวีผมซิลิโคน ป้องกันรังแค สีขาว สําหรับสระผม",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 33.5พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_58": {
+        "product": "https://shopee.co.th/Dr.PONG-28D-WHITENING-DRONE-PINKY-LIP-MASK-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B9%8C%E0%B8%81%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%B3-%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%8A%E0%B8%A1%E0%B8%9E%E0%B8%B9%E0%B8%94%E0%B8%B9%E0%B8%AD%E0%B8%A7%E0%B8%9A%E0%B8%AD%E0%B8%B4%E0%B9%88%E0%B8%A1-i.6583190.16095413625?sp_atk=3adad27a-1129-4022-99bc-e5546fb91250&xptdk=3adad27a-1129-4022-99bc-e5546fb91250",
+        "price_product_2": "nan",
+        "price_product_1": "199",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lq1hh809hp961a_tn",
+        "discount": "-66%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
+        "data_product": "Dr.PONG 28D WHITENING DRONE PINKY LIP MASK ลิปมาส์กแก้ปากคล้ำ ปากชมพูดูอวบอิ่ม",
+        "price_before": "฿590",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 50.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan"
+      }
+    },
+    {
+      "Product_59": {
+        "product": "https://shopee.co.th/(%E0%B8%9A%E0%B8%A5%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B3%E0%B8%95%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99)-La-Glace-Black-pH-Blush-%E0%B8%9A%E0%B8%A5%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B3%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%AA-i.313357518.21472660164?sp_atk=f17590a0-5818-4c1a-893f-94c89473e943&xptdk=f17590a0-5818-4c1a-893f-94c89473e943",
+        "price_product_2": "nan",
+        "price_product_1": "289",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-lqam64m6it4449_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "(บลัชดำตลับใหม่เปิดง่ายขึ้น) La Glace Black pH Blush | บลัชดำลากลาส",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 81.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ"
+      }
+    },
+    {
+      "Product_60": {
+        "product": "https://shopee.co.th/DAZZLE-ME-Ink-Licious-Lip-Tint-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B8%AA-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B8%99%E0%B9%88%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%94-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-12%E0%B8%8A%E0%B8%A1.-i.762689085.18408916441?sp_atk=3faa8610-0d56-4616-a0ad-2ad0f1600aca&xptdk=3faa8610-0d56-4616-a0ad-2ad0f1600aca",
+        "price_product_2": "nan",
+        "price_product_1": "49",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22100-yprhw24dmdiv7b_tn",
+        "discount": "-59%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
+        "data_product": "DAZZLE ME Ink-Licious Lip Tint ลิปไม่ติดแมส ลิปทินท์เนื้อน้ำ สีแน่นชัด ติดทนนาน 12ชม.",
+        "price_before": "฿119",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 44.7พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan"
+      }
     }
-  },
-  {
-    "Product_2": {
-      "product": "https://shopee.co.th/-%E0%B8%A5%E0%B8%94%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5-75-%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-JKXL9WN7S9-JKxLAB-EX-A-Body-Cream-200-g-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-10-AHA-%E0%B8%9C%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B8%B8%E0%B8%88%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-i.938304759.18390530744?sp_atk=e09a8bbd-d717-4f34-81bf-f24e24355d2a&xptdk=e09a8bbd-d717-4f34-81bf-f24e24355d2a",
-      "price_product_2": "nan",
-      "price_product_1": "219",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134201-7r990-lpb5dcbyub9a8f_tn",
-      "discount": "-44%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "[ลดทันที 75 กรอกโค้ด JKXL9WN7S9]JKxLAB EX-A Body Cream 200 g ครีมผิวกายเข้มข้นพิเศษด้วย 10%AHA ผลัดผิวเก่าดุจเปิดผิวใหม่",
-      "price_before": "฿390",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 10.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_3": {
-      "product": "https://shopee.co.th/Muge-LEEN-%E0%B9%84%E0%B8%AE%E0%B9%84%E0%B8%A5%E0%B8%97%E0%B9%8C%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B8%95%E0%B8%95%E0%B9%8C-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-i.237213347.23274828336?sp_atk=113b8491-3013-466a-89bd-92dde8a780a4&xptdk=113b8491-3013-466a-89bd-92dde8a780a4",
-      "price_product_2": "23",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvfw-ljm76868v3iv67_tn",
-      "discount": "-79%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Muge LEEN ไฮไลท์คอนทัวร์ เนื้อแมตต์ กันน้ํา ติดทนนาน",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 12.2พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_4": {
-      "product": "https://shopee.co.th/4U2-Flower-Blush-3.3g-%E0%B8%9A%E0%B8%A5%E0%B8%B1%E0%B8%8A%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B8%9B%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A1.-i.70998059.25006011035?sp_atk=2a52ee56-8a6f-46cc-975d-b6315fa84046&xptdk=2a52ee56-8a6f-46cc-975d-b6315fa84046",
-      "price_product_2": "nan",
-      "price_product_1": "179",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbn7-lpy55pkkjefy31_tn",
-      "discount": "-40%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "4U2 Flower Blush 3.3g บลัชออนปัดแก้ม.",
-      "price_before": "฿299",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 2.1พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_5": {
-      "product": "https://shopee.co.th/M389-LAMEILA-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%83%E0%B8%AA-%E0%B9%80%E0%B8%9A%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B8%B9%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%82%E0%B8%99-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-i.399041507.23557103717?sp_atk=aed0b891-2760-433e-b008-e0e847c3f204&xptdk=aed0b891-2760-433e-b008-e0e847c3f204",
-      "price_product_2": "nan",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lmkemuxqo2yvcb_tn",
-      "discount": "-97%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "M389 LAMEILA ไพรเมอร์เนื้อใส เบลอรูขุมขน ควบคุมความมัน ปรับผิวให้เรียบเนียน ลงก่อนแต่งหน้า",
-      "price_before": "฿39",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 37.5พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_6": {
-      "product": "https://shopee.co.th/-MOO-WOO-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%9D%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A2%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B8%84%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B4%E0%B8%A7-i.435141923.18083797654?sp_atk=56adbbb9-2cfa-4f46-9392-fe7127d260e5&xptdk=56adbbb9-2cfa-4f46-9392-fe7127d260e5",
-      "price_product_2": "18",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98z-lq1g1drudqlg23_tn",
-      "discount": "-55%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "[MOO WOO] พัฟแต่งหน้า พัฟแป้งฝุ่น พัฟคุชชั่น ทรงหยดน้ำ ขนาดใหญ่ หนานุ่มไม่ระคายผิว",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 27.9พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_7": {
-      "product": "https://shopee.co.th/%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2-%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9A%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%87-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%94%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2-muji-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2-i.149823108.13961213785?sp_atk=2c87a1de-4cf0-479e-bb19-c05376d2d973&xptdk=2c87a1de-4cf0-479e-bb19-c05376d2d973",
-      "price_product_2": "nan",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/39fca6cb73f49e1ac7e3dce8f97d3f1a_tn",
-      "discount": "-64%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-      "data_product": "ที่ดัดขนตา, ขนตาบนและล่าง,ที่ดัดขนตาบางส่วนแบบพกพาขนาดเล็กของญี่ปุ่นและเกาหลี ที่ดัดขนตา muji เครื่องมือแต่งหน้าต่อขนตา",
-      "price_before": "฿25",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 93.7พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_8": {
-      "product": "https://shopee.co.th/%F0%9F%A7%A1%F0%9F%8D%8A(%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%84%E0%B9%80%E0%B8%81%E0%B8%88%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88)-11W%E2%80%8B-Whitening-body-lotion-%E0%B9%82%E0%B8%A5%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%82%E0%B8%B2%E0%B8%A7-%E0%B8%9A%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B9%89%E0%B9%82%E0%B8%A5%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%82%E0%B8%B2%E0%B8%A7-200-ml.-i.78549877.19980450661?sp_atk=4f7778fc-c047-4814-8a0b-ca653c0c1a12&xptdk=4f7778fc-c047-4814-8a0b-ca653c0c1a12",
-      "price_product_2": "nan",
-      "price_product_1": "252",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul3-lhixe9i0bt3n34_tn",
-      "discount": "-44%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "🧡🍊(แพ็คเกจใหม่) 11W​ Whitening body lotion โลชั่นน้ำตบผิวขาว บอดี้โลชั่นผิวขาว 200 ml.",
-      "price_before": "฿450",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 10.3พัน ชิ้น",
-      "place": "จังหวัดปทุมธานี",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_9": {
-      "product": "https://shopee.co.th/%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B2-%F0%9F%94%A5-LAMEILA-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%A3%E0%B9%88%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B9%86-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%AD%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-Moisturizing-Makeup-Spray-%F0%9F%98%8D-i.141308137.21351566011?sp_atk=d5f6e49b-aee6-4d9c-8767-a0f69fb6cbe8&xptdk=d5f6e49b-aee6-4d9c-8767-a0f69fb6cbe8",
-      "price_product_2": "nan",
-      "price_product_1": "19",
-      "image_product_1": "https://down-th.img.susercontent.com/file/424fdd7212923a8de42fc4f845a383aa_tn",
-      "discount": "-85%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "สเปรย์หน้าเงา 🔥 LAMEILA สเปรย์น้ำแร่ประกายชิมเมอร์วิ้งๆ สเปรย์ล็อคเครื่องสำอางค์  Moisturizing Makeup Spray 😍",
-      "price_before": "฿129",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 16.6พัน ชิ้น",
-      "place": "จังหวัดนนทบุรี",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_10": {
-      "product": "https://shopee.co.th/ODBO-SIGNATURE-EYESHADOW-PALETTE-OD276%E0%B9%82%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B8%9A%E0%B8%B5%E0%B9%82%E0%B8%AD-%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C-%E0%B8%8B%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%99%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B8%97-6-%E0%B8%AA%E0%B8%B5-%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B9%81%E0%B8%99%E0%B9%88%E0%B8%99-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-i.6617518.12293237068?sp_atk=067cca60-7619-4b9d-bf3f-666828cfae66&xptdk=067cca60-7619-4b9d-bf3f-666828cfae66",
-      "price_product_2": "119",
-      "price_product_1": "67",
-      "image_product_1": "https://down-th.img.susercontent.com/file/cd14426f0b132f6e02d4d037bbfabbe0_tn",
-      "discount": "-21%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "ODBO SIGNATURE EYESHADOW PALETTE OD276โอดีบีโอ อายแชโดว์ ซิกเนเจอร์ พาเลท 6 สี เม็ดสีแแน่น ติดทนนาน",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 22.2พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_11": {
-      "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%81-%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%EF%BC%88%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%B8%E0%B9%88%E0%B8%A1%EF%BC%89-i.255138429.20025629168?sp_atk=34bc3de1-02bd-4bb4-b296-0a2406a9d8a8&xptdk=34bc3de1-02bd-4bb4-b296-0a2406a9d8a8",
-      "price_product_2": "28",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/7800245b43c280f6dce984e1f86997f7_tn",
-      "discount": "-97%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "พัฟฟองน้ําแต่งหน้า แบบแห้งและเปียก  ฟองน้ำแต่งหน้า ฟองน้ำไข่แต่งหน้า（ส่งแบบสุ่ม）",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 23.2พัน ชิ้น",
-      "place": "จังหวัดปทุมธานี",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_12": {
-      "product": "https://shopee.co.th/SKINTIFIC-Cover-All-Perfect-Cushion-%E0%B8%84%E0%B8%B9%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B9%81%E0%B8%9A%E0%B8%9A-%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B8%B9%E0%B8%87-%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%A3%E0%B8%B9%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%82%E0%B8%99-%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%95%E0%B8%B4-%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-24H%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-SPF35-PA-%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-i.778788586.20381439200?sp_atk=24f75781-007b-4768-99c9-a271e1bd5eb8&xptdk=24f75781-007b-4768-99c9-a271e1bd5eb8",
-      "price_product_2": "649",
-      "price_product_1": "345",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-llel0u75iz0e30_tn",
-      "discount": "-51%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "SKINTIFIC Cover All Perfect Cushion คูชชั่นปกปิดแบบ ปกปิดสูง ไร้รูขุมขน&ไร้ที่ติ รองพื้น 24Hติดทนนาน SPF35 PA++++คุชชั่น",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 22.4พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_13": {
-      "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%92%95%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%84%E0%B8%A7-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-Withat-EDP-%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87-2-%E0%B8%82%E0%B8%A7%E0%B8%94-%E0%B9%81%E0%B8%96%E0%B8%A1%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B9%8A%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B9%8C-i.739603544.23513036496?sp_atk=57243131-c5ba-458d-bc50-f3118a2adc00&xptdk=57243131-c5ba-458d-bc50-f3118a2adc00",
-      "price_product_2": "995",
-      "price_product_1": "199",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lqc5sdimt97o29_tn",
-      "discount": "-50%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "พร้อมส่ง💕ส่งไว น้ำหอม Withat EDP สั่ง 2 ขวด แถมสติ๊กเกอร์",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 228.7พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_14": {
-      "product": "https://shopee.co.th/KATHY-AMREZ-PRO-1%E0%B9%81%E0%B8%96%E0%B8%A11-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%94%E0%B8%B9%E0%B9%82%E0%B8%AD-%E0%B9%81%E0%B8%96%E0%B8%A1-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B8%9F%E0%B8%B4%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-290.--i.208065317.24754902243?sp_atk=5f385114-408c-4f3d-9895-8fbc5955d798&xptdk=5f385114-408c-4f3d-9895-8fbc5955d798",
-      "price_product_2": "nan",
-      "price_product_1": "290",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98q-lppyu25esm4dff_tn",
-      "discount": "-77%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "KATHY AMREZ PRO 1แถม1 ลิปดูโอ แถม ลิปไชน์ฟิลเลอร์ 290.-",
-      "price_before": "฿1,280",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 1.9พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_15": {
-      "product": "https://shopee.co.th/-%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%84%E0%B8%84%E0%B8%B9%E0%B9%88-MizuMi-UV-Bright-Body-Serum-(180-ml)-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%97%E0%B8%B2%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B2%E0%B8%A2-%E0%B9%80%E0%B8%9A%E0%B8%B2%E0%B8%AA%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B4%E0%B8%A7-%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%99-%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%81%E0%B8%94%E0%B8%94%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%A5%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%B0-i.70802054.17665872094?sp_atk=b3e6af9b-3f49-43d5-a6bb-383c2247841b&xptdk=b3e6af9b-3f49-43d5-a6bb-383c2247841b",
-      "price_product_2": "nan",
-      "price_product_1": "390",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-llpqt9tj2cjr5b_tn",
-      "discount": "-50%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "[แพ็คคู่] MizuMi UV Bright Body Serum (180 ml) เซรั่มกันแดดทาผิวกาย เบาสบายผิว หอมละมุน ปกป้องผิวจากแดดและมลภาวะ",
-      "price_before": "฿780",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 46.8พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_16": {
-      "product": "https://shopee.co.th/PAE-303-%E0%B8%AB%E0%B8%A7%E0%B8%B5%E0%B9%84%E0%B8%94%E0%B8%A3%E0%B9%8C-%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B9%84%E0%B8%94%E0%B8%A3%E0%B9%8C-One-Step-Hair-Dryer-and-Styler-4in1-%E0%B9%84%E0%B8%94%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B9%80%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87-%E0%B8%97%E0%B8%B3%E0%B8%A7%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1-i.459537115.11015533009?sp_atk=2b17ffb0-dfec-40d6-9a24-cf3cf9dfcd32&xptdk=2b17ffb0-dfec-40d6-9a24-cf3cf9dfcd32",
-      "price_product_2": "nan",
-      "price_product_1": "100",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r990-loexsdvbn2ck02_tn",
-      "discount": "-75%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "PAE-303 หวีไดร์ แปรงไดร์  One Step Hair Dryer and Styler 4in1 ไดร์ตรง เป่าแห้ง ทำวอลลุ่ม",
-      "price_before": "฿399",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 42.4พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_17": {
-      "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B8%97%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C-25%E0%B8%AA%E0%B8%B5-%E0%B9%81%E0%B8%A1%E0%B8%97-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%A7%E0%B8%A2-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C-i.431683584.19444130450?sp_atk=4310da09-ba08-488a-8321-ca0b52a86d51&xptdk=4310da09-ba08-488a-8321-ca0b52a86d51",
-      "price_product_2": "48",
-      "price_product_1": "15",
-      "image_product_1": "https://down-th.img.susercontent.com/file/6719dcdbf67ae5ff3e3bbc0dd76ab760_tn",
-      "discount": "-75%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-      "data_product": "พาเลทอายแชโดว์ 25สี แมท ประกายชิมเมอร์ สีสวย ติดทน กันน้ำ อายแชโดว์",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 16.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_18": {
-      "product": "https://shopee.co.th/Naturista-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B9%89%E0%B8%A7%E0%B8%A3%E0%B8%AD%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%94%E0%B8%B3-White-Tea-Facial-Cleanser-300ml-i.223832803.3527135832?sp_atk=f6df2051-c256-45bd-b418-41c0c8eeb6c9&xptdk=f6df2051-c256-45bd-b418-41c0c8eeb6c9",
-      "price_product_2": "nan",
-      "price_product_1": "99",
-      "image_product_1": "https://down-th.img.susercontent.com/file/7e90ae1ab104be586e59660aba4455c1_tn",
-      "discount": "-76%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "Naturista เจลล้างหน้าชาขาว สูตรอ่อนโยนไม่มีน้ำหอม ช่วยลดเรือนริ้วรอย และจุดด่างดำ White Tea Facial Cleanser 300ml",
-      "price_before": "฿420",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 71.4พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_19": {
-      "product": "https://shopee.co.th/Dr.PONG-Hyaluronic-Ultra-Light-Sunscreen-with-Aquatide-SPF50-PA-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%94%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%99-i.6583190.4632030815?sp_atk=120e759b-ae27-4f02-a3b0-e1e993440d9f&xptdk=120e759b-ae27-4f02-a3b0-e1e993440d9f",
-      "price_product_2": "nan",
-      "price_product_1": "299",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lq1ienmi0x5waa_tn",
-      "discount": "-63%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Dr.PONG Hyaluronic Ultra Light Sunscreen with Aquatide SPF50 PA+++ ครีมกันแดดหน้าสูตรอ่อนโยน",
-      "price_before": "฿800",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 202.4พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_20": {
-      "product": "https://shopee.co.th/Plantnery-Pomegranate-AHA-Extra-White-Red-Body-Serum-250-ml-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B4%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99-18-%E0%B8%9C%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%B3-%E0%B9%80%E0%B8%9C%E0%B8%A2%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AA-%E0%B8%89%E0%B9%88%E0%B8%B3%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87-i.261911756.21385738521?sp_atk=39fc3461-dc7d-4e0f-a729-2575d0e2e6e2&xptdk=39fc3461-dc7d-4e0f-a729-2575d0e2e6e2",
-      "price_product_2": "nan",
-      "price_product_1": "179",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lqbp3m9rtp2282_tn",
-      "discount": "-54%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-      "data_product": "Plantnery Pomegranate AHA Extra White Red Body Serum 250 ml เซรั่มเจลแดงทับทิมเข้มข้น 18% ผลัดผิวหมองคล้ำ เผยผิวกระจ่างใส ฉ่ำเด้ง",
-      "price_before": "฿390",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 12.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_21": {
-      "product": "https://shopee.co.th/Lvcheryl-%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%A1-%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%87%E0%B8%81-3D-4-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99(1pair)%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8B%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%84%E0%B8%94%E0%B9%89-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A7-%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-i.689386583.18885978544?sp_atk=93f690d9-a53d-4778-82d2-a1176cdeb841&xptdk=93f690d9-a53d-4778-82d2-a1176cdeb841",
-      "price_product_2": "135",
-      "price_product_1": "29",
-      "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lnkuxgkc3de0f6_tn",
-      "discount": "-57%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "Lvcheryl ขนตาปลอม แม่เหล็ก 3D 4 ชิ้น(1pair)พร้อมคลิปหนีบ ใช้ซ้ําได้ ไม่มีกาว ปลอดภัย สําหรับแต่งหน้า",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 23.5พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_22": {
-      "product": "https://shopee.co.th/Naturista-Tea-Tree-Special-Set-%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B8%B4%E0%B8%A7-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B1%E0%B8%9A-%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%95%E0%B8%96%E0%B8%B9%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2!-i.223832803.3471207676?sp_atk=319e62f4-b7be-4e04-98fd-bf75fa2978cd&xptdk=319e62f4-b7be-4e04-98fd-bf75fa2978cd",
-      "price_product_2": "nan",
-      "price_product_1": "399",
-      "image_product_1": "https://down-th.img.susercontent.com/file/e61da4e7ad542b9d27b81f4ea0556853_tn",
-      "discount": "-77%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "Naturista Tea Tree Special Set ชุดป้องกันการเกิดสิว บำรุงผิว เรียบเนียน กระชับ ซื้อเป็นเซตถูกกว่า!",
-      "price_before": "฿1,700",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 87.1พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_23": {
-      "product": "https://shopee.co.th/%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%97%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%9F%E0%B8%B8%E0%B9%89%E0%B8%87-%E0%B8%A5%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-i.852230243.19763503179?sp_atk=bdb16613-431e-4066-8468-3ef10fa97bb6&xptdk=bdb16613-431e-4066-8468-3ef10fa97bb6",
-      "price_product_2": "nan",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-etr802g5t3jv75_tn",
-      "discount": "-94%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-      "data_product": "แปรงทาลิปฟุ้ง ลงคอนซีลเลอร์ แต่งหน้าปลายนิ้ว นุ่มพิเศษ สไตล์เกาหลี",
-      "price_before": "฿18",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 47.8พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_24": {
-      "product": "https://shopee.co.th/Romand-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C-ROM-ND-Juicy-Lasting-Tint-5.5g-%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%87-%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%AA%E0%B8%94%E0%B9%83%E0%B8%AA-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-%E0%B8%89%E0%B9%88%E0%B8%B3%E0%B8%A7%E0%B8%B2%E0%B8%A7-i.14140907.22671328319?sp_atk=46f3bf12-fed0-4c7a-8d55-ef95ea0f6f63&xptdk=46f3bf12-fed0-4c7a-8d55-ef95ea0f6f63",
-      "price_product_2": "nan",
-      "price_product_1": "199",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lpx7wd1qts6c7d_tn",
-      "discount": "-59%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dff11b50c63d4334f32c58f02d1a6898",
-      "data_product": "Romand ลิปทินท์ ROM&ND Juicy Lasting Tint 5.5g ทาง่าย ไม่ตกร่อง เม็ดสีสวยสดใส ติดทนนาน ฉ่ำวาว",
-      "price_before": "฿490",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 19.4พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_25": {
-      "product": "https://shopee.co.th/4U2-FLOWER-BLUSH-%E0%B8%9A%E0%B8%A5%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%89-i.125219443.25356218270?sp_atk=8b6cc3f2-5ab4-491e-920e-a5ea5d9fbd48&xptdk=8b6cc3f2-5ab4-491e-920e-a5ea5d9fbd48",
-      "price_product_2": "nan",
-      "price_product_1": "179",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98s-lq3binhignoka8_tn",
-      "discount": "-40%",
-      "image_product_2": "nan",
-      "data_product": "4U2 FLOWER BLUSH -  บลัชดอกไม้",
-      "price_before": "฿299",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 1.4พัน ชิ้น",
-      "place": "จังหวัดนครปฐม",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_26": {
-      "product": "https://shopee.co.th/YOU-NoutriWear-Flawless-Cushion-Foundation-SPF-40-PA-%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%95%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B4%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%94-%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-i.375845828.14339848467?sp_atk=2f243b5c-fe2a-4348-a1e2-cf983d1f5b50&xptdk=2f243b5c-fe2a-4348-a1e2-cf983d1f5b50",
-      "price_product_2": "nan",
-      "price_product_1": "329",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-lq1fm31wc0kkbf_tn",
-      "discount": "-28%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "YOU NoutriWear+Flawless Cushion Foundation SPF 40 PA+++ คุชชั่น ตลับจริง เนื้อลิควิด ปกปิดขั้นสุด เนื้อบางเบา ติดทนนาน",
-      "price_before": "฿459",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 71.6พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_27": {
-      "product": "https://shopee.co.th/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A140mm-32mm%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B8%A5%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%97%E0%B8%B3%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%81-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9C%E0%B8%A1%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-i.1105700112.23185102205?sp_atk=9a455638-9db3-4291-9db6-968254cfc295&xptdk=9a455638-9db3-4291-9db6-968254cfc295",
-      "price_product_2": "nan",
-      "price_product_1": "177",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lnh0qcueuj531b_tn",
-      "discount": "-23%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d6d900f677f50efcf8aa1394468bbf73",
-      "data_product": "เครื่องม้วนผม40mm &32mmที่ม้วนผม เครื่องม้วนผม ลอนสวยธรรมชาติ ไม่ทำร้ายเส้นผม ที่ม้วนผมเซรามิก จัดแต่งทรงผมติดทนนาน",
-      "price_before": "฿230",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 2.4พัน ชิ้น",
-      "place": "จังหวัดสมุทรสาคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_28": {
-      "product": "https://shopee.co.th/DAZZLE-ME-Our-Secret-Cover-Concealer-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%94%E0%B8%87-i.762689085.15784403884?sp_atk=6c16dddf-9ae9-4c1a-a669-058372849345&xptdk=6c16dddf-9ae9-4c1a-a669-058372849345",
-      "price_product_2": "nan",
-      "price_product_1": "79",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lq7t3hdqddei37_tn",
-      "discount": "-50%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "DAZZLE ME Our Secret Cover Concealer คอนซีลเลอร์ เนื้อบางเบา ปกปิดขั้นสุด รอยสิว รอยแดง",
-      "price_before": "฿159",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 19.7พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_29": {
-      "product": "https://shopee.co.th/%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B8%B2-%E0%B8%A2%E0%B8%B2%E0%B8%A7-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2-i.273622042.5247274801?sp_atk=aded4c47-6e63-4964-ae4a-41bd8ee4e97c&xptdk=aded4c47-6e63-4964-ae4a-41bd8ee4e97c",
-      "price_product_2": "9",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134201-23030-ywg4jvo4ncovaf_tn",
-      "discount": "-99%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "มาสคาร่า แบบหนา ยาว กันน้ํา",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 423.7พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_30": {
-      "product": "https://shopee.co.th/%F0%9F%8C%B3%F0%9F%AB%A7-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B8%AD%E0%B8%B5%E0%B8%A5%E0%B9%89%E0%B8%B2-ELA-RAE-CREAM-%E0%B8%AD%E0%B8%B5%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B8%AD%E0%B8%B5%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%A3%E0%B9%8C-%E0%B9%84%E0%B8%A7%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1-%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%A7-i.347468045.23858300822?sp_atk=6a76a109-9511-4e62-9cb9-f9738ffada51&xptdk=6a76a109-9511-4e62-9cb9-f9738ffada51",
-      "price_product_2": "1,600",
-      "price_product_1": "333",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98v-ln0dls3ap07d64_tn",
-      "discount": "-5%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d6d900f677f50efcf8aa1394468bbf73",
-      "data_product": "🌳🫧 | พร้อมส่ง+ของแท้ | ครีมรักแร้ อีล้า ELA RAE  CREAM อีล่าแร้ อีล่าแรร์ ไวท์เทนนิ่ง ครีม รักแร้ กลิ่นตัว",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 15.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_31": {
-      "product": "https://shopee.co.th/%E0%B9%81%E0%B8%A1%E0%B8%97-2-%E0%B8%AD%E0%B8%B4%E0%B8%99-1-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%AD%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%8B%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87-YUE-i.121739699.19689538589?sp_atk=40523963-9075-412d-a2e3-7f4ed1910ef2&xptdk=40523963-9075-412d-a2e3-7f4ed1910ef2",
-      "price_product_2": "39",
-      "price_product_1": "8",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvfl-lhpn1mopio2a0a_tn",
-      "discount": "-56%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "แมท 2 อิน 1 สองชั้น แป้งอัดแข็ง คอนซีลเลอร์ มอยซ์เจอไรเซอร์ ไม่แต่งหน้า เปียกและแห้ง YUE",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 28.5พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_32": {
-      "product": "https://shopee.co.th/HUASURV%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B9%8C%E0%B8%81%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B9%8C%E0%B8%81%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%A7%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87-%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B9%8C%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B1%E0%B8%9A-%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2-i.298976044.23366939191?sp_atk=774a4feb-e6fc-479b-b8a4-52b9526966f9&xptdk=774a4feb-e6fc-479b-b8a4-52b9526966f9",
-      "price_product_2": "nan",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul8-lgdkim8vbyfj09_tn",
-      "discount": "-90%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-      "data_product": "HUASURVมาส์กลอกหน้าทอง ครีมมาส์กหน้าไวท์เทนนิ่ง มาส์กทองคำแท้  หน้าใสเด้งกระชับ สินค้าพร้อมส่งในไทย",
-      "price_before": "฿89",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 11.5พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_33": {
-      "product": "https://shopee.co.th/%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%81-1-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B9%84%E0%B8%97%E0%B8%A2--i.606860656.17720170391?sp_atk=b4573d24-a2e7-473d-88b9-bb2160578bc6&xptdk=b4573d24-a2e7-473d-88b9-bb2160578bc6",
-      "price_product_2": "31",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lnqk6cb7obc75e_tn",
-      "discount": "-92%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "ฟองน้ำแต่งหน้า สําหรับแต่งหน้า ฟองน้ำไข่แต่งหน้า ฟองน้ำเกลี่ยรองพื้น ใช้ได้ทั้งแบบแห้งและเปียก 1 ชิ้น [ผู้ขายชาวไทย]",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 158.8พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_34": {
-      "product": "https://shopee.co.th/%F0%9F%8D%85%F0%9F%8D%8AVC-Vit-C-Bio-Face-serum-cream-2-in-1-%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%8B%E0%B8%B5%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B9%E0%B9%88-%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%8B%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%89%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B9%E0%B9%88-8-g.-i.78549877.22318816514?sp_atk=21dd75f5-ee7f-482c-b625-9b746a476e60&xptdk=21dd75f5-ee7f-482c-b625-9b746a476e60",
-      "price_product_2": "nan",
-      "price_product_1": "30",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23010-bez276zl4dmv33_tn",
-      "discount": "-57%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "🍅🍊VC Vit C Bio Face serum + cream 2 in 1 วิตซีซองคู่ วิตซีน้องฉัตรซองคู่  8 g.",
-      "price_before": "฿69",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 46.6พัน ชิ้น",
-      "place": "จังหวัดปทุมธานี",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_35": {
-      "product": "https://shopee.co.th/Dr.PONG-ACNE-ACE-002-%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A5%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%A7-ZincPCA-Niacinamide-Tranexamic-acid-Tea-Tree-oil-i.6583190.21522620313?sp_atk=9332fb5e-6ba6-4135-821d-08b9429873d0&xptdk=9332fb5e-6ba6-4135-821d-08b9429873d0",
-      "price_product_2": "nan",
-      "price_product_1": "299",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98q-lq1ienmi2bqc9c_tn",
-      "discount": "-63%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Dr.PONG ACNE ACE 002 แป้งผสมรองพื้น สูตรลดสิว - ZincPCA - Niacinamide - Tranexamic acid - Tea Tree oil",
-      "price_before": "฿800",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 124.7พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_36": {
-      "product": "https://shopee.co.th/%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2-%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AB%E0%B8%A5%E0%B8%B8%E0%B8%94%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%B0-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%99-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4-%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1-9ml-%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B9%84%E0%B8%97%E0%B8%A2--i.606860656.14374338442?sp_atk=e4fd79b5-ce7a-4ac6-b37b-9a1216bcdfd0&xptdk=e4fd79b5-ce7a-4ac6-b37b-9a1216bcdfd0",
-      "price_product_2": "nan",
-      "price_product_1": "16",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22090-kw9tqutxdthv0e_tn",
-      "discount": "-80%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "มาสคาร่า มาสคาร่าขนาดเล็ก กันน้ำ ติดทนนาน ไม่หลุดร่วงง่าย ไม่เลอะ ไม่เปื้อน และบางเป็นธรรมชาติ นุ่ม 9ml [ผู้ขายชาวไทย]",
-      "price_before": "฿79",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 71.9พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_37": {
-      "product": "https://shopee.co.th/(%E0%B8%A5%E0%B8%9450-%E0%B9%83%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%9F%E0%B9%8C-%F0%9F%92%96)-%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%95%E0%B8%B2%E0%B8%A5%E0%B8%B9%E0%B8%99%E0%B9%88%E0%B8%B2-%E0%B9%80%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%A1%E0%B8%82%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B9%89-luna-jelly-eye-care-%F0%9F%A7%8A%E2%9C%A8-%E0%B8%A1%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%A7%E0%B8%94%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99-%E0%B8%A5%E0%B8%94%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%95%E0%B8%B2%E0%B8%94%E0%B8%B3-i.243333833.22804879327?sp_atk=76290b8b-072f-4d84-be61-bf0e8182c1dd&xptdk=76290b8b-072f-4d84-be61-bf0e8182c1dd",
-      "price_product_2": "590",
-      "price_product_1": "202",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lqarhuhygba25c_tn",
-      "discount": "-58%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-      "data_product": "(ลด50%ในไลฟ์ 💖) ครีมทาใต้ตาลูน่า/เซรั่มขนตาลินดี้ luna jelly  eye care 🧊✨ มีหัวนวดเก็บความเย็น ลดขอบตาดำ",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 29.7พัน ชิ้น",
-      "place": "จังหวัดปทุมธานี",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_38": {
-      "product": "https://shopee.co.th/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1-CB-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A5%E0%B8%AD%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B9%81%E0%B8%81%E0%B8%99%E0%B8%A1%E0%B9%89%E0%B8%A7%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%AD%E0%B8%99%E0%B8%9C%E0%B8%A1-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B8%A2%E0%B8%81%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%9C%E0%B8%A1-i.431683584.9776438013?sp_atk=a464ef19-b1e5-47ee-aeb0-f25ae10e5694&xptdk=a464ef19-b1e5-47ee-aeb0-f25ae10e5694",
-      "price_product_2": "94",
-      "price_product_1": "80",
-      "image_product_1": "https://down-th.img.susercontent.com/file/f2e0a118819e642dec188df1df7019db_tn",
-      "discount": "-38%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "เครื่องม้วนผม CB ที่ม้วนผม ที่ลอนผม แกนม้วนผม เครื่องหนีบผม เครื่องลอนผม แบบเปียกและแบบแห้ง ที่หนีบผม",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 53.2พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_39": {
-      "product": "https://shopee.co.th/YOU-Cloud-Touch-Blurring-Skin-Tint-%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B8%AA%E0%B8%81%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-24-%E0%B8%8A%E0%B8%A1.-i.375845828.22473360453?sp_atk=0da71909-9001-4a7f-b78b-2d9392abf238&xptdk=0da71909-9001-4a7f-b78b-2d9392abf238",
-      "price_product_2": "nan",
-      "price_product_1": "269",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lq1fm31wetpg53_tn",
-      "discount": "-27%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "YOU Cloud Touch Blurring Skin Tint รองพื้นสูตรผสมสกินแคร์ เนื้อบางเบา เกลี่ยง่าย ติดทนนาน 24 ชม.",
-      "price_before": "฿370",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 12.4พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_40": {
-      "product": "https://shopee.co.th/Dr.PONG-28D-WHITENING-DRONE-deodorant-spray-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B0%E0%B8%87%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A2-%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AA-24-hours-Odor-control-i.6583190.14890874819?sp_atk=b9aab12c-2e1b-4376-aff5-c5a599e83547&xptdk=b9aab12c-2e1b-4376-aff5-c5a599e83547",
-      "price_product_2": "nan",
-      "price_product_1": "299",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98q-lq1hylh2736sae_tn",
-      "discount": "-70%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Dr.PONG 28D WHITENING DRONE deodorant spray สเปรย์ระงับกลิ่นกาย ผิวรักแร้กระจ่างใส 24 hours Odor control",
-      "price_before": "฿1,000",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 216.2พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_41": {
-      "product": "https://shopee.co.th/LA-GLACE-Icy-Glaze-Gloss-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%81%E0%B8%A5%E0%B8%AD%E0%B8%AA%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%81%E0%B8%A5%E0%B8%9A%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%B3-%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%89%E0%B9%88%E0%B8%B3%E0%B8%A7%E0%B8%B2%E0%B8%A7-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99-2-g.-i.313357518.22148556599?sp_atk=1669a89b-1def-4b6b-8d0b-01640adf164f&xptdk=1669a89b-1def-4b6b-8d0b-01640adf164f",
-      "price_product_2": "nan",
-      "price_product_1": "199",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lp7lr2j4n3paee_tn",
-      "discount": "nan",
-      "image_product_2": "nan",
-      "data_product": "LA GLACE Icy Glaze Gloss ลิปกลอสลากลาสกลบปากคล้ำ ปากฉ่ำวาว ติดทน 2 g.",
-      "price_before": "nan",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 74.9พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_42": {
-      "product": "https://shopee.co.th/DAZZLE-ME-Fruit-Justice-Lip-Balm-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B9%8C%E0%B8%A1-%E0%B8%9A%E0%B9%8D%E0%B8%B2%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9D%E0%B8%B5%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%8A%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A5%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%B3-%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B9%88%E0%B8%B2PH-%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%81%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89-i.762689085.20173248802?sp_atk=d88c9393-7f2d-4102-809e-b2b088ac5183&xptdk=d88c9393-7f2d-4102-809e-b2b088ac5183",
-      "price_product_2": "nan",
-      "price_product_1": "79",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-lq7t3hdqbyu230_tn",
-      "discount": "-20%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "DAZZLE ME Fruit Justice Lip Balm ลิปบาล์ม บํารุงริมฝีปากให้ชุ่มชื้นและลดความหมองคล้ำ เปลี่ยนสีตามค่าPH สารสกัดจากผลไม้",
-      "price_before": "฿99",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 27.6พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_43": {
-      "product": "https://shopee.co.th/%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C-%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B8%97-%E0%B8%9E%E0%B8%B2%E0%B9%80%E0%B8%A5%E0%B8%95%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%83%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A1-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C-Eyeshadow-7%E0%B8%AA%E0%B8%B5-%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2-i.981490997.22337402157?sp_atk=91db036f-bf91-47d2-aa99-388c6a7cf2c5&xptdk=91db036f-bf91-47d2-aa99-388c6a7cf2c5",
-      "price_product_2": "nan",
-      "price_product_1": "24",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134201-23030-kzphyimtqpovf0_tn",
-      "discount": "-70%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-bf33da1913ccd6405afb9f512262fc58",
-      "data_product": "อายแชโดว์ อายแชโดว์พาเลท พาเลตอายแชโดว์กันน้ำ เนื้อใยไหม ประกายชิมเมอร์ Eyeshadow 7สี เตรียมจัดส่งสินค้า",
-      "price_before": "฿79",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 29.1พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_44": {
-      "product": "https://shopee.co.th/Dr.PONG-ACNE-ACE-Longwear-Cushion-%E0%B8%84%E0%B8%B8%E0%B8%8A%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A5%E0%B8%94%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2-%E0%B8%AA%E0%B8%B4%E0%B8%A7%E0%B8%A5%E0%B8%94%E0%B8%A5%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%99-%E0%B8%9C%E0%B8%AA%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%87%E0%B8%B7%E0%B9%88%E0%B8%AD-i.6583190.22256919131?sp_atk=5d1c0f28-910f-4ae2-84b7-8368100d9bae&xptdk=5d1c0f28-910f-4ae2-84b7-8368100d9bae",
-      "price_product_2": "699",
-      "price_product_1": "399",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98z-lq1ienmi3qas1f_tn",
-      "discount": "-50%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Dr.PONG ACNE ACE Longwear Cushion คุชชั่นลดสิว ยืนยันด้วยงานวิจัย สิวลดลงจริง ไม่อุดตัน ผสานเทคโนโลยีกันน้ำ กันเหงื่อ",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 18พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_45": {
-      "product": "https://shopee.co.th/Rojukiss-White-Poreless-5X-Intensive-Mask-25ml.-i.70998059.8620556244?sp_atk=9642b944-3a22-46b7-825b-f54b4bcd0698&xptdk=9642b944-3a22-46b7-825b-f54b4bcd0698",
-      "price_product_2": "nan",
-      "price_product_1": "28",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbk1-lobak9sbopqpa6_tn",
-      "discount": "-59%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "Rojukiss White Poreless 5X Intensive Mask 25ml.",
-      "price_before": "฿69",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 50.1พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_46": {
-      "product": "https://shopee.co.th/%E0%B9%81%E0%B8%A7%E0%B9%8A%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99-%E0%B9%81%E0%B8%A7%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99-%E0%B9%81%E0%B8%A7%E0%B9%87%E0%B8%81%E0%B8%81%E0%B8%B3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99-%E0%B9%81%E0%B8%A7%E0%B9%8A%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B6%E0%B9%89%E0%B8%87-honey-wax-%E0%B9%81%E0%B8%A7%E0%B9%87%E0%B8%81%E0%B8%82%E0%B8%99-%E0%B8%96%E0%B8%AD%E0%B8%99%E0%B8%82%E0%B8%99-%E0%B9%82%E0%B8%81%E0%B8%99%E0%B8%82%E0%B8%99-%E0%B8%82%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B9%81%E0%B8%A7%E0%B9%8A%E0%B8%81%E0%B8%82%E0%B8%99-%E0%B9%81%E0%B8%A7%E0%B8%81%E0%B8%82%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-%E0%B8%81%E0%B9%8D%E0%B8%B2%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%99-i.350294193.3572933999?sp_atk=7955ce9a-5a2c-48b3-85cf-7d4ba019e319&xptdk=7955ce9a-5a2c-48b3-85cf-7d4ba019e319",
-      "price_product_2": "399",
-      "price_product_1": "130",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-syn606nui9jv90_tn",
-      "discount": "-55%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-d293b7a451863b5ecae801f37bbcf55b",
-      "data_product": "แว๊กซ์กำจัดขน แว็กซ์กำจัดขน แว็กกำจัดขน แว๊กน้ำผึ้ง honey wax แว็กขน ถอนขน โกนขน ขนรักแร้ แว๊กขน แวกขนรักแร้ กําจัดขน",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 238.9พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_47": {
-      "product": "https://shopee.co.th/YOU-NoutriWear-Makeup-Setting-Spray-55ml-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B9%80%E0%B8%A1%E0%B8%84%E0%B8%AD%E0%B8%B1%E0%B8%9E-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A1%E0%B8%B1%E0%B8%99-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B8%B2%E0%B8%99-12-%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%82%E0%B8%A1%E0%B8%87-i.375845828.22439742365?sp_atk=a86387aa-3285-45ee-8d66-7fd8fcbc6f61&xptdk=a86387aa-3285-45ee-8d66-7fd8fcbc6f61",
-      "price_product_2": "nan",
-      "price_product_1": "119",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98p-lq1fm31wkfz88a_tn",
-      "discount": "-34%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "YOU NoutriWear+ Makeup Setting Spray 55ml เซ็ตติ้งสเปรย์ สเปรย์ล็อคเมคอัพ ควบคุมความมัน ติดทนยาวนาน 12 ชั่วโมง",
-      "price_before": "฿179",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 39.3พัน ชิ้น",
-      "place": "จังหวัดสมุทรปราการ",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_48": {
-      "product": "https://shopee.co.th/%E0%B8%96%E0%B8%B9%E0%B8%81-%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%A5%E0%B8%B4%E0%B8%9B-4U2-Serum-Tint-Oil-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%97%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B9%84%E0%B8%8B%E0%B8%A3%E0%B8%B1%E0%B8%9B-%E0%B8%97%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%97%E0%B9%8C%E0%B8%AD%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B9%8C-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%AD%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B9%8C-%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%89%E0%B9%88%E0%B8%B3-%E0%B8%89%E0%B9%88%E0%B8%B3%E0%B8%A7%E0%B8%B2%E0%B8%A7-%E0%B8%AD%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%8A%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%8A%E0%B8%B7%E0%B9%89%E0%B8%99-i.15147300.19292525331?sp_atk=0bbe91ca-0749-44d1-a646-1aaad0187c13&xptdk=0bbe91ca-0749-44d1-a646-1aaad0187c13",
-      "price_product_2": "nan",
-      "price_product_1": "179",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-ll2wdqnelwfe0c_tn",
-      "discount": "-40%",
-      "image_product_2": "nan",
-      "data_product": "ถูก/แท้/ส่งฟรี ลิป 4U2 Serum Tint Oil ลิปทินท์ไซรัป ทิ้นท์ออยล์ ลิปออยล์ ปากฉ่ำ ฉ่ำวาว อิ่มน้ำ ชุ่มชื้น",
-      "price_before": "฿299",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 20.5พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_49": {
-      "product": "https://shopee.co.th/Mucuna-%E0%B8%9F%E0%B8%B4%E0%B8%A5%E0%B9%8C%E0%B8%A1%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%81%E0%B9%83%E0%B8%AA-%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9D%E0%B8%B5%E0%B8%9B%E0%B8%B2%E0%B8%81-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%99-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%88%E0%B8%B2%E0%B8%87%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.148820479.20688716087?sp_atk=40457f67-5183-49c6-aab2-6d3023aee513&xptdk=40457f67-5183-49c6-aab2-6d3023aee513",
-      "price_product_2": "19",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134202-7qve3-lgrmff51ail87a_tn",
-      "discount": "-89%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-      "data_product": "Mucuna ฟิล์มกระจกใส เคลือบริมฝีปาก ติดทนนาน ไม่จางง่าย สําหรับผู้หญิง",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 48.1พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_50": {
-      "product": "https://shopee.co.th/%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A1%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-8-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-i.973848423.23559695178?sp_atk=3ddfdded-15e6-4ac3-9171-43926b372bb7&xptdk=3ddfdded-15e6-4ac3-9171-43926b372bb7",
-      "price_product_2": "nan",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lpfzecgy5sgs21_tn",
-      "discount": "-94%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-      "data_product": "ชุดแปรงแต่งหน้าแปรงอายแชโดว์แปรงปัดแก้มแบบพกพา 8 ชิ้น",
-      "price_before": "฿18",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 12.9พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_51": {
-      "product": "https://shopee.co.th/%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%9B%E0%B8%81%E0%B8%9B%E0%B8%B4%E0%B8%94-%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-30ml-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B4%E0%B8%A7%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87-Lameila-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AB%E0%B8%87%E0%B8%B7%E0%B9%88%E0%B8%AD-%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%AD%E0%B8%A3%E0%B9%8C-Fresh-Skin-%E0%B9%80%E0%B8%9A%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B8%B9%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%82%E0%B8%99-%E0%B9%84%E0%B8%9E-i.852230243.22153209217?sp_atk=e4e3e76f-b38a-493a-bcb7-a3ff2d930af6&xptdk=e4e3e76f-b38a-493a-bcb7-a3ff2d930af6",
-      "price_product_2": "14",
-      "price_product_1": "3",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-ll4g03wmeqbi87_tn",
-      "discount": "-63%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-      "data_product": "ไพรเมอร์รองพื้น ไพรเมอร์ปกปิด หน้าเนียน กันน้ำ 30ml ปรับผิวให้สว่าง Lameila กันเหงื่อ ไพรเมอร์ Fresh Skin เบลอรูขุมขน ไพ",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 11.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_52": {
-      "product": "https://shopee.co.th/%E0%B8%96%E0%B8%B9%E0%B8%81-%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%9A%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8CSrichand-Skin-Moisture-Burst-Essence-Serum-Gel-Cream-%E0%B8%A1%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%AD%E0%B9%84%E0%B8%A3%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C-i.15147300.14571857079?sp_atk=650eab25-e285-442d-9690-317b8520b251&xptdk=650eab25-e285-442d-9690-317b8520b251",
-      "price_product_2": "nan",
-      "price_product_1": "299",
-      "image_product_1": "https://down-th.img.susercontent.com/file/0211f77531f4a6bbe8db703d23f79621_tn",
-      "discount": "-34%",
-      "image_product_2": "nan",
-      "data_product": "ถูก/แท้/ส่งฟรี น้ำตบศรีจันทร์ เจลครีมศรีจันทร์Srichand Skin Moisture Burst Essence Serum Gel Cream มอยส์เจอไรเซอร์",
-      "price_before": "฿455",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 3.8พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_53": {
-      "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%B1%E0%B8%9F%E0%B8%9F%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%A5%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%A5%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C-i.148820479.23435314761?sp_atk=00ace2a2-5fa8-4fc6-979c-05fe3f799883&xptdk=00ace2a2-5fa8-4fc6-979c-05fe3f799883",
-      "price_product_2": "10",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvf0-lesi26ws71u0be_tn",
-      "discount": "-90%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-      "data_product": "พัฟฟองน้ํา ขนาดเล็ก สําหรับแต่งหน้า ลงคอนซีลเลอร์",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 52.2พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_54": {
-      "product": "https://shopee.co.th/%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B5%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%8A%E0%B9%82%E0%B8%94%E0%B8%A7%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A7%E0%B8%A7%E0%B8%A7%E0%B8%B2%E0%B8%A7-Nine-colors-eyeshadow-sparkling-waterproof-portable-eyeshadow-palette-i.148820479.9527415173?sp_atk=93fc8d35-6152-4846-a639-f22cfafa1470&xptdk=93fc8d35-6152-4846-a639-f22cfafa1470",
-      "price_product_2": "20",
-      "price_product_1": "10",
-      "image_product_1": "https://down-th.img.susercontent.com/file/e1a5178cb824f24c1ce83e6972926ed7_tn",
-      "discount": "-90%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-      "data_product": "อายแชโดว์เก้าสีอายแชโดว์แบบพกพากันน้ำประกายแวววาว   Nine colors eyeshadow sparkling waterproof portable eyeshadow palette",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 82.9พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_55": {
-      "product": "https://shopee.co.th/(CS100)-ARAYA(%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B8%B2)-%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%94%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%A3%E0%B9%89%E0%B8%99-100ml.-ARAYA-Extra-Sensitive-Feminine-Cleanser-i.28747606.1285090873?sp_atk=4dc555e4-be2b-49c1-8a1c-a529793ad461&xptdk=4dc555e4-be2b-49c1-8a1c-a529793ad461",
-      "price_product_2": "nan",
-      "price_product_1": "290",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98o-lpfsanuk7ejt35_tn",
-      "discount": "-26%",
-      "image_product_2": "nan",
-      "data_product": "(CS100) ARAYA(อารยา) ผลิตภัณฑ์ทำความสะอาดจุดซ่อนเร้น 100ml. ARAYA Extra Sensitive Feminine Cleanser",
-      "price_before": "฿390",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 176.6พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_56": {
-      "product": "https://shopee.co.th/WET-BRUSH-%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B5%E0%B8%9C%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%A3%E0%B8%B5-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%94%E0%B8%B4%E0%B8%AA%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AA-%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4-DISNEY-GLITTER-BALL-MINI-DETANGLER-i.35349998.5088689689?sp_atk=23f9e098-7322-49ee-b42f-bd6758bd90a4&xptdk=23f9e098-7322-49ee-b42f-bd6758bd90a4",
-      "price_product_2": "309",
-      "price_product_1": "299",
-      "image_product_1": "https://down-th.img.susercontent.com/file/3bda24ea6f7f3b59efd7450d18226ac8_tn",
-      "discount": "-13%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-      "data_product": "WET BRUSH แปรงหวีผมทรงรี รุ่น ดิสนีย์ พรินเซส มินิ DISNEY GLITTER BALL MINI DETANGLER",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 35.3พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_57": {
-      "product": "https://shopee.co.th/%E0%B9%80%E0%B8%88%E0%B8%A5%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%A5%E0%B8%94%E0%B8%A3%E0%B8%AD%E0%B8%A2(20g.)-*%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C-blahmbooh-%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%94%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B4%E0%B8%A7-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%94%E0%B8%B3-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%94%E0%B8%87-%E0%B8%A3%E0%B8%AD%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%AA%E0%B8%B4%E0%B8%A7-i.429006879.8548882246?sp_atk=d4df66aa-ba63-4b84-aaf5-73ebbab47fee&xptdk=d4df66aa-ba63-4b84-aaf5-73ebbab47fee",
-      "price_product_2": "989",
-      "price_product_1": "349",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-lpp9yo959yppae_tn",
-      "discount": "-1%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-      "data_product": "เจลมังกรลดรอย(20g.) *เจ้าของแบรนด์ blahmbooh - เหมาะกับผู้มีปัญหารอยสิว ช่วยลดรอยสิว รอยดำ รอยแดง รอยที่เกิดจากสิว",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 57.4พัน ชิ้น",
-      "place": "จังหวัดปทุมธานี",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_58": {
-      "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B8%88%E0%B8%B8%E0%B9%88%E0%B8%A1-Kiss-Beauty-To-Fill-You-%E0%B8%A5%E0%B8%B4%E0%B8%9B%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B8%97-i.851310463.18977800137?sp_atk=fa4c0fad-b915-464c-9085-9095224fe473&xptdk=fa4c0fad-b915-464c-9085-9095224fe473",
-      "price_product_2": "18",
-      "price_product_1": "9",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134201-23030-chihgcv90oov36_tn",
-      "discount": "-82%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-      "data_product": "ลิปจุ่ม Kiss Beauty To Fill You ลิปเนื้อแมท",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 34.2พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "nan"
-    }
-  },
-  {
-    "Product_59": {
-      "product": "https://shopee.co.th/NO.3591-%E0%B8%9A%E0%B8%A5%E0%B8%B1%E0%B8%8A%E0%B8%AD%E0%B8%AD%E0%B8%99-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B8%97-%E0%B9%82%E0%B8%97%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%A7%E0%B8%A2-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B8%A2%E0%B8%94-%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%97%E0%B8%99-i.175811264.20795209167?sp_atk=c92bd9e5-e049-437f-8389-c83f3c1a4e32&xptdk=c92bd9e5-e049-437f-8389-c83f3c1a4e32",
-      "price_product_2": "9",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98z-lo1hlrzwom7b75_tn",
-      "discount": "-89%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "NO.3591 บลัชออน เนื้อแมท โทนสีสวย เนื้อละเอียด สีชัดบางเบา กันน้ำ ติดทน",
-      "price_before": "-",
-      "Emoji": "฿",
-      "sold": "ขายแล้ว 20.6พัน ชิ้น",
-      "place": "จังหวัดกรุงเทพมหานคร",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  },
-  {
-    "Product_60": {
-      "product": "https://shopee.co.th/%E0%B9%81%E0%B8%9B%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B5%E0%B8%9C%E0%B8%A1%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B8%B4%E0%B9%82%E0%B8%84%E0%B8%99-%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%84-%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9C%E0%B8%A1-i.1040428695.22784636549?sp_atk=8815ca35-4305-47c9-9ddc-43300cc9acbc&xptdk=8815ca35-4305-47c9-9ddc-43300cc9acbc",
-      "price_product_2": "nan",
-      "price_product_1": "1",
-      "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lnauzop8xb4r80_tn",
-      "discount": "-95%",
-      "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-ec35436623bbba0be21c3fd1d2723250",
-      "data_product": "แปรงหวีผมซิลิโคน ป้องกันรังแค สีขาว สําหรับสระผม",
-      "price_before": "฿20",
-      "Emoji": "nan",
-      "sold": "ขายแล้ว 16.8พัน ชิ้น",
-      "place": "ต่างประเทศ",
-      "Recommended_shops": "ร้านแนะนำ"
-    }
-  }
-]
+  ]
+}
