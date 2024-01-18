@@ -18,7 +18,7 @@ with mouse.Listener(on_click=on_click) as listener:
 
 # Mouse clicked at (529, 151) with Button.left
 # Mouse clicked at (793, 47) with Button.left
-
+(1146, 433)
 
 
 
