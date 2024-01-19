@@ -1,3 +1,18 @@
+
+import requests
+from bs4 import BeautifulSoup as b
+import os
+from fnmatch import fnmatch
+import pandas as pd
+import json
+import time;
+from pynput import mouse
+import pyautogui
+from pynput import keyboard
+import shutil
+import keyboard as ky
+import pyperclip
+
 api_data = {"3887232320": {
       "categoriesLpMultiFloor": [
         {
@@ -8064,5 +8079,56 @@ api_data = {"3887232320": {
     }
 }
 
-print()
-print(api_data['3887232320']["categoriesLpMultiFloor"][0]["level2TabList"][1]['level3TabList'][0]['categoryUrl'])
+# count = len(api_data['3887232320']["categoriesLpMultiFloor"][])
+# print(count);
+
+# print(api_data['3887232320']["categoriesLpMultiFloor"][0]["level2TabList"][0]['level3TabList'][0]['categoryUrl'])
+data_link  = {
+    0: 'อุปกรณ์-อิเล็กทรอนิกส์',
+    1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
+    2: 'ทีวีและเครื่องใช้ในบ้าน', 
+    3: 'สุขภาพและความงาม', 
+    4: 'ทารกและของเล่น', 
+    5: 'ของชำและสัตว์เลี้ยง', 
+    6: 'บ้านและไลฟ์สไตล์', 
+    7: 'แฟชั่นและเครื่องประดับผู้หญิง',
+    8: 'แฟชั่นและเครื่องประดับผู้ชาย',
+    9: 'กีฬาและการเดินทาง',
+    10: 'ยานยนต์และรถจักรยานยนต์'}
+# Invert ข้อมูล (สลับ key กับ value)
+
+def get_in_json(json_file_path):
+     with open(json_file_path, 'w', encoding='utf-8') as new_json_file:
+        json.dump(existing_data, new_json_file, ensure_ascii=False, indent=2)
+        print(f'ข้อมูลถูกเติมลงในไฟล์ JSON ใหม่ที่ {json_file_path}') 
+# เติมข้อมูลใหม่
+path_here = os.getcwd();
+json_file_path = path_here+'\data_link_all.json';
+print(json_file_path)
+with open(json_file_path, 'r', encoding='utf-8') as json_file:
+    existing_data = json.load(json_file)
+
+d=0;
+for c in range(len(api_data['3887232320']["categoriesLpMultiFloor"])):
+  
+  if(c<12):
+    print("\n<======>",c+1,"<======>\n");
+    data_link_1=[];
+    for data in range(len(api_data['3887232320']["categoriesLpMultiFloor"][c]["level2TabList"])):
+        
+        data_link_1.append(api_data['3887232320']["categoriesLpMultiFloor"][c]["level2TabList"][data]["categoryUrl"]);
+        if(len(api_data['3887232320']["categoriesLpMultiFloor"][c]["level2TabList"][data]["level3TabList"])!=1):
+          for i in range(len(api_data['3887232320']["categoriesLpMultiFloor"][c]["level2TabList"][data]["level3TabList"])):
+              data_link_1.append(api_data['3887232320']["categoriesLpMultiFloor"][c]["level2TabList"][data]["level3TabList"][i]["categoryUrl"]);
+    if(c==9):
+        existing_data[data_link[4]]["lazada"]=data_link_1
+        get_in_json(json_file_path);
+        d-=1;
+    else:
+        existing_data[data_link[d]]["lazada"] = [] 
+        get_in_json(json_file_path);
+        existing_data[data_link[d]]["lazada"]=data_link_1
+        get_in_json(json_file_path);
+    d+=1;
+
+# 4 9 อยู่ด้วยกัน
