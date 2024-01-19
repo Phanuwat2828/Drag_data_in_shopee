@@ -1,53 +1,4 @@
-window.__FIRST_SCREEN_DATA={
-  "data": {
-    "3225041860": {
-      "metalist": [
-        {
-          "name": "og:url",
-          "content": "https://www.lazada.co.th/",
-          "__pos__": 1,
-          "__track__": "5274063.5274063.26241058.2722.1"
-        },
-        {
-          "name": "og:type",
-          "content": "website",
-          "__pos__": 2,
-          "__track__": "5274063.5274063.26241058.2722.2"
-        },
-        {
-          "name": "og:title",
-          "content": "Lazada.co.th - ช้อปปิ้งออนไลน์ รับเครดิตเงินคืน 10% ส่งฟรีทุกวัน",
-          "__pos__": 3,
-          "__track__": "5274063.5274063.26241058.2722.3"
-        },
-        {
-          "name": "og:description",
-          "content": "ซื้อของออนไลน์ที่ ลาซาด้า ช้อปสินค้าง่ายๆ ราคาถูก มีโปรโมชั่นมากมาย ☆รับเครดิตเงินคืน 10% ☆LazMall สินค้าของแท้ 100% คืนง่ายใน 15 วัน ☆ ส่งฟรีทั่วไทย",
-          "__pos__": 4,
-          "__track__": "5274063.5274063.26241058.2722.4"
-        },
-        {
-          "name": "og:image",
-          "content": "//laz-img-cdn.alicdn.com/tfs/TB1PApewFT7gK0jSZFpXXaTkpXa-200-200.png",
-          "__pos__": 5,
-          "__track__": "5274063.5274063.26241058.2722.5"
-        },
-        {
-          "name": "Petal-Search-site-verification",
-          "content": "b851a299756e8225",
-          "__pos__": 6,
-          "__track__": "5274063.5274063.26241058.2722.6"
-        }
-      ],
-      "seometa": {
-        "metaIndex": "index,follow",
-        "description": "ซื้อของออนไลน์ที่ ลาซาด้า ช้อปสินค้าง่ายๆ ราคาถูก มีโปรโมชั่นมากมาย ☆รับเครดิตเงินคืน 10% ☆LazMall สินค้าของแท้ 100% คืนง่ายใน 15 วัน ☆ ส่งฟรีทั่วไทย",
-        "title": "Lazada.co.th - ช้อปปิ้งออนไลน์ รับเครดิตเงินคืน 10% ส่งฟรีทุกวัน",
-        "__pos__": 1,
-        "__track__": "5274062.5274062.26239059.2722.1"
-      }
-    },
-    "3887232320": {
+api_data = {"3887232320": {
       "categoriesLpMultiFloor": [
         {
           "level2TabList": [
@@ -61,7 +12,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3972"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mobiles",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Mobiles",
@@ -77,7 +28,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3975"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-tablet",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Tablets",
@@ -107,7 +58,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7443"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-laptops",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Laptops",
@@ -137,7 +88,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "9670"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-desktop-computer",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Desktops",
@@ -167,8 +118,8 @@ window.__FIRST_SCREEN_DATA={
               "categoryId": "4324"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mirrorless",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Mirrorless",
@@ -191,7 +142,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3337"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-point-shoot",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Point & Shoot",
@@ -221,7 +172,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7164"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-instantcamera",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Instant Camera",
@@ -258,15 +209,15 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5057"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-camcorder",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Action/Video Cameras",
               "categoryId": "4326"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-drones",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Drones",
@@ -310,7 +261,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14442"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-security-cameras",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Security Cameras",
@@ -333,14 +284,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100427"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-console-gaming",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Console Gaming",
               "categoryId": "10100424"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-ElectronicDev &#xe740;",
           "id": "6634008",
           "position": "top",
@@ -438,7 +389,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "400325"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mobile-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Mobiles Accessories",
@@ -510,7 +461,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100889"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-audio-2",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Audio",
@@ -561,7 +512,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7293"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-smart-devices",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Wearables",
@@ -612,7 +563,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100364"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-consumer-electronics-gadgets",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Gadgets",
@@ -677,7 +628,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14386"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-data-storage",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Data Storage",
@@ -770,7 +721,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "9576"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-computer-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Computers & Laptops Accessories",
@@ -856,7 +807,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3932"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-computer-components",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Computer Components",
@@ -907,7 +858,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5772"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-network-components",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Network Components",
@@ -951,7 +902,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100440"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-console-gaming-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Console Gaming Accessories",
@@ -1023,14 +974,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4330"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-camera-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Camera Accessories",
               "categoryId": "4329"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-ElectronicAcc &#xe73d;",
           "id": "6634009",
           "position": "top",
@@ -1100,7 +1051,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5527"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-consumer-electronics",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "TVs & Video Devices",
@@ -1172,7 +1123,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11825"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-large-appliances",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Large Appliances",
@@ -1265,7 +1216,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100296"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-small-kitchen-appliances",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Small Kitchen Appliances",
@@ -1316,7 +1267,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5580"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-small-cooling-and-air-treatment",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Small Cooling & Air treatments",
@@ -1388,7 +1339,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11765"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-small-household-appliances",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Small Household Appliances",
@@ -1439,7 +1390,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4194"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-personal-care-appliances",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Personal Care Appliances",
@@ -1511,14 +1462,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6075"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-home-appliance-accesories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Parts & Accessories",
               "categoryId": "5855"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-ConsumerAppli &#xe73e;",
           "id": "6634010",
           "position": "top",
@@ -1609,7 +1560,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4320"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-face-products",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Skincare",
@@ -1688,7 +1639,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4096"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-makeup",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Make-Up",
@@ -1760,7 +1711,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4320"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-hair-care",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Hair Care",
@@ -1839,7 +1790,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4147"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-bath-body",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Bath & Body",
@@ -1883,7 +1834,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4307"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-personal-care",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Personal Care",
@@ -1913,7 +1864,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13558"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-fragrances",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Fragrances",
@@ -1964,7 +1915,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4346"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-health-beauty-tools",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Beauty Tools",
@@ -2043,7 +1994,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6970"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mens-care",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Care",
@@ -2136,7 +2087,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "9006"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-health-food-supplements-weight-management",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Vitamin & Supplements",
@@ -2222,15 +2173,15 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14568"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-medical-equipment",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Medical Supplies",
               "categoryId": "4274"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-senior-health",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Adult Diapers & Incontinence",
@@ -2253,14 +2204,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5406"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sexual-wellness",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Condoms & Lubricants",
               "categoryId": "6237"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-HealthBeauty &#xe75b;",
           "id": "6634011",
           "position": "top",
@@ -2358,7 +2309,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7040"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-babies",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Mother & Baby",
@@ -2451,7 +2402,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14177"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-diapers-potties",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Diapering & Potty",
@@ -2537,7 +2488,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14239"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-milk-formula-and-baby-food",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Milk Formula & Baby Food",
@@ -2630,7 +2581,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7178"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-feeding-nursing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Feeding Essentials",
@@ -2716,7 +2667,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14212"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-baby-gear",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Baby Gear",
@@ -2809,7 +2760,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3698"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-nursery",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Nursery",
@@ -2902,7 +2853,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14189"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-bathing-grooming",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Baby Personal Care",
@@ -2995,7 +2946,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "8294"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-baby-clothings",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Baby Fashion & Accessories",
@@ -3088,7 +3039,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3236"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-toys-1",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Toys & Games",
@@ -3181,7 +3132,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5996"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-baby-toys",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Baby & Toddler Toys",
@@ -3274,7 +3225,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3797"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sports-and-outdoor-play",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Sports Toys & Outdoor Play",
@@ -3367,14 +3318,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100001"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-remote-control-toys-and-play-vehicles",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Electronic & Remote Control Toys",
               "categoryId": "3694"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-BabiesToys &#xe75a;",
           "id": "6634012",
           "position": "top",
@@ -3458,7 +3409,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14513"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-beverages",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Drink",
@@ -3495,7 +3446,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7333"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-breakfast",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Breakfast Cereals & Spreads",
@@ -3574,7 +3525,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14541"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-Groceries-FoodStaplesCookingEssentials",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Food Staples & Cooking Essentials",
@@ -3597,7 +3548,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13667"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-groceries-fresh-produce",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Fruit & Vegetables",
@@ -3648,7 +3599,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "14517"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-Groceries-ChocolateSnacksSweets",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Chocolate, Snacks & Sweets",
@@ -3720,7 +3671,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13877"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-groceries-laundry-household-cleaning",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Cleaning Supplies",
@@ -3771,7 +3722,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13872"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-groceries-laundry-household-laundry",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Laundry Supplies",
@@ -3864,7 +3815,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100632"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-pet-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Pet Accessories",
@@ -3915,7 +3866,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13596"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-pet-food",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Pet Food",
@@ -3938,14 +3889,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13582"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-pet-healthcare",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Pet Healthcare",
               "categoryId": "10100888"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-GroceriesPet &#xe755;",
           "id": "6634013",
           "position": "top",
@@ -4043,7 +3994,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11910"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-furniture-decor",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Furniture & Organization",
@@ -4136,7 +4087,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11940"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-lighting",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Lighting",
@@ -4222,7 +4173,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11928"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-home-decor",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Home Décor",
@@ -4301,7 +4252,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11895"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-bedding",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Bedding",
@@ -4394,7 +4345,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100193"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-bath",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Bath",
@@ -4480,7 +4431,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100180"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-kitchen-and-dining",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Kitchen & Dining",
@@ -4545,7 +4496,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11868"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-stationery-craft",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Stationery & Office Supplies",
@@ -4617,7 +4568,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12043"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-laundry-cleaning",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Laundry & Cleaning",
@@ -4710,7 +4661,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "11847"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-home-improvement",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Tools&Home Improvement",
@@ -4796,7 +4747,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12141"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-outdoor-and-garden",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Outdoor & Garden",
@@ -4875,7 +4826,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3016"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-musical-instruments",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Music & Instruments",
@@ -4968,14 +4919,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "7805"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/books-online",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Books",
               "categoryId": "3450"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-HomeLifestyl &#xe75c;",
           "id": "6634014",
           "position": "top",
@@ -5073,7 +5024,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "8046"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Clothing",
@@ -5138,7 +5089,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6741"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-shoes",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Shoes",
@@ -5217,7 +5168,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "8548"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-lingerie-nightwear",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Lingerie, Sleep & Lounge",
@@ -5247,7 +5198,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6863"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-swimwear",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Swimwear & Beachwear",
@@ -5312,7 +5263,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "42055002"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Accessories",
@@ -5405,7 +5356,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13425"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-women-bags",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Bags",
@@ -5442,7 +5393,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12452"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-womens-eyeglasses",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Eyewear",
@@ -5486,14 +5437,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100892"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-womens-watches",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Watches",
               "categoryId": "3285"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-WomensFashio &#xe760;",
           "id": "6634015",
           "position": "top",
@@ -5591,7 +5542,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13461"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-men-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Clothing",
@@ -5642,7 +5593,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6665"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mens-shoes",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Shoes",
@@ -5679,7 +5630,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13525"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mens-clothing-underwear",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Underwear",
@@ -5758,7 +5709,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "42055201"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-men-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Accessories",
@@ -5851,7 +5802,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13425"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-men-bags",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Bags",
@@ -5881,7 +5832,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12451"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mens-eyeglasses",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Eyewear",
@@ -5925,14 +5876,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100789"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-mens-watches",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Watches",
               "categoryId": "5786"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-MensFashion &#xe75f;",
           "id": "6634016",
           "position": "top",
@@ -6016,7 +5967,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "42068201"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-fashion-boys-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Boys' Clothing",
@@ -6109,7 +6060,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6469"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-fashion-girls-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Girls' Clothing",
@@ -6160,7 +6111,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6430"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-fashion-boys-shoes",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Boys' Shoes",
@@ -6204,7 +6155,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6272"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-fashion-girls-shoes",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Girls' Shoes",
@@ -6227,7 +6178,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "6524"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-kids-watches",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Kids' Watches",
@@ -6264,7 +6215,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13450"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-kids-bags",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Kids' Bags",
@@ -6287,14 +6238,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12514"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-eyeglasses-2",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Kids' Eyewear",
               "categoryId": "10100750"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-FashionAccess &#xe73f;",
           "id": "6634017",
           "position": "top",
@@ -6378,7 +6329,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12309"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-exercise-fitness",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Exercise & Fitness",
@@ -6450,7 +6401,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3407"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-outdoor-recreation",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Outdoor Recreation",
@@ -6522,7 +6473,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12416"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sports-men-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Sports Apparel",
@@ -6615,7 +6566,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4928"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sports-men-shoes-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Men's Sports Shoes",
@@ -6694,7 +6645,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12336"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sports-women-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Sports Apparel",
@@ -6787,7 +6738,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "8335"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sports-women-shoes-clothing",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Women's Sports Shoes",
@@ -6873,7 +6824,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12330"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-cycling",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Cycling",
@@ -6945,7 +6896,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "3451"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-water-sports",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Water Sports",
@@ -7024,7 +6975,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12308"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-team-sports",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Team Sports",
@@ -7061,7 +7012,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "5799"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-racquet-sports",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Racket Sports",
@@ -7098,7 +7049,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12313"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-sport-outdoors-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Sport Accessories",
@@ -7128,14 +7079,14 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "13453"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-travel-luggage-2",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Travel",
               "categoryId": "13424"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-SportsOutdoo &#xe761;",
           "id": "6634018",
           "position": "top",
@@ -7233,7 +7184,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100725"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-oils-fluids",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Oils & Fluids",
@@ -7333,15 +7284,15 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12501"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-automotive",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Automotive",
               "categoryId": "8429"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-car-cameras-2",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Car Camera",
@@ -7406,7 +7357,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12676"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-car-audio",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Car Audio",
@@ -7471,7 +7422,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "10100670"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-wheels-tires",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Auto Tires & Wheels",
@@ -7557,7 +7508,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "8490"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-auto-parts-spares",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Auto Parts & Spares",
@@ -7643,7 +7594,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12653"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-exterior-accessories",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Auto Accessories",
@@ -7701,7 +7652,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12581"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-car-care",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Car Care",
@@ -7794,7 +7745,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "42050601"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-motorcycle",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Motorcycle",
@@ -7845,7 +7796,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "4015"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-motorcycle-tires-wheels",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Moto Tires & Wheels",
@@ -7938,7 +7889,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12693"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-motorcycle-parts-spares",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Moto Parts & Accessories",
@@ -8031,7 +7982,7 @@ window.__FIRST_SCREEN_DATA={
                   "categoryId": "12739"
                 }
               ],
-              "categoryIcon": null,
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-motorcycle-riding-gear",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Motorcycle Riding Gear",
@@ -8040,7 +7991,7 @@ window.__FIRST_SCREEN_DATA={
           ],
 
           
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-cat-Motors &#xe75d;",
           "id": "6634019",
           "position": "top",
@@ -8052,55 +8003,55 @@ window.__FIRST_SCREEN_DATA={
         {
           "level2TabList": [
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//my-m.lazada.co.th/mobilerecharge?wh_weex=true",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Mobile Top-Up",
               "categoryId": "14456"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-food-beverage-vouchers",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Food & Beverage Deals",
               "categoryId": "14224"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-beauty-wellness-vouchers",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Beauty & Wellness Deals",
               "categoryId": "14225"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-travel-vouchers",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Travel Deals",
               "categoryId": "14227"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-activities-entertainment-vouchers",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Activity & Entertainment Deals",
               "categoryId": "14226"
             },
             {
-              "level3TabList": null,
-              "categoryIcon": null,
+              "level3TabList": "",
+              "categoryIcon": "",
               "categoryUrl": "//www.lazada.co.th/shop-home-digital-vouchers",
               "class": "com.lazada.guidedshopping.categories.constants.CategoryLevel2TabDTO",
               "categoryName": "Home",
               "categoryId": "10100041"
             }
           ],
-          "categoryName_zh": null,
+          "categoryName_zh": "",
           "categoryIcon": "ic-DigitalProduct &#xe610;",
           "id": "6634020",
           "position": "top",
@@ -8109,1131 +8060,9 @@ window.__FIRST_SCREEN_DATA={
           "categoryName": "Digital Goods ",
           "level1CategoryId": "6634020"
         }
-      ],
-      "pcHomepageData": {
-        "sections": [
-          {
-            "id": 1705647921079,
-            "moduleId": "platformCampaignBanner",
-            "fields": {
-              "settings": {
-                "data": {
-                  "bannerTitle_en": "8 jan",
-                  "bannerTitle": "8 jan",
-                  "bannerTitle_th": "8 jan"
-                },
-                "configPrimaryKey": 28295
-              },
-              "datas": []
-            }
-          },
-          {
-            "id": 1705647921079,
-            "moduleId": "bannerSliderDesktop",
-            "fields": {
-              "settings": {
-                "data": [
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP1 MemberShip",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/986ee422-b6ac-4f59-a1c3-5563ff1e2050_TH-1976-688.jpg",
-                    "bannerTitle": "HP1 MemberShip",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/lazmall/lazmall_membership_campaign",
-                    "bannerTitle_th": "HP1 MemberShip",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/9e78e88b-c135-4e02-850b-ccdf2c3ec514_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/9e78e88b-c135-4e02-850b-ccdf2c3ec514_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP2 Samsung LBD SNA ",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/ef18b9c1-a8c9-4cf6-a30d-90dbba5c7097_TH-1976-688.jpg",
-                    "bannerTitle": "HP2 Samsung LBD SNA ",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?spm=a2o4m.home-th.3887232320.1.72b67f6dZLJYEP&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/lazmall/th-lazmall-the-new-galaxy-2024",
-                    "bannerTitle_th": "HP2 Samsung LBD SNA ",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/1158f60b-61c8-4efa-83e1-206447b12b7b_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/1158f60b-61c8-4efa-83e1-206447b12b7b_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP3 [A+] Lazada Electronics Expo",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/f1183eee-7e4c-426d-8e86-c9d1c532484c_TH-1976-688.jpg",
-                    "bannerTitle": "HP3 [A+] Lazada Electronics Expo",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?pha=true&wx_navbar_transparent=true&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/megascenario/th/Lazada_Electronics_Biggest_Ever_SaleJan24/lazada-electronics-expo",
-                    "bannerTitle_th": "HP3 [A+] Lazada Electronics Expo",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/18bb79e3-1ff0-4c69-89de-717320ed2deb_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/18bb79e3-1ff0-4c69-89de-717320ed2deb_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP4 Johnson & Johnson LBD ",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/8d38c1cf-c357-4718-a2f2-e30bf82b9584_TH-1976-688.jpg",
-                    "bannerTitle": "HP4 Johnson & Johnson LBD ",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/lazmall/LBD_JohnsonJohnson_19Jan",
-                    "bannerTitle_th": "HP4 Johnson & Johnson LBD ",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/eec01cd9-b5df-459f-a05b-f78056ab343d_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/eec01cd9-b5df-459f-a05b-f78056ab343d_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP5 Coin",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/0fdba9a4-03fd-4758-b860-a524525b46cf_TH-1976-688.jpg",
-                    "bannerTitle": "HP5 Coin",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/interactions/laz-coins&pha=true&lzd_navbar_hidden=true&wx_navbar_transparent=true",
-                    "bannerTitle_th": "HP5 Coin",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/381c9f2d-ebd9-48ff-8b0d-d00a8393fcad_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/381c9f2d-ebd9-48ff-8b0d-d00a8393fcad_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP6 Phillips LBD  ",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/61adb424-84c9-476b-9d5d-be01354fb02d_TH-1976-688.jpg",
-                    "bannerTitle": "HP6 Phillips LBD  ",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/lazmall/th-lazmall-philips-lbd-28nov2023",
-                    "bannerTitle_th": "HP6 Phillips LBD  ",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/0a1ec8f3-cd5c-4680-9391-ab46e6c4d488_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/0a1ec8f3-cd5c-4680-9391-ab46e6c4d488_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP7 Game",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/235262aa-c2df-43e6-960a-13e7ae1f7cbb_TH-1976-688.jpg",
-                    "bannerTitle": "HP7 Game",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/th/emagzal/merge-market?hybrid=1&fReload=true&wh_showError=true&wx_navbar_transparent=true&lzd_navbar_hidden=true&native_loading_bar=true&laz_system_web=1&showpage=mergetask1&dsource=hpbanner",
-                    "bannerTitle_th": "HP7 Game",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/d382a686-889a-42a3-9511-a5e5b32cb171_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/d382a686-889a-42a3-9511-a5e5b32cb171_TH-1976-688.jpg"
-                  },
-                  {
-                    "bannerBackgroundColor": "#f4f4f4",
-                    "bannerTitle_en": "HP8 Choice",
-                    "bannerImg_th": "https://lzd-img-global.slatic.net/us/domino/f7ad10c9-d1d1-43a6-a5c2-ee62558a8099_TH-1976-688.jpg",
-                    "bannerTitle": "HP8 Choice",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/ac_guide/choice_channel&wx_navbar_transparent=true&lzd_navbar_hidden=true&hide_h5_title=true&use_skeleton=false&bizType=1",
-                    "bannerTitle_th": "HP8 Choice",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/8520a8a5-4f2c-4cb0-8e3b-e4df0a6d44d9_TH-1976-688.jpg",
-                    "bannerImg_en": "https://lzd-img-global.slatic.net/us/domino/8520a8a5-4f2c-4cb0-8e3b-e4df0a6d44d9_TH-1976-688.jpg"
-                  }
-                ],
-                "configPrimaryKey": 28930
-              },
-              "datas": []
-            }
-          },
-          {
-            "id": 1705647921079,
-            "moduleId": "pcChannels",
-            "fields": {
-              "settings": {
-                "data": [
-                  {
-                    "channelDesc_en": "LazMall",
-                    "channelName_en": "LazMall",
-                    "channelUrl": "https://pages.lazada.co.th/wow/i/th/LandingPage/lazmall?spm=a2o4m.home.feature_nav.1.62ca7f6dvwk0y0&scm=1003.4.icms-zebra-5000381-2586275.OTHER_6501017900_7654419",
-                    "channelName_th": "LazMall",
-                    "channelImg": "https://lzd-img-global.slatic.net/us/domino/b91bbd59-54e7-47e6-96aa-21d17deceda1_TH-240-36.png",
-                    "channelDesc_th": "LazMall",
-                    "channelName": "LazMall",
-                    "channelDesc": "LazMall",
-                    "channelColor": "#d80e0e"
-                  },
-                  {
-                    "channelDesc_en": "Voucher",
-                    "channelUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?spm=a2o4m.home.feature_nav.2.70e37f6dccdLJC&hybrid=1&data_prefetch=true&at_iframe=1&wh_pid=/lazada/channel/th/voucher/claimvoucher&scm=1003.4.icms-zebra-5000381-2586275.OTHER_6501017912_7654419&prefetch_replace=1",
-                    "channelName_en": "Voucher",
-                    "channelName_th": "Voucher",
-                    "channelImg": "https://lzd-img-global.slatic.net/us/domino/d682a139-c8d5-4082-8b08-a7623fd117d3_TH-240-36.png",
-                    "channelDesc_th": "Voucher",
-                    "channelName": "Voucher",
-                    "channelDesc": "Voucher",
-                    "channelColor": "#d80e0e"
-                  },
-                  {
-                    "channelDesc_en": "Freeshipping",
-                    "channelName_en": "Freeshipping",
-                    "channelUrl": "rid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/voucher/claimvoucher",
-                    "channelName_th": "Freeshipping",
-                    "channelImg": "https://lzd-img-global.slatic.net/us/domino/a18f3919-fe89-48d0-abff-7caefe258c12_TH-240-36.jpg",
-                    "channelDesc_th": "Freeshipping",
-                    "channelName": "Freeshipping",
-                    "channelDesc": "Freeshipping",
-                    "channelColor": "#d80e0e"
-                  },
-                  {
-                    "channelDesc_en": "Topup",
-                    "channelName_en": "Topup",
-                    "channelUrl": "https://pages.lazada.co.th/wow/i/th/digitalgoods/digitalgoods?cpp=1&hybrid=1&wxvNoHistory=true&scm=1003.4.icms-zebra-101204332-5100758.OTHER_5989114017_4997493",
-                    "channelName_th": "Topup",
-                    "channelImg": "https://lzd-img-global.slatic.net/us/domino/b8fbdde3-0483-4c0d-a837-eca3dbe6bdcc_TH-240-36.jpg",
-                    "channelDesc_th": "Topup",
-                    "channelName": "Topup",
-                    "channelDesc": "Topup",
-                    "channelColor": "#d80e0e"
-                  }
-                ],
-                "configPrimaryKey": 25728
-              },
-              "datas": []
-            }
-          },
-          {
-            "id": 1705647921079,
-            "moduleId": "countdownPC",
-            "fields": {
-              "settings": {
-                "data": {},
-                "configPrimaryKey": 28319
-              },
-              "datas": []
-            }
-          },
-          {
-            "id": 1705647921223,
-            "moduleId": "flashSalePC",
-            "fields": {
-              "settings": {
-                "configPrimaryKey": 25734
-              },
-              "datas": [
-                {
-                  "__startDate": "2024-01-19T13:00:00.000+08:00",
-                  "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                  "scm": "1007.17760.287818.0",
-                  "isShowSoldCnt": "true",
-                  "items": [
-                    {
-                      "itemSoldRatio": 0.1433333307504654,
-                      "trackInfo": "rs%3A0.02636834792792797%3Bfs_item_discount_price%3A2790.00%3Bitem_id%3A328132050%3Bpctr%3A0.02636834792792797%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A43%3Babid%3A287818%3Bfs_item_price%3A3000.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A7%25%3Bcampaign_id%3A264552",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "Bobbi Brown Vitamin Enriched Face Base - 50ml/make up primer and face moisturizer with Vitamin B, C and E - best seller primer skincare makeup​",
-                      "itemSoldCnt": 43,
-                      "clickTrackInfo": "rs%3A0.02636834792792797%3Bfs_item_discount_price%3A2790.00%3Bitem_id%3A328132050%3Bpctr%3A0.02636834792792797%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A43%3Babid%3A287818%3Bfs_item_price%3A3000.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A7%25%3Bcampaign_id%3A264552",
-                      "almostSoldOut": null,
-                      "itemDiscount": "16%",
-                      "itemCurrentStock": 257,
-                      "itemId": 328132050,
-                      "itemImg": "https://filebroker-cdn.lazada.co.th/kf/S4ad7f58acae94bb1b951e5980ca0dd3eu.jpg",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "2,511.00",
-                      "currency": "฿",
-                      "itemPrice": "3,000.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/bobbi-brown-vitamin-enriched-face-base-50ml-1-i328132050-s628176308.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.02636834792792797%3Bfs_item_discount_price%3A2790.00%3Bitem_id%3A328132050%3Bpctr%3A0.02636834792792797%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A43%3Babid%3A287818%3Bfs_item_price%3A3000.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A7%25%3Bcampaign_id%3A264552&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.31578946113586426,
-                      "trackInfo": "rs%3A0.07999545335769653%3Bfs_item_discount_price%3A173.94%3Bitem_id%3A5010053721%3Bpctr%3A0.07999545335769653%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A6%3Babid%3A287818%3Bfs_item_price%3A372.74%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A53%25%3Bcampaign_id%3A267745",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "ไฟหน้ารถ CANbus H4 LED H7 LED H9 H11 H1 HB3 9006 HB4อัตโนมัติหลอดไฟตัดหมอก CSP ชิป300W 80000LM 6000K 12V",
-                      "itemSoldCnt": 6,
-                      "clickTrackInfo": "rs%3A0.07999545335769653%3Bfs_item_discount_price%3A173.94%3Bitem_id%3A5010053721%3Bpctr%3A0.07999545335769653%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A6%3Babid%3A287818%3Bfs_item_price%3A372.74%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A53%25%3Bcampaign_id%3A267745",
-                      "almostSoldOut": null,
-                      "itemDiscount": "53%",
-                      "itemCurrentStock": 13,
-                      "itemId": 5010053721,
-                      "itemImg": "https://filebroker-cdn.lazada.co.th/kf/Se8a3c47641024323b7062edbba2497bab.jpg",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "173.94",
-                      "currency": "฿",
-                      "itemPrice": "372.74",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/canbus-h4-led-h7-led-h9-h11-h1-hb3-9006-hb4-csp-300w-80000lm-6000k-12v-i5010053721-s21170990144.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.07999545335769653%3Bfs_item_discount_price%3A173.94%3Bitem_id%3A5010053721%3Bpctr%3A0.07999545335769653%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A6%3Babid%3A287818%3Bfs_item_price%3A372.74%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A53%25%3Bcampaign_id%3A267745&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.036666665226221085,
-                      "trackInfo": "rs%3A0.07723640650510788%3Bfs_item_discount_price%3A124.70%3Bitem_id%3A3403732259%3Bpctr%3A0.07723640650510788%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A329.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A62%25%3Bcampaign_id%3A266757",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "สายยางรดน้ำ สายยางสีฟ้า สายยางน้ำเงิน สายยางนิ่มเด้ง ท่ออ่อน สายยาง ขนาด4/5/6หุน/1นิว ของแท้100% สายยางอ่อนพีวีซี ท่ออ่อนพีวีซี",
-                      "itemSoldCnt": 11,
-                      "clickTrackInfo": "rs%3A0.07723640650510788%3Bfs_item_discount_price%3A124.70%3Bitem_id%3A3403732259%3Bpctr%3A0.07723640650510788%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A329.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A62%25%3Bcampaign_id%3A266757",
-                      "almostSoldOut": null,
-                      "itemDiscount": "62%",
-                      "itemCurrentStock": 289,
-                      "itemId": 3403732259,
-                      "itemImg": "https://th-live.slatic.net/p/bce6aaa6fd40a2b4e6c582be98ccb4bb.png",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "124.70",
-                      "currency": "฿",
-                      "itemPrice": "329.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/4561-100-i3403732259-s12585963617.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.07723640650510788%3Bfs_item_discount_price%3A124.70%3Bitem_id%3A3403732259%3Bpctr%3A0.07723640650510788%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A329.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A62%25%3Bcampaign_id%3A266757&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.004999999888241291,
-                      "trackInfo": "rs%3A0.06846687197685242%3Bfs_item_discount_price%3A179.59%3Bitem_id%3A4877501894%3Bpctr%3A0.06846687197685242%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A899.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A80%25%3Bcampaign_id%3A267745",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "แหวนทองคำแท้ครึ่งสลึง 1.9 กรัม ลายพลอยเม็ดเดียว การันตีทองคำแท้ 96.5% ขายได้ทอง แท้ หลุด จำนำ",
-                      "itemSoldCnt": 9,
-                      "clickTrackInfo": "rs%3A0.06846687197685242%3Bfs_item_discount_price%3A179.59%3Bitem_id%3A4877501894%3Bpctr%3A0.06846687197685242%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A899.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A80%25%3Bcampaign_id%3A267745",
-                      "almostSoldOut": null,
-                      "itemDiscount": "80%",
-                      "itemCurrentStock": 1791,
-                      "itemId": 4877501894,
-                      "itemImg": "https://sg-test-11.slatic.net/p/ecb9bbea9c0441877ce18d846d479edd.jpg",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "179.59",
-                      "currency": "฿",
-                      "itemPrice": "899.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/19-965-i4877501894-s20471547283.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.06846687197685242%3Bfs_item_discount_price%3A179.59%3Bitem_id%3A4877501894%3Bpctr%3A0.06846687197685242%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A899.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A80%25%3Bcampaign_id%3A267745&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.009999999776482582,
-                      "trackInfo": "rs%3A0.06814833730459213%3Bfs_item_discount_price%3A103.81%3Bitem_id%3A4701287648%3Bpctr%3A0.06814833730459213%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A368.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A72%25%3Bcampaign_id%3A266757",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "pandu ชุดเด็กผู้หญิง ชุดเด็กผู้หญิง กระโปรงเด็กสไตล์เกาหลี ชุดเจ้าหญิงเด็ก ผ้าดีและนิ่มสุดๆ",
-                      "itemSoldCnt": 9,
-                      "clickTrackInfo": "rs%3A0.06814833730459213%3Bfs_item_discount_price%3A103.81%3Bitem_id%3A4701287648%3Bpctr%3A0.06814833730459213%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A368.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A72%25%3Bcampaign_id%3A266757",
-                      "almostSoldOut": null,
-                      "itemDiscount": "72%",
-                      "itemCurrentStock": 891,
-                      "itemId": 4701287648,
-                      "itemImg": "https://th-live.slatic.net/p/bb5235533eacec36781776fa368629cc.jpg",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "103.81",
-                      "currency": "฿",
-                      "itemPrice": "368.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/pandu-i4701287648-s19378601797.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.06814833730459213%3Bfs_item_discount_price%3A103.81%3Bitem_id%3A4701287648%3Bpctr%3A0.06814833730459213%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A9%3Babid%3A287818%3Bfs_item_price%3A368.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A72%25%3Bcampaign_id%3A266757&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.10999999940395355,
-                      "trackInfo": "rs%3A0.06762399524450302%3Bfs_item_discount_price%3A31990.00%3Bitem_id%3A4495371577%3Bpctr%3A0.06762399524450302%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A43900.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A27%25%3Bcampaign_id%3A264554",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "Galaxy S23 Ultra 8/256GB",
-                      "itemSoldCnt": 11,
-                      "clickTrackInfo": "rs%3A0.06762399524450302%3Bfs_item_discount_price%3A31990.00%3Bitem_id%3A4495371577%3Bpctr%3A0.06762399524450302%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A43900.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A27%25%3Bcampaign_id%3A264554",
-                      "almostSoldOut": null,
-                      "itemDiscount": "27%",
-                      "itemCurrentStock": 89,
-                      "itemId": 4495371577,
-                      "itemImg": "https://th-live.slatic.net/p/7e942ba01332b7035db26cc5910847c5.jpg",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "31,990.00",
-                      "currency": "฿",
-                      "itemPrice": "43,900.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/galaxy-s23-ultra-8256gb-i4495371577-s18203907835.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.06762399524450302%3Bfs_item_discount_price%3A31990.00%3Bitem_id%3A4495371577%3Bpctr%3A0.06762399524450302%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A11%3Babid%3A287818%3Bfs_item_price%3A43900.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A27%25%3Bcampaign_id%3A264554&scm=1007.17760.287818.0"
-                    },
-                    {
-                      "itemSoldRatio": 0.0555555559694767,
-                      "trackInfo": "rs%3A0.0676225945353508%3Bfs_item_discount_price%3A106.79%3Bitem_id%3A4504513802%3Bpctr%3A0.0676225945353508%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A25%3Babid%3A287818%3Bfs_item_price%3A500.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A79%25%3Bcampaign_id%3A266757",
-                      "isCurrencyLeft": 1,
-                      "itemTitle": "S20 9D หูฟังไร้สายสเตอริโอ 5.2 TWS พร้อมไมโครโฟนชาร์จกรณีกีฬาหูฟังกันน้ำชุดหูฟังสำหรับโทรศัพท์มือถือ",
-                      "itemSoldCnt": 25,
-                      "clickTrackInfo": "rs%3A0.0676225945353508%3Bfs_item_discount_price%3A106.79%3Bitem_id%3A4504513802%3Bpctr%3A0.0676225945353508%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A25%3Babid%3A287818%3Bfs_item_price%3A500.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A79%25%3Bcampaign_id%3A266757",
-                      "almostSoldOut": null,
-                      "itemDiscount": "79%",
-                      "itemCurrentStock": 425,
-                      "itemId": 4504513802,
-                      "itemImg": "https://th-live-01.slatic.net/p/4a4d8303606108317681c03a1adcf4be.png",
-                      "__expiredDate": "2024-01-20T01:00:00.000+08:00",
-                      "itemHaveStock": null,
-                      "itemDiscountPrice": "106.79",
-                      "currency": "฿",
-                      "itemPrice": "500.00",
-                      "scm": "1007.17760.287818.0",
-                      "__startDate": "2024-01-19T13:00:00.000+08:00",
-                      "itemUrl": "//www.lazada.co.th/products/s20-9d-52-tws-i4504513802-s20690897207.html?search=1&mp=1&c=fs&clickTrackInfo=rs%3A0.0676225945353508%3Bfs_item_discount_price%3A106.79%3Bitem_id%3A4504513802%3Bpctr%3A0.0676225945353508%3Bcalib_pctr%3A0.0%3Bmt%3Ahot%3Bfs_utdid%3A-1%3Bfs_item_sold_cnt%3A25%3Babid%3A287818%3Bfs_item_price%3A500.00%3Bpvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Bfs_min_price_l30d%3A0%3Bdata_type%3Aflashsale%3Bfs_pvid%3A27d66dba-2c38-4ff3-b033-8694523b0402%3Btime%3A1705647921%3Bfs_biz_type%3Afs%3Bscm%3A1007.17760.287818.%3Bchannel_id%3A0000%3Bfs_item_discount%3A79%25%3Bcampaign_id%3A266757&scm=1007.17760.287818.0"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "id": 1705647921121,
-            "moduleId": "officialStorePC",
-            "fields": {
-              "settings": {
-                "configPrimaryKey": 25733
-              },
-              "datas": [
-                {
-                  "entityType": "shop",
-                  "id": "1128",
-                  "shopId": "1128",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312692__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312692__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312696__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/320bab014f162b2fcd4d64caef57168c.jpeg",
-                  "shopName": "CB Cotton",
-                  "shopSlogan": "CB Cotton",
-                  "itemId": 312692,
-                  "itemTitle": "",
-                  "shopImg": "https://th-live.slatic.net/p/3/cb-cotton-700-peninsula-collection-5-5-red-5216-072174-c3dd342c4d49106768fbbf8886dd10f8-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/233bc07d8da2b7e4658c5b4909fb526f.png",
-                  "shopUrl": "//www.lazada.co.th/shop/cb-cotton?up_id=312692,312696&from=hp_officialstore&item_id=312692,312696&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "312692",
-                      "itemImg": "https://th-live.slatic.net/p/3/cb-cotton-700-peninsula-collection-5-5-red-5216-072174-c3dd342c4d49106768fbbf8886dd10f8-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312692__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312692__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/cb-cotton?up_id=312692&from=hp_officialstore&item_id=312692&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "312696",
-                      "itemImg": "https://th-live.slatic.net/p/3/cb-cotton-700-peninsula-collection-5-8-gray-6816-172174-686145edde321dca416735c0a9b5c953-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312696__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1128__itemId$312696__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/cb-cotton?up_id=312696&from=hp_officialstore&item_id=312696&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "1151",
-                  "shopId": "1151",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$978121__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$978121__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$135891328__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://laz-img-cdn.alicdn.com/tfs/TB1QqerpljTBKNjSZFwXXcG4XXa-600-600.jpg",
-                  "shopName": "CORRETTO SUITE",
-                  "shopSlogan": "CORRETTO SUITE",
-                  "itemId": 978121,
-                  "itemTitle": "50 Capsules  Nespresso  Decaffeinated Coffee compatible nespresso machine  - 2 bag x 25 capsules",
-                  "shopImg": "https://th-live.slatic.net/p/bd0ec6b02eea92d7febc6524978a5a17.png",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/f40921ecae632345d4c35fb34922109b.jpeg",
-                  "shopUrl": "//www.lazada.co.th/shop/corretto-suite?up_id=978121,135891328&from=hp_officialstore&item_id=978121,135891328&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "978121",
-                      "itemImg": "https://th-live.slatic.net/p/bd0ec6b02eea92d7febc6524978a5a17.png",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$978121__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$978121__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/corretto-suite?up_id=978121&from=hp_officialstore&item_id=978121&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "135891328",
-                      "itemImg": "https://th-live-01.slatic.net/p/cf65904b190b2e9b4f21ac71e7bb0b34.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$135891328__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$1151__itemId$135891328__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/corretto-suite?up_id=135891328&from=hp_officialstore&item_id=135891328&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "848",
-                  "shopId": "848",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028821__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028821__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028913__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/2daadc0d173804ffd082a5fa3cf50033.jpeg",
-                  "shopName": "Thailand Pool Tables",
-                  "shopSlogan": "Thailand Pool Tables",
-                  "itemId": 1028821,
-                  "itemTitle": "Billiard Cue Shaft Cleaner Magic Show Pro (Red)",
-                  "shopImg": "https://th-live-01.slatic.net/p/oem-billiard-cue-shaft-cleaner-magic-show-pro-red-0933-0192131-1-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/8178b9685b92006eb4a87e67456e7880.png",
-                  "shopUrl": "//www.lazada.co.th/shop/thailand-pool-tables?up_id=1028821,1028913&from=hp_officialstore&item_id=1028821,1028913&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "1028821",
-                      "itemImg": "https://th-live-01.slatic.net/p/oem-billiard-cue-shaft-cleaner-magic-show-pro-red-0933-0192131-1-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028821__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028821__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/thailand-pool-tables?up_id=1028821&from=hp_officialstore&item_id=1028821&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "1028913",
-                      "itemImg": "https://th-live-01.slatic.net/original/b5dc80b5803e7d6ffdd499975baa5012.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028913__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$848__itemId$1028913__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/thailand-pool-tables?up_id=1028913&from=hp_officialstore&item_id=1028913&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "697",
-                  "shopId": "697",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$7017522__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$7017522__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$8769846__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-live.slatic.net/v2/resize/page_decoration/bd13d8dcb81e171e3ac915bf4a6a4955.jpg",
-                  "shopName": "IN2IT",
-                  "shopSlogan": "Enjoy Colourful Life",
-                  "itemId": 7017522,
-                  "itemTitle": "IN2IT วอเตอร์พรูฟ อายบราว คัลเลอร์ ER02 (Eyebrown 2)",
-                  "shopImg": "https://th-live-01.slatic.net/p/5/in2it-er02-eyebrown-2-0482-9265346-8ad645497465e9d1afbedbb705553b12-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/fc652be53505aa758de3032fb7949a5f.jpeg",
-                  "shopUrl": "//www.lazada.co.th/shop/in2it?up_id=7017522,8769846&from=hp_officialstore&item_id=7017522,8769846&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "7017522",
-                      "itemImg": "https://th-live-01.slatic.net/p/5/in2it-er02-eyebrown-2-0482-9265346-8ad645497465e9d1afbedbb705553b12-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$7017522__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$7017522__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/in2it?up_id=7017522&from=hp_officialstore&item_id=7017522&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "8769846",
-                      "itemImg": "https://th-live-01.slatic.net/p/in2it-gel-tint-for-lip-and-cheek-gt01-peach-6030-8537097-c28c5c7a3e2914e281ef0e5daa1c4c55-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$8769846__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$697__itemId$8769846__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/in2it?up_id=8769846&from=hp_officialstore&item_id=8769846&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "31345",
-                  "shopId": "31345",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$7339280__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$7339280__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$165160526__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/4a5e5d4de21686101225fa71bc32faac.jpeg",
-                  "shopName": "Toy Smart Shop",
-                  "shopSlogan": "Toy Smart",
-                  "itemId": 7339280,
-                  "itemTitle": "Disney กระเป๋าหิ้วมีล้อลากโฟเซ่น 20 นิ้ว",
-                  "shopImg": "https://th-live.slatic.net/p/disney-kraepaahiwmiil-laakofechn-20-niw-1364-1426116-2a9b346d13d0ff9d9cbb4981dc63a8aa-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/eec6f084a0a7affbf2d263895a1326c7.png",
-                  "shopUrl": "//www.lazada.co.th/shop/toy-smart-shop?up_id=7339280,165160526&from=hp_officialstore&item_id=7339280,165160526&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "7339280",
-                      "itemImg": "https://th-live.slatic.net/p/disney-kraepaahiwmiil-laakofechn-20-niw-1364-1426116-2a9b346d13d0ff9d9cbb4981dc63a8aa-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$7339280__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$7339280__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/toy-smart-shop?up_id=7339280&from=hp_officialstore&item_id=7339280&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "165160526",
-                      "itemImg": "https://th-live.slatic.net/original/57107b78c48c93ad5c4f5b7aafcf4bc1.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$165160526__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$31345__itemId$165160526__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/toy-smart-shop?up_id=165160526&from=hp_officialstore&item_id=165160526&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "35329",
-                  "shopId": "35329",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869818__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869818__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869828__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://laz-img-cdn.alicdn.com/tfs/TB1QqerpljTBKNjSZFwXXcG4XXa-600-600.jpg",
-                  "shopName": "DOGKERY",
-                  "shopSlogan": "DOGKERY",
-                  "itemId": 7869818,
-                  "itemTitle": "DOGKERY COW BONE (5 ห่อ)",
-                  "shopImg": "https://th-live-01.slatic.net/p/393dfdd48ef0aeefdd9b285a870c1ed2.jpg",
-                  "brandLogo": "https://sg-test-11.slatic.net/other/shop/0445de6c47bc482885e58ac8de2a8b09.png",
-                  "shopUrl": "//www.lazada.co.th/shop/dogkery?up_id=7869818,7869828&from=hp_officialstore&item_id=7869818,7869828&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "7869818",
-                      "itemImg": "https://th-live-01.slatic.net/p/393dfdd48ef0aeefdd9b285a870c1ed2.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869818__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869818__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/dogkery?up_id=7869818&from=hp_officialstore&item_id=7869818&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "7869828",
-                      "itemImg": "https://th-live-01.slatic.net/p/ef0d49a7fd247b4505ca3de426be4270.png",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869828__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35329__itemId$7869828__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/dogkery?up_id=7869828&from=hp_officialstore&item_id=7869828&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "33596",
-                  "shopId": "33596",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586417__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586417__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586685__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://laz-img-cdn.alicdn.com/tfs/TB1QqerpljTBKNjSZFwXXcG4XXa-600-600.jpg",
-                  "shopName": "Quiescent",
-                  "shopSlogan": "Quiescent",
-                  "itemId": 7586417,
-                  "itemTitle": "Quiescent Premium sanitary napkin",
-                  "shopImg": "https://th-live-01.slatic.net/p/643143249a419393343be3a4e9f011a9.png",
-                  "brandLogo": "https://sg-test-11.slatic.net/other/shop/e311a94fc1be4e17af5584819925a9aa.jpg",
-                  "shopUrl": "//www.lazada.co.th/shop/quiescent?up_id=7586417,7586685&from=hp_officialstore&item_id=7586417,7586685&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "7586417",
-                      "itemImg": "https://th-live-01.slatic.net/p/643143249a419393343be3a4e9f011a9.png",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586417__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586417__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/quiescent?up_id=7586417&from=hp_officialstore&item_id=7586417&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "7586685",
-                      "itemImg": "https://th-live-01.slatic.net/p/96bc8696dde49f1c663ba5eba110b2cb.png",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586685__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$33596__itemId$7586685__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/quiescent?up_id=7586685&from=hp_officialstore&item_id=7586685&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "35816",
-                  "shopId": "35816",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$8084055__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$8084055__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$135707587__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://laz-img-cdn.alicdn.com/tfs/TB1QqerpljTBKNjSZFwXXcG4XXa-600-600.jpg",
-                  "shopName": "Learning Web Thai",
-                  "shopSlogan": "Learning web",
-                  "itemId": 8084055,
-                  "itemTitle": "",
-                  "shopImg": "https://th-live-01.slatic.net/original/3ccb4f82442d166821dd15476f0d3f4f.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/8e5ea9113de5a93e126e36c9654bdb98.png",
-                  "shopUrl": "//www.lazada.co.th/shop/learning-web-thai?up_id=8084055,135707587&from=hp_officialstore&item_id=8084055,135707587&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "8084055",
-                      "itemImg": "https://th-live-01.slatic.net/original/3ccb4f82442d166821dd15476f0d3f4f.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$8084055__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$8084055__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/learning-web-thai?up_id=8084055&from=hp_officialstore&item_id=8084055&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "135707587",
-                      "itemImg": "https://th-live.slatic.net/p/4/smart-games-walls-amp-warriors-8830-05434355-357f9728e104634a320f180593204a7c-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$135707587__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$35816__itemId$135707587__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/learning-web-thai?up_id=135707587&from=hp_officialstore&item_id=135707587&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "39321",
-                  "shopId": "39321",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$8960886__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$8960886__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$100182863__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/840ee589117b16e17d90e576431b00fd.jpeg",
-                  "shopName": "The Best Center Inter Group",
-                  "shopSlogan": "The Best Center Inter Group",
-                  "itemId": 8960886,
-                  "itemTitle": "",
-                  "shopImg": "https://th-live-01.slatic.net/p/1/bc-5567-7609-4530108-300822cdb6f623a8246f548556dd3294-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/d66209a0ae0a37453062c0c9eaa68c5a.png",
-                  "shopUrl": "//www.lazada.co.th/shop/the-best-center-inter-group?up_id=8960886,100182863&from=hp_officialstore&item_id=8960886,100182863&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "8960886",
-                      "itemImg": "https://th-live-01.slatic.net/p/1/bc-5567-7609-4530108-300822cdb6f623a8246f548556dd3294-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$8960886__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$8960886__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/the-best-center-inter-group?up_id=8960886&from=hp_officialstore&item_id=8960886&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "100182863",
-                      "itemImg": "https://th-live-01.slatic.net/p/1/bc-6588-khuumuue-s-bnakwichaakaarsingaewdl-m-daanh-ngptibatikaar-krmkhwbkhummlphis-1053-50122701-d8df895a06c70ec86d5c1cedf49a8447-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$100182863__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39321__itemId$100182863__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/the-best-center-inter-group?up_id=100182863&from=hp_officialstore&item_id=100182863&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "30733",
-                  "shopId": "30733",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$9422355__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$9422355__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$102572170__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/abfe509689c726e52e78fe54fcec8a2c.png",
-                  "shopName": "WIWU",
-                  "shopSlogan": "wiwu",
-                  "itemId": 9422355,
-                  "itemTitle": "WIWU Notebook Bag for MacBook Air/Pro 13.3 Inch  with Handle Fabric Cover Protective Briefcase(Gray) - Intl",
-                  "shopImg": "https://th-live.slatic.net/p/8/gearmax-notebook-bag-for-macbook-air-pro-13-3-inch-with-handle-fabric-cover-protective-briefcase-gray-intl-6335-2146658-09d1d161d2b033540414bf07f0f8bc11-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/ce8ed4697d91c52bd59e22193b0d5511.jpeg",
-                  "shopUrl": "//www.lazada.co.th/shop/wiwu?up_id=9422355,102572170&from=hp_officialstore&item_id=9422355,102572170&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "9422355",
-                      "itemImg": "https://th-live.slatic.net/p/8/gearmax-notebook-bag-for-macbook-air-pro-13-3-inch-with-handle-fabric-cover-protective-briefcase-gray-intl-6335-2146658-09d1d161d2b033540414bf07f0f8bc11-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$9422355__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$9422355__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/wiwu?up_id=9422355&from=hp_officialstore&item_id=9422355&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "102572170",
-                      "itemImg": "https://th-live-01.slatic.net/p/1b6ff0fb72fcc1c8f4732d4dc2f4f7f0.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$102572170__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$30733__itemId$102572170__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/wiwu?up_id=102572170&from=hp_officialstore&item_id=102572170&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "40660",
-                  "shopId": "40660",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911656__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911656__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911671__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/618a4fdc3be8c525376338394c8709b8.png",
-                  "shopName": "Bendix ",
-                  "shopSlogan": "เบรคมั่นใจใช้Bendix",
-                  "itemId": 10911656,
-                  "itemTitle": "Bendix ผ้าดิสเบรคหน้า สำหรับ AUDI A4 2.0 Tdi / 3.0 Tdi (B8) ปี 2009 on รุ่น DB2198GCT",
-                  "shopImg": "https://th-live-01.slatic.net/p/356bc3f247b78bad5be07b0d070883a4.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/2ec6561bdd7120fa36b272530a3b718f.png",
-                  "shopUrl": "//www.lazada.co.th/shop/bendix-?up_id=10911656,10911671&from=hp_officialstore&item_id=10911656,10911671&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "10911656",
-                      "itemImg": "https://th-live-01.slatic.net/p/356bc3f247b78bad5be07b0d070883a4.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911656__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911656__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/bendix-?up_id=10911656&from=hp_officialstore&item_id=10911656&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "10911671",
-                      "itemImg": "https://th-live-01.slatic.net/p/21082d5782dc8b46cb62442e7b600f4d.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911671__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$40660__itemId$10911671__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/bendix-?up_id=10911671&from=hp_officialstore&item_id=10911671&version=v2&tab=allproducts"
-                    }
-                  ]
-                },
-                {
-                  "entityType": "shop",
-                  "id": "39874",
-                  "shopId": "39874",
-                  "algArgs": "",
-                  "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152440__matchType$hotitem__matchScore$0.0",
-                  "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152440__matchType$hotitem__matchScore$0.0++user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152446__matchType$hotitem__matchScore$0.0",
-                  "shopMainImg": "https://th-test-11.slatic.net/shop/a1f082206f19b18f89df90cacea50a0e.jpeg",
-                  "shopName": "Aksara for Kids",
-                  "shopSlogan": "Aksara for Kids",
-                  "itemId": 10152440,
-                  "itemTitle": "หนังสือลอยน้ำ ลูกเป็ดน้อย",
-                  "shopImg": "https://th-live.slatic.net/p/1/product-2410-0645668-b66404f71dd713ba45a943b0e6ef65b3-catalog.jpg",
-                  "brandLogo": "https://th-test-11.slatic.net/shop/f27c15c8eba4047f4c68225f3560a777.jpeg",
-                  "shopUrl": "//www.lazada.co.th/shop/aksara-for-kids?up_id=10152440,10152446&from=hp_officialstore&item_id=10152440,10152446&version=v2",
-                  "_self_scm": "1007.17384.117575.100200300000000",
-                  "scm": "1007.17384.117575.100200300000000",
-                  "items": [
-                    {
-                      "itemId": "10152440",
-                      "itemImg": "https://th-live.slatic.net/p/1/product-2410-0645668-b66404f71dd713ba45a943b0e6ef65b3-catalog.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152440__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152440__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/aksara-for-kids?up_id=10152440&from=hp_officialstore&item_id=10152440&version=v2&tab=allproducts"
-                    },
-                    {
-                      "itemId": "10152446",
-                      "itemImg": "https://th-live-01.slatic.net/original/bc6e65b84a4a6d714aa651e585c0f6fa.jpg",
-                      "trackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152446__matchType$hotitem__matchScore$0.0",
-                      "clickTrackInfo": "user_id$0__utdid$__anonymous_id$__pvid$cde07aeb-9014-41cb-aaee-4022a022dd72__region_id$th__language$en__platform$pc__scm$1007.17384.117575.100200300000000__num$12__auction_num$4__s$0__size$10__shopId$39874__itemId$10152446__matchType$hotitem__matchScore$0.0",
-                      "itemUrl": "//www.lazada.co.th/shop/aksara-for-kids?up_id=10152446&from=hp_officialstore&item_id=10152446&version=v2&tab=allproducts"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "id": 1705647921135,
-            "moduleId": "categoriesPC",
-            "fields": {
-              "settings": {
-                "configPrimaryKey": 25732
-              },
-              "datas": [
-                {
-                  "id": "0",
-                  "categoryId": "3973",
-                  "leafCategoryName": "#Mobiles",
-                  "categoryName": "Mobiles",
-                  "categoryImg": "https://th-live-01.slatic.net/p/272e878a7070ed68813cb35a054fb6fa.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-mobiles?up_id=2789010336&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__3973__2789010336__20__0.09993464__333258__7253__c2i__0.0&from=hp_categories&item_id=2789010336&version=v2&q=Mobiles&params=%7B%22catIdLv1%22%3A%223835%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Mobiles%22%2C%22categoryId%22%3A%223973%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3973__2789010336__20__0.09993464__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3973__2789010336__20__0.09993464__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "1",
-                  "categoryId": "11943",
-                  "leafCategoryName": "#Outdoor Lighting",
-                  "categoryName": "Outdoor Lighting",
-                  "categoryImg": "https://th-live-01.slatic.net/p/31fc05c8c27f2fee25c26c6420ff2d37.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-home-decor-outdoor-lighting?up_id=4287384556&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__11943__4287384556__20__0.09979352__333258__7253__c2i__0.0&from=hp_categories&item_id=4287384556&version=v2&q=Outdoor+Lighting&params=%7B%22catIdLv1%22%3A%2210100083%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Outdoor%2BLighting%22%2C%22categoryId%22%3A%2211943%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__11943__4287384556__20__0.09979352__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__11943__4287384556__20__0.09979352__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "2",
-                  "categoryId": "12093",
-                  "leafCategoryName": "#Electrical Circuitry & Parts",
-                  "categoryName": "Electrical Circuitry & Parts",
-                  "categoryImg": "https://th-live-01.slatic.net/p/d2df161c6587038d11d92fe80fb0b515.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-electrical-circuitry?up_id=2931507770&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__12093__2931507770__20__0.0996524__333258__7253__c2i__0.0&from=hp_categories&item_id=2931507770&version=v2&q=Electrical+Circuitry+%26+Parts&params=%7B%22catIdLv1%22%3A%2211830%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Electrical%2BCircuitry%2B%2BParts%22%2C%22categoryId%22%3A%2212093%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12093__2931507770__20__0.0996524__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12093__2931507770__20__0.0996524__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "3",
-                  "categoryId": "6130",
-                  "leafCategoryName": "#Phone Cables & Converters",
-                  "categoryName": "Phone Cables & Converters",
-                  "categoryImg": "https://th-live-01.slatic.net/p/ecd48b9880a2e4b5e62706b7789f6af0.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-mobile-cables?up_id=4493841528&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__6130__4493841528__20__0.09951129__333258__7253__c2i__0.0&from=hp_categories&item_id=4493841528&version=v2&q=Phone+Cables+%26+Converters&params=%7B%22catIdLv1%22%3A%2242062201%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Phone%2BCables%2B%2BConverters%22%2C%22categoryId%22%3A%226130%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__6130__4493841528__20__0.09951129__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__6130__4493841528__20__0.09951129__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "4",
-                  "categoryId": "11909",
-                  "leafCategoryName": "#Storage Bins & Baskets",
-                  "categoryName": "Storage Bins & Baskets",
-                  "categoryImg": "https://th-live-01.slatic.net/p/ead25fb77822331f74c0821860b04bd6.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-home-storage-bins-baskets?up_id=4834518746&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__11909__4834518746__20__0.099370174__333258__7253__c2i__0.0&from=hp_categories&item_id=4834518746&version=v2&q=Storage+Bins+%26+Baskets&params=%7B%22catIdLv1%22%3A%2211829%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Storage%2BBins%2B%2BBaskets%22%2C%22categoryId%22%3A%2211909%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__11909__4834518746__20__0.099370174__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__11909__4834518746__20__0.099370174__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "5",
-                  "categoryId": "12149",
-                  "leafCategoryName": "#Plant, Seeds and Bulbs",
-                  "categoryName": "Plant, Seeds and Bulbs",
-                  "categoryImg": "https://th-live.slatic.net/p/947b8459344a08351d01089ebd547e93.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-plants-and-seeds?up_id=2681110323&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__12149__2681110323__20__0.099077545__333258__7253__c2i__0.0&from=hp_categories&item_id=2681110323&version=v2&q=Plant%2C+Seeds+and+Bulbs&params=%7B%22catIdLv1%22%3A%2210100245%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Plant%252C%2BSeeds%2Band%2BBulbs%22%2C%22categoryId%22%3A%2212149%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12149__2681110323__20__0.099077545__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12149__2681110323__20__0.099077545__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "6",
-                  "categoryId": "12092",
-                  "leafCategoryName": "#Electrical Batteries",
-                  "categoryName": "Electrical Batteries",
-                  "categoryImg": "https://th-live-01.slatic.net/p/67bb53a0ad652594933ac89632cb8d84.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-home-improvement-batteries?up_id=4915732374&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__12092__4915732374__20__0.09896762__333258__7253__c2i__0.0&from=hp_categories&item_id=4915732374&version=v2&q=Electrical+Batteries&params=%7B%22catIdLv1%22%3A%2211830%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Electrical%2BBatteries%22%2C%22categoryId%22%3A%2212092%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12092__4915732374__20__0.09896762__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12092__4915732374__20__0.09896762__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "7",
-                  "categoryId": "10100143",
-                  "leafCategoryName": "#LED Bulbs",
-                  "categoryName": "LED Bulbs",
-                  "categoryImg": "https://sg-test-11.slatic.net/p/8c415e77eb601a9a46b65a04c4d7c09e.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-led-bulbs?up_id=4970624241&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__10100143__4970624241__20__0.09895722__333258__7253__c2i__0.0&from=hp_categories&item_id=4970624241&version=v2&q=LED+Bulbs&params=%7B%22catIdLv1%22%3A%2210100083%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22LED%2BBulbs%22%2C%22categoryId%22%3A%2210100143%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__10100143__4970624241__20__0.09895722__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__10100143__4970624241__20__0.09895722__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "8",
-                  "categoryId": "10100100",
-                  "leafCategoryName": "#Christmas Ornaments & Models",
-                  "categoryName": "Christmas Ornaments & Models",
-                  "categoryImg": "https://my-live-01.slatic.net/p/b30f22a4d5844a54f3df1f583261453b.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-christmas-ornaments-and-models?up_id=4682764775&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__10100100__4682764775__20__0.09856804__333258__7253__c2i__0.0&from=hp_categories&item_id=4682764775&version=v2&q=Christmas+Ornaments+%26+Models&params=%7B%22catIdLv1%22%3A%2210100083%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Christmas%2BOrnaments%2B%2BModels%22%2C%22categoryId%22%3A%2210100100%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__10100100__4682764775__20__0.09856804__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__10100100__4682764775__20__0.09856804__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "9",
-                  "categoryId": "3974",
-                  "leafCategoryName": "#Tablets",
-                  "categoryName": "Tablets",
-                  "categoryImg": "https://th-live-01.slatic.net/p/237b1eb33600ea049a6c93301a30015b.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-tablet?up_id=4006839845&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__3974__4006839845__20__0.098296195__333258__7253__c2i__0.0&from=hp_categories&item_id=4006839845&version=v2&q=Tablets&params=%7B%22catIdLv1%22%3A%223835%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Tablets%22%2C%22categoryId%22%3A%223974%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3974__4006839845__20__0.098296195__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3974__4006839845__20__0.098296195__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "10",
-                  "categoryId": "5894",
-                  "leafCategoryName": "#Tents",
-                  "categoryName": "Tents",
-                  "categoryImg": "https://th-live-01.slatic.net/p/303cc419869ac604b0c28c3a0f15b79c.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-tents-furniture?up_id=3531619301&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__5894__3531619301__20__0.09819668__333258__7253__c2i__0.0&from=hp_categories&item_id=3531619301&version=v2&q=Tents&params=%7B%22catIdLv1%22%3A%225761%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Tents%22%2C%22categoryId%22%3A%225894%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__5894__3531619301__20__0.09819668__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__5894__3531619301__20__0.09819668__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "11",
-                  "categoryId": "3952",
-                  "leafCategoryName": "#Monitors",
-                  "categoryName": "Monitors",
-                  "categoryImg": "https://th-live-01.slatic.net/p/d263696b24cad811a42b3fa702989b17.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-monitors?up_id=4716274661&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__3952__4716274661__20__0.09818628__333258__7253__c2i__0.0&from=hp_categories&item_id=4716274661&version=v2&q=Monitors&params=%7B%22catIdLv1%22%3A%2210100380%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Monitors%22%2C%22categoryId%22%3A%223952%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3952__4716274661__20__0.09818628__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__3952__4716274661__20__0.09818628__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "12",
-                  "categoryId": "6892",
-                  "leafCategoryName": "#Power Banks",
-                  "categoryName": "Power Banks",
-                  "categoryImg": "https://sg-test-11.slatic.net/p/a5b52017ab1b0019d1b29c051c08bdfb.png",
-                  "categoryUrl": "//www.lazada.co.th/shop-mobile-tablets-power-bank?up_id=563996009&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__6892__563996009__20__0.09748366__333258__7253__c2i__0.0&from=hp_categories&item_id=563996009&version=v2&q=Power+Banks&params=%7B%22catIdLv1%22%3A%2242062201%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Power%2BBanks%22%2C%22categoryId%22%3A%226892%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__6892__563996009__20__0.09748366__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__6892__563996009__20__0.09748366__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "13",
-                  "categoryId": "4364",
-                  "leafCategoryName": "#Smart Televisions",
-                  "categoryName": "Smart Televisions",
-                  "categoryImg": "https://th-live-01.slatic.net/p/66f2e2019078ad4dab188fe4f1fc8755.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-smart-tv?up_id=4049146465&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__4364__4049146465__20__0.09739453__333258__7253__c2i__0.0&from=hp_categories&item_id=4049146465&version=v2&q=Smart+Televisions&params=%7B%22catIdLv1%22%3A%223990%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Smart%2BTelevisions%22%2C%22categoryId%22%3A%224364%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__4364__4049146465__20__0.09739453__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__4364__4049146465__20__0.09739453__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "14",
-                  "categoryId": "7078",
-                  "leafCategoryName": "#Men's T-Shirts",
-                  "categoryName": "Men's T-Shirts",
-                  "categoryImg": "https://my-live-01.slatic.net/p/3d03fa0b6035dde4057de7265195c410.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-men-clothing-t-shirts?up_id=4639643292&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__7078__4639643292__20__0.097232625__333258__7253__c2i__0.0&from=hp_categories&item_id=4639643292&version=v2&q=Men%27s+T-Shirts&params=%7B%22catIdLv1%22%3A%2210100758%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Men%2527s%2BT-Shirts%22%2C%22categoryId%22%3A%227078%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__7078__4639643292__20__0.097232625__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__7078__4639643292__20__0.097232625__333258__7253__c2i__0.0"
-                },
-                {
-                  "id": "15",
-                  "categoryId": "12144",
-                  "leafCategoryName": "#Water Systems & Garden Hoses",
-                  "categoryName": "Water Systems & Garden Hoses",
-                  "categoryImg": "https://th-live.slatic.net/p/1a66ffc5cb08c83cc010ac8db401281a.jpg",
-                  "categoryUrl": "//www.lazada.co.th/shop-watering-systems?up_id=4813239572&clickTrackInfo=7ce92356-59f6-454a-8b21-c21ad4551d95__12144__4813239572__20__0.09720885__333258__7253__c2i__0.0&from=hp_categories&item_id=4813239572&version=v2&q=Water+Systems+%26+Garden+Hoses&params=%7B%22catIdLv1%22%3A%2210100245%22%2C%22pvid%22%3A%227ce92356-59f6-454a-8b21-c21ad4551d95%22%2C%22src%22%3A%22hp_categories%22%2C%22categoryName%22%3A%22Water%2BSystems%2B%2BGarden%2BHoses%22%2C%22categoryId%22%3A%2212144%22%7D&src=hp_categories",
-                  "_self_scm": "1007.17253.333258.0",
-                  "trackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12144__4813239572__20__0.09720885__333258__7253__c2i__0.0",
-                  "clickTrackInfo": "7ce92356-59f6-454a-8b21-c21ad4551d95__12144__4813239572__20__0.09720885__333258__7253__c2i__0.0"
-                }
-              ]
-            }
-          },
-          {
-            "id": 1705647921079,
-            "moduleId": "bottomBannerPC",
-            "fields": {
-              "settings": {
-                "data": [
-                  {
-                    "bannerTitle_en": "Lazada e-gift card",
-                    "bannerTitle": "Lazada e-gift card",
-                    "bannerUrl": "https://yida.alibaba-inc.com/o/lazada-egiftcard-survey#/",
-                    "bannerTitle_th": "บัตรของขวัญลาซาด้า",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/2481bf76-e1e1-45ee-b02e-9c37c98fc330_TH-776-194.jpg"
-                  },
-                  {
-                    "bannerTitle_en": "UOB",
-                    "bannerTitle": "UOB",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?spm=a2o4m.tm80139279.8922355380.2.12d4CA1WCA1WZE&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/partnership/UOBLazada&trafficSource=cp",
-                    "bannerTitle_th": "UOB",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/07400eb9-7b7f-46bd-bb1f-633408fdfd07_TH-776-194.jpg"
-                  },
-                  {
-                    "bannerTitle_en": "KCC Monday",
-                    "bannerTitle": "KCC Monday",
-                    "bannerUrl": "https://pages.lazada.co.th/wow/gcp/route/lazada/th/upr_1000345_lazada/channel/th/upr-router/th?hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/th/partnership/kccmon23",
-                    "bannerTitle_th": "KCC Monday",
-                    "bannerImg": "https://lzd-img-global.slatic.net/us/domino/971359dd-3ee3-4a8b-aabe-5a418fd08bf0_TH-776-194.jpg"
-                  }
-                ],
-                "configPrimaryKey": 25890
-              },
-              "datas": []
-            }
-          }
-        ],
-        "meta": {
-          "appVersion": "6.0.0",
-          "expireTime": 1705734321225,
-          "regionId": "th",
-          "serverTime": 1705647921225,
-          "language": "en",
-          "platform": "pc"
-        },
-        "__pos__": 1,
-        "__track__": "31374205.31374205.39456570.4273.1"
-      }
-    }
-  },
-  "modulesStaticI18n": {
-    "voyager": {
-      "lzd.homepage-new.flashmodule.sold": "sold",
-      "lzd.homepage-new.flashmodule.title": "Flash Sale",
-      "lzd.homepage-new.jfymodule.load-more": "Load More",
-      "lzd.homepage-new.mostpopular-module.title": "Most Popular",
-      "lzd.homepage-new.flashmodule.start": "Start at",
-      "lzd.homepage-new.jfymodule.jfy-title": "Just For You",
-      "lzd.homepage-new.flashmodule.shopAllPro": "SHOP ALL PRODUCTS",
-      "lzd.homepage-new.lazmall-module.title": "LazMall",
-      "lzd.homepage-new.flashmodule.onsalenow": "On Sale Now",
-      "lzd.homepage-new.flashmodule.end": "Ending in",
-      "lzd.homepage-new.flashmodule.today": "Today",
-      "lzd.homepage-new.category-module.title": "Categories",
-      "lzd.homepage-new.flashmodule.sold-out": "sold out",
-      "lzd.homepage-new.flashmodule.tomorrow": "Tomorrow",
-      "lzd.homepage-new.jfymodule.jfy-list-end": "You have reached the end. \\n Do a search to keep exploring!",
-      "lzd.homepage-new.common-module.shopMore": "Shop More"
-    }
-  },
-  "sysInfo": {
-    "isAliIntranet": false,
-    "whEnv": "production",
-    "isGrey": false,
-    "serverTime": "1705647921055"
-  },
-  "pageInfo": {
-    "testPage": 0,
-    "spma": "a2o4m",
-    "spmb": "home-th",
-    "title": "Lazada.co.th - Online Shopping Get 10% cashback Free delivery",
-    "offlineUrl": "https://pages.lazada.co.th",
-    "theme": "{}",
-    "offlineTime": 31559702400000,
-    "id": 80283960,
-    "itraceBid": "nzk9v4lx-mcsc0hok",
-    "campaignPhase": "mega",
-    "campaignId": "1010760",
-    "campaignName": null,
-    "pageConfigId": null,
-    "utPageName": "Page_AMS_pegasus_80283960",
-    "fri": {
-      "floorCustomize": "[{\"isFloorCustomize\":false,\"moduleUUID\":\"3225041860\",\"distinctId\":\"3225041860\",\"id\":\"3225041860\",\"__pos__\":1,\"__track__\":\"3536915.3536915.24147104.3289.1\"},{\"isFloorCustomize\":false,\"moduleUUID\":\"3887232320\",\"distinctId\":\"3887232320\",\"id\":\"3887232320\",\"__pos__\":2,\"__track__\":\"3536915.3536915.24147104.3289.2\"}]",
-      "moduleIdList": [
-        "3225041860",
-        "3887232320"
       ]
     }
-  },
-  "renderExtends": {
-    "uprRouterPath": "",
-    "itraceBid": "nzk9v4lx-mcsc0hok",
-    "pid": "gcp-1010760",
-    "i18nTitle": {
-      "default": "Lazada.co.th - Online Shopping Get 10% cashback Free delivery",
-      "th": "Lazada.co.th - ช้อปปิ้งออนไลน์ รับเครดิตเงินคืน 10% ส่งฟรีทุกวัน",
-      "en": "Lazada.co.th - Online Shopping Get 10% cashback Free delivery"
-    },
-    "name": "Lazada.co.th - Online Shopping Get 10% cashback Free delivery",
-    "nameLocal": "Lazada.co.th - ช้อปปิ้งออนไลน์ รับเครดิตเงินคืน 10% ส่งฟรีทุกวัน"
-  },
-  "modules": [
-    {
-      "componentId": 75408,
-      "hidden": "false",
-      "modSpec": "1.0",
-      "name": "lzdrwb-seometa",
-      "fullName": "@ali/lzdrwb-seometa",
-      "uuid": "3225041860",
-      "version": "5.0.3",
-      "componentVersionId": 600536,
-      "dataConfig": {}
-    },
-    {
-      "componentId": 117586,
-      "hidden": "false",
-      "modSpec": "1.0",
-      "name": "lzdrwb-homepage-ts",
-      "kangaroo": {
-        "ssrEnabled": true
-      },
-      "fullName": "@ali/lzdrwb-homepage-ts",
-      "uuid": "3887232320",
-      "version": "1.1.15",
-      "componentVersionId": 927411
-    }
-  ],
-  "outputOriginalJson": true,
-  "bizId": 1000010,
-  "device": "pc",
-  "isKangarooLzdCampaignHandlerDebuging": 128,
-  "pvuuid": "1705647921055",
-  "fri": {
-    "floorCustomize": "[{\"isFloorCustomize\":false,\"moduleUUID\":\"3225041860\",\"distinctId\":\"3225041860\",\"id\":\"3225041860\",\"__pos__\":1,\"__track__\":\"3536915.3536915.24147104.3289.1\"},{\"isFloorCustomize\":false,\"moduleUUID\":\"3887232320\",\"distinctId\":\"3887232320\",\"id\":\"3887232320\",\"__pos__\":2,\"__track__\":\"3536915.3536915.24147104.3289.2\"}]",
-    "moduleIdList": [
-      "3225041860",
-      "3887232320"
-    ]
-  },
-  "isFirstScreen": true,
-  "previewEnv": "",
-  "allUI": [],
-  "darkModeEnabled": false,
-  "hasMoreModules": false,
-  "trackMap": {},
-  "moduleIdsWithoutValidData": [],
-  "prefetchTime": 171,
-  "prefetchCount": 2,
-  "prefetchSuccessCount": 2,
-  "floorTitles": {},
-  "seedComboUris": [
-    {
-      "type": "js",
-      "uri": "//g.lazcdn.com/g/??code/npm/@ali/lzdrwb-seometa/5.0.3/index-pc.js,rax-pkg/rax/1.2.3/index.js,code/npm/@ali/lzdrwb-homepage-ts/1.1.15/index-pc.js,rax-pkg/rax-view/2.3.0/index.js,rax-pkg/universal-env/3.3.3/index.js,code/npm/@ali/pnpm-uni--env/1.0.6/index.js,rax-pkg/rax-text/2.2.0/index.js,code/npm/@ali/gcom-rax-picture/1.1.1/index.js,rax-pkg/rax-image/2.2.6/index.js,code/npm/@ali/gcom-lzd-resize/1.2.1/index.js,code/npm/@ali/gcom-lzd-mtop/1.1.2/index.js,code/npm/@ali/gcom-lzd-cookie/1.1.0/index.js,code/npm/@ali/gcom-lzd-env/1.1.0/index.js,code/npm/@ali/gcom-lzd-sites/1.2.0/index.js,code/npm/@ali/gcom-jsonp/1.1.0/index.js,code/npm/@ali/flute-i18n/1.0.1/index.js"
-    },
-    {
-      "type": "css",
-      "uri": "//g.lazcdn.com/g/??rax-pkg/rax-view/2.3.0/index.css,rax-pkg/rax-text/2.2.0/index.css,code/npm/@ali/lzdrwb-homepage-ts/1.1.15/index-pc.css"
-    }
-  ],
-  "ssrEnabled": true,
-  "failApp": [],
-  "success": true,
-  "defaultBottomUrl": "https://kangaroo.alicdn.com/bottom/aHR0cHM6Ly9wYWdlcy5sYXphZGEuY28udGgvd293L2djcC9yb3V0ZS9sYXphZGEvdGgvdXByXzEwMDAzNDVfbGF6YWRhL2NoYW5uZWwvdGgvdXByLXJvdXRlci90aD93aF9waWQ9JTJGbGF6YWRhJTJGY2hhbm5lbCUyRnRoJTJGaG9tZXBhZ2UlMkZob21l/currency=thb/device=pc/language=en/regionId=th/data.jsonp",
-  "defaultBottomKey": "aHR0cHM6Ly9wYWdlcy5sYXphZGEuY28udGgvd293L2djcC9yb3V0ZS9sYXphZGEvdGgvdXByXzEwMDAzNDVfbGF6YWRhL2NoYW5uZWwvdGgvdXByLXJvdXRlci90aD93aF9waWQ9JTJGbGF6YWRhJTJGY2hhbm5lbCUyRnRoJTJGaG9tZXBhZ2UlMkZob21l/currency=thb/device=pc/language=en/regionId=th",
-  "traceId": "2102fc8917056479210132267ed71a",
-  "hngLanguage": "en",
-  "ssrSkippedReason": null,
-  "ssrType": "TRADITION_SSR",
-  "ssrPrefetch": false,
-  "pageTitle": ""
 }
+
+print()
+print(api_data['3887232320']["categoriesLpMultiFloor"][0]["level2TabList"][1]['level3TabList'][0]['categoryUrl'])
