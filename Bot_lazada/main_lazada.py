@@ -91,21 +91,6 @@ def check_data(path_file):
         return is_subset;
 # Read Excell
 # https://11c2-14-207-200-101.ngrok-free.app/
-def postAPI_DB(data,id_shop):
-    try:
-        response = requests.post(
-            f"https://f63e-223-206-131-122.ngrok-free.app/addb?id={id_shop}&&web=lazada",
-            headers={
-                "Content-type":"application/x-www-form-urlencoded"
-            },
-            data={
-                 "data":data
-            }
-        )
-    except:
-        response = "API error"
-    return response
-
 header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS', 'IcOsH',
        '_1cEkb', 'qzqFw', 'oa6ri']
@@ -121,7 +106,22 @@ header_Values = {
     'qzqFw':"count_review", 
     'oa6ri':"place"
 }
-def data_process(path_file,i1,i2,i3):
+def postAPI_DB(data,id_shop):
+    try:
+        response = requests.post(
+            f"https://7faf-223-206-131-122.ngrok-free.app/addb?id={id_shop}&&web=lazada",
+            headers={
+                "Content-type":"application/x-www-form-urlencoded"
+            },
+            data={
+                 "data":data
+            }
+        )
+    except:
+        response = "API error"
+    return response
+def data_process(path_file,i1,i2,i3,group):
+        print(group);
         # path_file = './Data_shopee/Data_1_1_1.xlsx';
         find = pd.read_excel(path_file);
         data_all=[];
@@ -143,17 +143,22 @@ def data_process(path_file,i1,i2,i3):
                 "sold":[],
                 "place":[],
                 "Recommended_shops":[],
-                "count_review":[]
+                "count_review":[],
+                "maket":[],
+                "group":[]
             }
             data = "Product_"+str(i+1);
             Product = {
                 data:{
                 }
             }
+            
             for j in range(len(header)):
                 data_input = str(find[header[j]][i]);
                 data_process[header_Values[header[j]]]=data_input;
             Product[data]=data_process;
+            Product[data]["maket"]="lazada";
+            Product[data]["group"]=group;
             # id_shop = f"shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             id_shop = f'shop{i1}_{i2}_{i3}';
             product = Product[data]["product"]
@@ -165,8 +170,10 @@ def data_process(path_file,i1,i2,i3):
             sold = Product[data]["sold"].split(" ")[0];
             address = Product[data]["place"]
             count_review = Product[data]["count_review"];
+            group_1 = Product[data]["group"],
+            maket = Product[data]["maket"];
             # ****************************************************************
-            success_data_text += f'APRODUCT:::product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""},count_review:::{count_review}'
+            success_data_text += f'APRODUCT:::Maket:::{maket}, Group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
             data_all.append(Product);
             success_data = {
                  "id":id_shop,
@@ -197,7 +204,7 @@ def data_process(path_file,i1,i2,i3):
 
 path_here = os.getcwd();
 def Del():
-    folder_path = path_here+'/Bot_lazada/Data_lazada'
+    folder_path = path_here+'\Data_lazada'
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
@@ -300,7 +307,10 @@ def change_name(k,i,j):
     shutil.move(path_file, new_file_path)
     return path;
 def get_link():
-    path = "./data_link_all.json"
+    path_here = os.getcwd();
+    path_here = os.path.abspath(os.path.join(path_here, os.pardir))
+    print(path_here)
+    path =path_here+"/Data_link/data_link_all.json"
     with open(path, 'r', encoding='utf-8-sig') as file:
         data = json.load(file)
     return data;
@@ -315,10 +325,10 @@ if __name__ == "__main__":
             num2+=1;
             num3=0;
             status_count = False
-            main(data_all[i],1,2,7,1);
+            main(data_all[i],1,2,6,1);
             status_lazada = status(path_here);
             for c in range(status_lazada==False):
-                main(data_all[i],1,2,7,1);
+                main(data_all[i],1,2,6,1);
                 if(c==2):
                     break;
             if(status_lazada==True):
@@ -327,14 +337,14 @@ if __name__ == "__main__":
                 count = page()
                 for j in range(count):
                     data_sum=data_all[i]+"/?page="+str(j+1);
-                    main(data_sum,8,1,0,0);
+                    main(data_sum,7,1,0,0);
                     find_shopee = status(path_here);
                     if(find_shopee==True):
                         num3+=1;
                         path = change_name(num1,num2,num3);
                         print(path);
                         if(check_data(path)==True):
-                            data_process(path,num1,num2,num3);
+                            data_process(path,num1,num2,num3,data_link_for_lazada[k]);
                         else:
                             destination_path = path_here+r'\un_process'
                             shutil.move(path, destination_path)
