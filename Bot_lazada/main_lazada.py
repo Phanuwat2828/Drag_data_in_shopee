@@ -152,7 +152,6 @@ def data_process(path_file,i1,i2,i3,group):
                 data:{
                 }
             }
-            
             for j in range(len(header)):
                 data_input = str(find[header[j]][i]);
                 data_process[header_Values[header[j]]]=data_input;
@@ -166,14 +165,14 @@ def data_process(path_file,i1,i2,i3,group):
             image_product_2 = Product[data]["image_product_2"]
             discount = Product[data]["discount"]
             data_product = Product[data]["data_product"]
-            price_product = Product[data]["price_product"]
+            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             sold = Product[data]["sold"].split(" ")[0];
             address = Product[data]["place"]
             count_review = Product[data]["count_review"];
             group_1 = Product[data]["group"],
             maket = Product[data]["maket"];
             # ****************************************************************
-            success_data_text += f'APRODUCT:::Maket:::{maket}, Group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
+            success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
             data_all.append(Product);
             success_data = {
                  "id":id_shop,
