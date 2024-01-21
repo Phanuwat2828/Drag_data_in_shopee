@@ -15,12 +15,14 @@ from selenium.webdriver.common.by import By
 import pyperclip
 
 # path
-path_file = os.getcwd();
+bot_lazada = r'\Bot_lazada'
+path_file = os.getcwd()+bot_lazada;
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
+desk_top = 7;
 # link_json
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
@@ -272,7 +274,7 @@ def main(x,t,e,t2,e2):
 # Change_name
 def change_name(k,i,j):
     try:
-        path ='.\Data_lazada\data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
+        path ='\Data_lazada\data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
         path_file_change = path_file+data_lazada+data_lazada_xlsx;
         new_file_name = 'data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
         # สร้างเส้นทางสำหรับไฟล์ใหม่
@@ -290,7 +292,6 @@ def get_link():
     try:
         path_here = os.getcwd();
         path_here = os.path.abspath(os.path.join(path_here, os.pardir))
-        print(path_here)
         path = drag_data+data_link;
         with open(path, 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
@@ -311,10 +312,10 @@ if __name__ == "__main__":
                 num2+=1;
                 num3=0; 
                 status_count = False
-                main(data_all[i],1,2,6,1);
+                main(data_all[i],1,2,desk_top,1);
                 status_lazada = status();
                 for c in range(status_lazada==False):
-                    main(data_all[i],1,2,6,1);
+                    main(data_all[i],1,2,7,1);
                     if(c==2):
                         break;
                 try:
@@ -323,27 +324,30 @@ if __name__ == "__main__":
                         if(status_count==True):
                             count = page()
                             for j in range(count):
+                                print("=======================");
                                 data_sum=data_all[i]+"/?page="+str(j+1);
-                                main(data_sum,7,1,0,0);
+                                main(data_sum,desk_top+1,1,0,0);
                                 find_shopee = status();
                                 if(find_shopee==True):
                                     num3+=1;
                                     path = change_name(num1,num2,num3);
-                                    print(path);
-                                    if(check_data(path)==True):
-                                        data_process(path,num1,num2,num3,data_link_for_lazada[k]);
+
+                                    if(check_data(path_file+path)==True):
+                                        data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
                                     else:
                                         destination_path = path_file+un_process;
-                                        shutil.move(path, destination_path)
+                                        shutil.move(path_file+path, destination_path)
                                         continue;
                                 else:
                                     continue;
-                                print(data_sum);
+                                print("=======================");
                             custom_sleep(120);
                         else:
                             continue;
+                        print("For_J : True");
                 except Exception as e:
                     print("For_j",e);
+                print("For_i : True");
         except Exception as e:
             print("For_i : ",e);
         

@@ -15,12 +15,14 @@ from selenium.webdriver.common.by import By
 import pyperclip
 
 # path
-path_file = os.getcwd();
+bot_shopee = r'\Bot_shopee';
+path_file = os.getcwd()+bot_shopee;
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_shopee = r'\Data_shopee';
 data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
+desk_top = 8;
 
 
 # head_excel
@@ -283,6 +285,7 @@ if __name__ == "__main__":
                 num3=0; 
                 try:
                     for j in range(9):
+                        print("================")
                         data_sum=data_all[i]+"/?page="+str(j);
                         main(data_sum,7,1,0,0);
                         find_shopee = status();
@@ -290,15 +293,16 @@ if __name__ == "__main__":
                             num3+=1;
                             path = change_name(num1,num2,num3);
                             print(path);
-                            if(check_data(path)==True):
-                                data_process(path,num1,num2,num3,data_link_for_lazada[k]);
+                            if(check_data(path_file+path)==True):
+                                data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
                             else:
                                 destination_path = path_file+un_process;
-                                shutil.move(path, destination_path)
+                                shutil.move(path_file+path, destination_path)
                                 continue;
                         else:
                             continue;
-                        print(data_sum);
+                        print("For_j : True");
+                        print("================")
                     custom_sleep(120);
                         
                 except Exception as e:
