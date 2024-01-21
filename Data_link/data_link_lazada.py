@@ -8096,7 +8096,6 @@ data_link  = {
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
 # Invert ข้อมูล (สลับ key กับ value)
-
 def get_in_json(json_file_path):
      with open(json_file_path, 'w', encoding='utf-8') as new_json_file:
         json.dump(existing_data, new_json_file, ensure_ascii=False, indent=2)
