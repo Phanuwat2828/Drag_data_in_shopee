@@ -1,603 +1,45 @@
 {
-  "id": "shop1_1_1",
+  "id": "shop1_1_2",
   "data": [
     {
       "Product_1": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87PU-i.415648330.19873815289?sp_atk=00ed7b55-a00d-4d73-b8ad-d9cf3308f2e4&xptdk=00ed7b55-a00d-4d73-b8ad-d9cf3308f2e4",
+        "product": "https://shopee.co.th/(HB-664)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%94%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-PU-i.148585848.22431587691?sp_atk=2138bc1f-2d3e-46a0-9ed6-feae34452b96&xptdk=2138bc1f-2d3e-46a0-9ed6-feae34452b96",
         "price_product_2": "nan",
-        "price_product_1": "106",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23020-udrbxm8xkqnv65_tn",
-        "discount": "-24%",
+        "price_product_1": "207",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lqhh0qwh7aqi8b_tn",
+        "discount": "-52%",
         "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "กระเป๋าสะพายข้าง สะพายไหล่แฟชั่น หนังPU",
-        "price_before": "฿139",
+        "data_product": "(HB-664) กระเป๋าสะพายไหล่ สะพายข้างงานสวยหนังอย่างดีเกรดพรีเมี่ยม หนัง PU",
+        "price_before": "฿429",
         "Emoji": "nan",
-        "sold": "ขายแล้ว 9.3พัน ชิ้น",
+        "sold": "ขายแล้ว 3.7พัน ชิ้น",
         "place": "จังหวัดกรุงเทพมหานคร",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_2": {
-        "product": "https://shopee.co.th/-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B9%80%E0%B8%A5%E0%B9%89%E0%B8%A7-Ugreen-Pouch-Bag-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9E%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B0%E0%B8%AD%E0%B8%B2%E0%B8%94%E0%B9%84%E0%B8%94%E0%B9%89-i.153078644.2534481311?sp_atk=7d0653fa-ded9-4e17-991c-232b7a2a2bcb&xptdk=7d0653fa-ded9-4e17-991c-232b7a2a2bcb",
+        "product": "https://shopee.co.th/-%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%A1%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%87%E0%B8%94%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A2-Nescafe-B-B-Puffer-Bag-1x24-CS-TH-GWP--i.164729718.22684644821?sp_atk=14b9b289-159d-4373-8b23-04b8ce711f01&xptdk=14b9b289-159d-4373-8b23-04b8ce711f01",
         "price_product_2": "nan",
-        "price_product_1": "49",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-fxugyulteojva0_tn",
-        "discount": "-39%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "[พร้อมส่ง ของถึงไทยเเล้ว] Ugreen Pouch Bag กระเป๋าใส่พาวเวอร์แบงค์ ทำความสะอาดได้",
-        "price_before": "฿80",
+        "price_product_1": "99,999",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98v-lnaxw8b1b04n70_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "[สินค้าสมนาคุณงดจำหน่าย] Nescafe B&B Puffer Bag 1x24 CS TH [GWP]",
+        "price_before": "nan",
         "Emoji": "nan",
-        "sold": "ขายแล้ว 12.7พัน ชิ้น",
+        "sold": "ขายแล้ว 3.8พัน ชิ้น",
         "place": "จังหวัดสมุทรปราการ",
         "Recommended_shops": "nan",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_3": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-i.415648330.20979204696?sp_atk=0355692d-581e-4854-8243-1a0c28c4090c&xptdk=0355692d-581e-4854-8243-1a0c28c4090c",
-        "price_product_2": "nan",
-        "price_product_1": "128",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukx-lkhy26uldn1l5d_tn",
-        "discount": "-36%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "กระเป๋าสะพายข้าง แฟชั่น กันน้ำ กระเป๋าสะพายไหล่",
-        "price_before": "฿199",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 3.4พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_4": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B5-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A1%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-i.278259715.21226199357?sp_atk=f4480c97-1401-44f4-a4f3-63ad8f2aa1ee&xptdk=f4480c97-1401-44f4-a4f3-63ad8f2aa1ee",
-        "price_product_2": "90",
-        "price_product_1": "83",
-        "image_product_1": "https://down-th.img.susercontent.com/file/6c8eac4d2c85dc5ab1ea82af3fcad726_tn",
-        "discount": "nan",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "กระเป๋าสะพายชาย กระเป๋าสะพายผ้าสี ทรงสี่เหลี่ยมแนวนอน มีหลายสีให้เลือก",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 11.7พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_5": {
-        "product": "https://shopee.co.th/%E0%B8%9D%E0%B8%B2%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-%E0%B8%88%E0%B9%8D%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%99-8-%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99-%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%8A%E0%B8%B8%E0%B8%94-i.991638582.23675945446?sp_atk=729647b7-8d08-4af3-94ce-79e2250aadbe&xptdk=729647b7-8d08-4af3-94ce-79e2250aadbe",
-        "price_product_2": "35",
-        "price_product_1": "6",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qve5-lk2o32k9ge0u36_tn",
-        "discount": "-88%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-        "data_product": "ฝาครอบป้องกันล้อกระเป๋าเดินทาง ลดเสียงรบกวน จํานวน 8 ชิ้น ต่อชุด",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 10.7พัน ชิ้น",
-        "place": "ต่างประเทศ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_6": {
-        "product": "https://shopee.co.th/GUCSELECTED(B1832)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%99%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%96%E0%B8%A1)-i.13835021.14996369190?sp_atk=990498ed-de98-4ce6-b018-010d8fb430b4&xptdk=990498ed-de98-4ce6-b018-010d8fb430b4",
-        "price_product_2": "nan",
-        "price_product_1": "59",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23020-1jfcu95f8cnv66_tn",
-        "discount": "-65%",
-        "image_product_2": "nan",
-        "data_product": "GUCSELECTED(B1832) กระเป๋าสะพายข้าง สีพื้น ผ้าไนล่อน สไตล์เกาหลี(ไม่มีที่ห้อยแถม)",
-        "price_before": "฿169",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 4.3พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_7": {
-        "product": "https://shopee.co.th/%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87PU-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-i.415648330.23782193118?sp_atk=25f02771-e32d-4f70-894b-d9df7ab731c8&xptdk=25f02771-e32d-4f70-894b-d9df7ab731c8",
-        "price_product_2": "139",
-        "price_product_1": "135",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lmev663anrta90_tn",
-        "discount": "-38%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "🔥พร้อมส่ง🔥กระเป๋าสะพายข้าง หนังPU แฟชั่น กันน้ำ กระเป๋าสะพายไหล่",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 629 ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_8": {
-        "product": "https://shopee.co.th/kingshopping-(%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2)-%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%9420ml-%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AE%E0%B8%AD%E0%B8%A5%E0%B9%8C%E0%B8%8B%E0%B9%89%E0%B8%B3%E0%B9%84%E0%B8%94%E0%B9%89-(Refill)-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AE%E0%B8%AD%E0%B8%A5%E0%B9%8C-CY664-i.162894152.10218624249?sp_atk=274c9c01-ef6b-4e05-8b05-f570e6023c62&xptdk=274c9c01-ef6b-4e05-8b05-f570e6023c62",
-        "price_product_2": "nan",
-        "price_product_1": "3",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul1-lfuzorecnlsfc9_tn",
-        "discount": "-80%",
-        "image_product_2": "nan",
-        "data_product": "kingshopping (ร้านไทย) ขวดสเปรย์การ์ด20ml สามารถเติมแอลกอฮอล์ซ้ำได้  (Refill) สเปรย์น้ำหอม แอลกอฮอล์ CY664",
-        "price_before": "฿15",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 528.8พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_9": {
-        "product": "https://shopee.co.th/BEZ-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81-luggage-scale-travel-i.378343069.20477159428?sp_atk=e0f1bc2d-133d-4a32-8a69-445d7d8b9c53&xptdk=e0f1bc2d-133d-4a32-8a69-445d7d8b9c53",
-        "price_product_2": "nan",
-        "price_product_1": "169",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qula-lev8lrlybk7l1f_tn",
-        "discount": "-49%",
-        "image_product_2": "nan",
-        "data_product": "BEZ ที่ชั่งน้ำหนัก กระเป๋าเดินทาง เครื่องชั่งน้ำหนัก luggage scale travel",
-        "price_before": "฿329",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 3พัน ชิ้น",
-        "place": "จังหวัดนนทบุรี",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_10": {
-        "product": "https://shopee.co.th/%F0%9D%91%AC%F0%9D%91%BD%F0%9D%91%AC-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B9%80%E0%B8%8B%E0%B8%954%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%84%E0%B8%B8%E0%B9%89%E0%B8%A1-2022-%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%86-(E-232)-i.37723018.4556319398?sp_atk=98f02e6c-9588-4446-9ce4-88ac6d73a956&xptdk=98f02e6c-9588-4446-9ce4-88ac6d73a956",
-        "price_product_2": "169",
-        "price_product_1": "149",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbka-lma06x8wxzkbc8_tn",
-        "discount": "-63%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "𝑬𝑽𝑬 กระเป๋าเป้เซต4ชิ้นหมีน้อยสีพื้นจุของได้เยอะสุดคุ้ม 2022 เทรนด์แฟชั่นกระเป๋าเป้น่ารักๆ (E-232)",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 12.6พัน ชิ้น",
-        "place": "จังหวัดนนทบุรี",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_11": {
-        "product": "https://shopee.co.th/MINISO-%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%AD-%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%95%E0%B8%B1%E0%B8%A7U%E0%B8%A1%E0%B8%B5%E0%B8%AE%E0%B8%B9%E0%B9%89%E0%B8%94-%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-We-Bare-Bears-i.84544309.1743649436?sp_atk=bec048e8-164b-4519-aaa4-5574f2643c54&xptdk=bec048e8-164b-4519-aaa4-5574f2643c54",
-        "price_product_2": "nan",
-        "price_product_1": "259",
-        "image_product_1": "https://down-th.img.susercontent.com/file/e81fe06ed01587409983902130a507da_tn",
-        "discount": "nan",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "MINISO หมอนรองคอ หมอนรองคอตัวUมีฮู้ด อุปกรณ์เสริมสำหรับเดินทาง We Bare Bears",
-        "price_before": "nan",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 6.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_12": {
-        "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%9A%9A-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%8B%E0%B8%B5%E0%B8%A3%E0%B8%B5%E0%B8%99-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%A7%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%AE%E0%B8%B4%E0%B8%95%E0%B8%A1%E0%B8%B2%E0%B8%81-%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-i.415648330.20945302552?sp_atk=d2e1fd24-2845-4644-92f9-14adb17bd0f5&xptdk=d2e1fd24-2845-4644-92f9-14adb17bd0f5",
-        "price_product_2": "139",
-        "price_product_1": "121",
-        "image_product_1": "https://down-th.img.susercontent.com/file/d632da5d27f7ecc82ce45af132cc330c_tn",
-        "discount": "-51%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-        "data_product": "พร้อมส่ง🚚  กระเป๋าแฟชั่น ทรงซีรีน สะพายข้าง กระเป๋าเว้าแขนฮิตมาก  สายหนัง",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 7พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_13": {
-        "product": "https://shopee.co.th/%F0%9D%91%AC%F0%9D%91%BD%F0%9D%91%AC-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%9A%E0%B8%A2%E0%B8%B2%E0%B8%A7-**%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B8%B5%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99-Flash-Sales-%E0%B8%88%E0%B8%B0%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99**-(E-093)-i.37723018.1819015979?sp_atk=653a5564-1fe7-450b-b4d5-716515d9197c&xptdk=653a5564-1fe7-450b-b4d5-716515d9197c",
-        "price_product_2": "16",
-        "price_product_1": "9",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7r9c1-llabthpwq2lobe_tn",
-        "discount": "-94%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-        "data_product": "𝑬𝑽𝑬 กระเป๋าใบยาว **ในกรณีขึ้น Flash Sales จะไม่มีประกัน** (E-093)",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 155.7พัน ชิ้น",
-        "place": "จังหวัดนนทบุรี",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_14": {
-        "product": "https://shopee.co.th/(B-514)%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-i.26237854.17259728857?sp_atk=84b88990-7323-4b89-965d-1d18bdda1c61&xptdk=84b88990-7323-4b89-965d-1d18bdda1c61",
-        "price_product_2": "89",
-        "price_product_1": "74",
-        "image_product_1": "https://down-th.img.susercontent.com/file/600e2bdf45225d05e2d391da1a5c6bce_tn",
-        "discount": "-26%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "(B-514)กระเป๋าหนังสำหรับผู้หญิง กระเป๋าสะพายข้าง สไตล์เกาหลี แฟชั่นมาใหม่",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 30.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_15": {
-        "product": "https://shopee.co.th/(B-233)%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%A1%E0%B8%B5%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B9%83%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-HOOTO-i.26237854.18191370560?sp_atk=6231aea3-7eb2-4af0-b369-e449951ecde4&xptdk=6231aea3-7eb2-4af0-b369-e449951ecde4",
-        "price_product_2": "nan",
-        "price_product_1": "75",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbkc-lman6m90mzi18b_tn",
-        "discount": "-50%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "(B-233)🔥 กระเป๋าสะพายข้าง จุของได้เยอะ สไตล์เกาหลี เรียบง่าย มีซิป สําหรับผู้หญิง ใบใหญ่ HOOTO",
-        "price_before": "฿150",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 6.1พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_16": {
-        "product": "https://shopee.co.th/B-952%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%82%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-Bentoy-Milkjoy-i.26237854.22233719809?sp_atk=39b9de30-73dd-4cb3-a55b-de41f7da51c2&xptdk=39b9de30-73dd-4cb3-a55b-de41f7da51c2",
-        "price_product_2": "49",
-        "price_product_1": "37",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-45rv1dxaaxove1_tn",
-        "discount": "-75%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "B-952🔥 กระเป๋าสะพายข้าง สไตล์เกาหลีใต้วงแขน สําหรับผู้หญิง Bentoy Milkjoy",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 40.2พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_17": {
-        "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%9415-%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-FBSJUNE15DD15-%F0%9F%94%A5-B-271%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9F%E0%B8%B9%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%83%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-Bear-i.26237854.15745790678?sp_atk=3c3300d9-7709-4c02-8795-346d42986a00&xptdk=3c3300d9-7709-4c02-8795-346d42986a00",
-        "price_product_2": "55",
-        "price_product_1": "46",
-        "image_product_1": "https://down-th.img.susercontent.com/file/531d7954c06c53a61e2e721eec9dba4f_tn",
-        "discount": "-77%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "ลด15% โค้ด FBSJUNE15DD15  🔥 B-271🔥 กระเป๋าผ้าลูกฟูก กระเป๋าถือ สไตล์เกาหลี ใบใหญ่ Bear",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 53.8พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_18": {
-        "product": "https://shopee.co.th/(B-124)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%82%E0%B9%87%E0%B8%A1%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%94)-i.26237854.19179862716?sp_atk=6ad6fdf0-b973-46bf-89d4-7dd4767a8c28&xptdk=6ad6fdf0-b973-46bf-89d4-7dd4767a8c28",
-        "price_product_2": "nan",
-        "price_product_1": "99",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lqluba872yg469_tn",
-        "discount": "-51%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "(B-124)🔥กระเป๋าผ้าแคนวาส จุของได้เยอะ สไตล์เกาหลี เรียบง่าย สําหรับนักเรียนชาย และหญิง(ไม่มีเข็มกลัด)",
-        "price_before": "฿200",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 7.3พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_19": {
-        "product": "https://shopee.co.th/B-187%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%82%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-7%E0%B8%AA%E0%B8%B5-the-flowers-i.26237854.12799569924?sp_atk=5e90848c-ec9c-4054-b137-ac2825f407e4&xptdk=5e90848c-ec9c-4054-b137-ac2825f407e4",
-        "price_product_2": "nan",
-        "price_product_1": "85",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul5-li9t3x6lxwq074_tn",
-        "discount": "-53%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "B-187🔥กระเป๋าสะพายข้าง สไตล์เกาหลี ใต้วงแขน สําหรับผู้หญิง 7สี the flowers",
-        "price_before": "฿180",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 6.3พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_20": {
-        "product": "https://shopee.co.th/B-251%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%82%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-5%E0%B8%AA%E0%B8%B5-cloud-bag-i.26237854.23676054407?sp_atk=9d70cdd7-7402-4f66-b9ab-5d312c6cf333&xptdk=9d70cdd7-7402-4f66-b9ab-5d312c6cf333",
-        "price_product_2": "nan",
-        "price_product_1": "78",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbm6-lldk76suml1754_tn",
-        "discount": "-57%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-251🔥 กระเป๋าสะพายข้าง สไตล์เกาหลี ใต้วงแขน สําหรับผู้หญิง จุของได้เยอะ 5สี cloud bag",
-        "price_before": "฿180",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 7.6พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_21": {
-        "product": "https://shopee.co.th/GUCSELECTED(B1641)-w1%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B8%AD%E0%B8%81SPOR%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-i.13835021.5194216444?sp_atk=293d338f-03e0-4763-a744-b7c31babf335&xptdk=293d338f-03e0-4763-a744-b7c31babf335",
-        "price_product_2": "nan",
-        "price_product_1": "49",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul4-lfcgh6rz9xqf48_tn",
-        "discount": "-62%",
-        "image_product_2": "nan",
-        "data_product": "GUCSELECTED(B1641) -w1กระเป๋าผ้าสะพายข้างสายเชือกSPORเวอร์ชั่นเกาหลี",
-        "price_before": "฿129",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 25.3พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_22": {
-        "product": "https://shopee.co.th/%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A2%E0%B9%8C-10-150ml-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9E%E0%B8%AA%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B8%94%E0%B8%94%E0%B8%B5-%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-i.270411891.8156143531?sp_atk=d8073d8d-f2c4-4039-84bf-5c998b9d3f8f&xptdk=d8073d8d-f2c4-4039-84bf-5c998b9d3f8f",
-        "price_product_2": "7",
-        "price_product_1": "2",
-        "image_product_1": "https://down-th.img.susercontent.com/file/39f3329c53f3e9febc808691967e2ce1_tn",
-        "discount": "-71%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "ขวดสเปย์ 10-150ml เนื้อพสาติกเกรดดี ราคาโรงงาน พร้อมส่ง",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 94.6พัน ชิ้น",
-        "place": "ต่างประเทศ",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_23": {
-        "product": "https://shopee.co.th/FM666%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2%E2%9C%A8%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%AA%E0%B8%B8%E0%B8%94%F0%9F%92%9BLMC-%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%95%E0%B8%B2%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A2-Messenger-%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%9A%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2-i.250455645.23342086819?sp_atk=2ba0b4ad-1246-4a74-b70e-2efb82e0ea57&xptdk=2ba0b4ad-1246-4a74-b70e-2efb82e0ea57",
-        "price_product_2": "nan",
-        "price_product_1": "50",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul4-lgmrmk3tmm2014_tn",
-        "discount": "-76%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "FM666พร้อมส่งจากไทย✨ราคาต่ำสุด💛LMC เกาหลีตาข่าย Messenger โทรศัพท์มือถืะเป๋าน้ำหนักเบากระเป๋ากีฬา",
-        "price_before": "฿209",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 16พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_24": {
-        "product": "https://shopee.co.th/-PSKX149%E0%B8%A5%E0%B8%94%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%94-99-%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%9F%E0%B8%A3%E0%B8%B5%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%A5%E0%B8%B1%E0%B8%94-%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87-gk99-i.370467051.12252384161?sp_atk=43175b18-63b7-4737-a2fa-e4e6f570d52d&xptdk=43175b18-63b7-4737-a2fa-e4e6f570d52d",
-        "price_product_2": "nan",
-        "price_product_1": "6",
-        "image_product_1": "https://down-th.img.susercontent.com/file/c6dea84d6547442eb155e606fe9b186a_tn",
-        "discount": "-89%",
-        "image_product_2": "nan",
-        "data_product": "[PSKX149ลดสูงสุด 99 เก็บโค้ดส่งฟรีหน้าร้าน ] กระเป๋าเสริม ขนาดเล็กกะทัดลัด สะดวกต่อการพกพา จุของได้หลายอย่าง gk99",
-        "price_before": "฿55",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 290พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_25": {
-        "product": "https://shopee.co.th/(B-975)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%A1%E0%B8%B5%E0%B8%8B%E0%B8%B4%E0%B8%9B-6%E0%B8%AA%E0%B8%B5-i.26237854.22539786339?sp_atk=30be530a-7ae8-4c17-b277-02c209af51bf&xptdk=30be530a-7ae8-4c17-b277-02c209af51bf",
-        "price_product_2": "50",
-        "price_product_1": "37",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukx-lfqzpjqh34ena3_tn",
-        "discount": "-63%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "(B-975)🔥กระเป๋าสะพายหลัง ผ้าแคนวาส ขนาดใหญ่ จุของได้เยอะ สไตล์เกาหลี เรียบง่าย มีซิป 6สี",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 45.5พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_26": {
-        "product": "https://shopee.co.th/B-941-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-i.26237854.23128896412?sp_atk=b04026f0-e07f-4fb8-ad26-6ca6fbd6a202&xptdk=b04026f0-e07f-4fb8-ad26-6ca6fbd6a202",
-        "price_product_2": "59",
-        "price_product_1": "49",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-jrou86k886nv96_tn",
-        "discount": "-51%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "B-941 กระเป๋าสำหรับผู้หญิง กระเป๋าสะพายข้าง",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 31.5พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_27": {
-        "product": "https://shopee.co.th/B-943%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-Peachrees-i.26237854.18675626945?sp_atk=91c91006-96e9-4af1-bbb3-3452a91b5849&xptdk=91c91006-96e9-4af1-bbb3-3452a91b5849",
-        "price_product_2": "nan",
-        "price_product_1": "57",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbls-lman6kwqlnabca_tn",
-        "discount": "-43%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-943🔥 กระเป๋าสะพายไหล่ สไตล์เกาหลี จุของได้เยอะ สําหรับผู้หญิง Peachrees",
-        "price_before": "฿100",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 15.6พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_28": {
-        "product": "https://shopee.co.th/%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-BGNEW2-%E0%B8%A5%E0%B8%94-15-%E0%B8%A5%E0%B8%94%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%AA%E0%B8%B8%E0%B8%94-110.-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%81-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-TOKYO-SERIES-6%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-i.66917295.14077550492?sp_atk=93f04359-48f7-4bbd-bc4d-9c5b1b8e6ba1&xptdk=93f04359-48f7-4bbd-bc4d-9c5b1b8e6ba1",
-        "price_product_2": "1,290",
-        "price_product_1": "290",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qula-lf20aabrgnbl90_tn",
-        "discount": "-63%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-        "data_product": "ใส่โค้ด [BGNEW2] ลด 15% ลดสูงสุด 110.- กระเป๋าเดินทางล้อลาก รุ่น TOKYO SERIES 6สีสุดน่ารัก",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 14พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_29": {
-        "product": "https://shopee.co.th/Rubber-String-Crayon-Shin-Chan-i.438204690.24407962559?sp_atk=96432bba-b9d1-4ffb-922f-f2a0f9a54a60&xptdk=96432bba-b9d1-4ffb-922f-f2a0f9a54a60",
-        "price_product_2": "nan",
-        "price_product_1": "135",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r992-lqe7381c27mi1d_tn",
-        "discount": "nan",
-        "image_product_2": "nan",
-        "data_product": "Rubber String Crayon Shin Chan",
-        "price_before": "nan",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 260 ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_30": {
-        "product": "https://shopee.co.th/B-921%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-6%E0%B8%AA%E0%B8%B5-i.26237854.18861595358?sp_atk=8ea87961-3245-4baa-b6cc-8002f635ba5b&xptdk=8ea87961-3245-4baa-b6cc-8002f635ba5b",
-        "price_product_2": "25",
-        "price_product_1": "20",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-xh06gxmqcqjv94_tn",
-        "discount": "-71%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "B-921🔥กระเป๋าสำหรับผู้หญิง กระเป๋าผ้าแคนวาส กระเป๋าสะพายข้าง สไตล์เกาหลี 6สี",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 91.2พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_31": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B9%E0%B8%94-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-i.98465314.1795513142?sp_atk=b3ef6d31-3278-4aa9-8149-071ecc8fc7a6&xptdk=b3ef6d31-3278-4aa9-8149-071ecc8fc7a6",
-        "price_product_2": "19",
-        "price_product_1": "9",
-        "image_product_1": "https://down-th.img.susercontent.com/file/05511ae54dfc2f726b39c79c5ed3c12f_tn",
-        "discount": "-82%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "กระเป๋าสะพายหลัง แบบสายรูด สำหรับพกพา",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 40.6พัน ชิ้น",
-        "place": "ต่างประเทศ",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_32": {
-        "product": "https://shopee.co.th/(B-950)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%81-%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%AD%E0%B8%A7-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%94-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-i.26237854.20376671295?sp_atk=5eb1c3dc-ca63-46b8-9a08-b7fd6d2c06d6&xptdk=5eb1c3dc-ca63-46b8-9a08-b7fd6d2c06d6",
-        "price_product_2": "38",
-        "price_product_1": "36",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-nogjtcar0wov95_tn",
-        "discount": "-64%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "(B-950)🔥กระเป๋าคาดหน้าอก คาดเอว สะพายข้าง สไตล์สปอร์ต ขนาดกระทัดรัด กระเป๋าผ้า",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 19.5พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_33": {
-        "product": "https://shopee.co.th/%F0%9F%94%A5%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-INCLZ12-%E0%B8%A5%E0%B8%94-50-%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-Retro-%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%97%E0%B8%A3%E0%B8%87-%E0%B8%AA%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A1%E0%B8%B5-5-%E0%B8%AA%E0%B8%B5-i.62685270.21438951997?sp_atk=1c286a3f-1b04-43c5-9740-3e8c4f2da79f&xptdk=1c286a3f-1b04-43c5-9740-3e8c4f2da79f",
-        "price_product_2": "nan",
-        "price_product_1": "83",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98u-lojcb4ooygv362_tn",
-        "discount": "nan",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "🔥ใส่โค้ด INCLZ12 ลด 50%🔥 กระเป๋าสะพายไหล่ กระเป๋า ญี่ปุ่น Retro มีสายคล้องไหล่ ทรง สี่เหลี่ยมแนวนอน มี 5 สี",
-        "price_before": "nan",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 14.3พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_34": {
-        "product": "https://shopee.co.th/(B-954)%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B2-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95-plaid-bag(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%96%E0%B8%A1)-i.26237854.22234963267?sp_atk=b586e2ba-60cc-46d2-8e5b-b34970e60701&xptdk=b586e2ba-60cc-46d2-8e5b-b34970e60701",
+        "product": "https://shopee.co.th/(B-954)%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B2-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95-plaid-bag(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%96%E0%B8%A1)-i.26237854.22234963267?sp_atk=993feb60-b391-4566-9c92-a0d72668bf44&xptdk=993feb60-b391-4566-9c92-a0d72668bf44",
         "price_product_2": "63",
         "price_product_1": "54",
         "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukw-leu6wcoj445tdd_tn",
@@ -606,16 +48,70 @@
         "data_product": "(B-954)🔥 กระเป๋าสะพายข้าง กระเป๋าผ้า สไตล์เกาหลี แฟชั่นมา น่ารัก กระเป๋าลายสก๊อต-plaid bag(ไม่มีที่ห้อยแถม)",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 34.9พัน ชิ้น",
+        "sold": "ขายแล้ว 35.1พัน ชิ้น",
         "place": "จังหวัดสมุทรปราการ",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
-      "Product_35": {
-        "product": "https://shopee.co.th/B-182%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%97%E0%B8%AD-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%9B%E0%B8%B1%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%AB%E0%B8%B4%E0%B8%A7%E0%B8%8A%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%86-i.26237854.23446007121?sp_atk=58ca43b0-4ca2-4b47-8535-07df32a93250&xptdk=58ca43b0-4ca2-4b47-8535-07df32a93250",
+      "Product_4": {
+        "product": "https://shopee.co.th/%F0%9F%92%96%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-Marie-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%F0%9F%92%96%E2%9C%A8-by-8anglesshop-%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2-C037-i.9064871.20590284262?sp_atk=c826c02e-5319-4404-b06d-e071c9b79106&xptdk=c826c02e-5319-4404-b06d-e071c9b79106",
+        "price_product_2": "349",
+        "price_product_1": "348",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98r-lo2362wbqmnk3e_tn",
+        "discount": "-1%",
+        "image_product_2": "nan",
+        "data_product": "💖กระเป๋ารุ่น Marie [พร้อมส่ง]💖✨ by 8anglesshop รหัสสินค้า C037",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.3พัน ชิ้น",
+        "place": "จังหวัดสกลนคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_5": {
+        "product": "https://shopee.co.th/%E0%B8%95%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%9D%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B9%88%E0%B8%B2-%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B9%88%E0%B8%B2-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9E%E0%B8%B1%E0%B8%9F-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%81-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-i.250304267.23542156615?sp_atk=6efd1261-b762-4567-a348-c32296919636&xptdk=6efd1261-b762-4567-a348-c32296919636",
+        "price_product_2": "39",
+        "price_product_1": "24",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qve3-lgnigc7sqwqn5d_tn",
+        "discount": "-69%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "ตลับแป้งฝุ่นเปล่า กล่องเปล่า ใส่พัฟ พร้อมกระจก แบบพกพา",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 9.3พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_6": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-Milano-%E0%B9%81%E0%B8%96%E0%B8%A1%E0%B8%9E%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B8%8D%E0%B9%81%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%A2-luna-%F0%9F%90%B0-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-by-8anglesshop-%E0%B8%A3%E0%B8%AB%E0%B8%B1%E0%B8%AA%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2-C075-i.9064871.16099120844?sp_atk=3f63ad0f-3707-4eda-8485-f03500168b6a&xptdk=3f63ad0f-3707-4eda-8485-f03500168b6a",
+        "price_product_2": "nan",
+        "price_product_1": "378",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r992-loeax4a13h5w3c_tn",
+        "discount": "-1%",
+        "image_product_2": "nan",
+        "data_product": "กระเป๋ารุ่น Milano แถมพวงกุญแกกระต่าย luna 🐰 [พร้อมส่ง ] by 8anglesshop รหัสสินค้า C075",
+        "price_before": "฿379",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 2.4พัน ชิ้น",
+        "place": "จังหวัดสกลนคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_7": {
+        "product": "https://shopee.co.th/B-182%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%97%E0%B8%AD-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%9B%E0%B8%B1%E0%B8%99%E0%B8%9A%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%AB%E0%B8%B4%E0%B8%A7%E0%B8%8A%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%86-i.26237854.23446007121?sp_atk=1f51fe79-ffd3-49c0-9bab-38b34b7e6760&xptdk=1f51fe79-ffd3-49c0-9bab-38b34b7e6760",
         "price_product_2": "9",
         "price_product_1": "1",
         "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul3-li8gckq427zc4f_tn",
@@ -624,340 +120,16 @@
         "data_product": "B-182🔥พร้อมส่ง กระเป๋าถือ ลายการ์ตูน ถุงผ้าไม่ทอ ผ้าสปันบอนด์ ถุงหิวช้อปปิ้ง น่ารักๆ",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 512.3พัน ชิ้น",
+        "sold": "ขายแล้ว 515.6พัน ชิ้น",
         "place": "จังหวัดสมุทรปราการ",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
-      "Product_36": {
-        "product": "https://shopee.co.th/Perfect-girls-%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%94-20ml-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-%E0%B9%80%E0%B9%80%E0%B8%AD%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AE%E0%B8%AD%E0%B8%A5%E0%B9%8C-%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81-%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%94%E0%B8%B5-i.498271361.16411453269?sp_atk=8b21be95-b33d-417a-8fb6-3fc3908db809&xptdk=8b21be95-b33d-417a-8fb6-3fc3908db809",
-        "price_product_2": "nan",
-        "price_product_1": "3",
-        "image_product_1": "https://down-th.img.susercontent.com/file/fbe8157784b821124d07c42d76c467e9_tn",
-        "discount": "-90%",
-        "image_product_2": "nan",
-        "data_product": "Perfect girls สเปย์การ์ด 20ml ใส่น้ำหอม เเอลกอฮอล์ ขวดสเปรย์ พกพาสะดวก คุณภาพดี",
-        "price_before": "฿29",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 19.8พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_37": {
-        "product": "https://shopee.co.th/Mc-JEANS-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2-%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-%E0%B8%9C%E0%B9%89%E0%B8%B2-mc-%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AD%E0%B8%81-%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%AD%E0%B8%A7-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%B5-%E0%B8%A1%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-2-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%9A%E0%B8%B2-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-M02Z022-i.33941930.5413640605?sp_atk=ad7d1cd3-32bf-4331-a05e-e13d6af58f3e&xptdk=ad7d1cd3-32bf-4331-a05e-e13d6af58f3e",
-        "price_product_2": "nan",
-        "price_product_1": "836",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23020-fonoq9tp6mnv82_tn",
-        "discount": "-30%",
-        "image_product_2": "nan",
-        "data_product": "Mc JEANS กระเป๋าสะพาย อเนกประสงค์ กระเป๋า ผ้า mc แท้ คาดอก คาดเอว รุ่นขายดี มีให้เลือก 2 รุ่น น้ำหนักเบา พกพาง่าย M02Z022",
-        "price_before": "฿1,195",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 15พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_38": {
-        "product": "https://shopee.co.th/Care-Bears-Chain-Crossbody-Bag-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B9%8C-%E0%B8%A5%E0%B8%B4%E0%B8%82%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B9%8C%E0%B9%81%E0%B8%97%E0%B9%89-i.237990287.13148036492?sp_atk=1304ecc9-962a-47de-bbee-823af5e6f88b&xptdk=1304ecc9-962a-47de-bbee-823af5e6f88b",
-        "price_product_2": "nan",
-        "price_product_1": "595",
-        "image_product_1": "https://down-th.img.susercontent.com/file/81125721b11d62e3ddb0b36b3f6d4546_tn",
-        "discount": "nan",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
-        "data_product": "Care Bears Chain Crossbody Bag - กระเป๋าสะพายข้างแคร์แบร์ ลิขสิทธิ์แท้",
-        "price_before": "nan",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 4.7พัน ชิ้น",
-        "place": "จังหวัดปทุมธานี",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_39": {
-        "product": "https://shopee.co.th/%F0%9F%94%A5(B-205)%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-i.26237854.19381589734?sp_atk=39caf762-355f-4c76-8c85-32e2099011c6&xptdk=39caf762-355f-4c76-8c85-32e2099011c6",
-        "price_product_2": "45",
-        "price_product_1": "34",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul0-lix0zkqjvgmg15_tn",
-        "discount": "-57%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "🔥(B-205)กระเป๋าสตางค์น่ารัก กระเป๋าสตางค์ พร้อมช่องใส่บัตร สําหรับผู้หญิง ใบสั้น",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 21.9พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_40": {
-        "product": "https://shopee.co.th/B-931-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81-i.26237854.23111497571?sp_atk=16f10567-86ce-48a7-8332-118df1bcc377&xptdk=16f10567-86ce-48a7-8332-118df1bcc377",
-        "price_product_2": "nan",
-        "price_product_1": "28",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22120-sbjr5mtqk5kvbc_tn",
-        "discount": "-44%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-931 กระเป๋าสตางค์ใบสั้น แฟชั่นแบบบางพกพาสะดวกะดวก",
-        "price_before": "฿50",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 60.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_41": {
-        "product": "https://shopee.co.th/B-136%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-BE-YOUR-STYLE-i.26237854.1731952485?sp_atk=209044b7-7c37-402e-a4f0-e6e41480e6f3&xptdk=209044b7-7c37-402e-a4f0-e6e41480e6f3",
-        "price_product_2": "57",
-        "price_product_1": "48",
-        "image_product_1": "https://down-th.img.susercontent.com/file/573a64079bbd278ee20c06d566b91d22_tn",
-        "discount": "-68%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "B-136🔥พร้อมส่ง🔥กระเป๋าเป้ กระเป๋าแฟชั่น ความจุขนาดใหญ่เวอร์ชั่นเกาหลีของกระเป๋าเป้สะพายหลัง นักเรียนแฟชั่น BE YOUR STYLE",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 37.5พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_42": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%AD%E0%B8%B2%E0%B8%87-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%87-%E0%B8%82%E0%B8%99%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%A1-%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8C%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4-%E0%B8%A1%E0%B8%B57%E0%B8%A5%E0%B8%B2%E0%B8%A2-i.37723018.20788442997?sp_atk=53a25303-3881-4202-afd7-b93ebc8a17ba&xptdk=53a25303-3881-4202-afd7-b93ebc8a17ba",
-        "price_product_2": "nan",
-        "price_product_1": "65",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rblo-lma06zu55k3pfb_tn",
-        "discount": "-78%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "กระเป๋าแฟชั่น กระเป๋าใส่เครื่องสำอาง ทรงกล่อง ขนนุ่มนิ่ม ไซส์มินิ มี7ลาย",
-        "price_before": "฿159",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 8.9พัน ชิ้น",
-        "place": "จังหวัดนนทบุรี",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_43": {
-        "product": "https://shopee.co.th/GUCSELECTED(B1833)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%99%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%96%E0%B8%A1)-i.13835021.20672930651?sp_atk=fd6d772f-dea5-478d-b510-930f2167833a&xptdk=fd6d772f-dea5-478d-b510-930f2167833a",
-        "price_product_2": "nan",
-        "price_product_1": "47",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul5-lga9jz8g2nguec_tn",
-        "discount": "-74%",
-        "image_product_2": "nan",
-        "data_product": "GUCSELECTED(B1833) กระเป๋าสะพายข้างผ้าไนล่อนสีพื้นลายเส้น สไตล์เกาหลี(ไม่มีที่ห้อยแถม)",
-        "price_before": "฿179",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 9.4พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_44": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-Tote-Bag-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%A5-9-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-43x33cm-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-i.65173690.11482878789?sp_atk=f12db738-19d0-41aa-bc01-a47e00b80ed4&xptdk=f12db738-19d0-41aa-bc01-a47e00b80ed4",
-        "price_product_2": "26",
-        "price_product_1": "19",
-        "image_product_1": "https://down-th.img.susercontent.com/file/9ca848e29395318ed1a7aba164a84260_tn",
-        "discount": "-81%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
-        "data_product": "กระเป๋า Tote Bag กระเป๋าผ้ามินิมอล 9 ลายสกรีน ขนาด 43x33cm กระเป๋าผ้า",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 150.3พัน ชิ้น",
-        "place": "จังหวัดมุกดาหาร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_45": {
-        "product": "https://shopee.co.th/B-917-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-6%E0%B8%AA%E0%B8%B5-i.26237854.22803402665?sp_atk=e3223bc6-b645-4e7d-887d-3ac5982563a7&xptdk=e3223bc6-b645-4e7d-887d-3ac5982563a7",
-        "price_product_2": "nan",
-        "price_product_1": "39",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-v334ttd9odjv6f_tn",
-        "discount": "-51%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-917 กระเป๋าผ้าแคนวาส กระเป๋าถือ สไตล์เกาหลี 6สี",
-        "price_before": "฿80",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 22พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_46": {
-        "product": "https://shopee.co.th/%E0%B8%A1%E0%B8%B58%E0%B8%A5%E0%B8%B2%E0%B8%A2%F0%9F%A4%97-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2BW%E0%B8%AB%E0%B8%A1%E0%B8%B5-%E2%9A%A0%EF%B8%8F%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B2-i.78168007.22272266639?sp_atk=537af3f9-37d9-49eb-9de9-a649218b1fb2&xptdk=537af3f9-37d9-49eb-9de9-a649218b1fb2",
-        "price_product_2": "nan",
-        "price_product_1": "29",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul0-lilv5c72r20832_tn",
-        "discount": "nan",
-        "image_product_2": "nan",
-        "data_product": "มี8ลาย🤗 กระเป๋าสะพายBWหมี ⚠️ไม่ได้รวมตุ๊กตา",
-        "price_before": "nan",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 5.8พัน ชิ้น",
-        "place": "จังหวัดสระแก้ว",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_47": {
-        "product": "https://shopee.co.th/Mh-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%96%E0%B8%B1%E0%B8%81-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8B%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%84%E0%B8%94%E0%B9%89-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-i.40258835.19870448470?sp_atk=7a1c9398-73b3-4ae3-ad51-460bdc9c3cf5&xptdk=7a1c9398-73b3-4ae3-ad51-460bdc9c3cf5",
-        "price_product_2": "42",
-        "price_product_1": "12",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvff-ljj0xynjp7xnaf_tn",
-        "discount": "-91%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "Mh กระเป๋าถือ ผ้าถัก ลายสก๊อต ใช้ซ้ําได้ สําหรับผู้หญิง นักเรียน",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 3.9พัน ชิ้น",
-        "place": "ต่างประเทศ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_48": {
-        "product": "https://shopee.co.th/B-971%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%86-%E0%B9%83%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-i.26237854.12198709659?sp_atk=3ff3f2dc-96dd-4289-85a2-9c47cecffbc4&xptdk=3ff3f2dc-96dd-4289-85a2-9c47cecffbc4",
-        "price_product_2": "nan",
-        "price_product_1": "89",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbm1-lman6l1qebww91_tn",
-        "discount": "-56%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-971🔥กระเป๋าสะพายข้างลายก้อนเมฆ ใบใหญ่ ใส่ของได้เยอะ",
-        "price_before": "฿200",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 16.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_49": {
-        "product": "https://shopee.co.th/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B5-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%AB%E0%B8%B9%E0%B8%A3%E0%B8%B9%E0%B8%94-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%94%E0%B8%B2%E0%B8%A2-%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B5-4-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%86-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94-%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%8A%E0%B9%89-i.448328557.17598514562?sp_atk=1aa0c080-ad74-4c23-a92d-8b9e287095fc&xptdk=1aa0c080-ad74-4c23-a92d-8b9e287095fc",
-        "price_product_2": "4",
-        "price_product_1": "2",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvcw-lki0dar931x5dc_tn",
-        "discount": "-75%",
-        "image_product_2": "nan",
-        "data_product": "ถุงหมี ถุงใส่ของ ถุงหูรูด กันน้ำ ใช้งานได้อย่างง่ายดาย น้องหมี 4 ขนาด ให้เลือก แบบน่ารักๆ เปิด/ปิดง่าย ใส่ของใช้",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 3.1พัน ชิ้น",
-        "place": "จังหวัดกรุงเทพมหานคร",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_50": {
-        "product": "https://shopee.co.th/(B-154)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%84%E0%B8%99%E0%B8%A5%E0%B8%AD%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-3%E0%B8%AA%E0%B8%B5-(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%88%E0%B8%B5%E0%B9%89%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2)-i.26237854.14497555852?sp_atk=6641ee36-45b6-484a-89a3-b796b1925043&xptdk=6641ee36-45b6-484a-89a3-b796b1925043",
-        "price_product_2": "60",
-        "price_product_1": "59",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7quky-lhg4kqce6v1f65_tn",
-        "discount": "-41%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
-        "data_product": "(B-154)🔥กระเป๋าสะพายข้าง กระเป๋าไนลอน สไตล์เกาหลี แฟชั่นมาใหม่ ผ้ากันน้ำ 3สี (ไม่มีจี้ห้อยกระเป๋า)",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 6พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_51": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A2%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99-i.270411666.12743286946?sp_atk=27980c58-d6e3-4175-a238-b935a73c2e24&xptdk=27980c58-d6e3-4175-a238-b935a73c2e24",
-        "price_product_2": "nan",
-        "price_product_1": "1",
-        "image_product_1": "https://down-th.img.susercontent.com/file/b9a0736a576c12d65cddf7652cb523e9_tn",
-        "discount": "-67%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "กรวยพลาสติก ขนาดเล็ก สำหรับกรอกน้ำหอม น้ำมัน",
-        "price_before": "฿3",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 46.2พัน ชิ้น",
-        "place": "ต่างประเทศ",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_52": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-(GC-091)-i.783038845.22973062748?sp_atk=22e9961f-78ce-463f-971d-9a108a4eaeeb&xptdk=22e9961f-78ce-463f-971d-9a108a4eaeeb",
-        "price_product_2": "19",
-        "price_product_1": "17",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukw-lk6byonpdesma4_tn",
-        "discount": "-91%",
-        "image_product_2": "nan",
-        "data_product": "กระเป๋าสตางค์ กระเป๋าใส่บัตรได้เยอะ (GC-091)",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 3.1พัน ชิ้น",
-        "place": "จังหวัดปทุมธานี",
-        "Recommended_shops": "nan",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_53": {
-        "product": "https://shopee.co.th/B-237%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-7%E0%B8%AA%E0%B8%B5-i.26237854.14699235674?sp_atk=a24aedb4-d2aa-4f2c-8782-3389d5293d4a&xptdk=a24aedb4-d2aa-4f2c-8782-3389d5293d4a",
-        "price_product_2": "nan",
-        "price_product_1": "28",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul7-ljxxj8oq1g7d50_tn",
-        "discount": "-44%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "B-237🔥กระเป๋าสำหรับผู้หญิง กระเป๋าผ้าแคนวาส สไตล์เกาหลี  น่ารัก -7สี",
-        "price_before": "฿50",
-        "Emoji": "nan",
-        "sold": "ขายแล้ว 8.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
-        "Recommended_shops": "ร้านแนะนำ",
-        "maket": "shopee",
-        "group": "Kai"
-      }
-    },
-    {
-      "Product_54": {
-        "product": "https://shopee.co.th/(COM-3588)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-GOOD-LIFE-i.26237854.13201370210?sp_atk=a1236698-2919-4f5f-8755-1b5a41e74b89&xptdk=a1236698-2919-4f5f-8755-1b5a41e74b89",
+      "Product_8": {
+        "product": "https://shopee.co.th/(COM-3588)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-GOOD-LIFE-i.26237854.13201370210?sp_atk=47193648-39d4-4e72-8658-4237cb1c74d7&xptdk=47193648-39d4-4e72-8658-4237cb1c74d7",
         "price_product_2": "73",
         "price_product_1": "66",
         "image_product_1": "https://down-th.img.susercontent.com/file/9a8f65156bfb8620202a4cef79189d8d_tn",
@@ -966,119 +138,947 @@
         "data_product": "(COM-3588)🔥กระเป๋าถือ GOOD LIFE",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 31.3พัน ชิ้น",
+        "sold": "ขายแล้ว 31.4พัน ชิ้น",
         "place": "จังหวัดสมุทรปราการ",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
-      "Product_55": {
-        "product": "https://shopee.co.th/%F0%9F%A4%8D%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%A4%8D-%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%A7-%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9D%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%A7-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%A7-%E0%B8%8B%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B9%88%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%A7-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%A1-i.364065682.19924210396?sp_atk=bf8834cc-fbfa-43c2-a78e-1267eaf9b9e2&xptdk=bf8834cc-fbfa-43c2-a78e-1267eaf9b9e2",
-        "price_product_2": "6",
-        "price_product_1": "3",
-        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukz-liu3vv4w3oupb2_tn",
-        "discount": "-67%",
+      "Product_9": {
+        "product": "https://shopee.co.th/Deere-JACK-%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-i.952164706.24450640682?sp_atk=287ebb63-a871-4035-9356-03ce52bc04db&xptdk=287ebb63-a871-4035-9356-03ce52bc04db",
+        "price_product_2": "nan",
+        "price_product_1": "35",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbm1-lnwg93rnumy07a_tn",
+        "discount": "-50%",
         "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "🤍พร้อมส่ง🤍 ซองแบ่งของเหลวพกพา ถุงใส่ของเหลว ซองแบ่งครีมขนาดพกพา ถุงฝาเกลียว ถุงบรรจุของเหลว ซองแบ่งของเหลว ถุงใส่ครีม",
+        "data_product": "Deere JACK ตุ๊กตามอนสเตอร์น่ารัก ขนาดเล็ก",
+        "price_before": "฿70",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 688 ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_10": {
+        "product": "https://shopee.co.th/%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E2%9C%94%EF%B8%8F%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9B%E0%B8%B1%E0%B9%89%E0%B8%A1-%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%B1%E0%B9%89%E0%B8%A1%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%A1-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%8B-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99-i.427182130.17993649594?sp_atk=8be7142c-6d61-4fd1-a390-150a53cc71ff&xptdk=8be7142c-6d61-4fd1-a390-150a53cc71ff",
+        "price_product_2": "599",
+        "price_product_1": "209",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-faoptd03etov4c_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "พร้อมส่ง✔️สายปั้ม งานปั้มทุกจุดพรีเมียม กระเป๋าสะพายข้างผู้ชายลาคอซ กระเป๋าทำงาน",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 65.6พัน ชิ้น",
+        "sold": "ขายแล้ว 1.6พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_11": {
+        "product": "https://shopee.co.th/MOUSOON-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%94%E0%B9%8C%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%97%E0%B8%B6%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8-PU-%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89-i.445544977.23845695984?sp_atk=f947b0d0-00d0-4685-b492-08362d087827&xptdk=f947b0d0-00d0-4685-b492-08362d087827",
+        "price_product_2": "112",
+        "price_product_1": "95",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qula-lk7xmirx39zd3d_tn",
+        "discount": "-54%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "MOUSOON กระเป๋าสะพายไหล่ผู้หญิงเทรนด์ใหม่แฟชั่นสีทึบเรียบง่ายรักวัสดุ PU เนื้อคุณภาพสูงกระเป๋ารักแร้",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.3พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_12": {
+        "product": "https://shopee.co.th/-F0192-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%AB%E0%B8%B9%E0%B8%A3%E0%B8%B9%E0%B8%94-(%E0%B8%A1%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%AA%E0%B9%8CS-M-L-XL)-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87-i.57487502.12128278582?sp_atk=f3253660-35de-4fba-b45e-c90691288a16&xptdk=f3253660-35de-4fba-b45e-c90691288a16",
+        "price_product_2": "6",
+        "price_product_1": "2",
+        "image_product_1": "https://down-th.img.susercontent.com/file/21c86f4f4250bbc7cab619a4fdadcc34_tn",
+        "discount": "-67%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "[F0192] ถุงหูรูด (มีไซส์S/ M/L/XL)  ถุงใส่ของ",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 56.5พัน ชิ้น",
         "place": "จังหวัดกรุงเทพมหานคร",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
-      "Product_56": {
-        "product": "https://shopee.co.th/1.1%F0%9F%8C%B7%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2%F0%9F%8E%80-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%A5-%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-%E0%B8%A1%E0%B8%B5%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%96%E0%B8%B6%E0%B8%87-10-%E0%B8%AA%E0%B8%B5-%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-i.385903185.22640605836?sp_atk=e89b4382-8391-43cd-bbeb-c873fe3b1f85&xptdk=e89b4382-8391-43cd-bbeb-c873fe3b1f85",
+      "Product_13": {
+        "product": "https://shopee.co.th/(B-916)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%8D-i.26237854.23703400677?sp_atk=3c581990-0e8e-4ac7-889a-1d1136afac2f&xptdk=3c581990-0e8e-4ac7-889a-1d1136afac2f",
+        "price_product_2": "13",
+        "price_product_1": "9",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-lk8genixodjv8b_tn",
+        "discount": "-55%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "(B-916) กระเป๋าสตางค์ใส่เหรียญ",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 177.9พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_14": {
+        "product": "https://shopee.co.th/B-921%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-6%E0%B8%AA%E0%B8%B5-i.26237854.18861595358?sp_atk=471c9540-2b14-457c-8a9c-8edab1565594&xptdk=471c9540-2b14-457c-8a9c-8edab1565594",
+        "price_product_2": "25",
+        "price_product_1": "20",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-xh06gxmqcqjv94_tn",
+        "discount": "-71%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "B-921🔥กระเป๋าสำหรับผู้หญิง กระเป๋าผ้าแคนวาส กระเป๋าสะพายข้าง สไตล์เกาหลี 6สี",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 91.5พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_15": {
+        "product": "https://shopee.co.th/%F0%9F%92%95%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%F0%9F%92%95(%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89)-Card-Holder-Silm-Wallet-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%8D-%E0%B8%82%E0%B8%A2%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-S9-92-i.121583856.2762004054?sp_atk=544fed10-311e-4989-ab83-53f87c26d66a&xptdk=544fed10-311e-4989-ab83-53f87c26d66a",
+        "price_product_2": "nan",
+        "price_product_1": "185",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cfb2f89cecf291599393384fefa4d4fa_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "💕รุ่นขยายข้าง💕(หนังแท้) Card Holder Silm Wallet กระเป๋าสตางค์ กระเป๋าใส่บัตร ใส่เหรียญ ขยายข้าง S9-92",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 13.6พัน ชิ้น",
+        "place": "จังหวัดเชียงราย",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_16": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-Tote-Bag-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%A5-9-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-43x33cm-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-i.65173690.11482878789?sp_atk=8b501d37-113e-466c-8f62-b9dd5c37df58&xptdk=8b501d37-113e-466c-8f62-b9dd5c37df58",
+        "price_product_2": "26",
+        "price_product_1": "19",
+        "image_product_1": "https://down-th.img.susercontent.com/file/9ca848e29395318ed1a7aba164a84260_tn",
+        "discount": "-81%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
+        "data_product": "กระเป๋า Tote Bag กระเป๋าผ้ามินิมอล 9 ลายสกรีน ขนาด 43x33cm กระเป๋าผ้า",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 150.6พัน ชิ้น",
+        "place": "จังหวัดมุกดาหาร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_17": {
+        "product": "https://shopee.co.th/oufeiai-(1%E0%B8%84%E0%B8%B3%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD-%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89-4%E0%B9%83%E0%B8%9A)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%99-%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%A1%E0%B8%B8%E0%B8%99%E0%B9%84%E0%B8%94%E0%B9%89-360-%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2-i.782986462.21883087132?sp_atk=71c7c1cf-fe6a-49e3-ad6b-1555224c77e0&xptdk=71c7c1cf-fe6a-49e3-ad6b-1555224c77e0",
+        "price_product_2": "479",
+        "price_product_1": "439",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98x-lloi80z44bdad5_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "oufeiai (1คำสั่งซื้อ สั่งได้ 4ใบ) กระเป๋าเดินทาง ลายหมีบราวน์ กระเป๋าล้อลาก กระเป๋าเดินทางทนทาน ล้อหมุนได้ 360 องศา",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 2.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_18": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%8720-24-28%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8ABS-PC-%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B8%97%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%99-i.427926581.20016541786?sp_atk=ade80d3a-2386-4303-bb30-c5e444aac079&xptdk=ade80d3a-2386-4303-bb30-c5e444aac079",
+        "price_product_2": "830",
+        "price_product_1": "455",
+        "image_product_1": "https://down-th.img.susercontent.com/file/2313edebf3dc5f3e369e2d356c04733b_tn",
+        "discount": "-77%",
+        "image_product_2": "nan",
+        "data_product": "กระเป๋าเดินทาง20/24/28นิ้ว รุ่นซิป วัสดุABS+PC แข็งแรงทนทาน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 4.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_19": {
+        "product": "https://shopee.co.th/%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%A1%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AB%E0%B8%B9%E0%B8%A3%E0%B8%B9%E0%B8%94-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A-i.448587770.18092173972?sp_atk=0daafc52-c65a-40b6-833e-d3d4f9078d4d&xptdk=0daafc52-c65a-40b6-833e-d3d4f9078d4d",
+        "price_product_2": "4",
+        "price_product_1": "2",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7r98o-lkp1wtrtx8c013_tn",
+        "discount": "-71%",
+        "image_product_2": "nan",
+        "data_product": "ถุงพลาสติกลายน่ารัก/มีหลายลาย สำหรับใส่ของ ถุงพลาสติกหูรูด ถุงใส่ของ ถุงเก็บ",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 5.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_20": {
+        "product": "https://shopee.co.th/TAIDU-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2-%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B8%E0%B8%AA%E0%B8%B9%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-i.593651531.16482739138?sp_atk=c4e72e3f-6760-4fd3-9305-f3d90ed719e1&xptdk=c4e72e3f-6760-4fd3-9305-f3d90ed719e1",
+        "price_product_2": "108",
+        "price_product_1": "99",
+        "image_product_1": "https://down-th.img.susercontent.com/file/a47c3865b4fc4526b54a0900eecd07a0_tn",
+        "discount": "-62%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "TAIDU กระเป๋าสะพายข้างผู้ชาย กระเป๋าสะพาย เกาหลี เรียบง่าย ความจุสูง กระเป๋าสะพายข้าง",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 4.6พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_21": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%94%E0%B8%B5-%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%A1%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B0-%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-i.783038845.16479020603?sp_atk=29c146e2-c99a-4d15-9f76-659c85a0a423&xptdk=29c146e2-c99a-4d15-9f76-659c85a0a423",
+        "price_product_2": "115",
+        "price_product_1": "55",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul5-lh628gae2inocf_tn",
+        "discount": "-78%",
+        "image_product_2": "nan",
+        "data_product": "กระเป๋าสะพายข้าง ผ้าดี หลายซิป มีหลายรุ่นค่ะ  สวยทุกรุ่น",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.9พัน ชิ้น",
+        "place": "จังหวัดปทุมธานี",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_22": {
+        "product": "https://shopee.co.th/SIMMA-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%81%E2%80%8B-Colors-Series-%E0%B9%80%E0%B8%9F%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8ABS-PC-%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%94%E0%B9%83%E0%B8%AA-6-%E0%B8%AA%E0%B8%B5-i.223339291.20964956094?sp_atk=8f51148f-29d0-4a48-82b4-8ca71c1577d8&xptdk=8f51148f-29d0-4a48-82b4-8ca71c1577d8",
+        "price_product_2": "939",
+        "price_product_1": "497",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul8-ljheqb2gahwm7f_tn",
+        "discount": "-74%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "SIMMA  กระเป๋าเดินทาง กระเป๋าเดินทางล้อลาก​ Colors Series เฟรมซิป วัสดุABS+PC สีสดใส 6 สี",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.3พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_23": {
+        "product": "https://shopee.co.th/%E0%B8%82%E0%B8%A7%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B9%83%E0%B8%AA-10-30-50-60-100-%E0%B8%A1%E0%B8%A5.%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%B0%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%9C%E0%B8%A5%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%9A%E0%B8%B3%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%9C%E0%B8%B4%E0%B8%A7-i.663819440.16722902599?sp_atk=85553700-26fe-45e6-9301-7121b8ada788&xptdk=85553700-26fe-45e6-9301-7121b8ada788",
+        "price_product_2": "8",
+        "price_product_1": "2",
+        "image_product_1": "https://down-th.img.susercontent.com/file/06abc41c55ead45218c353c66e0e8774_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "ขวดพลาสติกใส 10 / 30 / 50 / 60 / 100 มล.เหมาะสำหรับใช้ในการเดินทางผลิตภัณฑ์บำรุงผิว",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 55.7พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_24": {
+        "product": "https://shopee.co.th/%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1-15-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-15MALL1000-MaisyDaisy-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%81-20%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-24%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-26%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-28%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%87-8%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%A1%E0%B8%B8%E0%B8%99360%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2-%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99-Classy-i.133067051.2259444298?sp_atk=689a77e2-4364-402a-953b-f64662973992&xptdk=689a77e2-4364-402a-953b-f64662973992",
+        "price_product_2": "1,188",
+        "price_product_1": "658",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23020-eplas9t1rsnv36_tn",
+        "discount": "-49%",
+        "image_product_2": "nan",
+        "data_product": "ลดเพิ่ม 15% ใส่โค้ด 15MALL1000 MaisyDaisy กระเป๋าเดินทาง กระเป๋าเดินทางล้อลาก 20นิ้ว 24นิ้ว 26นิ้ว 28นิ้ว แข็งแรง 8ล้อหมุน360องศา รุ่น Classy",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 29.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_25": {
+        "product": "https://shopee.co.th/1.1%F0%9F%8C%B7%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%83%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2%F0%9F%8E%80-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%A5-%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-%E0%B8%A1%E0%B8%B5%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%96%E0%B8%B6%E0%B8%87-10-%E0%B8%AA%E0%B8%B5-%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%94%E0%B8%A7%E0%B8%81-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-No.C368-1-i.385903185.22640605836?sp_atk=9d242443-d4ed-4ba0-8ea6-9757cce09a1f&xptdk=9d242443-d4ed-4ba0-8ea6-9757cce09a1f",
         "price_product_2": "87",
         "price_product_1": "83",
         "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98q-lmvvk04nmgav0d_tn",
         "discount": "-8%",
         "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "1.1🌷พร้อมส่งในไทย🎀 กระเป๋าสตางค์มินิมอล วัสดุหนัง มีมากถึง 10 สี สีน่ารัก พกพาสะดวก ใส่บัตรได้เยอะ",
+        "data_product": "1.1🌷พร้อมส่งในไทย🎀 กระเป๋าสตางค์มินิมอล วัสดุหนัง มีมากถึง 10 สี สีน่ารัก พกพาสะดวก ใส่บัตรได้เยอะ No.C368-1",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 3.4พัน ชิ้น",
+        "sold": "ขายแล้ว 3.5พัน ชิ้น",
         "place": "จังหวัดมหาสารคาม",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_26": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%A5%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%AD%E0%B8%87-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%A3%E0%B9%82%E0%B8%97%E0%B8%A3-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.275328013.19152997319?sp_atk=2f4dea80-cf14-4f1e-b3af-6e0f2f0a797f&xptdk=2f4dea80-cf14-4f1e-b3af-6e0f2f0a797f",
+        "price_product_2": "nan",
+        "price_product_1": "72",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-23020-mpxvf5qvfunvbd_tn",
+        "discount": "-67%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "กระเป๋าสะพายไหล่ลําลอง ขนาดใหญ่ จุของได้เยอะ แบบเรียบง่าย สไตล์เรโทร สําหรับผู้หญิง",
+        "price_before": "฿216",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 6.4พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_27": {
+        "product": "https://shopee.co.th/(HB-589)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-PU-i.148585848.18452338793?sp_atk=9b67fa7f-0f06-48ff-85d1-e44637b2c07a&xptdk=9b67fa7f-0f06-48ff-85d1-e44637b2c07a",
+        "price_product_2": "158",
+        "price_product_1": "148",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvd7-lgx46msphipja2_tn",
+        "discount": "-39%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "(HB-589) กระเป๋าสตางค์ กระเป๋าถือ สะพายข้าง หนัง PU",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 4.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_28": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%8B%E0%B9%88-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A4%E0%B8%94%E0%B8%B9%E0%B9%83%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9C%E0%B8%A5%E0%B8%B4-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A4%E0%B8%94%E0%B8%B9%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B5-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-2023-i.868396420.23350967703?sp_atk=017a12a3-f6a0-4238-9a99-e2a729be0e4f&xptdk=017a12a3-f6a0-4238-9a99-e2a729be0e4f",
+        "price_product_2": "199",
+        "price_product_1": "175",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lnwnmgrq9mzf82_tn",
+        "discount": "-64%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "กระเป๋าเป้สะพายหลัง กระเป๋าสะพายไหล่ แต่งสายโซ่ ขนาดเล็ก สไตล์เกาหลี แฟชั่นฤดูใบไม้ผลิ และฤดูร้อน สําหรับสตรี และนักเรียน 2023",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 1.5พัน ชิ้น",
+        "place": "จังหวัดสมุทรสาคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_29": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%81-%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%AD%E0%B8%A7-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%99%E0%B8%A5%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%94-B-812-i.26237854.14588807589?sp_atk=4762f93d-d8e6-4d17-bc53-f97eb9093805&xptdk=4762f93d-d8e6-4d17-bc53-f97eb9093805",
+        "price_product_2": "nan",
+        "price_product_1": "79",
+        "image_product_1": "https://down-th.img.susercontent.com/file/20697c6f51fe7b0d21c982e9069c3576_tn",
+        "discount": "-47%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "กระเป๋าคาดหน้าอก คาดเอว สะพายข้าง สไตล์สปอร์ต ผ้าไนล่อนกันน้ำ ขนาดกระทัดรัด B-812",
+        "price_before": "฿150",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 20.6พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_30": {
+        "product": "https://shopee.co.th/B-750-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B9%8A%E0%B8%AD%E0%B8%95-i.26237854.17839557161?sp_atk=be9f904b-c7d2-4336-a699-f6b1c0ff8f72&xptdk=be9f904b-c7d2-4336-a699-f6b1c0ff8f72",
+        "price_product_2": "nan",
+        "price_product_1": "26",
+        "image_product_1": "https://down-th.img.susercontent.com/file/ab9333bb2687ce29e6aa704126a90c25_tn",
+        "discount": "-48%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "B-750 กระเป๋าสตางค์ใบสั้น กระเป๋าลายสก๊อต",
+        "price_before": "฿50",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 18.3พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_31": {
+        "product": "https://shopee.co.th/C%EF%BC%86K-%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A8%E0%B8%AA%E0%B8%88%E0%B8%B5%E0%B8%9A%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%96%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2-i.886122338.22074752752?sp_atk=660ab7ff-cc5f-49bc-8036-6209f563366b&xptdk=660ab7ff-cc5f-49bc-8036-6209f563366b",
+        "price_product_2": "179",
+        "price_product_1": "129",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul3-lkc32wjtqtwpd0_tn",
+        "discount": "-59%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "C＆K ผู้หญิงกระเป๋าสะพายเกาหลีรุ่นร้อยชิ้นฝรั่งเศสจีบออกแบบเรียบง่ายถังแฟชั่นกระเป๋าสะพาย",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 7.4พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_32": {
+        "product": "https://shopee.co.th/-STAND-OIL-Post-Bag-7-colors-i.948994911.21273438092?sp_atk=4bdb4645-60a8-4af4-8327-aaaaa55b5206&xptdk=4bdb4645-60a8-4af4-8327-aaaaa55b5206",
+        "price_product_2": "nan",
+        "price_product_1": "3,200",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134207-7rbmp-lo3rc73f8q8889_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/b1779857572e9296c92ddf8e1e741aab",
+        "data_product": "[STAND OIL] Post Bag / 7 colors",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 8.3พัน ชิ้น",
+        "place": "เกาหลี",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_33": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A2%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%AD%E0%B8%A1-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99-i.270411666.12743286946?sp_atk=f34774fa-b81d-40b1-ad7b-1de87d5f221f&xptdk=f34774fa-b81d-40b1-ad7b-1de87d5f221f",
+        "price_product_2": "nan",
+        "price_product_1": "1",
+        "image_product_1": "https://down-th.img.susercontent.com/file/b9a0736a576c12d65cddf7652cb523e9_tn",
+        "discount": "-67%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "กรวยพลาสติก ขนาดเล็ก สำหรับกรอกน้ำหอม น้ำมัน",
+        "price_before": "฿3",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 46.3พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_34": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%B5%E0%B8%94%E0%B8%B3-%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%96%E0%B8%A1-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%A2-i.857472456.20656766510?sp_atk=6046d006-bcf2-478b-a1a0-a68ef0dde5c9&xptdk=6046d006-bcf2-478b-a1a0-a68ef0dde5c9",
+        "price_product_2": "285",
+        "price_product_1": "199",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22100-or8or4sutyiv32_tn",
+        "discount": "-57%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
+        "data_product": "กระเป๋าเป้สำหรับนักเรียนสีดำ ดีไซน์น่ารัก พร้อมของแถม สำหรับหญิงและชายทุกวัย",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 4.7พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_35": {
+        "product": "https://shopee.co.th/%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%A7%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%97%E0%B9%89-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%84%E0%B8%AD%E0%B9%81%E0%B8%9E%E0%B8%94-i.952164731.23368192986?sp_atk=a2492b63-d67e-4d36-a21f-9b47425aba70&xptdk=a2492b63-d67e-4d36-a21f-9b47425aba70",
+        "price_product_2": "nan",
+        "price_product_1": "158",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-llg0n8qpis5w08_tn",
+        "discount": "-41%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "ส่งเร็วของแท้ กระเป๋าไอแพด",
+        "price_before": "฿270",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 2.6พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_36": {
+        "product": "https://shopee.co.th/W1008-2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%A1%E0%B8%B5%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%AA%E0%B8%B5%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.65173690.18583073251?sp_atk=5d39540c-2d36-46e1-9e04-bfb1cd30dfdf&xptdk=5d39540c-2d36-46e1-9e04-bfb1cd30dfdf",
+        "price_product_2": "nan",
+        "price_product_1": "59",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qula-lkjc8dor6sx595_tn",
+        "discount": "-2%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "W1008-2 กระเป๋าสตางค์ มีซิป สีตัดกัน ความจุขนาดใหญ่ สําหรับผู้หญิง",
+        "price_before": "฿60",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 6.5พัน ชิ้น",
+        "place": "จังหวัดมุกดาหาร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_37": {
+        "product": "https://shopee.co.th/%F0%9F%94%A5(B-205)%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-i.26237854.19381589734?sp_atk=95341f94-e6c0-4073-a89e-6869aa620e1d&xptdk=95341f94-e6c0-4073-a89e-6869aa620e1d",
+        "price_product_2": "45",
+        "price_product_1": "34",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul0-lix0zkqjvgmg15_tn",
+        "discount": "-57%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "🔥(B-205)กระเป๋าสตางค์น่ารัก กระเป๋าสตางค์ พร้อมช่องใส่บัตร สําหรับผู้หญิง ใบสั้น",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 22.1พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_38": {
+        "product": "https://shopee.co.th/1064-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%A1%E0%B8%B5%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%9B%E0%B9%89-i.345218.19277837486?sp_atk=588c7711-d7f6-4d69-9d0b-1b31cb997929&xptdk=588c7711-d7f6-4d69-9d0b-1b31cb997929",
+        "price_product_2": "nan",
+        "price_product_1": "209",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qukx-lf81ttsh7gnlca_tn",
+        "discount": "-30%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "1064#กระเป๋าเป้มีช่องลับเป้",
+        "price_before": "฿299",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 1.8พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_39": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-18-%E0%B8%99%E0%B8%B4%E0%B9%89%E0%B8%A7-%E0%B8%A1%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B5%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81-i.53943566.22686387476?sp_atk=20ffeebb-6c81-4dbb-a884-143723926df6&xptdk=20ffeebb-6c81-4dbb-a884-143723926df6",
+        "price_product_2": "nan",
+        "price_product_1": "559",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lo3jrrlhhgfb1d_tn",
+        "discount": "-40%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "กระเป๋าเดินทาง 18 นิ้ว มีหลายสีให้เลือก",
+        "price_before": "฿930",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 636 ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_40": {
+        "product": "https://shopee.co.th/%E2%9D%A3%EF%B8%8F%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%84%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-PVC-%E0%B9%83%E0%B8%AA%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B9%84%E0%B8%A3%E0%B9%89%E0%B8%82%E0%B8%AD%E0%B8%9A-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%A2-%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9-7-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-i.546762445.19940241854?sp_atk=2627b289-d41d-480b-aadb-ddcd334f0a1e&xptdk=2627b289-d41d-480b-aadb-ddcd334f0a1e",
+        "price_product_2": "125",
+        "price_product_1": "51",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98y-ln8h81k0zb8330_tn",
+        "discount": "-71%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "❣️ส่งล็อคกระเป๋าเดินทาง ผ้าคลุมกระเป๋าเดินทาง PVC ใสกันน้ำ ไร้ขอบ กันรอย หนาพิเศษ 7 ขนาด",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 5.5พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_41": {
+        "product": "https://shopee.co.th/(%F0%9F%A7%BA%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%9A%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81-%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%AA%E0%B8%A7%E0%B8%A2%E0%B9%86-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-(%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%B2%E0%B8%99%E0%B9%89%E0%B8%B2*)-i.1384717.11033758787?sp_atk=382e74cd-c292-4552-b61b-92e61c04eaab&xptdk=382e74cd-c292-4552-b61b-92e61c04eaab",
+        "price_product_2": "19",
+        "price_product_1": "5",
+        "image_product_1": "https://down-th.img.susercontent.com/file/5450d1e7fadcb4296ca5c24f779b2958_tn",
+        "discount": "nan",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "(🧺พร้อมส่ง) กระเป๋าผ้าขนาดใบเล็ก พกพา ไปตลาดสวยๆ ใส่ของได้เยอะ  (ไม่มีป้ายเทาน้า*)",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 5.9พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_42": {
+        "product": "https://shopee.co.th/Tpartner-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A5%E0%B8%B2%E0%B8%81%E2%80%8B-Insta-Series-%E0%B9%80%E0%B8%9F%E0%B8%A3%E0%B8%A1%E0%B8%8B%E0%B8%B4%E0%B8%9B-%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8ABS-PC-%E0%B8%AA%E0%B8%B5%E0%B8%AA%E0%B8%94%E0%B9%83%E0%B8%AA-8-%E0%B8%AA%E0%B8%B5-i.76171761.6652090841?sp_atk=bef85372-72f8-4ad1-899f-d4c0066bec35&xptdk=bef85372-72f8-4ad1-899f-d4c0066bec35",
+        "price_product_2": "849",
+        "price_product_1": "666",
+        "image_product_1": "https://down-th.img.susercontent.com/file/b39b231061b49e1982a468c988f473b9_tn",
+        "discount": "-69%",
+        "image_product_2": "nan",
+        "data_product": "Tpartner กระเป๋าเดินทาง  กระเป๋าเดินทางล้อลาก​ Insta Series เฟรมซิป วัสดุABS+PC สีสดใส 8 สี",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 25.2พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_43": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-Adidas-%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%94-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%94%E0%B9%89%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.340787792.22319608226?sp_atk=3bad5569-1bc8-4b16-8eba-1d371dc8fdfc&xptdk=3bad5569-1bc8-4b16-8eba-1d371dc8fdfc",
+        "price_product_2": "nan",
+        "price_product_1": "119",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23010-jg386ggvqkmv6e_tn",
+        "discount": "-40%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "กระเป๋า Adidas สินค้าใหม่ล่าสุด สะพายข้างจุของได้เยอะแฟชั่นกระเป๋าผู้ชายและผู้หญิง",
+        "price_before": "฿199",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 7.6พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_44": {
+        "product": "https://shopee.co.th/%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%AD%E0%B8%A5-50kg-10g-%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2-No.-JY29-i.81245665.8142762164?sp_atk=02881ea1-58a0-4600-8bdb-3ea13311e495&xptdk=02881ea1-58a0-4600-8bdb-3ea13311e495",
+        "price_product_2": "115",
+        "price_product_1": "65",
+        "image_product_1": "https://down-th.img.susercontent.com/file/a690409f6dc00c1752c0d6ce74fc8bc4_tn",
+        "discount": "-41%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-dfe02b2e2296fa17d79fc513bfadb4da",
+        "data_product": "เครื่องชั่งกระเป๋า เครื่องชั่งน้ำหนักอิเล็กทรอนิกส์ดิจิตอล 50kg/10g ชั่งกระเป๋า No. JY29",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 20.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_45": {
+        "product": "https://shopee.co.th/%EF%BC%88B586%EF%BC%83)%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA-%E0%B8%9B%E0%B8%B1%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AA%E0%B8%B8%E0%B8%99%E0%B8%B1%E0%B8%82-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%88-%E0%B8%AE%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%88%E0%B8%B9%E0%B8%81%E0%B8%B8-%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%84%E0%B8%B0-i.696506283.22126363188?sp_atk=5e02298f-0848-4a8c-b5ea-ceecaef3683c&xptdk=5e02298f-0848-4a8c-b5ea-ceecaef3683c",
+        "price_product_2": "nan",
+        "price_product_1": "39",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23020-7iji6f08ztnvb1_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "（B586＃)กระเป๋าผ้าแคนวาส ปักลายลูกสุนัข สําหรับผู้หญิง สไตล์วินเทจ ฮาราจูกุ ญี่ปุ่น ไม่มีตุ๊กตาคะ",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 6.8พัน ชิ้น",
+        "place": "จังหวัดนนทบุรี",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_46": {
+        "product": "https://shopee.co.th/C-k-Y2K-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B8%AA%E0%B8%B5%E0%B8%95%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B1%E0%B8%99-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-i.886122338.23777894889?sp_atk=67e1903d-dcf2-4439-8acc-3b8108a0afb7&xptdk=67e1903d-dcf2-4439-8acc-3b8108a0afb7",
+        "price_product_2": "195",
+        "price_product_1": "179",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lo1xf8v05h8o8b_tn",
+        "discount": "-58%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "C&k Y2K กระเป๋าเป้สะพายหลัง อเนกประสงค์ สีตัดกัน สไตล์เกาหลี ญี่ปุ่น สําหรับผู้หญิง นักเรียน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.8พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_47": {
+        "product": "https://shopee.co.th/%F0%9F%91%9C%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%91%9C-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9A%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%9E%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%82%E0%B8%8B%E0%B9%88%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%87-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99-i.952164731.18593581234?sp_atk=0561344a-960d-4ca6-90e0-a7baa7bfc3fc&xptdk=0561344a-960d-4ca6-90e0-a7baa7bfc3fc",
+        "price_product_2": "109",
+        "price_product_1": "39",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lns1f7b2ak5ka6_tn",
+        "discount": "-90%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "👜พร้อมส่ง👜 กระเป๋าสะพายไหล่ ทรงบักเก็ต ประดับพลอยเทียม พร้อมสายโซ่คล้อง แฟชั่น",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 1.4พัน ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_48": {
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87-pu-%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%A1shiny-girl88-i.17712086.16798861593?sp_atk=dbc39e74-a3aa-4aeb-aeb2-feb76df2bb49&xptdk=dbc39e74-a3aa-4aeb-aeb2-feb76df2bb49",
+        "price_product_2": "nan",
+        "price_product_1": "129",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r990-llnnmdxqa4i3a2_tn",
+        "discount": "-36%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "กระเป๋าสะพายข้างแฟชั่นผู้หญิงหนัง pu หนังนิ่มshiny girl88",
+        "price_before": "฿200",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 2.6พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_49": {
+        "product": "https://shopee.co.th/Mh-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%82%E0%B8%97%E0%B9%89%E0%B8%97-%E0%B8%96%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B8%B4%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B9%89%E0%B8%87-%E0%B8%97%E0%B8%AD%E0%B8%A1%E0%B8%B7%E0%B8%AD-%E0%B8%9C%E0%B8%B9%E0%B8%81%E0%B8%9B%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%8B%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%84%E0%B8%94%E0%B9%89-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B8%E0%B8%AA%E0%B8%B9%E0%B8%87-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99-i.40258835.14599729195?sp_atk=e0b97985-2fa2-46ef-ad17-f9d1c3953a5c&xptdk=e0b97985-2fa2-46ef-ad17-f9d1c3953a5c",
+        "price_product_2": "105",
+        "price_product_1": "45",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbl4-lq2t56fzys909f_tn",
+        "discount": "-89%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "Mh กระเป๋าโท้ท ถักนิตติ้ง ทอมือ ผูกปมคู่ ใช้ซ้ําได้ ความจุสูง สําหรับนักเรียน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 450 ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_50": {
+        "product": "https://shopee.co.th/-%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94-CICIMARV1-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1-%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-1-%E0%B8%9A%E0%B8%B2%E0%B8%97!!-%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%F0%9F%94%A5%E0%B8%9E%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B8%8D%E0%B9%81%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-%E0%B8%9E%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B8%8D%E0%B9%81%E0%B8%88%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B8%B2%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99-i.268351454.6247440733?sp_atk=cbd3c499-8c3e-499b-9002-c6239118f205&xptdk=cbd3c499-8c3e-499b-9002-c6239118f205",
+        "price_product_2": "66",
+        "price_product_1": "23",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r991-lmfr9rsfknf215_tn",
+        "discount": "-79%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-300ddf00d967483819649fe53299280c",
+        "data_product": "[โค้ด CICIMARV1 ลดเพิ่ม/ลูกค้าใหม่ 1 บาท!! ]🔥พร้อมส่ง🔥พวงกุญแจตุ๊กตาน่ารัก พวงกุญแจห้อยกระเป๋าตุ๊กตาญี่ปุ่น ลายการ์ตูน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 65.6พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "nan",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_51": {
+        "product": "https://shopee.co.th/%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8B%E0%B8%B4%E0%B8%A5%E0%B8%B4%E0%B9%82%E0%B8%84%E0%B8%99-%E0%B8%A5%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%A3%E0%B8%9A%E0%B8%81%E0%B8%A7%E0%B8%99-8PCS-%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%94%E0%B8%97%E0%B8%B2%E0%B8%99-i.278548362.22256128698?sp_atk=a0826e0c-e53d-4d5b-a1ae-7e05ae007476&xptdk=a0826e0c-e53d-4d5b-a1ae-7e05ae007476",
+        "price_product_2": "69",
+        "price_product_1": "27",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7rbnf-lni0d9d9a4kw0c_tn",
+        "discount": "-86%",
+        "image_product_2": "nan",
+        "data_product": "ปลอกหุ้มล้อกระเป๋าเดินทาง แบบซิลิโคน ลดเสียงรบกวน 8PCS ป้องกันแรงเสียดทาน",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_52": {
+        "product": "https://shopee.co.th/(B-950)%F0%9F%94%A5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%81-%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B9%80%E0%B8%AD%E0%B8%A7-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%94-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-i.26237854.20376671295?sp_atk=04341576-1e9e-47a5-bc4b-1e8c58af66cf&xptdk=04341576-1e9e-47a5-bc4b-1e8c58af66cf",
+        "price_product_2": "38",
+        "price_product_1": "36",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-23030-nogjtcar0wov95_tn",
+        "discount": "-64%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "(B-950)🔥กระเป๋าคาดหน้าอก คาดเอว สะพายข้าง สไตล์สปอร์ต ขนาดกระทัดรัด กระเป๋าผ้า",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 19.6พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_53": {
+        "product": "https://shopee.co.th/(HB-493)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88-%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C%E0%B9%84%E0%B8%94%E0%B9%89-i.148585848.17232969474?sp_atk=9bb39380-38ea-4d4b-afd1-fbbeb7215e58&xptdk=9bb39380-38ea-4d4b-afd1-fbbeb7215e58",
+        "price_product_2": "68",
+        "price_product_1": "60",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvdh-lh0brc4kslrjff_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "(HB-493) กระเป๋าสะพายไหล่ สะพายข้าง ใส่โทรศัพท์ได้",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 10.1พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_54": {
+        "product": "https://shopee.co.th/B-995%F0%9F%94%A5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%97%E0%B8%A2%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-ins-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%A5%E0%B8%B3%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%88%E0%B8%B5%E0%B8%9A-i.26237854.19979245845?sp_atk=8a63d57b-4121-442c-8436-c553bdadc08f&xptdk=8a63d57b-4121-442c-8436-c553bdadc08f",
+        "price_product_2": "79",
+        "price_product_1": "66",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul2-lg3msq7s1t73ce_tn",
+        "discount": "-67%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "B-995🔥พร้อมส่งที่ไทย🔥 กระเป๋าผู้หญิง ins กระเป๋ารักแร้สะพายไหล่เดี่ยวแบบลำลองแฟชั่นเข้าชุดง่ายกระเป๋าถือจีบ",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 20.2พัน ชิ้น",
+        "place": "จังหวัดสมุทรปราการ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_55": {
+        "product": "https://shopee.co.th/KIQUNE-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%88%E0%B8%B8%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%81%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2-%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%9E%E0%B8%87-GDJ23C027M-49Z231204-i.885544097.24752572402?sp_atk=473d9824-e46e-4bf9-8c55-c14239a058d5&xptdk=473d9824-e46e-4bf9-8c55-c14239a058d5",
+        "price_product_2": "nan",
+        "price_product_1": "195",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lposj91j760r3c_tn",
+        "discount": "-60%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "KIQUNE กระเป๋าสะพายข้าง กระเป๋าผ้า ความจุขนาดใหญ่ อเนกประสงค์ เรียบง่าย ราคาไม่แพง GDJ23C027M 49Z231204",
+        "price_before": "฿488",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 220 ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
+      }
+    },
+    {
+      "Product_56": {
+        "product": "https://shopee.co.th/Am-Bag-%F0%9F%8C%BA%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%A1%E0%B8%B2-%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81-bucket-bag%F0%9F%A7%BA-i.174321098.20764683786?sp_atk=47d34aba-c6b1-472f-a309-f35b98d10bcc&xptdk=47d34aba-c6b1-472f-a309-f35b98d10bcc",
+        "price_product_2": "29",
+        "price_product_1": "28",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7r98t-lpab7u8717cu67_tn",
+        "discount": "-74%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
+        "data_product": "Am Bag 🌺กระเป๋าถือ กระเป๋าผ้า สไตล์เกาหลี แฟชั่นมา น่ารัก -bucket bag🧺",
+        "price_before": "-",
+        "Emoji": "฿",
+        "sold": "ขายแล้ว 3.9พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
+        "Recommended_shops": "ร้านแนะนำ",
+        "maket": "shopee",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_57": {
-        "product": "https://shopee.co.th/914-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%9A%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-i.65173690.10814921215?sp_atk=6c0d6dcb-ba9e-4318-9653-0875108a44aa&xptdk=6c0d6dcb-ba9e-4318-9653-0875108a44aa",
-        "price_product_2": "38",
-        "price_product_1": "35",
-        "image_product_1": "https://down-th.img.susercontent.com/file/ee9a5772f7bdb32982d9b6f1b998c826_tn",
-        "discount": "-10%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "914 กระเป๋าสตางค์ใบสั้น กระเป๋าตังค์ผู้หญิง",
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B9%E0%B8%94-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9E%E0%B8%81%E0%B8%9E%E0%B8%B2-i.98465314.1795513142?sp_atk=72577fd4-be5e-4053-8d08-53a99b66bfa3&xptdk=72577fd4-be5e-4053-8d08-53a99b66bfa3",
+        "price_product_2": "19",
+        "price_product_1": "9",
+        "image_product_1": "https://down-th.img.susercontent.com/file/05511ae54dfc2f726b39c79c5ed3c12f_tn",
+        "discount": "-82%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-7e2d94cea1f22ac04e85327f430d5557",
+        "data_product": "กระเป๋าสะพายหลัง แบบสายรูด สำหรับพกพา",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 33.8พัน ชิ้น",
-        "place": "จังหวัดมุกดาหาร",
+        "sold": "ขายแล้ว 40.7พัน ชิ้น",
+        "place": "ต่างประเทศ",
         "Recommended_shops": "nan",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_58": {
-        "product": "https://shopee.co.th/(B-335)%F0%9F%94%A5-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%9F%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B9%80%E0%B8%97%E0%B9%88%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%B0-i.26237854.15658221056?sp_atk=03b57807-0ac0-43ed-be4c-503a65aad258&xptdk=03b57807-0ac0-43ed-be4c-503a65aad258",
+        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%8D%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3-PU-%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87-i.839888222.20389546864?sp_atk=1f144934-ef07-4504-b08f-157a3f7eaf4a&xptdk=1f144934-ef07-4504-b08f-157a3f7eaf4a",
         "price_product_2": "nan",
-        "price_product_1": "32",
-        "image_product_1": "https://down-th.img.susercontent.com/file/2eeaa448231bc783e9f90e847a340b33_tn",
-        "discount": "-79%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-9c786d792d156d2e2f25280da85238f4",
-        "data_product": "(B-335)🔥 กระเป๋าคาดอกผู้ชาย กระเป๋าคาดอกผู้ชายแฟชั่นสุดเท่ช่องเยอะ",
-        "price_before": "฿150",
+        "price_product_1": "159",
+        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-7qvdl-lhpzrcdkdha205_tn",
+        "discount": "-50%",
+        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
+        "data_product": "กระเป๋าใส่เหรียญกระเป๋าใส่บัตร PU แบบแข็ง",
+        "price_before": "฿318",
         "Emoji": "nan",
-        "sold": "ขายแล้ว 29พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
+        "sold": "ขายแล้ว 486 ชิ้น",
+        "place": "ต่างประเทศ",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_59": {
-        "product": "https://shopee.co.th/Look-After-%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B8%8B%E0%B8%B4%E0%B8%9B%E0%B9%83%E0%B8%AA-%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%9A-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3-%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%9A-%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A2-i.418614072.13347172946?sp_atk=607ca203-6317-46b4-adc2-11bb371c3b6f&xptdk=607ca203-6317-46b4-adc2-11bb371c3b6f",
-        "price_product_2": "10",
-        "price_product_1": "2",
-        "image_product_1": "https://down-th.img.susercontent.com/file/8c9e935a7a4826fdb484d15c01424ed1_tn",
-        "discount": "-78%",
-        "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "Look After ถุงซิปใส ใส่เสื้อผ้า สำหรับเดินทาง กันเสื้อผ้ายับ กันน้ำ เก็บเป็นระเบียบ เรียบร้อย",
-        "price_before": "-",
-        "Emoji": "฿",
-        "sold": "ขายแล้ว 265.4พัน ชิ้น",
-        "place": "จังหวัดสมุทรปราการ",
+        "product": "https://shopee.co.th/%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2-(4%E0%B8%AA%E0%B8%B5-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B9%88%E0%B8%87)-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%87-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%84%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%AA%E0%B8%AA%E0%B9%84%E0%B8%95%E0%B8%A5%E0%B9%8C%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%83%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88-%E0%B8%96%E0%B8%AD%E0%B8%94%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%94%E0%B9%89-i.72527551.21690881811?sp_atk=70db287c-a6c9-4cf7-8ad2-e676c51b84b6&xptdk=70db287c-a6c9-4cf7-8ad2-e676c51b84b6",
+        "price_product_2": "nan",
+        "price_product_1": "99",
+        "image_product_1": "https://down-th.img.susercontent.com/file/th-11134207-7qul9-ljbb6mokxyi05a_tn",
+        "discount": "nan",
+        "image_product_2": "nan",
+        "data_product": "ส่งจากไทย (4สี/พร้อมส่ง) กระเป๋าสะพายข้าง ผ้าแคนวาสสไตล์ใหม่ ใบใหญ่ ถอดสายได้",
+        "price_before": "nan",
+        "Emoji": "nan",
+        "sold": "ขายแล้ว 3.2พัน ชิ้น",
+        "place": "จังหวัดกรุงเทพมหานคร",
         "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     },
     {
       "Product_60": {
-        "product": "https://shopee.co.th/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%AD%E0%B8%A5-10-%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-31x34cm-tote-Bag-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%9C%E0%B9%89%E0%B8%B2-i.65173690.23203332150?sp_atk=f6dd7dff-14d1-4194-9f76-b2619e582e21&xptdk=f6dd7dff-14d1-4194-9f76-b2619e582e21",
-        "price_product_2": "26",
-        "price_product_1": "22",
-        "image_product_1": "https://down-th.img.susercontent.com/file/sg-11134201-22110-3wrhn4pa6cjv08_tn",
-        "discount": "-78%",
+        "product": "https://shopee.co.th/Lhj-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%8A%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%96%E0%B8%B7%E0%B8%AD-%E0%B8%AA%E0%B8%B5%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99-%E0%B8%AA%E0%B9%8D%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87-DYM-i.98783201.14598482073?sp_atk=feeb6f56-b35b-4111-b9c3-eaa9bbaff33b&xptdk=feeb6f56-b35b-4111-b9c3-eaa9bbaff33b",
+        "price_product_2": "44",
+        "price_product_1": "30",
+        "image_product_1": "https://down-th.img.susercontent.com/file/cn-11134207-7r98o-lphumqnhycu76b_tn",
+        "discount": "-50%",
         "image_product_2": "https://down-th.img.susercontent.com/file/th-50009109-046794c5ea23d6812a0e40e6e0f9ef76",
-        "data_product": "กระเป๋าผ้ามินิมอล 10 ลายสกรีน ขนาด 31x34cm tote Bag กระเป๋าผ้า",
+        "data_product": "Lhj กระเป๋าช้อปปิ้ง กระเป๋าถือ สีพื้น สําหรับผู้หญิง DYM",
         "price_before": "-",
         "Emoji": "฿",
-        "sold": "ขายแล้ว 69.9พัน ชิ้น",
-        "place": "จังหวัดมุกดาหาร",
-        "Recommended_shops": "nan",
+        "sold": "ขายแล้ว 373 ชิ้น",
+        "place": "ต่างประเทศ",
+        "Recommended_shops": "ร้านแนะนำ",
         "maket": "shopee",
-        "group": "Kai"
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์"
       }
     }
   ]

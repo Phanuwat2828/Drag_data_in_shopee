@@ -17,11 +17,33 @@ import pyperclip
 # path
 path_file = os.getcwd();
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
-data_lazada = r'\Data_lazada';
-data_lazada_xlsx = r'\lazada.xlsx';
+data_shopee = r'\Data_shopee';
+data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-# link_json
+
+
+# head_excel
+header = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
+       'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
+       'bx++ig 2', 'k9JZlv 2', 'OwmBnn', 'JVW3E2', 'hxLzax']
+header_Values = {
+    'col-xs-2-4 href':"product",
+    'Fd4QmV src':"image_product_1",
+    'FTxtVW':"discount",
+    'customized-overlay-image src':"image_product_2",
+    'DgXDzJ':"data_product", 
+    'bPcAVl':"price_before",
+    'k9JZlv':"price_product_1",
+    'bx++ig 2':"Emoji",
+    'k9JZlv 2':"price_product_2",
+    'OwmBnn':"sold",
+    'JVW3E2':"place", 
+    'hxLzax':"Recommended_shops"
+}
+
+# Link_all
+
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
@@ -34,31 +56,14 @@ data_link_for_lazada  = {
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
-# head_excel
-header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt', 'ooOxS', 'IcOsH',
-       '_1cEkb', 'qzqFw', 'oa6ri']
-
-header_Values = {
-    '_95X4G href':"product",
-    'jBwCF src':"image_product_1",
-    'jBwCF src 2':"image_product_2",
-
-    'IcOsH':"discount",
-    'RfADt':"data_product", 
-    'ooOxS':"price_product",
-    '_1cEkb':"sold",
-    'qzqFw':"count_review", 
-    'oa6ri':"place"
-}
 # Data_Link
 # Link_all
 # Find_file_Donwload_after_change_name
 def status():
     try:
-        file_names = os.listdir(path_file+data_lazada);
+        file_names = os.listdir(path_file+data_shopee);
         status = False;
-        file = "lazada.xlsx";
+        file = "shopee.xlsx";
         # Print the list of file names
         for file_name in file_names:
             status=file_name==file;
@@ -69,8 +74,9 @@ def status():
 # Check_Header
 def check_data(path_file):
     try:
-        header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt', 'ooOxS', 'IcOsH', 'oa6ri']
+        header = ['col-xs-2-4 href', 'Fd4QmV src',
+       'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
+        'k9JZlv 2', 'JVW3E2', 'hxLzax']
        
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
@@ -81,12 +87,11 @@ def check_data(path_file):
 
 
 # Read Excell
-# https://11c2-14-207-200-101.ngrok-free.app/
 
 def postAPI_DB(data,id_shop):
     try:
         response = requests.post(
-            f"https://7faf-223-206-131-122.ngrok-free.app/addb?id={id_shop}&&web=lazada",
+            f"https://1e39-202-28-35-198.ngrok-free.app/addb?id={id_shop}&&web=lazada",
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -94,12 +99,11 @@ def postAPI_DB(data,id_shop):
                  "data":data
             }
         )
-    except:
+    except: 
         response = "API error"
     return response
 def data_process(path_file,i1,i2,i3,group):
     try:
-        # path_file = './Data_shopee/Data_1_1_1.xlsx';
         find = pd.read_excel(path_file);
         data_all=[];
         df = pd.read_excel(path_file)
@@ -120,7 +124,6 @@ def data_process(path_file,i1,i2,i3,group):
                 "sold":[],
                 "place":[],
                 "Recommended_shops":[],
-                "count_review":[],
                 "maket":[],
                 "group":[]
             }
@@ -129,32 +132,24 @@ def data_process(path_file,i1,i2,i3,group):
                 data:{
                 }
             }
-            for j in range(len(header)):
+            # เข้าถึงข้อมูลแต่ละชิ้น
+            for j in range(12):
                 data_input = str(find[header[j]][i]);
+                # print(data_input)
                 data_process[header_Values[header[j]]]=data_input;
             Product[data]=data_process;
-            Product[data]["maket"]="lazada";
-            Product[data]["group"]=group;
-            # id_shop = f"shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
-            id_shop = f'shop{i1}_{i2}_{i3}';
-            product = Product[data]["product"]
-            image_product_1 = Product[data]["image_product_1"]
-            image_product_2 = Product[data]["image_product_2"]
-            discount = Product[data]["discount"]
-            data_product = Product[data]["data_product"]
-            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
-            sold = Product[data]["sold"].split(" ")[0];
-            address = Product[data]["place"]
-            count_review = Product[data]["count_review"];
-            group_1 = Product[data]["group"],
-            maket = Product[data]["maket"];
+            Product[data]["maket"] = "shopee";
+            Product[data]["group"] = group;
+            # ***************************ไอดีสินค้าหลัก*************************************
+            id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             # ****************************************************************
-            success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
+            success_data_text += f'APRODUCT:::maket:::{Product[data]["maket"]}, group:::{group}, product:::{Product[data]["product"]}, price_product_2:::{float(Product[data]["price_product_2"].replace(",",""))}, price_product_1:::{float(Product[data]["price_product_1"].replace(",",""))}, image_product_1:::{Product[data]["image_product_1"]}, discount:::{Product[data]["discount"]}, image_product_2:::{Product[data]["image_product_2"]}, data_product:::{Product[data]["data_product"]}, price_before:::{Product[data]["price_before"]}, Emoji:::{Product[data]["Emoji"]}, sold:::{Product[data]["sold"]}, place:::{Product[data]["place"]}, Recommended_shops:::{Product[data]["Recommended_shops"]}'
             data_all.append(Product);
             success_data = {
                  "id":id_shop,
                  "data":data_all
             }
+            
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
                 filename = "Data_process.json"
@@ -168,32 +163,9 @@ def data_process(path_file,i1,i2,i3,group):
     except Exception as e:
         print("data_process : ",e)
 
-# Check_count
-def check_data_count(path):
-    try:
-        header = ['ant-pagination-item 6']
-        df = pd.read_excel(path)
-        is_subset = all(item in df.columns for item in header);
-        print("Status Check_Data_count : ",is_subset);
-        return is_subset;
-    except Exception as e:
-        print("Status Check_Data_count : ",e);
-def page():
-    try:
-        path = path_file+data_lazada+data_lazada_xlsx
-        df = pd.read_excel(path)
-        test ='ant-pagination-item 6'
-        num = [];
-        num.append(int(df[test][2]))
-        os.remove(path);
-        print("page_count : ",num[0]);
-        return num[0];
-    except Exception as e:
-        print("page_count : ",e);
-
 
 def Del():
-    folder_path = path_file+data_lazada;
+    folder_path = path_file+data_shopee;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
@@ -272,8 +244,8 @@ def main(x,t,e,t2,e2):
 # Change_name
 def change_name(k,i,j):
     try:
-        path ='.\Data_lazada\data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
-        path_file_change = path_file+data_lazada+data_lazada_xlsx;
+        path ='.\Data_shopee\data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
+        path_file_change = path_file+data_shopee+data_shopee_xlsx;
         new_file_name = 'data_'+str(k)+'_'+str(i)+'_'+str(j)+'.xlsx'
         # สร้างเส้นทางสำหรับไฟล์ใหม่
         new_file_path = os.path.join(os.path.dirname(path_file_change), new_file_name);
@@ -290,7 +262,6 @@ def get_link():
     try:
         path_here = os.getcwd();
         path_here = os.path.abspath(os.path.join(path_here, os.pardir))
-        print(path_here)
         path = drag_data+data_link;
         with open(path, 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
@@ -305,43 +276,31 @@ if __name__ == "__main__":
         num1+=1;
         Data = get_link();
         num2=0;
-        data_all = Data[data_link_for_lazada[k]]["lazada"];
+        data_all = Data[data_link_for_lazada[k]]["shopee"];
         try:
             for i in range(len(data_all)):
                 num2+=1;
                 num3=0; 
-                status_count = False
-                main(data_all[i],1,2,6,1);
-                status_lazada = status();
-                for c in range(status_lazada==False):
-                    main(data_all[i],1,2,6,1);
-                    if(c==2):
-                        break;
                 try:
-                        if(status_lazada==True):
-                            status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
-                        if(status_count==True):
-                            count = page()
-                            for j in range(count):
-                                data_sum=data_all[i]+"/?page="+str(j+1);
-                                main(data_sum,7,1,0,0);
-                                find_shopee = status();
-                                if(find_shopee==True):
-                                    num3+=1;
-                                    path = change_name(num1,num2,num3);
-                                    print(path);
-                                    if(check_data(path)==True):
-                                        data_process(path,num1,num2,num3,data_link_for_lazada[k]);
-                                    else:
-                                        destination_path = path_file+un_process;
-                                        shutil.move(path, destination_path)
-                                        continue;
-                                else:
-                                    continue;
-                                print(data_sum);
-                            custom_sleep(120);
+                    for j in range(9):
+                        data_sum=data_all[i]+"/?page="+str(j);
+                        main(data_sum,7,1,0,0);
+                        find_shopee = status();
+                        if(find_shopee==True):
+                            num3+=1;
+                            path = change_name(num1,num2,num3);
+                            print(path);
+                            if(check_data(path)==True):
+                                data_process(path,num1,num2,num3,data_link_for_lazada[k]);
+                            else:
+                                destination_path = path_file+un_process;
+                                shutil.move(path, destination_path)
+                                continue;
                         else:
                             continue;
+                        print(data_sum);
+                    custom_sleep(120);
+                        
                 except Exception as e:
                     print("For_j",e);
         except Exception as e:
