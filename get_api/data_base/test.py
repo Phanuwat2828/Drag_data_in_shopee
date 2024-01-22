@@ -1,7 +1,7 @@
 import json
 import requests
 
-url = 'https://www.lazada.co.th/shop-Groceries-ChocolateSnacksSweets/?ajax=true&isFirstRequest=true&page=1&spm=a2o4m.home-th.3887232320.5.49a87f6dCTCT6a'
+url = 'https://shopee.co.th/api/v4/recommend/recommend?bundle=category_landing_page&cat_level=1&catid=11044959&limit=60&offset=180'
 data = requests.get(url);
 data_all= data.text;
 print(data_all);
