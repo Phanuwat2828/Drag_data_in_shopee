@@ -135,7 +135,7 @@ data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 # ชื่อ xlsx
-xlsx_test = r'\data_1_1_1.xlsx';
+xlsx_test = r'\data_1_1_20.xlsx';
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
@@ -148,5 +148,4 @@ data_link_for_lazada  = {
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
-
-data_process(path_file+data_lazada+xlsx_test,1,1,1,'อุปกรณ์-อิเล็กทรอนิกส์')
+data_process(path_file+data_lazada+xlsx_test,1,1,20,'อุปกรณ์-อิเล็กทรอนิกส์')

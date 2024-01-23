@@ -57,6 +57,11 @@ header_Values = {
 # Link_all
 # Find_file_Donwload_after_change_name
 def status():
+    """status : เช็คไฟล์ว่ามีไฟล์ Lazada ไหม
+
+    Returns:
+        Bolean: True
+    """
     try:
         file_names = os.listdir(path_file+data_lazada);
         status = False;
@@ -70,6 +75,15 @@ def status():
         print("Status : ",e);
 # Check_Header
 def check_data(path_file):
+    """
+    Check_data : เช็ค Head xlsx ว่ามีสื่งที่ต้องการไหม
+
+    Args:
+        path_file String: Path file for find head
+
+    Returns:
+        Bolean : True
+    """
     try:
         header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS', 'oa6ri']
@@ -87,6 +101,19 @@ def check_data(path_file):
 
 
 def data_process(path_file,i1,i2,i3,group):
+    """
+    Process : เพื่อจัดตำแหน่งข้อมูลให้สามารถป้อนเข้า Data Base ได้
+
+    Args:
+        path_file (_type_): _description_
+        i1 (_type_): _description_
+        i2 (_type_): _description_
+        i3 (_type_): _description_
+        group (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     try:
         def postAPI_DB(data,id_shop,groub,i1):
             try:
