@@ -18,7 +18,7 @@ data_test=[]
 key = data_process.keys();
 for j in range(102):
     data_1=[]
-    url = 'https://www.lazada.co.th/shop-audio-2/?ajax=true&isFirstRequest=true&spm=a2o4m.home-th.3887232320.2.77be2a80pVPK2C&page='+str(j+1);
+    url = 'https://www.lazada.co.th/shop-kitchen-and-dining/?ajax=true&page='+str(j+1);
     data = requests.get(url)
     data_all= data.json();
     for k in range(40):
@@ -50,8 +50,8 @@ for j in range(102):
         data_1.append(Product);
     file_name = "data_"+str(j+1)+".json"
     # เขียน JSON object ลงในไฟล์
-    with open(file_name, 'w', encoding='utf-8-sig') as json_file:
-        json.dump(data_1, json_file, indent=2)
+    with open(file_name, 'W', encoding='utf-8-sig') as json_file:
+        json.dump(data_1, json_file, indent=2 , ensure_ascii=False)
 
 
 

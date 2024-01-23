@@ -16,13 +16,13 @@ import pyperclip
 
 # path
 bot_lazada = r'\Bot_lazada'
-path_file = os.getcwd()+bot_lazada;
+path_file = os.getcwd();
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 7;
+desk_top = 6;
 # link_json
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
@@ -32,13 +32,13 @@ data_link_for_lazada  = {
     4: 'ทารกและของเล่น', 
     5: 'ของชำและสัตว์เลี้ยง', 
     6: 'บ้านและไลฟ์สไตล์', 
-    7: 'แฟชั่นและเครื่องประดับผู้หญิง',
+    7: 'แฟชั่นและเครื่องประดับผู้หญิง', 
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
 # head_excel
 header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt', 'ooOxS', 'IcOsH',
+          , 'RfADt', 'ooOxS',
        '_1cEkb', 'qzqFw', 'oa6ri']
 
 header_Values = {
@@ -57,6 +57,11 @@ header_Values = {
 # Link_all
 # Find_file_Donwload_after_change_name
 def status():
+    """status : เช็คไฟล์ว่ามีไฟล์ Lazada ไหม
+
+    Returns:
+        Bolean: True
+    """
     try:
         file_names = os.listdir(path_file+data_lazada);
         status = False;
@@ -70,9 +75,18 @@ def status():
         print("Status : ",e);
 # Check_Header
 def check_data(path_file):
+    """
+    Check_data : เช็ค Head xlsx ว่ามีสื่งที่ต้องการไหม
+
+    Args:
+        path_file String: Path file for find head
+
+    Returns:
+        Bolean : True
+    """
     try:
         header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt', 'ooOxS', 'IcOsH', 'oa6ri']
+          , 'RfADt', 'ooOxS', 'oa6ri']
        
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
@@ -85,22 +99,36 @@ def check_data(path_file):
 # Read Excell
 # https://11c2-14-207-200-101.ngrok-free.app/
 
-def postAPI_DB(data,id_shop):
-    try:
-        response = requests.post(
-            f"https://7faf-223-206-131-122.ngrok-free.app/addb?id={id_shop}&&web=lazada",
-            headers={
-                "Content-type":"application/x-www-form-urlencoded"
-            },
-            data={
-                 "data":data
-            }
-        )
-    except:
-        response = "API error"
-    return response
+
 def data_process(path_file,i1,i2,i3,group):
+    """
+    Process : เพื่อจัดตำแหน่งข้อมูลให้สามารถป้อนเข้า Data Base ได้
+
+    Args:
+        path_file (_type_): _description_
+        i1 (_type_): _description_
+        i2 (_type_): _description_
+        i3 (_type_): _description_
+        group (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     try:
+        def postAPI_DB(data,id_shop,groub,i1):
+            try:
+                response = requests.post(
+                    f"https://bf25-202-28-35-197.ngrok-free.app/addb?id={id_shop}&&web=lazada&&group={i1}&&title_group={groub}",
+                    headers={
+                        "Content-type":"application/x-www-form-urlencoded"
+                    },
+                    data={
+                        "data":data
+                    }
+                )
+            except:
+                response = "API error"
+            return response
         # path_file = './Data_shopee/Data_1_1_1.xlsx';
         find = pd.read_excel(path_file);
         data_all=[];
@@ -154,8 +182,12 @@ def data_process(path_file,i1,i2,i3,group):
             success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
             data_all.append(Product);
             success_data = {
-                 "id":id_shop,
-                 "data":data_all
+                "group":i1,
+                "id":id_shop,
+                "title_Grop":group,
+                "website":"lazada",
+                "data":data_all,
+                 
             }
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
@@ -165,7 +197,7 @@ def data_process(path_file,i1,i2,i3,group):
                 test = len(Data_everthing);
                 # แสดงข้อมูล
                 # print(success_data_text); #ข้อมูลที่จะส่งไป API
-                print(postAPI_DB(success_data_text,id_shop));
+                print(postAPI_DB(success_data_text,id_shop,group,i1));
         print("data_process : True")
     except Exception as e:
         print("data_process : ",e)
@@ -315,36 +347,36 @@ if __name__ == "__main__":
                 main(data_all[i],1,2,desk_top,1);
                 status_lazada = status();
                 for c in range(status_lazada==False):
-                    main(data_all[i],1,2,7,1);
+                    main(data_all[i],1,2,desk_top,1);
                     if(c==2):
                         break;
                 try:
-                        if(status_lazada==True):
-                            status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
-                        if(status_count==True):
-                            count = page()
-                            for j in range(count):
-                                print("=======================");
-                                data_sum=data_all[i]+"/?page="+str(j+1);
-                                main(data_sum,desk_top+1,1,0,0);
-                                find_shopee = status();
-                                if(find_shopee==True):
-                                    num3+=1;
-                                    path = change_name(num1,num2,num3);
+                    if(status_lazada==True):
+                        status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
+                    if(status_count==True):
+                        count = page()
+                        for j in range(count):
+                            print("=======================");
+                            data_sum=data_all[i]+"/?page="+str(j+1);
+                            main(data_sum,desk_top+1,1,0,0);
+                            find_shopee = status();
+                            if(find_shopee==True):
+                                num3+=1;
+                                path = change_name(num1,num2,num3);
 
-                                    if(check_data(path_file+path)==True):
-                                        data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
-                                    else:
-                                        destination_path = path_file+un_process;
-                                        shutil.move(path_file+path, destination_path)
-                                        continue;
+                                if(check_data(path_file+path)==True):
+                                    data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
                                 else:
+                                    destination_path = path_file+un_process;
+                                    shutil.move(path_file+path, destination_path)
                                     continue;
-                                print("=======================");
-                            custom_sleep(120);
-                        else:
-                            continue;
-                        print("For_J : True");
+                            else:
+                                continue;
+                            print("=======================");
+                        custom_sleep(120);
+                    else:
+                        continue;
+                    print("For_J : True");
                 except Exception as e:
                     print("For_j",e);
                 print("For_i : True");
