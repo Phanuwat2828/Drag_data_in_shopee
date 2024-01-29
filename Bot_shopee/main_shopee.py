@@ -13,7 +13,6 @@ import keyboard as ky
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pyperclip
-
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd()+bot_shopee;
@@ -23,8 +22,6 @@ data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 desk_top = 8;
-
-
 # head_excel
 header = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -43,9 +40,7 @@ header_Values = {
     'JVW3E2':"place", 
     'hxLzax':"Recommended_shops"
 }
-
 # Link_all
-
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
@@ -57,7 +52,9 @@ data_link_for_lazada  = {
     7: 'แฟชั่นและเครื่องประดับผู้หญิง',
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
-    10: 'ยานยนต์และรถจักรยานยนต์'}
+    10: 'ยานยนต์และรถจักรยานยนต์',
+    11:"เครื่องประดับ",
+    12:"ตั๋วและบัตรกำนัน"}
 # Data_Link
 # Link_all
 # Find_file_Donwload_after_change_name
@@ -78,7 +75,7 @@ def check_data(path_file):
     try:
         header = ['col-xs-2-4 href', 'Fd4QmV src',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
-        'k9JZlv 2', 'JVW3E2', 'hxLzax']
+       ]
        
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
@@ -86,10 +83,7 @@ def check_data(path_file):
         return is_subset; 
     except Exception as e:
         print("Check_data : ",e);  
-
-
 # Read Excell
-
 def postAPI_DB(data,id_shop):
     try:
         response = requests.post(
@@ -151,7 +145,6 @@ def data_process(path_file,i1,i2,i3,group):
                  "id":id_shop,
                  "data":data_all
             }
-            
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
                 filename = "Data_process.json"
@@ -164,8 +157,6 @@ def data_process(path_file,i1,i2,i3,group):
         print("data_process : True")
     except Exception as e:
         print("data_process : ",e)
-
-
 def Del():
     folder_path = path_file+data_shopee;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
@@ -179,9 +170,6 @@ def Del():
             print(f"Del_file : False",e);
 Del();
 Data = [];
-
-
-
 def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
@@ -241,8 +229,6 @@ def main(x,t,e,t2,e2):
     custom_sleep(1);
     ky.press_and_release('ctrl+w')
     print("Main : True");
-
-
 # Change_name
 def change_name(k,i,j):
     try:
@@ -309,4 +295,3 @@ if __name__ == "__main__":
                     print("For_j",e);
         except Exception as e:
             print("For_i : ",e);
-        
