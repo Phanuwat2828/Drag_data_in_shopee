@@ -122,7 +122,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             """
             try:
                 response = requests.post(
-                    f"{uri_API}/addb?id={id_shop}&&web=lazada&&group={i1}&&title_group={title_group}&&link={link}",
+                    f"{uri_API}/addb?id={id_shop}&&web=lazada&&group={title_group}&&title_group={title_group}&&link={link}",
                     headers={
                         "Content-type":"application/x-www-form-urlencoded"
                     },
