@@ -1,1 +1,0 @@
-count = len(api_data['3887232320']["categoriesLpMultiFloor"][])
