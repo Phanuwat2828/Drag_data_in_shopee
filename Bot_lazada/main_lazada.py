@@ -35,7 +35,8 @@ data_link_for_lazada  = {
     7: 'แฟชั่นและเครื่องประดับผู้หญิง', 
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
-    10: 'ยานยนต์และรถจักรยานยนต์'}
+    10: 'ยานยนต์และรถจักรยานยนต์'
+    }
 # head_excel
 header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS',
@@ -86,7 +87,7 @@ def check_data(path_file):
     """
     try:
         header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt', 'ooOxS', 'oa6ri']
+          , 'RfADt']
        
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
@@ -239,9 +240,6 @@ def Del():
             print(f"Del_file : False",e);
 Del();
 Data = [];
-
-
-
 def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
