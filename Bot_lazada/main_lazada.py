@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup as b
 import os
 from fnmatch import fnmatch
 import pandas as pd
@@ -10,19 +9,20 @@ import pyautogui
 from pynput import keyboard
 import shutil
 import keyboard as ky
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import pyperclip
+from data_address import address as ad
 
+# api
+uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
 # path
 bot_lazada = r'\Bot_lazada'
-path_file = os.getcwd();
+path_file = os.getcwd()+bot_lazada;
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 6;
+desk_top = 7;
 # link_json
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
@@ -101,25 +101,28 @@ def check_data(path_file):
 # https://11c2-14-207-200-101.ngrok-free.app/
 
 
-def data_process(path_file,i1,i2,i3,group):
+def data_process(path_file,i1,i2,i3,group,link):
     """
     Process : เพื่อจัดตำแหน่งข้อมูลให้สามารถป้อนเข้า Data Base ได้
-
     Args:
-        path_file (_type_): _description_
-        i1 (_type_): _description_
-        i2 (_type_): _description_
-        i3 (_type_): _description_
-        group (_type_): _description_
-
-    Returns:
-        _type_: _description_
+        path_file: ไฟล์ข้อมูล excel ที่โหลดมาด้วยโปเกบอล อ่านเพื่อแปลงข้อมูลเป็น json
+        i1: รอบการทำงานใหญ่ที่สุด ก็คือ หมวดหมู่
+        i2: รอบการทำงานกลาง ก็คือ หมวดหมู่ สับย่อยลงมา
+        i3: รอบการทำงานเล็กสุด ก็คือ หน้าแต่ละหน้าของสับย่อย ที่เราให้ไปอ่านแล้วกดโหลด
+        group: _description_
     """
     try:
-        def postAPI_DB(data,id_shop,groub,i1):
+        def postAPI_DB(data,id_shop,title_group,i1,link):
+            """
+            data: text ที่ทำการ += ในตัวแปร success_data_text
+            id_shop : shop1_1_1
+            title_group:หมวดหมู่กลุ่ม
+            i1:กลุ่มหลัก 1 
+            link: link หมวดหลัก
+            """
             try:
                 response = requests.post(
-                    f"https://bf25-202-28-35-197.ngrok-free.app/addb?id={id_shop}&&web=lazada&&group={i1}&&title_group={groub}",
+                    f"{uri_API}/addb?id={id_shop}&&web=lazada&&group={i1}&&title_group={title_group}&&link={link}",
                     headers={
                         "Content-type":"application/x-www-form-urlencoded"
                     },
@@ -127,15 +130,11 @@ def data_process(path_file,i1,i2,i3,group):
                         "data":data
                     }
                 )
+                return {"status":200,"message":"POST API SUCCESS."}
             except:
-                response = "API error"
-            return response
-        # path_file = './Data_shopee/Data_1_1_1.xlsx';
-        find = pd.read_excel(path_file);
-        data_all=[];
-        df = pd.read_excel(path_file)
-        num_rows, num_columns = df.shape
-        Data_everthing=[];
+                return {"status":404,"message":"POST API ERROR."}
+        read_excel = pd.read_excel(path_file);
+        num_rows, num_columns = read_excel.shape
         success_data_text = ""
         for i in range(num_rows):
             data_process = {
@@ -156,52 +155,35 @@ def data_process(path_file,i1,i2,i3,group):
                 "group":[]
             }
             data = "Product_"+str(i+1);
-            Product = {
-                data:{
-                }
-            }
             for j in range(len(header)):
-                data_input = str(find[header[j]][i]);
+                data_input = str(read_excel[header[j]][i]);
                 data_process[header_Values[header[j]]]=data_input;
-            Product[data]=data_process;
-            Product[data]["maket"]="lazada";
-            Product[data]["group"]=group;
-            # id_shop = f"shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
-            id_shop = f'shop{i1}_{i2}_{i3}';
+            # ****************************************************************
+            Product = {}
+            Product[data]= data_process
+            Product[data]["maket"]="lazada"
+            Product[data]["group"]=group
+            id_shop = f'shop{i1}_{i2}_{i3}'
+            # ****************************************************************
             product = Product[data]["product"]
             image_product_1 = Product[data]["image_product_1"]
             image_product_2 = Product[data]["image_product_2"]
             discount = Product[data]["discount"]
             data_product = Product[data]["data_product"]
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
-            sold = Product[data]["sold"].split(" ")[0];
-            address = Product[data]["place"]
-            count_review = Product[data]["count_review"];
-            group_1 = Product[data]["group"],
-            maket = Product[data]["maket"];
+            price_product = (price_product<=0)and "0" or price_product
+            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
+            address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+            count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
+            maket = Product[data]["maket"]
             # ****************************************************************
             success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
-            data_all.append(Product);
-            success_data = {
-                "group":i1,
-                "id":id_shop,
-                "title_Grop":group,
-                "website":"lazada",
-                "data":data_all,
-                 
-            }
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
-                filename = "Data_process.json"
-                with open(filename, 'w', encoding='utf-8') as file:
-                    json.dump(success_data, file, indent=2, ensure_ascii=False)
-                test = len(Data_everthing);
-                # แสดงข้อมูล
-                # print(success_data_text); #ข้อมูลที่จะส่งไป API
-                print(postAPI_DB(success_data_text,id_shop,group,i1));
-        print("data_process : True")
-    except Exception as e:
-        print("data_process : ",e)
+                print(success_data_text)
+                print(postAPI_DB(success_data_text,id_shop,group,i1,link));
+    except:
+        print(f"data_process : error ==> i1:{i1}, i2:{i2}, i3:{i3}")
 
 # Check_count
 def check_data_count(path):
@@ -363,7 +345,7 @@ if __name__ == "__main__":
                                 path = change_name(num1,num2,num3);
 
                                 if(check_data(path_file+path)==True):
-                                    data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
+                                    data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k],data_all[i]);
                                 else:
                                     destination_path = path_file+un_process;
                                     shutil.move(path_file+path, destination_path)

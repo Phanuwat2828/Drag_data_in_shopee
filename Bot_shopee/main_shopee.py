@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup as b
 import os
 from fnmatch import fnmatch
 import pandas as pd
@@ -10,9 +9,11 @@ import pyautogui
 from pynput import keyboard
 import shutil
 import keyboard as ky
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import pyperclip
+from data_address import address as ad
+
+# path_api
+uri_API = 'https://b18f-223-206-131-122.ngrok-free.app/';
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd()+bot_shopee;
@@ -41,7 +42,7 @@ header_Values = {
     'hxLzax':"Recommended_shops"
 }
 # Link_all
-data_link_for_lazada  = {
+data_link_for_shopee  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
     2: 'ทีวีและเครื่องใช้ในบ้าน', 
@@ -84,21 +85,28 @@ def check_data(path_file):
     except Exception as e:
         print("Check_data : ",e);  
 # Read Excell
-def postAPI_DB(data,id_shop):
+def postAPI_DB(data,id_shop,title_group,i1,link):
+    """
+    data: text ที่ทำการ += ในตัวแปร success_data_text
+    id_shop : shop1_1_1
+    title_group:หมวดหมู่กลุ่ม
+    i1:กลุ่มหลัก 1 
+    link: link หมวดหลัก
+    """
     try:
         response = requests.post(
-            f"https://1e39-202-28-35-198.ngrok-free.app/addb?id={id_shop}&&web=lazada",
+            f"{uri_API}/addb?id={id_shop}&&web=lazada&&group={i1}&&title_group={title_group}&&link={link}",
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
             data={
-                 "data":data
+                "data":data
             }
         )
-    except: 
-        response = "API error"
-    return response
-def data_process(path_file,i1,i2,i3,group):
+        return {"status":200,"message":"POST API SUCCESS."}
+    except:
+        return {"status":404,"message":"POST API ERROR."}
+def data_process(path_file,i1,i2,i3,group,link):
     try:
         find = pd.read_excel(path_file);
         data_all=[];
@@ -120,6 +128,7 @@ def data_process(path_file,i1,i2,i3,group):
                 "sold":[],
                 "place":[],
                 "Recommended_shops":[],
+                "count_review":[],
                 "maket":[],
                 "group":[]
             }
@@ -136,10 +145,18 @@ def data_process(path_file,i1,i2,i3,group):
             Product[data]=data_process;
             Product[data]["maket"] = "shopee";
             Product[data]["group"] = group;
+            price_product1 = float(Product[data]["price_product_1"].replace(",",""));
+            price_product2 = float(Product[data]["price_product_2"].replace(",",""));
+            discount = (Product[data]["discount"]=='nan')and "" or Product[data]["discount"];
+            price_product1 = (price_product1<=0)and "0" or price_product1;
+            price_product2 = (price_product2<=0)and "0" or price_product2;
+            address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
+            sold = (Product[data]["sold"]=='nan')and "" or Product[data]["sold"];
+            price_before = (Product[data]["price_before"]=='nan')and "" or Product[data]["price_before"]
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             # ****************************************************************
-            success_data_text += f'APRODUCT:::maket:::{Product[data]["maket"]}, group:::{group}, product:::{Product[data]["product"]}, price_product_2:::{float(Product[data]["price_product_2"].replace(",",""))}, price_product_1:::{float(Product[data]["price_product_1"].replace(",",""))}, image_product_1:::{Product[data]["image_product_1"]}, discount:::{Product[data]["discount"]}, image_product_2:::{Product[data]["image_product_2"]}, data_product:::{Product[data]["data_product"]}, price_before:::{Product[data]["price_before"]}, Emoji:::{Product[data]["Emoji"]}, sold:::{Product[data]["sold"]}, place:::{Product[data]["place"]}, Recommended_shops:::{Product[data]["Recommended_shops"]}'
+            success_data_text += f'APRODUCT:::maket:::{Product[data]["maket"]}, group:::{group}, product:::{Product[data]["product"]}, price_product_2:::{price_product2}, price_product_1:::{price_product1}, image_product_1:::{Product[data]["image_product_1"]}, discount:::{discount}, image_product_2:::{Product[data]["image_product_2"]}, data_product:::{Product[data]["data_product"]}, price_before:::{price_before}, Emoji:::{Product[data]["Emoji"]}, sold:::{sold}, place:::{address}, Recommended_shops:::{Product[data]["Recommended_shops"]}'
             data_all.append(Product);
             success_data = {
                  "id":id_shop,
@@ -147,16 +164,11 @@ def data_process(path_file,i1,i2,i3,group):
             }
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
-                filename = "Data_process.json"
-                with open(filename, 'w', encoding='utf-8') as file:
-                    json.dump(success_data, file, indent=2, ensure_ascii=False)
-                test = len(Data_everthing);
-                # แสดงข้อมูล
                 # print(success_data_text); #ข้อมูลที่จะส่งไป API
-                print(postAPI_DB(success_data_text,id_shop));
+                print(postAPI_DB(success_data_text,id_shop,group,i1,link));
         print("data_process : True")
     except Exception as e:
-        print("data_process : ",e)
+        print("data_process : False",e)
 def Del():
     folder_path = path_file+data_shopee;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
@@ -259,16 +271,16 @@ def get_link():
         print("Get_link : ",e);
 if __name__ == "__main__":
     num1=0
-    for k in range(len(data_link_for_lazada)):
+    for k in range(len(data_link_for_shopee)):
         print("====== Round [",k+1,"] Working ======")
         num1+=1;
         Data = get_link();
         num2=0;
-        data_all = Data[data_link_for_lazada[k]]["shopee"];
+        data_all = Data[data_link_for_shopee[k]]["shopee"];
         try:
             for i in range(len(data_all)):
                 num2+=1;
-                num3=0; 
+                num3=0;
                 try:
                     for j in range(9):
                         print("================")
@@ -280,7 +292,7 @@ if __name__ == "__main__":
                             path = change_name(num1,num2,num3);
                             print(path);
                             if(check_data(path_file+path)==True):
-                                data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k]);
+                                data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
                             else:
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
