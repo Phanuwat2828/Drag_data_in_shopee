@@ -298,7 +298,6 @@ def get_link():
     except Exception as e:
         print("Get_link : ",e);
 def run():
-    if __name__ == "__main__":
         num1=0
         for k in range(len(data_link_for_lazada)):
             print("====== Round [",k+1,"] Working ======")
@@ -349,5 +348,4 @@ def run():
                     print("For_i : True");
             except Exception as e:
                 print("For_i : ",e);
-run();
         
