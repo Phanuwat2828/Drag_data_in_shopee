@@ -1,15 +1,7 @@
-import requests
-import os
+
+import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
 from fnmatch import fnmatch
-import pandas as pd
-import json
-import time;
-from pynput import mouse
-import pyautogui
-from pynput import keyboard
-import shutil
-import keyboard as ky
-import pyperclip
+from pynput import keyboard,mouse
 from data_address import address as ad
 
 # path_api
@@ -255,8 +247,6 @@ def change_name(k,i,j):
         return path;
     except Exception as e:
         print("Change_name : ",e)
-
-
 # Link_from_json
 def get_link():
     try:
@@ -269,41 +259,43 @@ def get_link():
         return data;
     except Exception as e:
         print("Get_link : ",e);
-if __name__ == "__main__":
-    num1=0
-    for k in range(len(data_link_for_shopee)):
-        print("====== Round [",k+1,"] Working ======")
-        num1+=1;
-        Data = get_link();
-        num2=0;
-        data_all = Data[data_link_for_shopee[k]]["shopee"];
-        try:
-            for i in range(len(data_all)):
-                num2+=1;
-                num3=0;
-                try:
-                    for j in range(9):
-                        print("================")
-                        data_sum=data_all[i]+"/?page="+str(j);
-                        main(data_sum,7,1,0,0);
-                        find_shopee = status();
-                        if(find_shopee==True):
-                            num3+=1;
-                            path = change_name(num1,num2,num3);
-                            print(path);
-                            if(check_data(path_file+path)==True):
-                                data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
+def run():
+    if __name__ == "__main__":
+        num1=0
+        for k in range(len(data_link_for_shopee)):
+            print("====== Round [",k+1,"] Working ======")
+            num1+=1;
+            Data = get_link();
+            num2=0;
+            data_all = Data[data_link_for_shopee[k]]["shopee"];
+            try:
+                for i in range(len(data_all)):
+                    num2+=1;
+                    num3=0;
+                    try:
+                        for j in range(9):
+                            print("================")
+                            data_sum=data_all[i]+"/?page="+str(j);
+                            main(data_sum,7,1,0,0);
+                            find_shopee = status();
+                            if(find_shopee==True):
+                                num3+=1;
+                                path = change_name(num1,num2,num3);
+                                print(path);
+                                if(check_data(path_file+path)==True):
+                                    data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
+                                else:
+                                    destination_path = path_file+un_process;
+                                    shutil.move(path_file+path, destination_path)
+                                    continue;
                             else:
-                                destination_path = path_file+un_process;
-                                shutil.move(path_file+path, destination_path)
                                 continue;
-                        else:
-                            continue;
-                        print("For_j : True");
-                        print("================")
-                    custom_sleep(120);
-                        
-                except Exception as e:
-                    print("For_j",e);
-        except Exception as e:
-            print("For_i : ",e);
+                            print("For_j : True");
+                            print("================")
+                        custom_sleep(120);
+                            
+                    except Exception as e:
+                        print("For_j",e);
+            except Exception as e:
+                print("For_i : ",e);
+run()

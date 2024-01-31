@@ -1,15 +1,7 @@
-import requests
-import os
+
+import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
 from fnmatch import fnmatch
-import pandas as pd
-import json
-import time;
-from pynput import mouse
-import pyautogui
-from pynput import keyboard
-import shutil
-import keyboard as ky
-import pyperclip
+from pynput import keyboard,mouse
 from data_address import address as ad
 
 # api
@@ -207,8 +199,6 @@ def page():
         return num[0];
     except Exception as e:
         print("page_count : ",e);
-
-
 def Del():
     folder_path = path_file+data_lazada;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
@@ -281,8 +271,6 @@ def main(x,t,e,t2,e2):
     custom_sleep(1);
     ky.press_and_release('ctrl+w')
     print("Main : True");
-
-
 # Change_name
 def change_name(k,i,j):
     try:
@@ -297,8 +285,6 @@ def change_name(k,i,j):
         return path;
     except Exception as e:
         print("Change_name : ",e)
-
-
 # Link_from_json
 def get_link():
     try:
@@ -311,55 +297,57 @@ def get_link():
         return data;
     except Exception as e:
         print("Get_link : ",e);
-if __name__ == "__main__":
-    num1=0
-    for k in range(len(data_link_for_lazada)):
-        print("====== Round [",k+1,"] Working ======")
-        num1+=1;
-        Data = get_link();
-        num2=0;
-        data_all = Data[data_link_for_lazada[k]]["lazada"];
-        try:
-            for i in range(len(data_all)):
-                num2+=1;
-                num3=0; 
-                status_count = False
-                main(data_all[i],1,2,desk_top,1);
-                status_lazada = status();
-                for c in range(status_lazada==False):
+def run():
+    if __name__ == "__main__":
+        num1=0
+        for k in range(len(data_link_for_lazada)):
+            print("====== Round [",k+1,"] Working ======")
+            num1+=1;
+            Data = get_link();
+            num2=0;
+            data_all = Data[data_link_for_lazada[k]]["lazada"];
+            try:
+                for i in range(len(data_all)):
+                    num2+=1;
+                    num3=0; 
+                    status_count = False
                     main(data_all[i],1,2,desk_top,1);
-                    if(c==2):
-                        break;
-                try:
-                    if(status_lazada==True):
-                        status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
-                    if(status_count==True):
-                        count = page()
-                        for j in range(count):
-                            print("=======================");
-                            data_sum=data_all[i]+"/?page="+str(j+1);
-                            main(data_sum,desk_top+1,1,0,0);
-                            find_shopee = status();
-                            if(find_shopee==True):
-                                num3+=1;
-                                path = change_name(num1,num2,num3);
+                    status_lazada = status();
+                    for c in range(status_lazada==False):
+                        main(data_all[i],1,2,desk_top,1);
+                        if(c==2):
+                            break;
+                    try:
+                        if(status_lazada==True):
+                            status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
+                        if(status_count==True):
+                            count = page()
+                            for j in range(count):
+                                print("=======================");
+                                data_sum=data_all[i]+"/?page="+str(j+1);
+                                main(data_sum,desk_top+1,1,0,0);
+                                find_shopee = status();
+                                if(find_shopee==True):
+                                    num3+=1;
+                                    path = change_name(num1,num2,num3);
 
-                                if(check_data(path_file+path)==True):
-                                    data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k],data_all[i]);
+                                    if(check_data(path_file+path)==True):
+                                        data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k],data_all[i]);
+                                    else:
+                                        destination_path = path_file+un_process;
+                                        shutil.move(path_file+path, destination_path)
+                                        continue;
                                 else:
-                                    destination_path = path_file+un_process;
-                                    shutil.move(path_file+path, destination_path)
                                     continue;
-                            else:
-                                continue;
-                            print("=======================");
-                        custom_sleep(120);
-                    else:
-                        continue;
-                    print("For_J : True");
-                except Exception as e:
-                    print("For_j",e);
-                print("For_i : True");
-        except Exception as e:
-            print("For_i : ",e);
+                                print("=======================");
+                            custom_sleep(120);
+                        else:
+                            continue;
+                        print("For_J : True");
+                    except Exception as e:
+                        print("For_j",e);
+                    print("For_i : True");
+            except Exception as e:
+                print("For_i : ",e);
+run();
         
