@@ -3,18 +3,21 @@ import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
+from shared_module import grop_number
 
 # api
 uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
 # path
 bot_lazada = r'\Bot_lazada'
-path_file = os.getcwd()+bot_lazada;
+path_file = os.getcwd();
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 7;
+desk_top = 6;
+staut_working = "test";
+data_num=grop_number;
 # link_json
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
@@ -62,10 +65,11 @@ def status():
         # Print the list of file names
         for file_name in file_names:
             status=file_name==file;
-        print("Status : ",status)
+        print("Status : พบไฟล์ ",status)
+        
         return status;
     except Exception as e:
-        print("Status : ",e);
+        print("Status : ไม่พบไฟล์ ",e);
 # Check_Header
 def check_data(path_file):
     """
@@ -83,10 +87,10 @@ def check_data(path_file):
        
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
-        print("Check_data : ",is_subset);
+        print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
         return is_subset; 
     except Exception as e:
-        print("Check_data : ",e);  
+        print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
 
 
 # Read Excell
@@ -165,28 +169,27 @@ def data_process(path_file,i1,i2,i3,group,link):
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
             sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
-            address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+            # address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]] and Product[data]["place"]
+            address = Product[data]["place"];
             count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
             maket = Product[data]["maket"]
             # ****************************************************************
             success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
-                print(success_data_text)
                 print(postAPI_DB(success_data_text,id_shop,group,i1,link));
-    except:
-        print(f"data_process : error ==> i1:{i1}, i2:{i2}, i3:{i3}")
-
+    except Exception as e:
+        print("data_process : ",e);
 # Check_count
 def check_data_count(path):
     try:
         header = ['ant-pagination-item 6']
         df = pd.read_excel(path)
         is_subset = all(item in df.columns for item in header);
-        print("Status Check_Data_count : ",is_subset);
+        print("Status Check_Data_count : พบหน้าเว็บทั้งหมด ",is_subset);
         return is_subset;
     except Exception as e:
-        print("Status Check_Data_count : ",e);
+        print("Status Check_Data_count : ไม่พบหน้าเว็บทั้งหมด ",e);
 def page():
     try:
         path = path_file+data_lazada+data_lazada_xlsx
@@ -195,10 +198,10 @@ def page():
         num = [];
         num.append(int(df[test][2]))
         os.remove(path);
-        print("page_count : ",num[0]);
+        print("page_count : พบหน้าเว็บทั้งหมด ",num[0]);
         return num[0];
     except Exception as e:
-        print("page_count : ",e);
+        print("page_count : ไม่พบหน้าเว็บทั้งหมด ",e);
 def Del():
     folder_path = path_file+data_lazada;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
@@ -207,9 +210,9 @@ def Del():
         try:
             if os.path.isfile(file_path):
                 os.unlink(file_path)
-            print("Del_file : True")
+            staut_working = f"ลบไฟล์ : True";
         except Exception as e:
-            print(f"Del_file : False",e);
+            print(f"Del_file : False ",e);
 Del();
 Data = [];
 def custom_sleep(seconds):
@@ -270,7 +273,7 @@ def main(x,t,e,t2,e2):
     # reface
     custom_sleep(1);
     ky.press_and_release('ctrl+w')
-    print("Main : True");
+    print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
 def change_name(k,i,j):
     try:
@@ -281,10 +284,10 @@ def change_name(k,i,j):
         new_file_path = os.path.join(os.path.dirname(path_file_change), new_file_name);
         # เปลี่ยนชื่อไฟล์
         shutil.move(path_file_change, new_file_path);
-        print("Change_name : ",path)
+        print("Change_name : เปลี่ยนชื่อไฟล์สำเร็จ",path)
         return path;
     except Exception as e:
-        print("Change_name : ",e)
+        print("Change_name : เปลี่ยนชื่อไฟล์ไม่สำเร็จ",e)
 # Link_from_json
 def get_link():
     try:
@@ -293,18 +296,18 @@ def get_link():
         path = drag_data+data_link;
         with open(path, 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
-        print("Get_link : True")
+        print("Get_link : พบลิงค์ที่จะทำงาน")
         return data;
     except Exception as e:
-        print("Get_link : ",e);
+        print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 def run():
-        num1=0
-        for k in range(len(data_link_for_lazada)):
-            print("====== Round [",k+1,"] Working ======")
-            num1+=1;
+        num1=data_num;
+        for k in range(num1,len(data_link_for_lazada)):
+            print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
+            
             Data = get_link();
             num2=0;
-            data_all = Data[data_link_for_lazada[k]]["lazada"];
+            data_all = Data[data_link_for_lazada[num1]]["lazada"];
             try:
                 for i in range(len(data_all)):
                     num2+=1;
@@ -328,15 +331,18 @@ def run():
                                 find_shopee = status();
                                 if(find_shopee==True):
                                     num3+=1;
-                                    path = change_name(num1,num2,num3);
+                                    path = change_name(num1+1,num2,num3);
 
                                     if(check_data(path_file+path)==True):
-                                        data_process(path_file+path,num1,num2,num3,data_link_for_lazada[k],data_all[i]);
+                                        print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                                        data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
                                     else:
+                                        print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
                                         destination_path = path_file+un_process;
                                         shutil.move(path_file+path, destination_path)
-                                        continue;
+                                        continue
                                 else:
+                                    
                                     continue;
                                 print("=======================");
                             custom_sleep(120);
@@ -346,6 +352,6 @@ def run():
                     except Exception as e:
                         print("For_j",e);
                     print("For_i : True");
+                num1+=1;
             except Exception as e:
                 print("For_i : ",e);
-        

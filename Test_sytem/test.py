@@ -1,59 +1,50 @@
-# bar_path = Mouse clicked at (608, 59) with Button.left
-# ขยาย Mouse clicked at (1183, 61) with Button.left
+import tkinter as tk
+from tkinter import ttk
 
-# ส่วน ขยาย Mouse clicked at (1012, 236) with Button.left
-# โหลด Mouse clicked at (577, 111) with Button.left
-import time;
-from pynput import mouse
-import pyautogui
+root = tk.Tk()
+root.geometry('400x200')
+root.tk_setPalette(background='#ececec')
+root.option_add('*Font', 'Arial 12')
 
-def on_click(x, y, button, pressed):
-    if pressed:
-        print(f'Mouse clicked at ({x}, {y}) with {button}')
+font_thai = ('Arial', 12)
 
-# Create a mouse listener
-with mouse.Listener(on_click=on_click) as listener:
-    # Keep the script running
-    listener.join()
+options = [
+    'อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน',
+    'สุขภาพและความงาม', 'ทารกและของเล่น', 'ของชำและสัตว์เลี้ยง', 'บ้านและไลฟ์สไตล์',
+    'แฟชั่นและเครื่องประดับผู้หญิง', 'แฟชั่นและเครื่องประดับผู้ชาย', 'กีฬาและการเดินทาง',
+    'ยานยนต์และรถจักรยานยนต์'
+]
 
-# Mouse clicked at (529, 151) with Button.left
-# Mouse clicked at (793, 47) with Button.left
-(1146, 433)
+# สร้างดิกชันนารีเพื่อเก็บค่าตัวเลขที่เกี่ยวข้องกับแต่ละตัวเลือก
+selected_values = {
+    'อุปกรณ์-อิเล็กทรอนิกส์': 0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์': 1,
+    'ทีวีและเครื่องใช้ในบ้าน': 2,
+    'สุขภาพและความงาม': 3,
+    'ทารกและของเล่น': 4,
+    'ของชำและสัตว์เลี้ยง': 5,
+    'บ้านและไลฟ์สไตล์': 6,
+    'แฟชั่นและเครื่องประดับผู้หญิง': 7,
+    'แฟชั่นและเครื่องประดับผู้ชาย': 8,
+    'กีฬาและการเดินทาง': 9,
+    'ยานยนต์และรถจักรยานยนต์': 10
+}
 
+selected_value_var = tk.StringVar()
 
+def on_dropdown_change(event):
+    selected_value = selected_values[event.widget.get()]
+    selected_value_var.set(selected_value)
+    # print(f"Selected value for {event.widget.get()}: {selected_value}")
 
+root.title("Dropdown in Tkinter")
 
+dropdown = ttk.Combobox(root, textvariable=selected_value_var, values=options, font=font_thai)
+dropdown.pack(pady=10)
 
+dropdown.set(options[0])
 
+dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
-
-
-
-
-
-
-
-
-
-
-# from pynput import keyboard
-# import timeMouse clicked at (910, 128) with Button.left
-# Mouse clicked at (1179, 39) with Button.left
-
-# from pynput import keyboard
-# import time
-
-# def type_and_enter(text):
-#     controller = keyboard.Controller()
-#     controller.type(text)
-#     controller.press(keyboard.Key.enter)
-#     controller.release(keyboard.Key.enter)
-
-# Example: Type the word "Automate" and press Enter
-# type_and_enter("Automate")
-
-# Add a delay to keep the program running for a while
-# time.sleep(10)
-
-
+root.mainloop()
 

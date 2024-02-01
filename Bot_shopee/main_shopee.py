@@ -15,6 +15,7 @@ data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 desk_top = 8;
+staut_working = ""
 # head_excel
 header = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -169,7 +170,7 @@ def Del():
         try:
             if os.path.isfile(file_path):
                 os.unlink(file_path)
-            print("Del_file : True")
+            staut_working = "ลบไฟล์ : True"
         except Exception as e:
             print(f"Del_file : False",e);
 Del();
