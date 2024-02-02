@@ -120,7 +120,6 @@ def check_data(path_file):
     except Exception as e:
         print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
 
-
 # Read Excell
 # https://11c2-14-207-200-101.ngrok-free.app/
 def postAPI_DB(data,id_shop,title_group,link):
@@ -330,6 +329,25 @@ def get_link():
         return data;
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
+
+class ReadAndWriteLog():
+    def __init__(self):
+        self.df = []
+        self.datas = []
+    def addLog(self,data):
+        try:
+            open('./log/log.txt',mode='a',encoding='utf-8').write(data+'\n')
+        except:
+            open('./log/log.txt',mode='w',encoding='utf-8').write(data+'\n')
+    def getLog(self):
+        self.datas = []
+        self.df = open('./log/log.txt',mode='r',encoding='utf-8').readlines()
+        for i in self.df:
+            self.datas.append(i[:-1])
+        return self.datas
+    def clearLog(self):
+        open('./log/log.txt',mode='w',encoding='utf-8').write('')
+
 def run():
         num1=int(data_link_for_lazada_gui[selected_value.get()]);
         for k in range(num1,len(data_link_for_lazada)):
@@ -364,6 +382,8 @@ def run():
                                     path = change_name(num1+1,num2,num3);
 
                                     if(check_data(path_file+path)==True):
+                                        df = ReadAndWriteLog()
+                                        df.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
                                         print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
                                         data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
                                     else:
