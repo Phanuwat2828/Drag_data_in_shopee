@@ -1,5 +1,6 @@
 
-from main_lazada import *
+# from main_lazada import*
+import main_lazada as main_lazada
 from tkinter import *
 from tkinter import messagebox,scrolledtext,ttk
 import webbrowser
@@ -7,7 +8,6 @@ import threading
 import subprocess
 import sys
 import shared_module 
-
 
 data_link_for_lazada_gui  = {
     'อุปกรณ์-อิเล็กทรอนิกส์':0,
@@ -33,7 +33,7 @@ class PrintRedirector:
 def run_system():
     global status;
     status = False
-    t = threading.Thread(target=run)
+    t = threading.Thread(target=main_lazada.run)
     t.start();
 # Create a Text widget for displaying the print statements
 # Explicitly redirect stdout to the PrintRedirector
@@ -60,7 +60,6 @@ buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_pr
 buttom_stop.place(x=100,y=50,width=300,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)   
-
 # Create a Text widget for displaying the output
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
@@ -77,7 +76,11 @@ selected_value = StringVar()
 def on_dropdown_change(event):
     selected_value = data_link_for_lazada_gui[event.widget.get()]
     shared_module.grop_number=selected_value;
-    print(selected_value);
+    # *********** ตัวแปร ห้ามลบ เอาไว้ดึงกลุ่ม *****************************************************
+    a = main_lazada.geoupss()
+    a.setGroup(selected_value)
+    # ****************************************************************
+    # print(selected_value);
 
 # Create the dropdown
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
