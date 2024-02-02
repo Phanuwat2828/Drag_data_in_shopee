@@ -1,9 +1,20 @@
+# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++ import 
+from tkinter import *
+from tkinter import messagebox,scrolledtext,ttk
+import webbrowser
+import threading
+import subprocess
+import sys
+# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
 
+# ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ import 
 import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
+# ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
 
+# ============================== variable ================= main
 # path_api
 uri_API = 'https://b18f-223-206-131-122.ngrok-free.app/';
 # path
@@ -15,7 +26,6 @@ data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 desk_top = 8;
-staut_working = ""
 # head_excel
 header = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -49,9 +59,34 @@ data_link_for_shopee  = {
     10: 'ยานยนต์และรถจักรยานยนต์',
     11:"เครื่องประดับ",
     12:"ตั๋วและบัตรกำนัน"}
-# Data_Link
-# Link_all
-# Find_file_Donwload_after_change_name
+# ============================== variable =================
+
+# ============================== variable ================= gui
+font1 = ("Angsana New",25)
+app = Tk()
+app.title("Shopee")
+app.config(bg="#332941") 
+app.geometry("500x900+0+0")
+
+selected_value = StringVar()
+data_link_for_shopee_gui  = {
+    'อุปกรณ์-อิเล็กทรอนิกส์':0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1, 
+    'ทีวีและเครื่องใช้ในบ้าน':2, 
+    'สุขภาพและความงาม':3, 
+    'ทารกและของเล่น':4, 
+    'ของชำและสัตว์เลี้ยง':5, 
+    'บ้านและไลฟ์สไตล์':6, 
+    'แฟชั่นและเครื่องประดับผู้หญิง':7, 
+    'แฟชั่นและเครื่องประดับผู้ชาย':8,
+    'กีฬาและการเดินทาง':9,
+    'ยานยนต์และรถจักรยานยนต์':10,
+    "เครื่องประดับ":11,
+    "ตั๋วและบัตรกำนัน":12
+}
+# ============================== variable =================
+
+# ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
 def status():
     try:
         file_names = os.listdir(path_file+data_shopee);
@@ -60,23 +95,23 @@ def status():
         # Print the list of file names
         for file_name in file_names:
             status=file_name==file;
-        print("Status : ",status)
+        print("Status : พบไฟล์ ",status)
         return status;
     except Exception as e:
-        print("Status : ",e);
+        print("Status : ไม่พบไฟล์ ",e);
 # Check_Header
 def check_data(path_file):
     try:
         header = ['col-xs-2-4 href', 'Fd4QmV src',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
        ]
-       
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
-        print("Check_data : ",is_subset);
+        print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
         return is_subset; 
     except Exception as e:
-        print("Check_data : ",e);  
+        print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
+
 # Read Excell
 def postAPI_DB(data,id_shop,title_group,i1,link):
     """
@@ -170,9 +205,9 @@ def Del():
         try:
             if os.path.isfile(file_path):
                 os.unlink(file_path)
-            staut_working = "ลบไฟล์ : True"
+            staut_working = f"ลบไฟล์ : True";
         except Exception as e:
-            print(f"Del_file : False",e);
+            print(f"Del_file : False ",e);
 Del();
 Data = [];
 def custom_sleep(seconds):
@@ -213,7 +248,6 @@ def main(x,t,e,t2,e2):
     tab(1)
     Scoll();
     ky.press_and_release('ctrl+m');
-
     custom_sleep(4);
     # Mouse clicked at (834, 114) with Button.left
     # Mouse clicked at (755, 179) with Button.left
@@ -244,10 +278,10 @@ def change_name(k,i,j):
         new_file_path = os.path.join(os.path.dirname(path_file_change), new_file_name);
         # เปลี่ยนชื่อไฟล์
         shutil.move(path_file_change, new_file_path);
-        print("Change_name : ",path)
+        print("Change_name : เปลี่ยนชื่อไฟล์สำเร็จ",path)
         return path;
     except Exception as e:
-        print("Change_name : ",e)
+        print("Change_name : เปลี่ยนชื่อไฟล์ไม่สำเร็จ",e)
 # Link_from_json
 def get_link():
     try:
@@ -256,46 +290,98 @@ def get_link():
         path = drag_data+data_link;
         with open(path, 'r', encoding='utf-8-sig') as file:
             data = json.load(file)
-        print("Get_link : True")
+            print("Get_link : พบลิงค์ที่จะทำงาน")
         return data;
     except Exception as e:
-        print("Get_link : ",e);
+        print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 def run():
-    if __name__ == "__main__":
-        num1=0
-        for k in range(len(data_link_for_shopee)):
-            print("====== Round [",k+1,"] Working ======")
-            num1+=1;
+        num1=int(data_link_for_shopee_gui[selected_value.get()])
+        for k in range(num1,len(data_link_for_shopee)):
+            print("====== Round [",k+1,"] Working [",data_link_for_shopee[k],"]======");
+            
             Data = get_link();
             num2=0;
             data_all = Data[data_link_for_shopee[k]]["shopee"];
-            try:
-                for i in range(len(data_all)):
+            # try:
+            for i in range(len(data_all)):
                     num2+=1;
                     num3=0;
-                    try:
-                        for j in range(9):
-                            print("================")
-                            data_sum=data_all[i]+"/?page="+str(j);
-                            main(data_sum,7,1,0,0);
-                            find_shopee = status();
-                            if(find_shopee==True):
-                                num3+=1;
-                                path = change_name(num1,num2,num3);
-                                print(path);
-                                if(check_data(path_file+path)==True):
-                                    data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
-                                else:
-                                    destination_path = path_file+un_process;
-                                    shutil.move(path_file+path, destination_path)
-                                    continue;
+                    # try:
+                    for j in range(9):
+                        print("================")
+                        data_sum=data_all[i]+"/?page="+str(j);
+                        main(data_sum,7,1,0,0);
+                        find_shopee = status();
+                        if(find_shopee==True):
+                            num3+=1;
+                            path = change_name(num1+1,num2,num3);
+                            print(path);
+                            if(check_data(path_file+path)==True):
+                                print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_shopee[num1]));
+                                data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
                             else:
+                                print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_shopee[num1]));
+                                destination_path = path_file+un_process;
+                                shutil.move(path_file+path, destination_path)
                                 continue;
-                            print("For_j : True");
-                            print("================")
-                        custom_sleep(120);
-                            
-                    except Exception as e:
-                        print("For_j",e);
-            except Exception as e:
-                print("For_i : ",e);
+                        else:
+                            continue;
+                        print("For_j : True");
+                        print("================");
+                    custom_sleep(120);  
+                    # except Exception as e:
+                    #     print("For_j",e);
+            num1+=1
+            # except Exception as e:
+            #     print("For_i : ",e);
+# ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ 
+# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
+class PrintRedirector:
+    def __init__(self, textbox):
+        self.textbox = textbox
+    def write(self, text):
+        self.textbox.insert(END, text)
+        self.textbox.see(END)
+# webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
+def run_system():
+    global status_1;
+    status_1 = False
+    t = threading.Thread(target=run)
+    t.start();
+# Create a Text widget for displaying the print statements
+# Explicitly redirect stdout to the PrintRedirector
+def stop_program():
+    global status_1;
+    status_1 = True
+    messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
+# def on_dropdown_change(event):
+#     selected_value = dropdown.get()
+#     print(f"Selected value: {selected_value}")    
+buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
+buttom_start.place(x=100,y=10,width=300,height=30)
+buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
+buttom_stop.place(x=100,y=50,width=300,height=30)
+# entry = Entry(app, width=40)
+# entry.pack(pady=10)   
+# Create a Text widget for displaying the output
+text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
+text.pack(pady=10)
+sys.stdout = PrintRedirector(text)
+text.place(x=7,y=100)
+# Create the main window
+# Create a list of options for the dropdown
+# Create a StringVar to store the selected value
+options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์',"เครื่องประดับ","ตั๋วและบัตรกำนัน"]
+def on_dropdown_change(event):
+    selected_value = data_link_for_shopee_gui[event.widget.get()]
+    # print(selected_value);
+# Create the dropdown
+dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
+dropdown.place(x=10,y=360);
+# Set a default value
+dropdown.set(options[0])
+# Bind the event handler to the <<ComboboxSelected>> event
+dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
+app.mainloop()
+# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
+

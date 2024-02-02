@@ -12,10 +12,12 @@ class geoupss:
         print(self.group)
         return self.group
     def setGroup(self, group):
-        try:
-            self.group = int(group)
-        except:
-            self.group = 0
+        print(self.group)
+        self.group = int(group)
+        # try:
+        #     self.group = int(group)
+        # except:
+        #     self.group = 0
             
 # api
 uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
@@ -29,7 +31,7 @@ un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 desk_top = 6;
 staut_working = "test";
-data_num=a = geoupss().getgroup();
+# data_num=a = geoupss().getgroup();
 # link_json
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
@@ -315,7 +317,7 @@ def get_link():
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 def run():
-        num1=geoupss().getgroup();
+        num1=geoupss().getgroup();print(num1)
         for k in range(num1,len(data_link_for_lazada)):
             print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
             
