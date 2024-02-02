@@ -268,6 +268,10 @@ def main(x,t,e,t2,e2):
     # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
     controller = keyboard.Controller();
     custom_sleep(3);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('ctrl+t')
     def enter(k):
         for i in range(k):
@@ -280,31 +284,67 @@ def main(x,t,e,t2,e2):
     # input path
     type_and_enter(x);
     custom_sleep(2);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(1)
     # Mouse clicked at (1360, 264) with Button.left
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(1)
     Scoll();
     ky.press_and_release('ctrl+m');
 
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     # Mouse clicked at (834, 114) with Button.left
     # Mouse clicked at (755, 179) with Button.left
 # Mouse clicked at (1006, 88) with Button.left
     ky.press_and_release('F11')
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(t);
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(e)
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(t2);
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(e2)
     # Mouse clicked at (1118, 17) with Button.left
     custom_sleep(2);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('alt+F4')
     # reface
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('ctrl+w')
     print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
@@ -353,8 +393,14 @@ class ReadAndWriteLog():
         open('./log/log.txt',mode='w',encoding='utf-8').write('')
 
 def run():
+        # ********************************
+        if(status):# หยุดทำงาน
+            return
+        # ********************************
         num1=int(data_link_for_lazada_gui[selected_value.get()]);
         for k in range(num1,len(data_link_for_lazada)):
+            if(status):# หยุดทำงาน
+                return
             print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
             
             Data = get_link();
@@ -362,6 +408,10 @@ def run():
             data_all = Data[data_link_for_lazada[num1]]["lazada"];
             try:
                 for i in range(len(data_all)):
+                    # ********************************
+                    if(status):# หยุดทำงาน
+                        return
+                    # ********************************
                     num2+=1;
                     num3=0; 
                     status_count = False
@@ -377,6 +427,10 @@ def run():
                         if(status_count==True):
                             count = page()
                             for j in range(count):
+                                # ********************************
+                                if(status):# หยุดทำงาน
+                                    return
+                                # ********************************
                                 print("=======================");
                                 data_sum=data_all[i]+"/?page="+str(j+1);
                                 main(data_sum,desk_top+1,1,0,0);
@@ -454,10 +508,26 @@ buttom_stop.place(x=100,y=50,width=300,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)   
 # Create a Text widget for displaying the output
-text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
-text.pack(pady=10)
-sys.stdout = PrintRedirector(text)
-text.place(x=7,y=100)
+# ****************** แสดง log ***********************************************************
+def setTreeCommand():
+    df = ReadAndWriteLog()
+    data = df.getLog()
+    for i in range(len(data)):
+        table.insert('','end',values=(i,data[i]))
+header = ['loop','group system']
+hdsize = [50,400]
+table = ttk.Treeview(app,columns=header,show='headings')
+table.place(x=20,y=120,height=430)
+# header
+for h,s in zip(header,hdsize):
+    table.heading(h,text=h)
+    table.column(h,width=s)
+setTreeCommand()
+# *****************************************************************************
+# text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
+# text.pack(pady=10)
+# sys.stdout = PrintRedirector(text)
+# text.place(x=7,y=100)
 # Create the main window
 
 
@@ -473,7 +543,7 @@ def on_dropdown_change(event):
 
 # Create the dropdown
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
-dropdown.place(x=10,y=360);
+dropdown.place(x=20,y=90);
 
 # Set a default value
 dropdown.set(options[0])
