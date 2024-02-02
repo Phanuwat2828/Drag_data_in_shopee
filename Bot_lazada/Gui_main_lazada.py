@@ -14,7 +14,7 @@ import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
-# ==================================== Main +++++++++++++++++++++++++++
+#  ==================================== Main +++++++++++++++++++++++++++
 
 # gui_
 
@@ -30,7 +30,7 @@ uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
 
 # path
 bot_lazada = r'\Bot_lazada'
-path_file = os.getcwd()+bot_lazada;
+path_file = os.getcwd();
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
@@ -232,16 +232,19 @@ def page():
     except Exception as e:
         print("page_count : ไม่พบหน้าเว็บทั้งหมด ",e);
 def Del():
-    folder_path = path_file+data_lazada;
-    # ลบไฟล์ทั้งหมดในโฟลเดอร์
-    for file_name in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, file_name)
-        try:
-            if os.path.isfile(file_path):
-                os.unlink(file_path)
-            staut_working = f"ลบไฟล์ : True";
-        except Exception as e:
-            print(f"Del_file : False ",e);
+    try:
+        folder_path = path_file+data_lazada;
+        # ลบไฟล์ทั้งหมดในโฟลเดอร์
+        for file_name in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, file_name)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                staut_working = f"ลบไฟล์ : True";
+            except Exception as e:
+                print(f"Del_file : False ",e);
+    except:
+        pass
 Del();
 Data = [];
 def custom_sleep(seconds):
@@ -262,6 +265,7 @@ def type_and_enter(text):
     custom_sleep(1);
     
 def main(x,t,e,t2,e2):
+    # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
     controller = keyboard.Controller();
     custom_sleep(3);
     ky.press_and_release('ctrl+t')
@@ -427,7 +431,6 @@ class PrintRedirector:
     def write(self, text):
         self.textbox.insert(END, text)
         self.textbox.see(END)
-# webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
 def run_system():
     global status;
     status = False
