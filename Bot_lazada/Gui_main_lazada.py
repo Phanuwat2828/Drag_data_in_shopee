@@ -35,7 +35,6 @@ class ReadAndWriteLog():
 class PrintRedirector:
     def __init__(self, textbox):
         self.textbox = textbox
-
     def write(self, text):
         self.textbox.insert(END, text)
         self.textbox.see(END)
@@ -496,6 +495,8 @@ def setTreeCommand():
     table.delete(*table.get_children())
     data = log.getLog()
     for i in range(len(data)):
+
+                                    
         table.insert('','end',values=(i,data[i]))
 header_gui = ['loop','group system']
 hdsize = [50,400]
