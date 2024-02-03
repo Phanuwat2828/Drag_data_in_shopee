@@ -120,6 +120,8 @@ def status():
         file = "shopee.xlsx";
         # Print the list of file names
         for file_name in file_names:
+            if(status_run_program):# หยุดทำงาน
+                return
             status=file_name==file;
         print("Status : พบไฟล์ ",status)
         return status;
@@ -131,6 +133,8 @@ def check_data(path_file):
         header_check = ['col-xs-2-4 href']
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header_check);
+        if(status_run_program):# หยุดทำงาน
+            return
         print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
         return is_subset; 
     except Exception as e:
@@ -144,6 +148,8 @@ def Check_header(path_file):
         # print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
         for i in range(len(header_2)):
             for excel in range(len(df.columns)):
+                if(status_run_program):# หยุดทำงาน
+                    return
                 if(header_2[i]==df.columns[excel]):
                     check_data.append(df.columns[excel]);
         print("Check_data : ข้อมูลที่มีทั้งหมด ");
@@ -161,6 +167,8 @@ def postAPI_DB(data,id_shop,title_group,i1,link):
     link: link หมวดหลัก
     """
     try:
+        if(status_run_program):# หยุดทำงาน
+            return
         response = requests.post(
             f"{uri_API}addb?id={id_shop}&&web=shopee&&group={title_group}&&title_group={title_group}&&link={link}",
             headers={
@@ -233,7 +241,6 @@ def data_process(path_file,i1,i2,i3,group,link):
             }
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
-                pass
                 # print(success_data_text); #ข้อมูลที่จะส่งไป API
                 print(postAPI_DB(success_data_text,id_shop,group,i1,link));
         print("data_process : True")
@@ -243,6 +250,8 @@ def Del():
     folder_path = path_file+data_shopee;
     # ลบไฟล์ทั้งหมดในโฟลเดอร์
     for file_name in os.listdir(folder_path):
+        if(status_run_program):# หยุดทำงาน
+            return
         file_path = os.path.join(folder_path, file_name)
         try:
             if os.path.isfile(file_path):
@@ -256,14 +265,20 @@ def custom_sleep(seconds):
 def Scoll():
     custom_sleep(2);
     for i in range(7):
+        if(status_run_program):# หยุดทำงาน
+            return
         pyautogui.scroll(-750);
         custom_sleep(6);
 def click(x,y):
+    if(status_run_program):# หยุดทำงาน
+        return
     pyautogui.click(x,y);
     custom_sleep(1.5);
 def type_and_enter(text):
     controller = keyboard.Controller();
     # controller.type(text);
+    if(status_run_program):# หยุดทำงาน
+        return
     pyperclip.copy(text)
     ky.press_and_release('ctrl+v')
     custom_sleep(1);
@@ -278,10 +293,14 @@ def main(x,t,e,t2,e2):
     ky.press_and_release('ctrl+t')
     def enter(k):
         for i in range(k):
+            if(status_run_program):# หยุดทำงาน
+                return
             controller.press(keyboard.Key.enter);
             controller.release(keyboard.Key.enter);
     def tab(t):
         for i in range(t):
+            if(status_run_program):# หยุดทำงาน
+                return
             controller.press(keyboard.Key.tab);
             controller.release(keyboard.Key.tab);
     # input path
