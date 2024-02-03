@@ -63,7 +63,7 @@ data_link_for_lazada  = {
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'
     }
-header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
+header_2 = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS',
        '_1cEkb', 'qzqFw', 'oa6ri']
 header_Values = {
@@ -116,6 +116,8 @@ def statusLinkJson():
         file = "lazada.xlsx";
         # Print the list of file names
         for file_name in file_names:
+            if(status_run_program):# หยุดทำงาน
+                return
             status=file_name==file;
         print("Status : พบไฟล์ ",status)
         
@@ -132,14 +134,33 @@ def check_data(path_file):
         Bolean : True
     """
     try:
-        header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
-          , 'RfADt']
+        header = ['_95X4G href']
         df = pd.read_excel(path_file)
+        if(status_run_program):# หยุดทำงาน
+            return
         is_subset = all(item in df.columns for item in header);
         print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
         return is_subset; 
     except Exception as e:
         print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
+def Check_header(path_file):
+    try:
+        check_data=[]
+        df = pd.read_excel(path_file)
+        print(df.columns[0])
+        # is_subset = all(item in df.columns for item in header);
+        # print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
+        for i in range(len(header_2)):
+            for excel in range(len(df.columns)):
+                if(status_run_program):# หยุดทำงาน
+                    return
+                if(header_2[i]==df.columns[excel]):
+                    check_data.append(df.columns[excel]);
+        print("Check_data : ข้อมูลที่มีทั้งหมด ");
+        return check_data; 
+    except Exception as e:
+        print("Check_data : ข้อมูล Excel ",e); 
+
 
 # Read Excell
 def postAPI_DB(data,id_shop,title_group,link):
@@ -180,6 +201,9 @@ def data_process(path_file,i1,i2,i3,group,link):
         group: _description_
     """
     try:
+        if(status_run_program):# หยุดทำงาน
+            return
+        header = Check_header(path_file)
         read_excel = pd.read_excel(path_file);
         num_rows, num_columns = read_excel.shape
         success_data_text = ""
@@ -237,6 +261,8 @@ def data_process(path_file,i1,i2,i3,group,link):
 # Check_count
 def check_data_count(path): 
     try:
+        if(status_run_program):# หยุดทำงาน
+            return
         header = ['ant-pagination-item 6']
         df = pd.read_excel(path)
         is_subset = all(item in df.columns for item in header);
@@ -247,6 +273,8 @@ def check_data_count(path):
 
 def page():
     try:
+        if(status_run_program):# หยุดทำงาน
+            return
         path = path_file+data_lazada+data_lazada_xlsx
         df = pd.read_excel(path)
         test ='ant-pagination-item 6'
@@ -259,6 +287,8 @@ def page():
         print("page_count : ไม่พบหน้าเว็บทั้งหมด ",e);
 def Del():
     try:
+        if(status_run_program):# หยุดทำงาน
+            return
         folder_path = path_file+data_lazada;
         # ลบไฟล์ทั้งหมดในโฟลเดอร์
         for file_name in os.listdir(folder_path):
@@ -276,6 +306,8 @@ def custom_sleep(seconds):
 def Scoll():
     custom_sleep(2);
     for i in range(7):
+        if(status_run_program):# หยุดทำงาน
+            return
         pyautogui.scroll(-750);
         custom_sleep(6);
 def click(x,y):
@@ -285,6 +317,8 @@ def type_and_enter(text):
     controller = keyboard.Controller();
     # controller.type(text);
     pyperclip.copy(text)
+    if(status_run_program):# หยุดทำงาน
+            return
     ky.press_and_release('ctrl+v')
     custom_sleep(1);
 # bot is auto click on website
@@ -299,10 +333,14 @@ def main(x,t,e,t2,e2):
     ky.press_and_release('ctrl+t')
     def enter(k):
         for i in range(k):
+            if(status_run_program):# หยุดทำงาน
+                return
             controller.press(keyboard.Key.enter);
             controller.release(keyboard.Key.enter);
     def tab(t):
         for i in range(t):
+            if(status_run_program):# หยุดทำงาน
+                return
             controller.press(keyboard.Key.tab);
             controller.release(keyboard.Key.tab);
     # input path
@@ -398,6 +436,7 @@ def get_link():
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 # run
+path_remove = path_file+data_lazada+data_lazada_xlsx    
 def run():
     Del();
     if(status_run_program):# หยุดทำงาน
@@ -418,19 +457,31 @@ def run():
                 return
             # ********************************
             round_click = 3;
-            if(k==0):
-                round_click=2;
             num2+=1;
             num3=0; 
             status_count = False
             main(data_all[i],1,round_click,desk_top,1);
-            status_lazada = statusLinkJson()
+            if(status_run_program):# หยุดทำงาน
+                return
+            if(statusLinkJson()==False):
+                print("Main : ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง");
+                break;
+            status_lazada = check_data_count(path_remove);
+            if(status_lazada==False):
+                round_click = 2;
             for c in range(status_lazada==False):
-                main(data_all[i],1,2,desk_top,1);
+                print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
+                os.remove(path_remove);
+                main(data_all[i],1,round_click,desk_top,1);
+                if(status_run_program):# หยุดทำงาน
+                    return
+                status_lazada = check_data_count(path_remove)
                 if(c==2):
+                    print("Main : เกิดข้อพิดพลาดไม่สามารถค้นหาหน้าได้กำลังไปลิงค์ถัดไป...");
                     break;
             # try:
             if(status_lazada==True):
+                print("Main : ค้นหาหน้าสำเร็จ")
                 status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
             if(status_count==True):
                 count = page()
