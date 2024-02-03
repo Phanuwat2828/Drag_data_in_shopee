@@ -103,7 +103,7 @@ data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 6;
+desk_top = 7;
 staut_working = "test";
 
 
@@ -178,59 +178,59 @@ def data_process(path_file,i1,i2,i3,group,link):
         i3: รอบการทำงานเล็กสุด ก็คือ หน้าแต่ละหน้าของสับย่อย ที่เราให้ไปอ่านแล้วกดโหลด
         group: _description_
     """
-    try:
-        read_excel = pd.read_excel(path_file);
-        num_rows, num_columns = read_excel.shape
-        success_data_text = ""
-        for i in range(num_rows):
-            data_process = {
-                "product":[],
-                "price_product_2":[],
-                "price_product_1":[],
-                "image_product_1":[],
-                "discount":[],
-                "image_product_2":[],
-                "data_product":[],
-                "price_before":[],
-                "Emoji":[],
-                "sold":[],
-                "place":[],
-                "Recommended_shops":[],
-                "count_review":[],
-                "maket":[],
-                "group":[]
-            }
-            data = "Product_"+str(i+1);
-            for j in range(len(header)):
-                data_input = str(read_excel[header[j]][i]);
-                data_process[header_Values[header[j]]]=data_input;
-            # ****************************************************************
-            Product = {}
-            Product[data]= data_process
-            Product[data]["maket"]="lazada"
-            Product[data]["group"]=group
-            id_shop = f'shop{i1}_{i2}_{i3}'
-            # ****************************************************************
-            product = Product[data]["product"]
-            image_product_1 = Product[data]["image_product_1"]
-            image_product_2 = Product[data]["image_product_2"]
-            discount = Product[data]["discount"]
-            data_product = Product[data]["data_product"]
-            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
-            price_product = (price_product<=0)and "0" or price_product
-            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
-            address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
-            count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
-            maket = Product[data]["maket"]
-            # ****************************************************************
-            success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
-            # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-            if(i==num_rows-1):
-                print(success_data_text)
-                print(postAPI_DB(success_data_text,id_shop,group,link));
-    except Exception as e:
-        print(f"data_process : error ==> i1:{i1}, i2:{i2}, i3:{i3}")
-        print(e);
+    # try:
+    read_excel = pd.read_excel(path_file);
+    num_rows, num_columns = read_excel.shape
+    success_data_text = ""
+    for i in range(num_rows):
+        data_process = {
+            "product":[],
+            "price_product_2":[],
+            "price_product_1":[],
+            "image_product_1":[],
+            "discount":[],
+            "image_product_2":[],
+            "data_product":[],
+            "price_before":[],
+            "Emoji":[],
+            "sold":[],
+            "place":[],
+            "Recommended_shops":[],
+            "count_review":[],
+            "maket":[],
+            "group":[]
+        }
+        data = "Product_"+str(i+1);
+        for j in range(len(header)):
+            print(read_excel[header[j]][i],j);
+            data_input = str(read_excel[header[j]][i]);
+            data_process[header_Values[header[j]]]=data_input;
+        # ****************************************************************
+        Product = {}
+        Product[data]= data_process
+        Product[data]["maket"]="lazada"
+        Product[data]["group"]=group
+        id_shop = f'shop{i1}_{i2}_{i3}'
+        # ****************************************************************
+        product = Product[data]["product"]
+        image_product_1 = Product[data]["image_product_1"]
+        image_product_2 = Product[data]["image_product_2"]
+        discount = Product[data]["discount"]
+        data_product = Product[data]["data_product"]
+        price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
+        price_product = (price_product<=0)and "0" or price_product
+        sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
+        address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+        count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
+        maket = Product[data]["maket"]
+        # ****************************************************************
+        success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
+        # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
+        if(i==num_rows-1):
+            print(success_data_text)
+            print(postAPI_DB(success_data_text,id_shop,group,link));
+    # except Exception as e:
+    #     print(e);
 # Check_count
 def check_data_count(path):
     try:
@@ -289,7 +289,7 @@ def main(x,t,e,t2,e2):
     controller = keyboard.Controller();
     custom_sleep(3);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('ctrl+t')
@@ -305,14 +305,14 @@ def main(x,t,e,t2,e2):
     type_and_enter(x);
     custom_sleep(2);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
-    # ********************************
+    # ********************************          
     enter(1)
     # Mouse clicked at (1360, 264) with Button.left
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(1)
@@ -321,7 +321,7 @@ def main(x,t,e,t2,e2):
 
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     # Mouse clicked at (834, 114) with Button.left
@@ -330,39 +330,39 @@ def main(x,t,e,t2,e2):
     ky.press_and_release('F11')
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(t);
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     enter(e)
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(t2);
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     enter(e2)
     # Mouse clicked at (1118, 17) with Button.left
     custom_sleep(2);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('alt+F4')
     # reface
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('ctrl+w')
@@ -396,88 +396,83 @@ def get_link():
 # run
 def run():
     Del();
-    # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     num1=int(data_link_for_lazada_gui[selected_value.get()]);
     for k in range(num1,len(data_link_for_lazada)):
-        if(status):# หยุดทำงาน
+        if(status_run_program):# หยุดทำงาน
             return
         print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
-        
         Data = get_link();
         num2=0;
         data_all = Data[data_link_for_lazada[num1]]["lazada"];
-        try:
-            for i in range(len(data_all)):
-                # ********************************
-                if(status):# หยุดทำงาน
-                    return
-                # ********************************
-                num2+=1;
-                num3=0; 
-                status_count = False
+        # try:
+        for i in range(len(data_all)):
+            # ********************************
+            if(status_run_program):# หยุดทำงาน
+                return
+            # ********************************
+            num2+=1;
+            num3=0; 
+            status_count = False
+            main(data_all[i],1,2,desk_top,1);
+            status_lazada = statusLinkJson()
+            for c in range(status_lazada==False):
                 main(data_all[i],1,2,desk_top,1);
-                status_lazada = statusLinkJson()
-                for c in range(status_lazada==False):
-                    main(data_all[i],1,2,desk_top,1);
-                    if(c==2):
-                        break;
-                try:
-                    if(status_lazada==True):
-                        status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
-                    if(status_count==True):
-                        count = page()
-                        for j in range(count):
-                            # ********************************
-                            if(status):# หยุดทำงาน
-                                return
-                            # ********************************
-                            print("=======================");
-                            data_sum=data_all[i]+"/?page="+str(j+1);
-                            main(data_sum,desk_top+1,1,0,0);
-                            find_shopee = status();
-                            if(find_shopee==True):
-                                num3+=1;
-                                path = change_name(num1+1,num2,num3);
-
-                                if(check_data(path_file+path)==True):
-                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                    log.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
-                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                    print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
-                                    data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
-                                else:
-                                    print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
-                                    destination_path = path_file+un_process;
-                                    shutil.move(path_file+path, destination_path)
-                                    continue
-                            else:
-                                continue;
-                            print("=======================");
-                        custom_sleep(120);
+                if(c==2):
+                    break;
+            # try:
+            if(status_lazada==True):
+                status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
+            if(status_count==True):
+                count = page()
+                for j in range(count):
+                    # ********************************
+                    if(status_run_program):# หยุดทำงาน
+                        return
+                    # ********************************
+                    print("=======================");
+                    data_sum=data_all[i]+"/?page="+str(j+1);
+                    main(data_sum,desk_top+1,1,0,0);
+                    find_shopee = statusLinkJson();
+                    if(find_shopee==True):
+                        num3+=1;
+                        path = change_name(num1+1,num2,num3);
+                        if(check_data(path_file+path)==True):
+                            # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                            log.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
+                            setTreeCommand()
+                            # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                            print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                            data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
+                        else:
+                            print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                            destination_path = path_file+un_process;
+                            shutil.move(path_file+path, destination_path)
+                            continue
                     else:
                         continue;
-                    print("For_J : True");
-                except Exception as e:
-                    print("For_j",e);
-                print("For_i : True");
-            num1+=1;
-        except Exception as e:
-            print("For_i : ",e);
+                    print("=======================");
+                custom_sleep(120);
+                # else:
+                #     continue;
+                # print("For_J : True");
+        num1+=1;
+        # except Exception as e:
+        #     print("For_i : ",e)
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
-    global status;
-    status = False
+    global status_run_program;
+    status_run_program = False
     showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
     log.clearLog()
     setTreeCommand()
     t = threading.Thread(target=run)
     t.start();
 def stop_program():
-    global status;
-    status = True
+    global status_run_program;
+    status_run_program= True
     showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
 # ****************** button start and stop ***********************************************************
@@ -510,11 +505,6 @@ for h,s in zip(header,hdsize):
 setTreeCommand()
 # **************************************************************************************
 
-# text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
-# text.pack(pady=10)
-# sys.stdout = PrintRedirector(text)
-# text.place(x=7,y=100)
-# Create the main window
 
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
@@ -522,6 +512,10 @@ dropdown.place(x=20,y=90);
 titleStatusbot = Label(app,textvariable=showStatusBot)
 titleStatusbot.place(x=20,y=560)
 
+text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
+text.pack(pady=10)
+sys.stdout = PrintRedirector(text)
+text.place(x=7,y=600)
 # Set a default value
 dropdown.set(options[0])
 

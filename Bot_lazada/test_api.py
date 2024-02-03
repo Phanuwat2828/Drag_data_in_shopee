@@ -148,4 +148,4 @@ data_link_for_lazada  = {
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
-data_process(path_file+data_lazada+xlsx_test,1,1,20,'อุปกรณ์-อิเล็กทรอนิกส์')
+data_process(path_file+data_lazada+xlsx_test,1,1,1,'อุปกรณ์-อิเล็กทรอนิกส์')

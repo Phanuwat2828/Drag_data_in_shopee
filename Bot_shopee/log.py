@@ -1,5 +1,5 @@
 class ReadAndWriteLog():
-    def __init__(self):                 
+    def __init__(self):
         self.df = []
         self.datas = []
     def addLog(self,data):

@@ -15,6 +15,31 @@ from data_address import address as ad
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
 
 # ============================== variable ================= main
+class ReadAndWriteLog():
+    def __init__(self):
+        self.df = []
+        self.datas = []
+    def addLog(self,data):
+        try:
+            open('./log/log.txt',mode='a',encoding='utf-8').write(data+'\n')
+        except:
+            open('./log/log.txt',mode='w',encoding='utf-8').write(data+'\n')
+    def getLog(self):
+        self.datas = []
+        self.df = open('./log/log.txt',mode='r',encoding='utf-8').readlines()
+        for i in self.df:
+            self.datas.append(i[:-1])
+        return self.datas
+    def clearLog(self):
+        open('./log/log.txt',mode='w',encoding='utf-8').write('')
+class PrintRedirector:
+    def __init__(self, textbox):
+        self.textbox = textbox
+
+    def write(self, text):
+        self.textbox.insert(END, text)
+        self.textbox.see(END)
+
 # path_api
 uri_API = 'https://b18f-223-206-131-122.ngrok-free.app/';
 # path
@@ -69,6 +94,8 @@ app.config(bg="#332941")
 app.geometry("500x900+0+0")
 
 selected_value = StringVar()
+showStatusBot = StringVar()
+log = ReadAndWriteLog()
 data_link_for_shopee_gui  = {
     'อุปกรณ์-อิเล็กทรอนิกส์':0,
     'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1, 
@@ -208,7 +235,6 @@ def Del():
             staut_working = f"ลบไฟล์ : True";
         except Exception as e:
             print(f"Del_file : False ",e);
-Del();
 Data = [];
 def custom_sleep(seconds):
     time.sleep(seconds)
@@ -230,6 +256,10 @@ def type_and_enter(text):
 def main(x,t,e,t2,e2):
     controller = keyboard.Controller();
     custom_sleep(3);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('ctrl+t')
     def enter(k):
         for i in range(k):
@@ -242,32 +272,69 @@ def main(x,t,e,t2,e2):
     # input path
     type_and_enter(x);
     custom_sleep(2);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(1)
     # Mouse clicked at (1360, 264) with Button.left
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(1)
     Scoll();
     ky.press_and_release('ctrl+m');
+
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     # Mouse clicked at (834, 114) with Button.left
     # Mouse clicked at (755, 179) with Button.left
 # Mouse clicked at (1006, 88) with Button.left
     ky.press_and_release('F11')
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(t);
     custom_sleep(4);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(e)
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     tab(t2);
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     enter(e2)
     # Mouse clicked at (1118, 17) with Button.left
     custom_sleep(2);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('alt+F4')
     # reface
     custom_sleep(1);
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
     ky.press_and_release('ctrl+w')
-    print("Main : True");
+    print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
 def change_name(k,i,j):
     try:
@@ -295,6 +362,11 @@ def get_link():
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 def run():
+        Del();
+        # ********************************
+        if(status):# หยุดทำงาน
+            return
+    # ********************************
         num1=int(data_link_for_shopee_gui[selected_value.get()])
         for k in range(num1,len(data_link_for_shopee)):
             print("====== Round [",k+1,"] Working [",data_link_for_shopee[k],"]======");
@@ -336,12 +408,6 @@ def run():
             #     print("For_i : ",e);
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ 
 # ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
-class PrintRedirector:
-    def __init__(self, textbox):
-        self.textbox = textbox
-    def write(self, text):
-        self.textbox.insert(END, text)
-        self.textbox.see(END)
 # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
 def run_system():
     global status_1;
