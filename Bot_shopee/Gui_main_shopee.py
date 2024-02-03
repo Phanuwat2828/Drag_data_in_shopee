@@ -32,6 +32,7 @@ class ReadAndWriteLog():
         return self.datas
     def clearLog(self):
         open('./log/log.txt',mode='w',encoding='utf-8').write('')
+        setTreeCommand()
 class PrintRedirector:
     def __init__(self, textbox):
         self.textbox = textbox
@@ -229,7 +230,6 @@ def data_process(path_file,i1,i2,i3,group,link):
             address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
             sold = (Product[data]["sold"]=='nan')and "" or Product[data]["sold"];
             price_before = (Product[data]["price_before"]=='nan')and "" or Product[data]["price_before"]
-            print(Product[data]["discount"]);
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             # ****************************************************************
@@ -455,7 +455,7 @@ def run_system():
     global status_run_program;
     status_run_program = False
     showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
-    log.clearLog()
+    # log.clearLog()
     setTreeCommand()
     t = threading.Thread(target=run)
     t.start();
@@ -465,10 +465,12 @@ def stop_program():
     showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
 # ****************** button start and stop ***********************************************************
-buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
+buttom_start = Button(app,text="Start",bg="#9ADE7B",fg="white",command=run_system)
 buttom_start.place(x=100,y=10,width=300,height=30)
-buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
+buttom_stop = Button(app,text="Stop",bg="#7360DF",fg="white",command=stop_program)
 buttom_stop.place(x=100,y=50,width=300,height=30)
+buttom_stop = Button(app,text="ลบประวัติทั้งหมด",bg="#FF6868",fg="white",command=log.clearLog)
+buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)  
 # ****************** dropdown select group ***********************************************************
