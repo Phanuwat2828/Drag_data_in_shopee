@@ -144,6 +144,7 @@ def check_data(path_file):
         return is_subset; 
     except Exception as e:
         print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
+
 # Read Excell
 def postAPI_DB(data,id_shop,title_group,link):
     """
@@ -202,7 +203,6 @@ def data_process(path_file,i1,i2,i3,group,link):
         }
         data = "Product_"+str(i+1);
         for j in range(len(header)):
-            print(read_excel[header[j]][i],j);
             data_input = str(read_excel[header[j]][i]);
             data_process[header_Values[header[j]]]=data_input;
         # ****************************************************************
@@ -403,20 +403,23 @@ def run():
     for k in range(num1,len(data_link_for_lazada)):
         if(status_run_program):# หยุดทำงาน
             return
-        print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
+        print("====== Round [",k+1,"] Working [",data_link_for_lazada[k],"]======");
         Data = get_link();
         num2=0;
-        data_all = Data[data_link_for_lazada[num1]]["lazada"];
+        data_all = Data[data_link_for_lazada[k]]["lazada"];
         # try:
         for i in range(len(data_all)):
             # ********************************
             if(status_run_program):# หยุดทำงาน
                 return
             # ********************************
+            round_click = 3;
+            if(k==0):
+                round_click=2;
             num2+=1;
             num3=0; 
             status_count = False
-            main(data_all[i],1,2,desk_top,1);
+            main(data_all[i],1,round_click,desk_top,1);
             status_lazada = statusLinkJson()
             for c in range(status_lazada==False):
                 main(data_all[i],1,2,desk_top,1);
@@ -438,16 +441,16 @@ def run():
                     find_shopee = statusLinkJson();
                     if(find_shopee==True):
                         num3+=1;
-                        path = change_name(num1+1,num2,num3);
+                        path = change_name(k+1,num2,num3);
                         if(check_data(path_file+path)==True):
                             # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            log.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
+                            log.addLog("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_lazada[k]))
                             setTreeCommand()
                             # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
-                            data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
+                            print("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_lazada[k]));
+                            data_process(path_file+path,k+1,num2,num3,data_link_for_lazada[k],data_all[i]);
                         else:
-                            print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                            print("data_%d_%d_%d group:%s : False"%(k+1,num2,num3,data_link_for_lazada[k]));
                             destination_path = path_file+un_process;
                             shutil.move(path_file+path, destination_path)
                             continue
@@ -494,17 +497,16 @@ def setTreeCommand():
     data = log.getLog()
     for i in range(len(data)):
         table.insert('','end',values=(i,data[i]))
-header = ['loop','group system']
+header_gui = ['loop','group system']
 hdsize = [50,400]
-table = ttk.Treeview(app,columns=header,show='headings')
+table = ttk.Treeview(app,columns=header_gui,show='headings')
 table.place(x=20,y=120,height=430)
 # header
-for h,s in zip(header,hdsize):
+for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
     table.column(h,width=s)
 setTreeCommand()
 # **************************************************************************************
-
 
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
@@ -518,15 +520,10 @@ sys.stdout = PrintRedirector(text)
 text.place(x=7,y=600)
 # Set a default value
 dropdown.set(options[0])
-
 # Bind the event handler to the <<ComboboxSelected>> event
 dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
-
-
 app.mainloop()
-
 
 #  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
 
 
-           
