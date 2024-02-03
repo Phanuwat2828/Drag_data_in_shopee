@@ -487,7 +487,7 @@ def setTreeCommand():
 header_gui = ['loop','group system']
 hdsize = [50,400]
 table = ttk.Treeview(app,columns=header_gui,show='headings')
-table.place(x=20,y=120,height=430)
+table.place(x=20,y=120,height=400)
 # header
 for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
