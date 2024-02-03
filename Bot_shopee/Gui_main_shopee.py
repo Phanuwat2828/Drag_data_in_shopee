@@ -41,7 +41,7 @@ class PrintRedirector:
         self.textbox.see(END)
 
 # path_api
-uri_API = 'https://b18f-223-206-131-122.ngrok-free.app/';
+uri_API = 'https://8f34-14-207-201-178.ngrok-free.app/';
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd();
@@ -150,7 +150,7 @@ def postAPI_DB(data,id_shop,title_group,i1,link):
     """
     try:
         response = requests.post(
-            f"{uri_API}/addb?id={id_shop}&&web=lazada&&group={title_group}&&title_group={title_group}&&link={link}",
+            f"{uri_API}/addb?id={id_shop}&&web=shopee&&group={title_group}&&title_group={title_group}&&link={link}",
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -375,14 +375,14 @@ def run():
             Data = get_link();
             num2=0;
             data_all = Data[data_link_for_shopee[k]]["shopee"];
-            # try:
-            for i in range(len(data_all)):
+            # try: len(data_all)
+            for i in range(1):
                     if(status_run_program):# หยุดทำงาน
                         return
                     num2+=1;
                     num3=0;
                     # try:
-                    for j in range(9):
+                    for j in range(1):
                         print("================")
                         data_sum=data_all[i]+"/?page="+str(j);
                         main(data_sum,7,1,0,0);
@@ -409,7 +409,7 @@ def run():
                             continue;
                         print("For_j : True");
                         print("================");
-                    custom_sleep(120);  
+                    # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
             num1+=1

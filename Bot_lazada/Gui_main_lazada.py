@@ -9,7 +9,6 @@ import sys
 import shared_module 
 
 # ==================================== Main +++++++++++++++++++++++++++
-
 import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
@@ -71,7 +70,6 @@ header_Values = {
     '_95X4G href':"product",
     'jBwCF src':"image_product_1",
     'jBwCF src 2':"image_product_2",
-
     'IcOsH':"discount",
     'RfADt':"data_product", 
     'ooOxS':"price_product",
@@ -82,7 +80,7 @@ header_Values = {
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
 # api
-uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
+uri_API = "https://8f34-14-207-201-178.ngrok-free.app/"
 # gui_
 font1 = ("Angsana New",25)
 app = Tk()
@@ -136,7 +134,6 @@ def check_data(path_file):
     try:
         header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt']
-       
         df = pd.read_excel(path_file)
         is_subset = all(item in df.columns for item in header);
         print("Check_data : พบข้อมูลทั้งหมดใน Excel ",is_subset);
@@ -167,6 +164,10 @@ def postAPI_DB(data,id_shop,title_group,link):
         return {"status":200,"message":"POST API SUCCESS."}
     except:
         return {"status":404,"message":"POST API ERROR."}
+def is_thai(text):
+    thai_unicode_range = (0x0E00, 0x0E7F)
+    return all(ord(char) in range(thai_unicode_range[0], thai_unicode_range[1] + 1) for char in text)
+
 # process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
     """
@@ -178,68 +179,72 @@ def data_process(path_file,i1,i2,i3,group,link):
         i3: รอบการทำงานเล็กสุด ก็คือ หน้าแต่ละหน้าของสับย่อย ที่เราให้ไปอ่านแล้วกดโหลด
         group: _description_
     """
-    # try:
-    read_excel = pd.read_excel(path_file);
-    num_rows, num_columns = read_excel.shape
-    success_data_text = ""
-    for i in range(num_rows):
-        data_process = {
-            "product":[],
-            "price_product_2":[],
-            "price_product_1":[],
-            "image_product_1":[],
-            "discount":[],
-            "image_product_2":[],
-            "data_product":[],
-            "price_before":[],
-            "Emoji":[],
-            "sold":[],
-            "place":[],
-            "Recommended_shops":[],
-            "count_review":[],
-            "maket":[],
-            "group":[]
-        }
-        data = "Product_"+str(i+1);
-        for j in range(len(header)):
-            data_input = str(read_excel[header[j]][i]);
-            data_process[header_Values[header[j]]]=data_input;
-        # ****************************************************************
-        Product = {}
-        Product[data]= data_process
-        Product[data]["maket"]="lazada"
-        Product[data]["group"]=group
-        id_shop = f'shop{i1}_{i2}_{i3}'
-        # ****************************************************************
-        product = Product[data]["product"]
-        image_product_1 = Product[data]["image_product_1"]
-        image_product_2 = Product[data]["image_product_2"]
-        discount = Product[data]["discount"]
-        data_product = Product[data]["data_product"]
-        price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
-        price_product = (price_product<=0)and "0" or price_product
-        sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
-        address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
-        count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
-        maket = Product[data]["maket"]
-        # ****************************************************************
-        success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
-        # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-        if(i==num_rows-1):
-            print(success_data_text)
-            print(postAPI_DB(success_data_text,id_shop,group,link));
-    # except Exception as e:
-    #     print(e);
+    try:
+        read_excel = pd.read_excel(path_file);
+        num_rows, num_columns = read_excel.shape
+        success_data_text = ""
+        for i in range(num_rows):
+            data_process = {
+                "product":[],
+                "price_product_2":[],
+                "price_product_1":[],
+                "image_product_1":[],
+                "discount":[],
+                "image_product_2":[],
+                "data_product":[],
+                "price_before":[],
+                "Emoji":[],
+                "sold":[],
+                "place":[],
+                "Recommended_shops":[],
+                "count_review":[],
+                "maket":[],
+                "group":[]
+            }
+            data = "Product_"+str(i+1);
+            for j in range(len(header)):
+                data_input = str(read_excel[header[j]][i]);
+                data_process[header_Values[header[j]]]=data_input;
+            # ****************************************************************
+            Product = {}
+            Product[data]= data_process
+            Product[data]["maket"]="lazada"
+            Product[data]["group"]=group
+            id_shop = f'shop{i1}_{i2}_{i3}'
+            # ****************************************************************
+            product = Product[data]["product"]
+            image_product_1 = Product[data]["image_product_1"]
+            image_product_2 = Product[data]["image_product_2"]
+            discount = Product[data]["discount"]
+            data_product = Product[data]["data_product"]
+            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
+            price_product = (price_product<=0)and "0" or price_product
+            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
+            if is_thai(Product[data]["place"]):
+                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
+            else:
+                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+            count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
+            maket = Product[data]["maket"]
+            # ****************************************************************
+            success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
+            # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
+            if(i==num_rows-1):
+                print(success_data_text)
+                print(postAPI_DB(success_data_text,id_shop,group,link));
+    except Exception as e:
+        print(e);
 # Check_count
-def check_data_count(path):
+def check_data_count(path): 
     try:
         header = ['ant-pagination-item 6']
         df = pd.read_excel(path)
         is_subset = all(item in df.columns for item in header);
         print("Status Check_Data_count : พบหน้าเว็บทั้งหมด ",is_subset);
         return is_subset;
-    except Exception as e:
+    except Exception as e:  
         print("Status Check_Data_count : ไม่พบหน้าเว็บทั้งหมด ",e);
+
 def page():
     try:
         path = path_file+data_lazada+data_lazada_xlsx
@@ -426,7 +431,7 @@ def run():
                     break;
             # try:
             if(status_lazada==True):
-                status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
+                status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
             if(status_count==True):
                 count = page()
                 for j in range(count):
@@ -507,7 +512,8 @@ for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
     table.column(h,width=s)
 setTreeCommand()
-# **************************************************************************************
+# *************************
+# *************************************************************
 
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
