@@ -14,34 +14,44 @@ import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
-#  ==================================== Main +++++++++++++++++++++++++++
+#  ==================================== Class And varible +++++++++++++++++++++++++++
+class ReadAndWriteLog():
+    def __init__(self):
+        self.df = []
+        self.datas = []
+    def addLog(self,data):
+        try:
+            open('./log/log.txt',mode='a',encoding='utf-8').write(data+'\n')
+        except:
+            open('./log/log.txt',mode='w',encoding='utf-8').write(data+'\n')
+    def getLog(self):
+        self.datas = []
+        self.df = open('./log/log.txt',mode='r',encoding='utf-8').readlines()
+        for i in self.df:
+            self.datas.append(i[:-1])
+        return self.datas
+    def clearLog(self):
+        open('./log/log.txt',mode='w',encoding='utf-8').write('')
+class PrintRedirector:
+    def __init__(self, textbox):
+        self.textbox = textbox
 
-# gui_
-
-font1 = ("Angsana New",25)
-app = Tk()
-app.title("Lazada")
-app.config(bg="#332941") 
-app.geometry("500x900+0+0")
-selected_value = StringVar()
-
-# api
-uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
-
-# path
-bot_lazada = r'\Bot_lazada'
-path_file = os.getcwd();
-drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
-data_lazada = r'\Data_lazada';
-data_lazada_xlsx = r'\lazada.xlsx';
-un_process = r'\Unprocess';
-data_link = r'\Data_link\data_link_all.json';
-desk_top = 6;
-staut_working = "test";
-
-
-# data_num=a = geoupss().getgroup();
-# link_json
+    def write(self, text):
+        self.textbox.insert(END, text)
+        self.textbox.see(END)
+data_link_for_lazada_gui  = {
+    'อุปกรณ์-อิเล็กทรอนิกส์':0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1, 
+    'ทีวีและเครื่องใช้ในบ้าน':2, 
+    'สุขภาพและความงาม':3, 
+    'ทารกและของเล่น':4, 
+    'ของชำและสัตว์เลี้ยง':5, 
+    'บ้านและไลฟ์สไตล์':6, 
+    'แฟชั่นและเครื่องประดับผู้หญิง':7, 
+    'แฟชั่นและเครื่องประดับผู้ชาย':8,
+    'กีฬาและการเดินทาง':9,
+    'ยานยนต์และรถจักรยานยนต์':10
+    }
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
@@ -55,13 +65,9 @@ data_link_for_lazada  = {
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'
     }
-
-
-# head_excel
 header = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS',
        '_1cEkb', 'qzqFw', 'oa6ri']
-
 header_Values = {
     '_95X4G href':"product",
     'jBwCF src':"image_product_1",
@@ -74,15 +80,36 @@ header_Values = {
     'qzqFw':"count_review", 
     'oa6ri':"place"
 }
+Data = [];
+#  ==================================== ... +++++++++++++++++++++++++++
+# api
+uri_API = "https://b18f-223-206-131-122.ngrok-free.app/"
+# gui_
+font1 = ("Angsana New",25)
+app = Tk()
+app.title("Lazada")
+app.config(bg="#332941") 
+app.geometry("500x900+0+0")
+# ****************** varible in GUI tk ***********************************************************
+selected_value = StringVar()
+showStatusBot = StringVar()
+log = ReadAndWriteLog()
+
+# path
+bot_lazada = r'\Bot_lazada'
+path_file = os.getcwd();
+drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
+data_lazada = r'\Data_lazada';
+data_lazada_xlsx = r'\lazada.xlsx';
+un_process = r'\Unprocess';
+data_link = r'\Data_link\data_link_all.json';
+desk_top = 6;
+staut_working = "test";
 
 
-# Data_Link
-# Link_all
-# Find_file_Donwload_after_change_name
-
-def status():
+# link_json
+def statusLinkJson():
     """status : เช็คไฟล์ว่ามีไฟล์ Lazada ไหม
-
     Returns:
         Bolean: True
     """
@@ -102,10 +129,8 @@ def status():
 def check_data(path_file):
     """
     Check_data : เช็ค Head xlsx ว่ามีสื่งที่ต้องการไหม
-
     Args:
         path_file String: Path file for find head
-
     Returns:
         Bolean : True
     """
@@ -119,9 +144,7 @@ def check_data(path_file):
         return is_subset; 
     except Exception as e:
         print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
-
 # Read Excell
-# https://11c2-14-207-200-101.ngrok-free.app/
 def postAPI_DB(data,id_shop,title_group,link):
     """
     data: text ที่ทำการ += ในตัวแปร success_data_text
@@ -144,8 +167,7 @@ def postAPI_DB(data,id_shop,title_group,link):
         return {"status":200,"message":"POST API SUCCESS."}
     except:
         return {"status":404,"message":"POST API ERROR."}
-
-
+# process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
     """
     Process : เพื่อจัดตำแหน่งข้อมูลให้สามารถป้อนเข้า Data Base ได้
@@ -245,8 +267,6 @@ def Del():
                 print(f"Del_file : False ",e);
     except:
         pass
-Del();
-Data = [];
 def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
@@ -263,7 +283,7 @@ def type_and_enter(text):
     pyperclip.copy(text)
     ky.press_and_release('ctrl+v')
     custom_sleep(1);
-    
+# bot is auto click on website
 def main(x,t,e,t2,e2):
     # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
     controller = keyboard.Controller();
@@ -373,145 +393,110 @@ def get_link():
         return data;
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
-
-class ReadAndWriteLog():
-    def __init__(self):
-        self.df = []
-        self.datas = []
-    def addLog(self,data):
-        try:
-            open('./log/log.txt',mode='a',encoding='utf-8').write(data+'\n')
-        except:
-            open('./log/log.txt',mode='w',encoding='utf-8').write(data+'\n')
-    def getLog(self):
-        self.datas = []
-        self.df = open('./log/log.txt',mode='r',encoding='utf-8').readlines()
-        for i in self.df:
-            self.datas.append(i[:-1])
-        return self.datas
-    def clearLog(self):
-        open('./log/log.txt',mode='w',encoding='utf-8').write('')
-
+# run
 def run():
-        # ********************************
+    Del();
+    # ********************************
+    if(status):# หยุดทำงาน
+        return
+    # ********************************
+    num1=int(data_link_for_lazada_gui[selected_value.get()]);
+    for k in range(num1,len(data_link_for_lazada)):
         if(status):# หยุดทำงาน
             return
-        # ********************************
-        num1=int(data_link_for_lazada_gui[selected_value.get()]);
-        for k in range(num1,len(data_link_for_lazada)):
-            if(status):# หยุดทำงาน
-                return
-            print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
-            
-            Data = get_link();
-            num2=0;
-            data_all = Data[data_link_for_lazada[num1]]["lazada"];
-            try:
-                for i in range(len(data_all)):
-                    # ********************************
-                    if(status):# หยุดทำงาน
-                        return
-                    # ********************************
-                    num2+=1;
-                    num3=0; 
-                    status_count = False
+        print("====== Round [",k+1,"] Working [",data_link_for_lazada[num1],"]======");
+        
+        Data = get_link();
+        num2=0;
+        data_all = Data[data_link_for_lazada[num1]]["lazada"];
+        try:
+            for i in range(len(data_all)):
+                # ********************************
+                if(status):# หยุดทำงาน
+                    return
+                # ********************************
+                num2+=1;
+                num3=0; 
+                status_count = False
+                main(data_all[i],1,2,desk_top,1);
+                status_lazada = statusLinkJson()
+                for c in range(status_lazada==False):
                     main(data_all[i],1,2,desk_top,1);
-                    status_lazada = status();
-                    for c in range(status_lazada==False):
-                        main(data_all[i],1,2,desk_top,1);
-                        if(c==2):
-                            break;
-                    try:
-                        if(status_lazada==True):
-                            status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
-                        if(status_count==True):
-                            count = page()
-                            for j in range(count):
-                                # ********************************
-                                if(status):# หยุดทำงาน
-                                    return
-                                # ********************************
-                                print("=======================");
-                                data_sum=data_all[i]+"/?page="+str(j+1);
-                                main(data_sum,desk_top+1,1,0,0);
-                                find_shopee = status();
-                                if(find_shopee==True):
-                                    num3+=1;
-                                    path = change_name(num1+1,num2,num3);
+                    if(c==2):
+                        break;
+                try:
+                    if(status_lazada==True):
+                        status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx)
+                    if(status_count==True):
+                        count = page()
+                        for j in range(count):
+                            # ********************************
+                            if(status):# หยุดทำงาน
+                                return
+                            # ********************************
+                            print("=======================");
+                            data_sum=data_all[i]+"/?page="+str(j+1);
+                            main(data_sum,desk_top+1,1,0,0);
+                            find_shopee = status();
+                            if(find_shopee==True):
+                                num3+=1;
+                                path = change_name(num1+1,num2,num3);
 
-                                    if(check_data(path_file+path)==True):
-                                        df = ReadAndWriteLog()
-                                        df.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
-                                        print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
-                                        data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
-                                    else:
-                                        print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
-                                        destination_path = path_file+un_process;
-                                        shutil.move(path_file+path, destination_path)
-                                        continue
+                                if(check_data(path_file+path)==True):
+                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                    log.addLog("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]))
+                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                    print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                                    data_process(path_file+path,num1+1,num2,num3,data_link_for_lazada[num1],data_all[i]);
                                 else:
-                                    continue;
-                                print("=======================");
-                            custom_sleep(120);
-                        else:
-                            continue;
-                        print("For_J : True");
-                    except Exception as e:
-                        print("For_j",e);
-                    print("For_i : True");
-                num1+=1;
-            except Exception as e:
-                print("For_i : ",e);
-# +++++++++++++++++++++++++++++++++++++++++++++++ main++++++++++++++++++++++++++++++++++++
-
-
-data_link_for_lazada_gui  = {
-    'อุปกรณ์-อิเล็กทรอนิกส์':0,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1, 
-    'ทีวีและเครื่องใช้ในบ้าน':2, 
-    'สุขภาพและความงาม':3, 
-    'ทารกและของเล่น':4, 
-    'ของชำและสัตว์เลี้ยง':5, 
-    'บ้านและไลฟ์สไตล์':6, 
-    'แฟชั่นและเครื่องประดับผู้หญิง':7, 
-    'แฟชั่นและเครื่องประดับผู้ชาย':8,
-    'กีฬาและการเดินทาง':9,
-    'ยานยนต์และรถจักรยานยนต์':10
-    }
-class PrintRedirector:
-    def __init__(self, textbox):
-        self.textbox = textbox
-
-    def write(self, text):
-        self.textbox.insert(END, text)
-        self.textbox.see(END)
+                                    print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_lazada[num1]));
+                                    destination_path = path_file+un_process;
+                                    shutil.move(path_file+path, destination_path)
+                                    continue
+                            else:
+                                continue;
+                            print("=======================");
+                        custom_sleep(120);
+                    else:
+                        continue;
+                    print("For_J : True");
+                except Exception as e:
+                    print("For_j",e);
+                print("For_i : True");
+            num1+=1;
+        except Exception as e:
+            print("For_i : ",e);
+# +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
     global status;
     status = False
+    showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
+    log.clearLog()
+    setTreeCommand()
     t = threading.Thread(target=run)
     t.start();
-# Create a Text widget for displaying the print statements
-# Explicitly redirect stdout to the PrintRedirector
 def stop_program():
     global status;
     status = True
+    showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
-# def on_dropdown_change(event):
-#     selected_value = dropdown.get()
-#     print(f"Selected value: {selected_value}")    
-
-
+# ****************** button start and stop ***********************************************************
 buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
 buttom_start.place(x=100,y=10,width=300,height=30)
 buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
 buttom_stop.place(x=100,y=50,width=300,height=30)
 # entry = Entry(app, width=40)
-# entry.pack(pady=10)   
-# Create a Text widget for displaying the output
+# entry.pack(pady=10)  
+# ****************** dropdown select group ***********************************************************
+options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์']
+def on_dropdown_change(event):
+    selected_value = data_link_for_lazada_gui[event.widget.get()]
+    shared_module.grop_number=selected_value;
+
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
-    df = ReadAndWriteLog()
-    data = df.getLog()
+    table.delete(*table.get_children())
+    data = log.getLog()
     for i in range(len(data)):
         table.insert('','end',values=(i,data[i]))
 header = ['loop','group system']
@@ -523,27 +508,19 @@ for h,s in zip(header,hdsize):
     table.heading(h,text=h)
     table.column(h,width=s)
 setTreeCommand()
-# *****************************************************************************
+# **************************************************************************************
+
 # text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 # text.pack(pady=10)
 # sys.stdout = PrintRedirector(text)
 # text.place(x=7,y=100)
 # Create the main window
 
-
-# Create a list of options for the dropdown
-options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์']
-
-# Create a StringVar to store the selected value
-
-def on_dropdown_change(event):
-    selected_value = data_link_for_lazada_gui[event.widget.get()]
-    shared_module.grop_number=selected_value;
-    # print(selected_value);
-
-# Create the dropdown
+showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
 dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
 dropdown.place(x=20,y=90);
+titleStatusbot = Label(app,textvariable=showStatusBot)
+titleStatusbot.place(x=20,y=560)
 
 # Set a default value
 dropdown.set(options[0])
