@@ -44,7 +44,7 @@ class PrintRedirector:
 uri_API = 'https://b18f-223-206-131-122.ngrok-free.app/';
 # path
 bot_shopee = r'\Bot_shopee';
-path_file = os.getcwd()+bot_shopee;
+path_file = os.getcwd();
 drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
 data_shopee = r'\Data_shopee';
 data_shopee_xlsx = r'\shopee.xlsx';
@@ -257,7 +257,7 @@ def main(x,t,e,t2,e2):
     controller = keyboard.Controller();
     custom_sleep(3);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('ctrl+t')
@@ -273,14 +273,14 @@ def main(x,t,e,t2,e2):
     type_and_enter(x);
     custom_sleep(2);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     enter(1)
     # Mouse clicked at (1360, 264) with Button.left
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(1)
@@ -289,7 +289,7 @@ def main(x,t,e,t2,e2):
 
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     # Mouse clicked at (834, 114) with Button.left
@@ -298,39 +298,39 @@ def main(x,t,e,t2,e2):
     ky.press_and_release('F11')
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(t);
     custom_sleep(4);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     enter(e)
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     tab(t2);
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     enter(e2)
     # Mouse clicked at (1118, 17) with Button.left
     custom_sleep(2);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('alt+F4')
     # reface
     custom_sleep(1);
     # ********************************
-    if(status):# หยุดทำงาน
+    if(status_run_program):# หยุดทำงาน
         return
     # ********************************
     ky.press_and_release('ctrl+w')
@@ -364,18 +364,21 @@ def get_link():
 def run():
         Del();
         # ********************************
-        if(status):# หยุดทำงาน
+        if(status_run_program):# หยุดทำงาน
             return
-    # ********************************
+        # ********************************
         num1=int(data_link_for_shopee_gui[selected_value.get()])
         for k in range(num1,len(data_link_for_shopee)):
+            if(status_run_program):# หยุดทำงาน
+                return
             print("====== Round [",k+1,"] Working [",data_link_for_shopee[k],"]======");
-            
             Data = get_link();
             num2=0;
             data_all = Data[data_link_for_shopee[k]]["shopee"];
             # try:
             for i in range(len(data_all)):
+                    if(status_run_program):# หยุดทำงาน
+                        return
                     num2+=1;
                     num3=0;
                     # try:
@@ -384,15 +387,21 @@ def run():
                         data_sum=data_all[i]+"/?page="+str(j);
                         main(data_sum,7,1,0,0);
                         find_shopee = status();
+                        if(status_run_program):# หยุดทำงาน
+                            return
                         if(find_shopee==True):
                             num3+=1;
-                            path = change_name(num1+1,num2,num3);
+                            path = change_name(k+1,num2,num3);
                             print(path);
                             if(check_data(path_file+path)==True):
-                                print("data_%d_%d_%d group:%s : True"%(num1+1,num2,num3,data_link_for_shopee[num1]));
-                                data_process(path_file+path,num1,num2,num3,data_link_for_shopee[k],data_all[i]);
+                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                log.addLog("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_shopee[k]))
+                                setTreeCommand()
+                                # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                print("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_shopee[k]));
+                                data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_all[i]);
                             else:
-                                print("data_%d_%d_%d group:%s : False"%(num1+1,num2,num3,data_link_for_shopee[num1]));
+                                print("data_%d_%d_%d group:%s : False"%(k+1,num2,num3,data_link_for_shopee[k]));
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
                                 continue;
@@ -407,47 +416,65 @@ def run():
             # except Exception as e:
             #     print("For_i : ",e);
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ 
-# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
-# webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
+# +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
-    global status_1;
-    status_1 = False
+    global status_run_program;
+    status_run_program = False
+    showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
+    log.clearLog()
+    setTreeCommand()
     t = threading.Thread(target=run)
     t.start();
-# Create a Text widget for displaying the print statements
-# Explicitly redirect stdout to the PrintRedirector
 def stop_program():
-    global status_1;
-    status_1 = True
+    global status_run_program;
+    status_run_program= True
+    showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
-# def on_dropdown_change(event):
-#     selected_value = dropdown.get()
-#     print(f"Selected value: {selected_value}")    
+# ****************** button start and stop ***********************************************************
 buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
 buttom_start.place(x=100,y=10,width=300,height=30)
 buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
 buttom_stop.place(x=100,y=50,width=300,height=30)
 # entry = Entry(app, width=40)
-# entry.pack(pady=10)   
-# Create a Text widget for displaying the output
+# entry.pack(pady=10)  
+# ****************** dropdown select group ***********************************************************
+options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์']
+def on_dropdown_change(event):
+    selected_value = data_link_for_shopee_gui[event.widget.get()]
+
+# ****************** แสดง log ***********************************************************
+def setTreeCommand():
+    table.delete(*table.get_children())
+    data = log.getLog()
+    for i in range(len(data)):
+        table.insert('','end',values=(i,data[i]))
+header_gui = ['loop','group system']
+hdsize = [50,400]
+table = ttk.Treeview(app,columns=header_gui,show='headings')
+table.place(x=20,y=120,height=430)
+# header
+for h,s in zip(header_gui,hdsize):
+    table.heading(h,text=h)
+    table.column(h,width=s)
+setTreeCommand()
+# **************************************************************************************
+
+showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
+dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
+dropdown.place(x=20,y=90);
+titleStatusbot = Label(app,textvariable=showStatusBot)
+titleStatusbot.place(x=20,y=560)
+
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
-text.place(x=7,y=100)
-# Create the main window
-# Create a list of options for the dropdown
-# Create a StringVar to store the selected value
-options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์',"เครื่องประดับ","ตั๋วและบัตรกำนัน"]
-def on_dropdown_change(event):
-    selected_value = data_link_for_shopee_gui[event.widget.get()]
-    # print(selected_value);
-# Create the dropdown
-dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
-dropdown.place(x=10,y=360);
+text.place(x=7,y=600)
 # Set a default value
 dropdown.set(options[0])
 # Bind the event handler to the <<ComboboxSelected>> event
 dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 app.mainloop()
-# ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
+
+#  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
+
 
