@@ -1,19 +1,16 @@
 
 # from main_lazada import*
 from tkinter import *
+import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
-import webbrowser
-import threading
-import subprocess
-import sys
-import shared_module 
-
+import webbrowser,threading,subprocess,sys,shared_module 
 # ==================================== Main +++++++++++++++++++++++++++
 import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
 #  ==================================== Class And varible +++++++++++++++++++++++++++
+
 class ReadAndWriteLog():
     def __init__(self):
         self.df = []
@@ -39,53 +36,21 @@ class PrintRedirector:
         self.textbox.insert(END, text)
         self.textbox.see(END)
 data_link_for_lazada_gui  = {
-    'อุปกรณ์-อิเล็กทรอนิกส์':0,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1, 
-    'ทีวีและเครื่องใช้ในบ้าน':2, 
-    'สุขภาพและความงาม':3, 
-    'ทารกและของเล่น':4, 
-    'ของชำและสัตว์เลี้ยง':5, 
-    'บ้านและไลฟ์สไตล์':6, 
-    'แฟชั่นและเครื่องประดับผู้หญิง':7, 
-    'แฟชั่นและเครื่องประดับผู้ชาย':8,
+    'สุขภาพและความงาม':0,
+    'แฟชั่นและเครื่องประดับผู้ชาย':1,
+    'แฟชั่นและเครื่องประดับผู้หญิง':2,
+    'ทีวีและเครื่องใช้ในบ้าน':3,
+    'อุปกรณ์-อิเล็กทรอนิกส์':4,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
+    'ของชำและสัตว์เลี้ยง':6,
+    'ทารกและของเล่น':7,
+    'ยานยนต์และรถจักรยานยนต์':8,
     'กีฬาและการเดินทาง':9,
-    'ยานยนต์และรถจักรยานยนต์':10
-
-
+    'บ้านและไลฟ์สไตล์':10, 
+    "ตั๋วและบัตรกำนัน":11
     }
 data_link_for_lazada  = {
-    0: 'อุปกรณ์-อิเล็กทรอนิกส์',
-    1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 
-    2: 'ทีวีและเครื่องใช้ในบ้าน', 
-    3: 'สุขภาพและความงาม', 
-    4: 'ทารกและของเล่น', 
-    5: 'ของชำและสัตว์เลี้ยง', 
-    6: 'บ้านและไลฟ์สไตล์', 
-    7: 'แฟชั่นและเครื่องประดับผู้หญิง', 
-    8: 'แฟชั่นและเครื่องประดับผู้ชาย',
-    9: 'กีฬาและการเดินทาง',
-    10: 'ยานยนต์และรถจักรยานยนต์'
-    }
-
-
-new_data = [
-    'สุขภาพและความงาม',
-    'แฟชั่นและเครื่องประดับผู้ชาย',
-    'แฟชั่นและเครื่องประดับผู้หญิง',
-    'ทีวีและเครื่องใช้ในบ้าน',
-    'อุปกรณ์-อิเล็กทรอนิกส์',
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    'ของชำและสัตว์เลี้ยง',
-    'ทารกและของเล่น',
-    'ยานยนต์และรถจักรยานยนต์',
-    'กีฬาและการเดินทาง',
-    'บ้านและไลฟ์สไตล์', 
-    "ตั๋วและบัตรกำนัน"
-
-
-]
-data_new  = {
-    0:'สุขภาพและความงาม',
+     0:'สุขภาพและความงาม',
     1:'แฟชั่นและเครื่องประดับผู้ชาย',
     2:'แฟชั่นและเครื่องประดับผู้หญิง',
     3:'ทีวีและเครื่องใช้ในบ้าน',
@@ -97,7 +62,35 @@ data_new  = {
     9:'กีฬาและการเดินทาง',
     10:'บ้านและไลฟ์สไตล์', 
     11:"ตั๋วและบัตรกำนัน"
-}
+    }
+# new_data = [
+#     'สุขภาพและความงาม',
+#     'แฟชั่นและเครื่องประดับผู้ชาย',
+#     'แฟชั่นและเครื่องประดับผู้หญิง',
+#     'ทีวีและเครื่องใช้ในบ้าน',
+#     'อุปกรณ์-อิเล็กทรอนิกส์',
+#     'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+#     'ของชำและสัตว์เลี้ยง',
+#     'ทารกและของเล่น',
+#     'ยานยนต์และรถจักรยานยนต์',
+#     'กีฬาและการเดินทาง',
+#     'บ้านและไลฟ์สไตล์', 
+#     "ตั๋วและบัตรกำนัน"
+# ]
+# data_new  = {
+#    'สุขภาพและความงาม':0,
+#     'แฟชั่นและเครื่องประดับผู้ชาย':1,
+#     'แฟชั่นและเครื่องประดับผู้หญิง':2,
+#     'ทีวีและเครื่องใช้ในบ้าน':3,
+#     'อุปกรณ์-อิเล็กทรอนิกส์':4,
+#     'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
+#     'ของชำและสัตว์เลี้ยง':6,
+#     'ทารกและของเล่น':7,
+#     'ยานยนต์และรถจักรยานยนต์':8,
+#     'กีฬาและการเดินทาง':9,
+#     'บ้านและไลฟ์สไตล์':10, 
+#     "ตั๋วและบัตรกำนัน":11
+# }
 header_2 = ['_95X4G href', 'jBwCF src', 'jBwCF src 2'
           , 'RfADt', 'ooOxS',
        '_1cEkb', 'qzqFw', 'oa6ri']
@@ -124,8 +117,10 @@ app.config(bg="#332941")
 app.geometry("500x900+0+0")
 # ****************** varible in GUI tk ***********************************************************
 selected_value = StringVar()
+# selected_value.set()s
 showStatusBot = StringVar()
-log = ReadAndWriteLog()
+value_to_gui = IntVar()
+log = ReadAndWriteLog() 
 
 # path
 bot_lazada = r'\Bot_lazada'
@@ -459,6 +454,7 @@ def change_name(k,i,j):
     except Exception as e:
         print("Change_name : เปลี่ยนชื่อไฟล์ไม่สำเร็จ",e)
 # Link_from_json
+
 def get_link():
     try:
         path_here = os.getcwd();
@@ -479,12 +475,14 @@ def run():
     # ********************************
     num1=int(data_link_for_lazada_gui[selected_value.get()]);
     for k in range(num1,len(data_link_for_lazada)):
+        count = 0;
         if(status_run_program):# หยุดทำงาน
             return
         print("====== Round [",k+1,"] Working [",data_link_for_lazada[k],"]======");
         Data = get_link();
         num2=0;
         data_all = Data[data_link_for_lazada[k]]["lazada"];
+        value_to_gui.set(len(data_all));
         # try:
         for i in range(len(data_all)):
             # ********************************
@@ -577,10 +575,21 @@ buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)  
 # ****************** dropdown select group ***********************************************************
-options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์']
-def on_dropdown_change(event):
-    selected_value = data_link_for_lazada_gui[event.widget.get()]
-    shared_module.grop_number=selected_value;
+options = ['สุขภาพและความงาม',
+    'แฟชั่นและเครื่องประดับผู้ชาย',
+    'แฟชั่นและเครื่องประดับผู้หญิง',
+    'ทีวีและเครื่องใช้ในบ้าน',
+    'อุปกรณ์-อิเล็กทรอนิกส์',
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    'ของชำและสัตว์เลี้ยง',
+    'ทารกและของเล่น',
+    'ยานยนต์และรถจักรยานยนต์',
+    'กีฬาและการเดินทาง',
+    'บ้านและไลฟ์สไตล์', 
+    "ตั๋วและบัตรกำนัน"
+]
+value_link = get_link();
+
 
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
@@ -597,7 +606,28 @@ for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
     table.column(h,width=s)
 setTreeCommand()
-# *************************
+# ************************* Function*************************
+def number_dropdown_2(event):
+    pass
+    
+
+def on_dropdown_change(event):
+    selected_value.set(event.widget.get())
+    shared_module.grop_number=selected_value;
+    number_dropdown_2();
+
+def number_dropdown_2():
+    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
+    selected = selected_value.get()
+    print(selected_value.get())
+    if selected and selected in value_link:
+        options_2 = [str(i) for i in range(1,1+len(value_link[selected]['lazada']))]
+        selected_value_num_2.set(options_2[0])
+        dropdown_num['values'] = options_2
+        print(len(value_link[selected]['lazada']))
+    else:
+        print("ไม่พบค่าที่ถูกเลือกหรือไม่มีข้อมูลสำหรับค่าที่เลือก")
+
 # *************************************************************
 
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
@@ -605,15 +635,82 @@ dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
 dropdown.place(x=20,y=90);
 titleStatusbot = Label(app,textvariable=showStatusBot)
 titleStatusbot.place(x=20,y=560)
+dropdown.set(options[0])
+dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
+
+# *************************************************************
+# num_2
+selected_value_num_2 = tk.StringVar()
+dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2)
+dropdown_num.place(width=50, x=175, y=90)
+# options_2 = [str(i) for i in range(1,len(value_link[selected_value.get()]['lazada']))];
+# selected_value_num_2 = tk.StringVar();
+# dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 , values=options_2);
+# selected_value_num_2.set(options_2[0]);
+# dropdown_num.place(width=50,x=175,y=90)
+
+# dropdown.bind("<<ComboboxSelected>>", number_dropdown_2);
+# ======================================================================
+# options = ['สุขภาพและความงาม',
+#     'แฟชั่นและเครื่องประดับผู้ชาย',
+#     'แฟชั่นและเครื่องประดับผู้หญิง',
+#     'ทีวีและเครื่องใช้ในบ้าน',
+#     'อุปกรณ์-อิเล็กทรอนิกส์',
+#     'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+#     'ของชำและสัตว์เลี้ยง',
+#     'ทารกและของเล่น',
+#     'ยานยนต์และรถจักรยานยนต์',
+#     'กีฬาและการเดินทาง',
+#     'บ้านและไลฟ์สไตล์', 
+#     "ตั๋วและบัตรกำนัน"
+# ]
+# options_2 = []
+# def on_dropdown_change(event):
+#     selected_value.set(data_link_for_lazada_gui[event.widget.get()])
+#     shared_module.grop_number = selected_value
+#     # เรียกใช้ฟังก์ชันที่เปลี่ยนค่าใน dropdown ที่สอง
+#     number_dropdown_2()
+
+
+        
+# # *************************************************************
+# showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
+# dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
+# dropdown.place(x=20,y=90);
+# titleStatusbot = Label(app,textvariable=showStatusBot)
+# titleStatusbot.place(x=20,y=560)
+# dropdown.set(options[0])
+# dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
+
+# # *************************************************************
+# # num_2
+selected_value_num_2 = tk.StringVar()
+dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2)
+dropdown_num.place(width=50, x=175, y=90)
+
+# ไม่ต้องกำหนดค่าให้ dropdown_num ที่นี้เนื่องจากเราจะกำหนดใหม่ในฟังก์ชัน number_dropdown_2
+
+# ไม่ต้องผูกฟังก์ชันกับ dropdown แล้ว
+
+# *************************************************************
+# num_3
+# options_2 = [str(i) for i in range(10)];
+# selected_value_num_2 = tk.StringVar();
+# dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 , values=options_2);
+# selected_value_num_2.set(options_2[0]);
+# dropdown_num.place(width=50,x=175,y=90)
+# dropdown.bind("<<ComboboxSelected>>", number_dropdown_2);
+
+# *************************************************************
 
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
 text.place(x=7,y=600)
 # Set a default value
-dropdown.set(options[0])
+
 # Bind the event handler to the <<ComboboxSelected>> event
-dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
+
 app.mainloop()
 
 #  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
