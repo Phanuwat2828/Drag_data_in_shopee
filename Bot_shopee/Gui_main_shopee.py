@@ -182,6 +182,11 @@ def postAPI_DB(data,id_shop,title_group,i1,link):
         return response.text
     except:
         return {"status":404,"message":"POST API ERROR."}
+def convert_to_integer(s):
+    if 'พัน' in s:
+        return int(float(s.replace('พัน', '')) * 1000)
+    else:
+        return int(s)
 def data_process(path_file,i1,i2,i3,group,link):
     try:
         find = pd.read_excel(path_file);
@@ -228,7 +233,9 @@ def data_process(path_file,i1,i2,i3,group,link):
             price_product1 = (price_product1<=0)and "0" or price_product1;
             price_product2 = (price_product2<=0)and "0" or price_product2;
             address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
-            sold = (Product[data]["sold"]=='nan')and "" or Product[data]["sold"];
+            sold = (Product[data]["sold"]=='nan')and "0" or Product[data]["sold"];
+            if("ขายแล้ว" in sold):
+                sold = convert_to_integer(sold.split(" ")[1])
             price_before = (Product[data]["price_before"]=='nan')and "" or Product[data]["price_before"]
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
@@ -487,7 +494,7 @@ def setTreeCommand():
 header_gui = ['loop','group system']
 hdsize = [50,400]
 table = ttk.Treeview(app,columns=header_gui,show='headings')
-table.place(x=20,y=120,height=430)
+table.place(x=20,y=120,height=400)
 # header
 for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)

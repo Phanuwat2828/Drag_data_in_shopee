@@ -278,7 +278,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             data_product = Product[data]["data_product"]
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
-            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or type(Product[data]["sold"].split(" ")[0] )
+            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0]
             if is_thai(Product[data]["place"]):
                 address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
             else:
@@ -591,7 +591,7 @@ def setTreeCommand():
 header_gui = ['loop','group system']
 hdsize = [50,400]
 table = ttk.Treeview(app,columns=header_gui,show='headings')
-table.place(x=20,y=120,height=430)
+table.place(x=20,y=120,height=400)
 # header
 for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
