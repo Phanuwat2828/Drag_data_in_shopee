@@ -608,6 +608,7 @@ for h,s in zip(header_gui,hdsize):
     table.column(h,width=s)
 setTreeCommand()
 # ************************* Function*************************
+
 def on_dropdown_change(event):
     selected_value.set(event.widget.get())
     number_dropdown_2();
@@ -622,7 +623,7 @@ def number_dropdown_2():
     options_2=[str(i) for i in range(1,1+len(value_link[selected]['lazada']))]
     selected_value_num_2.set(options_2[0])
     print(selected_value_num_2.get());
-    dropdown_num['values'] = options_2
+    dropdown_num_2['values'] = options_2
     print(len(value_link[selected]['lazada']))
 
 # *************************************************************
@@ -638,66 +639,19 @@ dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 # *************************************************************
 # num_2
 
-dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
-dropdown_num.place(width=50, x=175, y=90)
-dropdown_num.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
-
-
-# options_2 = [str(i) for i in range(1,len(value_link[selected_value.get()]['lazada']))];
-# selected_value_num_2 = tk.StringVar();
-# dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 , values=options_2);
-# selected_value_num_2.set(options_2[0]);
-# dropdown_num.place(width=50,x=175,y=90)
-
-# ======================================================================
-# options = ['สุขภาพและความงาม',
-#     'แฟชั่นและเครื่องประดับผู้ชาย',
-#     'แฟชั่นและเครื่องประดับผู้หญิง',
-#     'ทีวีและเครื่องใช้ในบ้าน',
-#     'อุปกรณ์-อิเล็กทรอนิกส์',
-#     'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-#     'ของชำและสัตว์เลี้ยง',
-#     'ทารกและของเล่น',
-#     'ยานยนต์และรถจักรยานยนต์',
-#     'กีฬาและการเดินทาง',
-#     'บ้านและไลฟ์สไตล์', 
-#     "ตั๋วและบัตรกำนัน"
-# ]
-# options_2 = []
-# def on_dropdown_change(event):
-#     selected_value.set(data_link_for_lazada_gui[event.widget.get()])
-#     shared_module.grop_number = selected_value
-#     # เรียกใช้ฟังก์ชันที่เปลี่ยนค่าใน dropdown ที่สอง
-#     number_dropdown_2()
-
-
-        
-# # *************************************************************
-# showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
-# dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
-# dropdown.place(x=20,y=90);
-# titleStatusbot = Label(app,textvariable=showStatusBot)
-# titleStatusbot.place(x=20,y=560)
-# dropdown.set(options[0])
-# dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
-
-# # *************************************************************
-# # num_2
-# ไม่ต้องกำหนดค่าให้ dropdown_num ที่นี้เนื่องจากเราจะกำหนดใหม่ในฟังก์ชัน number_dropdown_2
-
-# ไม่ต้องผูกฟังก์ชันกับ dropdown แล้ว
+dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
+dropdown_num_2.place(width=50, x=175, y=90)
+dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
 
 # *************************************************************
-# num_3
-# options_2 = [str(i) for i in range(10)];
-# selected_value_num_2 = tk.StringVar();
-# dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 , values=options_2);
-# selected_value_num_2.set(options_2[0]);
-# dropdown_num.place(width=50,x=175,y=90)
-# dropdown.bind("<<ComboboxSelected>>", number_dropdown_2);
+# num3
+selected_value_num_3 = [str(i) for i in range(10)]
+dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
+dropdown_num_3.place(width=50, x=230, y=90)
+# dropdown_num_.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
 
 # *************************************************************
-
+# terminal
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
