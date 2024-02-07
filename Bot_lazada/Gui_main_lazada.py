@@ -117,6 +117,7 @@ app.config(bg="#332941")
 app.geometry("500x900+0+0")
 # ****************** varible in GUI tk ***********************************************************
 selected_value = StringVar()
+value_num2 = StringVar()
 # selected_value.set()s
 showStatusBot = StringVar()
 value_to_gui = IntVar()
@@ -150,7 +151,6 @@ def statusLinkJson():
                 return
             status=file_name==file;
         print("Status : พบไฟล์ ",status)
-        
         return status;
     except Exception as e:
         print("Status : ไม่พบไฟล์ ",e);
@@ -589,7 +589,8 @@ options = ['สุขภาพและความงาม',
     "ตั๋วและบัตรกำนัน"
 ]
 value_link = get_link();
-
+selected_value_num_2 = tk.StringVar()
+value_num2 = StringVar()
 
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
@@ -607,26 +608,22 @@ for h,s in zip(header_gui,hdsize):
     table.column(h,width=s)
 setTreeCommand()
 # ************************* Function*************************
-def number_dropdown_2(event):
-    pass
-    
-
 def on_dropdown_change(event):
     selected_value.set(event.widget.get())
-    shared_module.grop_number=selected_value;
     number_dropdown_2();
-
+def on_dropdown_change_num2(event):
+    selected_num2 = event.widget.get()
+    value_num2.set(selected_num2)
+    print(value_num2.get())
 def number_dropdown_2():
     # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
     print(selected_value.get())
-    if selected and selected in value_link:
-        options_2 = [str(i) for i in range(1,1+len(value_link[selected]['lazada']))]
-        selected_value_num_2.set(options_2[0])
-        dropdown_num['values'] = options_2
-        print(len(value_link[selected]['lazada']))
-    else:
-        print("ไม่พบค่าที่ถูกเลือกหรือไม่มีข้อมูลสำหรับค่าที่เลือก")
+    options_2=[str(i) for i in range(1,1+len(value_link[selected]['lazada']))]
+    selected_value_num_2.set(options_2[0])
+    print(selected_value_num_2.get());
+    dropdown_num['values'] = options_2
+    print(len(value_link[selected]['lazada']))
 
 # *************************************************************
 
@@ -640,16 +637,18 @@ dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
 # *************************************************************
 # num_2
-selected_value_num_2 = tk.StringVar()
-dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2)
+
+dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
 dropdown_num.place(width=50, x=175, y=90)
+dropdown_num.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
+
+
 # options_2 = [str(i) for i in range(1,len(value_link[selected_value.get()]['lazada']))];
 # selected_value_num_2 = tk.StringVar();
 # dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2 , values=options_2);
 # selected_value_num_2.set(options_2[0]);
 # dropdown_num.place(width=50,x=175,y=90)
 
-# dropdown.bind("<<ComboboxSelected>>", number_dropdown_2);
 # ======================================================================
 # options = ['สุขภาพและความงาม',
 #     'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -684,10 +683,6 @@ dropdown_num.place(width=50, x=175, y=90)
 
 # # *************************************************************
 # # num_2
-selected_value_num_2 = tk.StringVar()
-dropdown_num = ttk.Combobox(app, textvariable=selected_value_num_2)
-dropdown_num.place(width=50, x=175, y=90)
-
 # ไม่ต้องกำหนดค่าให้ dropdown_num ที่นี้เนื่องจากเราจะกำหนดใหม่ในฟังก์ชัน number_dropdown_2
 
 # ไม่ต้องผูกฟังก์ชันกับ dropdown แล้ว
