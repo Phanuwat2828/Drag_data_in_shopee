@@ -114,7 +114,7 @@ font1 = ("Angsana New",25)
 app = Tk()
 app.title("Lazada")
 app.config(bg="#332941") 
-app.geometry("500x900+0+0")
+app.geometry("500x900-0+0")
 # ****************** varible in GUI tk ***********************************************************
 selected_value = StringVar()
 value_num2 = StringVar()
@@ -335,7 +335,7 @@ def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
     custom_sleep(2);
-    for i in range(7):
+    for i in range(6):
         if(status_run_program):# หยุดทำงาน
             return
         pyautogui.scroll(-750);
@@ -480,17 +480,17 @@ def run():
             return
         print("====== Round [",k+1,"] Working [",data_link_for_lazada[k],"]======");
         Data = get_link();
-        num2=0;
+        num2=(int(value_num2.get())-1);
         data_all = Data[data_link_for_lazada[k]]["lazada"];
         value_to_gui.set(len(data_all));
         # try:
-        for i in range(len(data_all)):
+        for i in range(num2,len(data_all)):
             # ********************************
             if(status_run_program):# หยุดทำงาน
                 return
             # ********************************
+            file_name = num2+1;
             round_click = 3;
-            num2+=1;
             num3=0; 
             status_count = False
             main(data_all[i],1,round_click,desk_top,1);
@@ -518,6 +518,7 @@ def run():
                 status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
             if(status_count==True):
                 count = page()
+                
                 for j in range(count):
                     # ********************************
                     if(status_run_program):# หยุดทำงาน
@@ -529,16 +530,16 @@ def run():
                     find_shopee = statusLinkJson();
                     if(find_shopee==True):
                         num3+=1;
-                        path = change_name(k+1,num2,num3);
+                        path = change_name(k+1,file_name,num3);
                         if(check_data(path_file+path)==True):
                             # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            log.addLog("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_lazada[k]))
+                            log.addLog("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]))
                             setTreeCommand()
                             # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            print("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_lazada[k]));
-                            data_process(path_file+path,k+1,num2,num3,data_link_for_lazada[k],data_all[i]);
+                            print("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]));
+                            data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_all[i]);
                         else:
-                            print("data_%d_%d_%d group:%s : False"%(k+1,num2,num3,data_link_for_lazada[k]));
+                            print("data_%d_%d_%d group:%s : False"%(k+1,file_name,num3,data_link_for_lazada[k]));
                             destination_path = path_file+un_process;
                             shutil.move(path_file+path, destination_path)
                             continue
@@ -546,6 +547,7 @@ def run():
                         continue;
                     print("=======================");
                 custom_sleep(120);
+            num2+=1;
                 # else:
                 #     continue;
                 # print("For_J : True");
@@ -591,6 +593,7 @@ options = ['สุขภาพและความงาม',
 value_link = get_link();
 selected_value_num_2 = tk.StringVar()
 value_num2 = StringVar()
+value_num2.set(1)
 
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
@@ -616,6 +619,7 @@ def on_dropdown_change_num2(event):
     selected_num2 = event.widget.get()
     value_num2.set(selected_num2)
     print(value_num2.get())
+    
 def number_dropdown_2():
     # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
