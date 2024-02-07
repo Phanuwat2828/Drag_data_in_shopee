@@ -108,7 +108,7 @@ header_Values = {
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
 # api
-uri_API = "https://8f34-14-207-201-178.ngrok-free.app/"
+uri_API = "https://893f-14-207-201-178.ngrok-free.app/"
 # gui_
 font1 = ("Angsana New",25)
 app = Tk()
@@ -273,7 +273,10 @@ def data_process(path_file,i1,i2,i3,group,link):
             data_product = Product[data]["data_product"]
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
-            sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0]
+            if(len(Product[data]["sold"])>0):
+                sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0];
+            else:
+                sold = "0"
             if is_thai(Product[data]["place"]):
                 address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
             else:
@@ -388,7 +391,11 @@ def main(x,t,e,t2,e2):
         return
     # ********************************
     tab(1)
+    if(status_run_program):# หยุดทำงาน
+        return
     Scoll();
+    if(status_run_program):# หยุดทำงาน
+        return
     ky.press_and_release('ctrl+m');
 
     custom_sleep(4);
@@ -500,9 +507,8 @@ def run():
                 print("Main : ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง");
                 break;
             status_lazada = check_data_count(path_remove);
-            if(status_lazada==False):
-                round_click = 2;
             for c in range(status_lazada==False):
+                round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
                 main(data_all[i],1,round_click,desk_top,1);
@@ -511,49 +517,57 @@ def run():
                 status_lazada = check_data_count(path_remove)
                 if(c==2):
                     print("Main : เกิดข้อพิดพลาดไม่สามารถค้นหาหน้าได้กำลังไปลิงค์ถัดไป...");
-                    break;
+                    break; 
             # try:
             if(status_lazada==True):
                 print("Main : ค้นหาหน้าสำเร็จ")
                 status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
             if(status_count==True):
                 count = page()
-                
-                for j in range(count):
-                    # ********************************
-                    if(status_run_program):# หยุดทำงาน
-                        return
-                    # ********************************
-                    print("=======================");
-                    data_sum=data_all[i]+"/?page="+str(j+1);
-                    main(data_sum,desk_top+1,1,0,0);
-                    find_shopee = statusLinkJson();
-                    if(find_shopee==True):
-                        num3+=1;
-                        path = change_name(k+1,file_name,num3);
-                        if(check_data(path_file+path)==True):
-                            # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            log.addLog("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]))
-                            setTreeCommand()
-                            # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                            print("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]));
-                            data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_all[i]);
+                num3 = int(value_num3.get())-1
+                if((num3+1)<=count):
+                    for j in range(num3,count):
+                        # ********************************
+                        if(status_run_program):# หยุดทำงาน
+                            return
+                        # ********************************
+                        print("=======================");
+                        data_sum=data_all[i]+"/?page="+str(j+1);
+                        main(data_sum,desk_top+1,1,0,0);
+                        find_shopee = statusLinkJson();
+                        if(find_shopee==True):
+                            num3+=1;
+                            path = change_name(k+1,file_name,num3);
+                            if(check_data(path_file+path)==True):
+                                # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                log.addLog("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]))
+                                setTreeCommand()
+                                # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                print("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]));
+                                data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_all[i]);
+                            else:
+                                print("data_%d_%d_%d group:%s : False"%(k+1,file_name,num3,data_link_for_lazada[k]));
+                                destination_path = path_file+un_process;
+                                shutil.move(path_file+path, destination_path)
+                                continue
                         else:
-                            print("data_%d_%d_%d group:%s : False"%(k+1,file_name,num3,data_link_for_lazada[k]));
-                            destination_path = path_file+un_process;
-                            shutil.move(path_file+path, destination_path)
-                            continue
-                    else:
-                        continue;
-                    print("=======================");
-                custom_sleep(120);
+                            continue;
+                        print("=======================");
+                    value_num3.set(1)
+                    custom_sleep(120);
+                else:
+                    value_num3.set(1)
+                    print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีครั้ง")
+                    continue;
             num2+=1;
                 # else:
                 #     continue;
                 # print("For_J : True");
         num1+=1;
+        selected_value.set(1)
         # except Exception as e:
         #     print("For_i : ",e)
+
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
     global status_run_program;
@@ -594,6 +608,11 @@ value_link = get_link();
 selected_value_num_2 = tk.StringVar()
 value_num2 = StringVar()
 value_num2.set(1)
+check_count_gui = StringVar();
+check_count_gui.set(0);
+value_num3=StringVar();
+value_num3.set(1);
+
 
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
@@ -619,7 +638,9 @@ def on_dropdown_change_num2(event):
     selected_num2 = event.widget.get()
     value_num2.set(selected_num2)
     print(value_num2.get())
-    
+def on_dropdown_change_num3(event):
+    value_num3.set(event.widget.get())
+    print(value_num3.get());
 def number_dropdown_2():
     # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
@@ -629,6 +650,11 @@ def number_dropdown_2():
     print(selected_value_num_2.get());
     dropdown_num_2['values'] = options_2
     print(len(value_link[selected]['lazada']))
+
+def dropdown_value_num3(value):
+    selected_value_num_3 = [str(i) for i in range(value)]
+    dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
+    dropdown_num_3.place(width=50, x=230, y=90)
 
 # *************************************************************
 
@@ -649,9 +675,11 @@ dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
 
 # *************************************************************
 # num3
-selected_value_num_3 = [str(i) for i in range(10)]
+selected_value_num_3 = [str(i) for i in range(1,102)]
 dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
 dropdown_num_3.place(width=50, x=230, y=90)
+dropdown_num_3.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
+
 # dropdown_num_.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
 
 # *************************************************************
