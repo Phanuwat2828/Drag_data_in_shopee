@@ -5,12 +5,28 @@ import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
 import webbrowser,threading,subprocess,sys,shared_module 
 # ==================================== Main +++++++++++++++++++++++++++
-import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
+import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky , datetime as dt
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
-#  ==================================== Class And varible +++++++++++++++++++++++++++
+#  ==================================== Thing_as_update +++++++++++++++++++++++++++
 
+
+"""
+    !!
+    8/2/67
+    Thing_add_in_main
+    - Thing add id in product and date in product and Time in porduct for send by Api to database!
+    - Delate this word 'จังหวัด' before will send by api to data base!    
+
+    Thing_add_in_Gui
+    - Arrange Bigcast Ex 'สุขภาพและความงาม' Arrange same website of pol!
+    - Add id data_[]_[]_[] type real time!
+    -
+    !!
+    !!But have to carefull Bug!!
+"""
+#  ==================================== Class And varible +++++++++++++++++++++++++++
 class ReadAndWriteLog():
     def __init__(self):
         self.df = []
@@ -48,7 +64,7 @@ data_link_for_lazada_gui  = {
     'กีฬาและการเดินทาง':9,
     'บ้านและไลฟ์สไตล์':10, 
     "ตั๋วและบัตรกำนัน":11
-    }
+}
 data_link_for_lazada  = {
      0:'สุขภาพและความงาม',
     1:'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -62,7 +78,9 @@ data_link_for_lazada  = {
     9:'กีฬาและการเดินทาง',
     10:'บ้านและไลฟ์สไตล์', 
     11:"ตั๋วและบัตรกำนัน"
-    }
+}
+
+
 # new_data = [
 #     'สุขภาพและความงาม',
 #     'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -77,6 +95,7 @@ data_link_for_lazada  = {
 #     'บ้านและไลฟ์สไตล์', 
 #     "ตั๋วและบัตรกำนัน"
 # ]
+
 # data_new  = {
 #    'สุขภาพและความงาม':0,
 #     'แฟชั่นและเครื่องประดับผู้ชาย':1,
@@ -231,6 +250,10 @@ def data_process(path_file,i1,i2,i3,group,link):
         group: _description_
     """
     try:
+       
+        data_time_and_date = dt.datetime.now();
+        Date = data_time_and_date.strftime('%d/%m/%y');
+        Time = data_time_and_date.strftime('%H:%M:%S');
         if(status_run_program):# หยุดทำงาน
             return
         header = Check_header(path_file)
@@ -253,7 +276,10 @@ def data_process(path_file,i1,i2,i3,group,link):
                 "Recommended_shops":[],
                 "count_review":[],
                 "maket":[],
-                "group":[]
+                "group":[],
+                "date":[],
+                "id":[]
+
             }
             data = "Product_"+str(i+1);
             for j in range(len(header)):
