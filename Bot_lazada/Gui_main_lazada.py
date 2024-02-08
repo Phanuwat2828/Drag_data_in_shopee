@@ -10,8 +10,6 @@ from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
 #  ==================================== Thing_as_update +++++++++++++++++++++++++++
-
-
 """
     !!
     8/2/67
@@ -53,21 +51,19 @@ class PrintRedirector:
         self.textbox.see(END)
 
 data_link_for_lazada  = {
-     0:'สุขภาพและความงาม',
-    1:'แฟชั่นและเครื่องประดับผู้ชาย',
-    2:'แฟชั่นและเครื่องประดับผู้หญิง',
-    3:'ทีวีและเครื่องใช้ในบ้าน',
-    4:'อุปกรณ์-อิเล็กทรอนิกส์',
-    5:'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    6:'ของชำและสัตว์เลี้ยง',
-    7:'ทารกและของเล่น',
-    8:'ยานยนต์และรถจักรยานยนต์',
+    0:'อุปกรณ์-อิเล็กทรอนิกส์',
+    1:'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    2:'ทีวีและเครื่องใช้ในบ้าน',
+    3:'สุขภาพและความงาม',
+    4:'ทารกและของเล่น',
+    5:'ของชำและสัตว์เลี้ยง',
+    6:'บ้านและไลฟ์สไตล์',
+    7:'แฟชั่นและเครื่องประดับผู้หญิง',
+    8:'แฟชั่นและเครื่องประดับผู้ชาย',
     9:'กีฬาและการเดินทาง',
-    10:'บ้านและไลฟ์สไตล์', 
+    10:'ยานยนต์และรถจักรยานยนต์', 
     11:"ตั๋วและบัตรกำนัน"
 }
-
-
 # new_data = [
 #     'สุขภาพและความงาม',
 #     'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -82,7 +78,6 @@ data_link_for_lazada  = {
 #     'บ้านและไลฟ์สไตล์', 
 #     "ตั๋วและบัตรกำนัน"
 # ]
-
 # data_new  = {
 #    'สุขภาพและความงาม':0,
 #     'แฟชั่นและเครื่องประดับผู้ชาย':1,
@@ -127,7 +122,8 @@ value_num2 = StringVar()
 # selected_value.set()s
 showStatusBot = StringVar()
 value_to_gui = IntVar()
-log = ReadAndWriteLog() 
+log = ReadAndWriteLog()
+
 
 # path
 bot_lazada = r'\Bot_lazada'
@@ -503,6 +499,9 @@ def run():
         num2=(int(value_num2.get())-1);
         data_all = Data[data_link_for_lazada[k]]["lazada"];
         value_to_gui.set(len(data_all));
+        # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+        Working.set(str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
+        # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         # try:
         for i in range(num2,len(data_all)):
             # ********************************
@@ -510,6 +509,9 @@ def run():
                 return
             # ********************************
             file_name = num2+1;
+             # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+            Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(value_num3.get()));
+            # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
             round_click = 3;
             num3=0; 
             status_count = False
@@ -544,6 +546,9 @@ def run():
                         if(status_run_program):# หยุดทำงาน
                             return
                         # ********************************
+                        # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+                        Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(num3+1));
+                        # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                         print("=======================");
                         data_sum=data_all[i]+"/?page="+str(j+1);
                         main(data_sum,desk_top+1,1,0,0);
@@ -553,13 +558,13 @@ def run():
                             path = change_name(k+1,file_name,num3);
                             if(check_data(path_file+path)==True):
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                log.addLog("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]))
+                                log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3))
                                 setTreeCommand()
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                print("data_%d_%d_%d group:%s : True"%(k+1,file_name,num3,data_link_for_lazada[k]));
-                                data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_all[i]);
+                                print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3));
+                                data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_sum);
                             else:
-                                print("data_%d_%d_%d group:%s : False"%(k+1,file_name,num3,data_link_for_lazada[k]));
+                                print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
                                 continue
@@ -580,7 +585,6 @@ def run():
         selected_value.set(1)
         # except Exception as e:
         #     print("For_i : ",e)
-
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
     global status_run_program;
@@ -595,6 +599,7 @@ def stop_program():
     showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
 # ****************** button start and stop ***********************************************************
+
 buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
 buttom_start.place(x=25,y=10,width=150,height=30)
 buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
@@ -603,52 +608,38 @@ buttom_stop = Button(app,text="ลบประวัติทั้งหมด"
 buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)  
-# ****************** dropdown select group ***********************************************************
+
+# ****************** variable ***********************************************************
 data_link_for_lazada_gui  = {
-    'สุขภาพและความงาม':0,
-    'แฟชั่นและเครื่องประดับผู้ชาย':1,
-    'แฟชั่นและเครื่องประดับผู้หญิง':2,
-    'ทีวีและเครื่องใช้ในบ้าน':3,
-    'อุปกรณ์-อิเล็กทรอนิกส์':4,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
-    'ของชำและสัตว์เลี้ยง':6,
-    'ทารกและของเล่น':7,
-    'ยานยนต์และรถจักรยานยนต์':8,
+    'อุปกรณ์-อิเล็กทรอนิกส์':0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1,
+    'ทีวีและเครื่องใช้ในบ้าน':2,
+    'สุขภาพและความงาม':3,
+    'ทารกและของเล่น':4,
+    'ของชำและสัตว์เลี้ยง':5,
+    'บ้านและไลฟ์สไตล์':6,
+    'แฟชั่นและเครื่องประดับผู้หญิง':7,
+    'แฟชั่นและเครื่องประดับผู้ชาย':8,
     'กีฬาและการเดินทาง':9,
-    'บ้านและไลฟ์สไตล์':10, 
+    'ยานยนต์และรถจักรยานยนต์':10, 
     "ตั๋วและบัตรกำนัน":11
 }
-
-options = ['สุขภาพและความงาม',
-    'แฟชั่นและเครื่องประดับผู้ชาย',
-    'แฟชั่นและเครื่องประดับผู้หญิง',
-    'ทีวีและเครื่องใช้ในบ้าน',
-    'อุปกรณ์-อิเล็กทรอนิกส์',
+options = ['อุปกรณ์-อิเล็กทรอนิกส์',
     'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    'ของชำและสัตว์เลี้ยง',
+    'ทีวีและเครื่องใช้ในบ้าน',
+    'สุขภาพและความงาม',
     'ทารกและของเล่น',
-    'ยานยนต์และรถจักรยานยนต์',
+    'ของชำและสัตว์เลี้ยง',
+    'บ้านและไลฟ์สไตล์',
+    'แฟชั่นและเครื่องประดับผู้หญิง',
+    'แฟชั่นและเครื่องประดับผู้ชาย',
     'กีฬาและการเดินทาง',
-    'บ้านและไลฟ์สไตล์', 
+    'ยานยนต์และรถจักรยานยนต์', 
     "ตั๋วและบัตรกำนัน"
 ]
-text_cast = [
-    '[1] สุขภาพและความงาม',
-    '[2] แฟชั่นและเครื่องประดับผู้ชาย',
-    '[3] แฟชั่นและเครื่องประดับผู้หญิง',
-    '[4] ทีวีและเครื่องใช้ในบ้าน',
-    '[5] อุปกรณ์-อิเล็กทรอนิกส์',
-    '[6] อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    '[7] ของชำและสัตว์เลี้ยง',
-    '[8] ทารกและของเล่น',
-    '[9] ยานยนต์และรถจักรยานยนต์',
-    '[10] กีฬาและการเดินทาง',
-    '[11] บ้านและไลฟ์สไตล์', 
-    "[12] ตั๋วและบัตรกำนัน"
-
-]
 value_link = get_link();
-selected_value_num_2 = tk.StringVar()
+selected_value_num_2 = StringVar()
+selected_value_num_3 = StringVar()
 value_num2 = StringVar()
 value_num2.set(1)
 check_count_gui = StringVar();
@@ -659,18 +650,18 @@ Working = StringVar();
 selected_value.set('สุขภาพและความงาม')
 # Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
 
-
-
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
     table.delete(*table.get_children())
     data = log.getLog()
     for i in range(len(data)):                         
-        table.insert('','end',values=(i,data[i]))
+        table.insert('','end',values=(i,data[i]));
+
 header_gui = ['loop','group system']
 hdsize = [50,400]
 table = ttk.Treeview(app,columns=header_gui,show='headings')
 table.place(x=20,y=120,height=400)
+
 # header
 for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
@@ -678,16 +669,27 @@ for h,s in zip(header_gui,hdsize):
 setTreeCommand()
 # ************************* Function*************************
 
+def Set_value_Working():
+    Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()))
 def on_dropdown_change(event):
     selected_value.set(event.widget.get())
+    value_num2.set(1)
+    value_num3.set(1);
+    Set_value_Working()
     number_dropdown_2();
+    number_dropdown_3()
+
 def on_dropdown_change_num2(event):
     selected_num2 = event.widget.get()
     value_num2.set(selected_num2)
+    Set_value_Working()
     print(value_num2.get())
+
 def on_dropdown_change_num3(event):
     value_num3.set(event.widget.get())
+    Set_value_Working()
     print(value_num3.get());
+
 def number_dropdown_2():
     # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
@@ -696,7 +698,17 @@ def number_dropdown_2():
     selected_value_num_2.set(options_2[0])
     print(selected_value_num_2.get());
     dropdown_num_2['values'] = options_2
-    print(len(value_link[selected]['lazada']))
+    print(len(value_link[selected]['lazada']));
+
+def number_dropdown_3():
+    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
+    selected = selected_value.get()
+    print(selected_value.get())
+    options_3= [str(i) for i in range(1,103)]
+    selected_value_num_3.set(options_3[0])
+    print(selected_value_num_3.get());
+    dropdown_num_3['values'] = options_3
+    print(len(value_link[selected]['lazada']));
 
 def dropdown_value_num3(value):
     selected_value_num_3 = [str(i) for i in range(value)]
@@ -709,40 +721,35 @@ dropdown = ttk.Combobox(app, textvariable=selected_value,values=options);
 dropdown.place(x=20,y=90);
 titleStatusbot = Label(app,textvariable=showStatusBot)
 titleStatusbot.place(x=20,y=560)
-show_link_working = Label(app,textvariable=Working);
+show_link_working = Label(app,textvariable=Working,font=36);
 show_link_working.place(x=200,y=20,width=280,height=50);
 dropdown.set(options[0])
 dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
 # *************************************************************
 # num_2
-options_2=[str(i) for i in range(1,1+len(value_link['สุขภาพและความงาม']['lazada']))]
-selected_value_num_2.set(options_2[0])
 dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
 dropdown_num_2.place(width=50, x=175, y=90)
 dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
 
 # *************************************************************
 # num3
-selected_value_num_3 = [str(i) for i in range(1,102)]
+
 dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
 dropdown_num_3.place(width=50, x=230, y=90)
 dropdown_num_3.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
-
 # dropdown_num_.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
 
 # *************************************************************
+
 # terminal
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
 text.place(x=7,y=600)
 # Set a default value
-
 # Bind the event handler to the <<ComboboxSelected>> event
-
 app.mainloop()
-
 #  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
 
 
