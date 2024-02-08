@@ -51,20 +51,7 @@ class PrintRedirector:
     def write(self, text):
         self.textbox.insert(END, text)
         self.textbox.see(END)
-data_link_for_lazada_gui  = {
-    'สุขภาพและความงาม':0,
-    'แฟชั่นและเครื่องประดับผู้ชาย':1,
-    'แฟชั่นและเครื่องประดับผู้หญิง':2,
-    'ทีวีและเครื่องใช้ในบ้าน':3,
-    'อุปกรณ์-อิเล็กทรอนิกส์':4,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
-    'ของชำและสัตว์เลี้ยง':6,
-    'ทารกและของเล่น':7,
-    'ยานยนต์และรถจักรยานยนต์':8,
-    'กีฬาและการเดินทาง':9,
-    'บ้านและไลฟ์สไตล์':10, 
-    "ตั๋วและบัตรกำนัน":11
-}
+
 data_link_for_lazada  = {
      0:'สุขภาพและความงาม',
     1:'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -609,14 +596,29 @@ def stop_program():
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
 # ****************** button start and stop ***********************************************************
 buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
-buttom_start.place(x=100,y=10,width=300,height=30)
+buttom_start.place(x=25,y=10,width=150,height=30)
 buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
-buttom_stop.place(x=100,y=50,width=300,height=30)
+buttom_stop.place(x=25,y=50,width=150,height=30)
 buttom_stop = Button(app,text="ลบประวัติทั้งหมด",bg="#FF6868",fg="white",command=log.clearLog)
 buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)  
 # ****************** dropdown select group ***********************************************************
+data_link_for_lazada_gui  = {
+    'สุขภาพและความงาม':0,
+    'แฟชั่นและเครื่องประดับผู้ชาย':1,
+    'แฟชั่นและเครื่องประดับผู้หญิง':2,
+    'ทีวีและเครื่องใช้ในบ้าน':3,
+    'อุปกรณ์-อิเล็กทรอนิกส์':4,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
+    'ของชำและสัตว์เลี้ยง':6,
+    'ทารกและของเล่น':7,
+    'ยานยนต์และรถจักรยานยนต์':8,
+    'กีฬาและการเดินทาง':9,
+    'บ้านและไลฟ์สไตล์':10, 
+    "ตั๋วและบัตรกำนัน":11
+}
+
 options = ['สุขภาพและความงาม',
     'แฟชั่นและเครื่องประดับผู้ชาย',
     'แฟชั่นและเครื่องประดับผู้หญิง',
@@ -630,6 +632,21 @@ options = ['สุขภาพและความงาม',
     'บ้านและไลฟ์สไตล์', 
     "ตั๋วและบัตรกำนัน"
 ]
+text_cast = [
+    '[1] สุขภาพและความงาม',
+    '[2] แฟชั่นและเครื่องประดับผู้ชาย',
+    '[3] แฟชั่นและเครื่องประดับผู้หญิง',
+    '[4] ทีวีและเครื่องใช้ในบ้าน',
+    '[5] อุปกรณ์-อิเล็กทรอนิกส์',
+    '[6] อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    '[7] ของชำและสัตว์เลี้ยง',
+    '[8] ทารกและของเล่น',
+    '[9] ยานยนต์และรถจักรยานยนต์',
+    '[10] กีฬาและการเดินทาง',
+    '[11] บ้านและไลฟ์สไตล์', 
+    "[12] ตั๋วและบัตรกำนัน"
+
+]
 value_link = get_link();
 selected_value_num_2 = tk.StringVar()
 value_num2 = StringVar()
@@ -638,6 +655,10 @@ check_count_gui = StringVar();
 check_count_gui.set(0);
 value_num3=StringVar();
 value_num3.set(1);
+Working = StringVar();
+selected_value.set('สุขภาพและความงาม')
+# Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
+
 
 
 # ****************** แสดง log ***********************************************************
@@ -683,18 +704,20 @@ def dropdown_value_num3(value):
     dropdown_num_3.place(width=50, x=230, y=90)
 
 # *************************************************************
-
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
-dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
+dropdown = ttk.Combobox(app, textvariable=selected_value,values=options);
 dropdown.place(x=20,y=90);
 titleStatusbot = Label(app,textvariable=showStatusBot)
 titleStatusbot.place(x=20,y=560)
+show_link_working = Label(app,textvariable=Working);
+show_link_working.place(x=200,y=20,width=280,height=50);
 dropdown.set(options[0])
 dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
 # *************************************************************
 # num_2
-
+options_2=[str(i) for i in range(1,1+len(value_link['สุขภาพและความงาม']['lazada']))]
+selected_value_num_2.set(options_2[0])
 dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
 dropdown_num_2.place(width=50, x=175, y=90)
 dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
