@@ -3,9 +3,10 @@
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
-import webbrowser,threading,subprocess,sys,shared_module 
+import webbrowser,threading,subprocess,sys
 # ==================================== Main +++++++++++++++++++++++++++
 import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky , datetime as dt
+from datetime import datetime
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
@@ -64,6 +65,33 @@ data_link_for_lazada  = {
     10:'ยานยนต์และรถจักรยานยนต์', 
     11:"ตั๋วและบัตรกำนัน"
 }
+data_link_for_lazada_gui  = {
+    'อุปกรณ์-อิเล็กทรอนิกส์':0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1,
+    'ทีวีและเครื่องใช้ในบ้าน':2,
+    'สุขภาพและความงาม':3,
+    'ทารกและของเล่น':4,
+    'ของชำและสัตว์เลี้ยง':5,
+    'บ้านและไลฟ์สไตล์':6,
+    'แฟชั่นและเครื่องประดับผู้หญิง':7,
+    'แฟชั่นและเครื่องประดับผู้ชาย':8,
+    'กีฬาและการเดินทาง':9,
+    'ยานยนต์และรถจักรยานยนต์':10, 
+    "ตั๋วและบัตรกำนัน":11
+}
+options = ['อุปกรณ์-อิเล็กทรอนิกส์',
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    'ทีวีและเครื่องใช้ในบ้าน',
+    'สุขภาพและความงาม',
+    'ทารกและของเล่น',
+    'ของชำและสัตว์เลี้ยง',
+    'บ้านและไลฟ์สไตล์',
+    'แฟชั่นและเครื่องประดับผู้หญิง',
+    'แฟชั่นและเครื่องประดับผู้ชาย',
+    'กีฬาและการเดินทาง',
+    'ยานยนต์และรถจักรยานยนต์', 
+    "ตั๋วและบัตรกำนัน"
+]
 # new_data = [
 #     'สุขภาพและความงาม',
 #     'แฟชั่นและเครื่องประดับผู้ชาย',
@@ -109,7 +137,7 @@ header_Values = {
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
 # api
-uri_API = "https://893f-14-207-201-178.ngrok-free.app/"
+uri_API = "https://e5da-14-207-201-178.ngrok-free.app/"
 # gui_
 font1 = ("Angsana New",25)
 app = Tk()
@@ -123,7 +151,6 @@ value_num2 = StringVar()
 showStatusBot = StringVar()
 value_to_gui = IntVar()
 log = ReadAndWriteLog()
-
 
 # path
 bot_lazada = r'\Bot_lazada'
@@ -175,6 +202,7 @@ def check_data(path_file):
         return is_subset; 
     except Exception as e:
         print("Check_data : ไม่พบข้อมูลทั้งหมดใน Excel ",e);  
+
 def Check_header(path_file):
     try:
         check_data=[]
@@ -193,19 +221,11 @@ def Check_header(path_file):
     except Exception as e:
         print("Check_data : ข้อมูล Excel ",e); 
 
-
 # Read Excell
-def postAPI_DB(data,id_shop,title_group,link):
-    """
-    data: text ที่ทำการ += ในตัวแปร success_data_text
-    id_shop : shop1_1_1
-    title_group:หมวดหมู่กลุ่ม
-    i1:กลุ่มหลัก 1 
-    link: link หมวดหลัก
-    """
+def postAPI_DB(data,id_shop,link,date,time,website):
     try:
         response = requests.post(
-            f"{uri_API}addb?id={id_shop}&&web=lazada&&title_group={title_group}&&link={link}",
+            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}',
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -213,13 +233,21 @@ def postAPI_DB(data,id_shop,title_group,link):
                 "data":data
             }
         )
-        print(response.text)
-        return {"status":200,"message":"POST API SUCCESS."}
+        return response
     except:
         return {"status":404,"message":"POST API ERROR."}
+
 def is_thai(text):
     thai_unicode_range = (0x0E00, 0x0E7F)
     return all(ord(char) in range(thai_unicode_range[0], thai_unicode_range[1] + 1) for char in text)
+def get_datetime():
+  now = datetime.now()
+  date_str = now.strftime("%Y-%m-%d")
+  time_str = now.strftime("%H:%M:%S")
+  return {
+    "date": date_str,
+    "time": time_str,
+}
 
 # process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
@@ -233,17 +261,14 @@ def data_process(path_file,i1,i2,i3,group,link):
         group: _description_
     """
     try:
-       
-        data_time_and_date = dt.datetime.now();
-        Date = data_time_and_date.strftime('%d/%m/%y');
-        Time = data_time_and_date.strftime('%H:%M:%S');
-        if(status_run_program):# หยุดทำงาน
-            return
         header = Check_header(path_file)
         read_excel = pd.read_excel(path_file);
         num_rows, num_columns = read_excel.shape
         success_data_text = ""
         for i in range(num_rows):
+            dt = get_datetime()
+            Date = dt['date']
+            Time = dt['time']
             data_process = {
                 "product":[],
                 "price_product_2":[],
@@ -259,22 +284,29 @@ def data_process(path_file,i1,i2,i3,group,link):
                 "Recommended_shops":[],
                 "count_review":[],
                 "maket":[],
-                "group":[],
-                "date":[],
-                "id":[]
-
+                'gruop':[],
+                'date':[],
+                'time':[],
+                'link':[]
             }
             data = "Product_"+str(i+1);
             for j in range(len(header)):
                 data_input = str(read_excel[header[j]][i]);
                 data_process[header_Values[header[j]]]=data_input;
+            
             # ****************************************************************
+
             Product = {}
             Product[data]= data_process
             Product[data]["maket"]="lazada"
             Product[data]["group"]=group
+            Product[data]['date'] = Date
+            Product[data]['time'] = Time
+            Product[data]['link'] = link
             id_shop = f'shop{i1}_{i2}_{i3}'
+
             # ****************************************************************
+
             product = Product[data]["product"]
             image_product_1 = Product[data]["image_product_1"]
             image_product_2 = Product[data]["image_product_2"]
@@ -290,16 +322,40 @@ def data_process(path_file,i1,i2,i3,group,link):
                 address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
             else:
                 address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+            if 'จังหวัด' in address:
+                address = address.replace("จังหวัด","")
             count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
             maket = Product[data]["maket"]
+
             # ****************************************************************
-            success_data_text += f'APRODUCT:::maket:::{maket}, group:::{group}, product:::{product}, price_product_2:::{""}, price_product_1:::{price_product}, image_product_1:::{image_product_1}, discount:::{discount}, image_product_2:::{image_product_2}, data_product:::{data_product}, price_before:::{""}, Emoji:::{""}, sold:::{sold}, place:::{address}, Recommended_shops:::{""}, count_review:::{count_review}'
+
+            success_data_text += f'APRODUCT:::maket:::{maket},'
+            success_data_text += f'group:::{group},'
+            success_data_text += f'product:::{product},'
+            success_data_text += f'price_product_2:::{""},' 
+            success_data_text += f'price_product_1:::{price_product},'
+            success_data_text += f'image_product_1:::{image_product_1},'
+            success_data_text += f'discount:::{discount},'
+            success_data_text += f'image_product_2:::{image_product_2},'
+            success_data_text += f'data_product:::{data_product},'
+            success_data_text += f'price_before:::{""},'
+            success_data_text += f'Emoji:::{""},'
+            success_data_text += f'sold:::{sold},'
+            success_data_text += f'place:::{address},'
+            success_data_text += f'Recommended_shops:::{""},'
+            success_data_text += f'count_review:::{count_review},'
+            success_data_text += f'date:::{Product[data]["date"]},'
+            success_data_text += f'time:::{Product[data]["time"]},'
+            success_data_text += f'link:::{Product[data]["link"]}'
+
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
+
             if(i==num_rows-1):
                 print(success_data_text)
-                print(postAPI_DB(success_data_text,id_shop,group,link));
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada'));
     except Exception as e:
         print(e);
+
 # Check_count
 def check_data_count(path): 
     try:
@@ -564,6 +620,7 @@ def run():
                                 print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3));
                                 data_process(path_file+path,k+1,file_name,num3,data_link_for_lazada[k],data_sum);
                             else:
+                                log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
                                 print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
@@ -575,14 +632,14 @@ def run():
                     custom_sleep(120);
                 else:
                     value_num3.set(1)
-                    print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีครั้ง")
+                    print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีกครั้ง")
                     continue;
             num2+=1;
                 # else:
                 #     continue;
                 # print("For_J : True");
         num1+=1;
-        selected_value.set(1)
+        value_num2.set(1)
         # except Exception as e:
         #     print("For_i : ",e)
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
@@ -610,33 +667,7 @@ buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry.pack(pady=10)  
 
 # ****************** variable ***********************************************************
-data_link_for_lazada_gui  = {
-    'อุปกรณ์-อิเล็กทรอนิกส์':0,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1,
-    'ทีวีและเครื่องใช้ในบ้าน':2,
-    'สุขภาพและความงาม':3,
-    'ทารกและของเล่น':4,
-    'ของชำและสัตว์เลี้ยง':5,
-    'บ้านและไลฟ์สไตล์':6,
-    'แฟชั่นและเครื่องประดับผู้หญิง':7,
-    'แฟชั่นและเครื่องประดับผู้ชาย':8,
-    'กีฬาและการเดินทาง':9,
-    'ยานยนต์และรถจักรยานยนต์':10, 
-    "ตั๋วและบัตรกำนัน":11
-}
-options = ['อุปกรณ์-อิเล็กทรอนิกส์',
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    'ทีวีและเครื่องใช้ในบ้าน',
-    'สุขภาพและความงาม',
-    'ทารกและของเล่น',
-    'ของชำและสัตว์เลี้ยง',
-    'บ้านและไลฟ์สไตล์',
-    'แฟชั่นและเครื่องประดับผู้หญิง',
-    'แฟชั่นและเครื่องประดับผู้ชาย',
-    'กีฬาและการเดินทาง',
-    'ยานยนต์และรถจักรยานยนต์', 
-    "ตั๋วและบัตรกำนัน"
-]
+
 value_link = get_link();
 selected_value_num_2 = StringVar()
 selected_value_num_3 = StringVar()

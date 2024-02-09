@@ -1,14 +1,13 @@
 # ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++ import 
 from tkinter import *
+import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
-import webbrowser
-import threading
-import subprocess
-import sys
+import webbrowser,threading,subprocess,sys
 # ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
 
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ import 
-import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky
+import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky , datetime as dt
+from datetime import datetime
 from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
@@ -42,7 +41,7 @@ class PrintRedirector:
         self.textbox.see(END)
 
 # path_api
-uri_API = 'https://8f34-14-207-201-178.ngrok-free.app/';
+uri_API = 'https://e5da-14-207-201-178.ngrok-free.app/';
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd();
@@ -72,42 +71,59 @@ header_Values = {
 }
 # Link_all
 data_link_for_shopee  = {
-    0:'สุขภาพและความงาม',
-    1:'แฟชั่นและเครื่องประดับผู้ชาย',
-    2:'แฟชั่นและเครื่องประดับผู้หญิง',
-    3:'ทีวีและเครื่องใช้ในบ้าน',
-    4:'อุปกรณ์-อิเล็กทรอนิกส์',
-    5:'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
-    6:'ของชำและสัตว์เลี้ยง',
-    7:'ทารกและของเล่น',
-    8:'ยานยนต์และรถจักรยานยนต์',
+    0:'อุปกรณ์-อิเล็กทรอนิกส์',
+    1:'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    2:'ทีวีและเครื่องใช้ในบ้าน',
+    3:'สุขภาพและความงาม',
+    4:'ทารกและของเล่น',
+    5:'ของชำและสัตว์เลี้ยง',
+    6:'บ้านและไลฟ์สไตล์',
+    7:'แฟชั่นและเครื่องประดับผู้หญิง',
+    8:'แฟชั่นและเครื่องประดับผู้ชาย',
     9:'กีฬาและการเดินทาง',
-    10:'บ้านและไลฟ์สไตล์', 
+    10:'ยานยนต์และรถจักรยานยนต์', 
     11:"ตั๋วและบัตรกำนัน"
     }
+options = ['อุปกรณ์-อิเล็กทรอนิกส์',
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
+    'ทีวีและเครื่องใช้ในบ้าน',
+    'สุขภาพและความงาม',
+    'ทารกและของเล่น',
+    'ของชำและสัตว์เลี้ยง',
+    'บ้านและไลฟ์สไตล์',
+    'แฟชั่นและเครื่องประดับผู้หญิง',
+    'แฟชั่นและเครื่องประดับผู้ชาย',
+    'กีฬาและการเดินทาง',
+    'ยานยนต์และรถจักรยานยนต์', 
+    "ตั๋วและบัตรกำนัน"
+]
 # ============================== variable =================
 # ============================== variable ================= gui
 font1 = ("Angsana New",25)
 app = Tk()
 app.title("Shopee")
 app.config(bg="#332941") 
-app.geometry("500x900+0+0")
+app.geometry("500x900-0+0")
 
 selected_value = StringVar()
+value_num2 = StringVar()
+# selected_value.set()s
 showStatusBot = StringVar()
+value_to_gui = IntVar()
 log = ReadAndWriteLog()
+
 data_link_for_shopee_gui  = {
-    'สุขภาพและความงาม':0,
-    'แฟชั่นและเครื่องประดับผู้ชาย':1,
-    'แฟชั่นและเครื่องประดับผู้หญิง':2,
-    'ทีวีและเครื่องใช้ในบ้าน':3,
-    'อุปกรณ์-อิเล็กทรอนิกส์':4,
-    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':5,
-    'ของชำและสัตว์เลี้ยง':6,
-    'ทารกและของเล่น':7,
-    'ยานยนต์และรถจักรยานยนต์':8,
+    'อุปกรณ์-อิเล็กทรอนิกส์':0,
+    'อุปกรณ์เสริม-อิเล็กทรอนิกส์':1,
+    'ทีวีและเครื่องใช้ในบ้าน':2,
+    'สุขภาพและความงาม':3,
+    'ทารกและของเล่น':4,
+    'ของชำและสัตว์เลี้ยง':5,
+    'บ้านและไลฟ์สไตล์':6,
+    'แฟชั่นและเครื่องประดับผู้หญิง':7,
+    'แฟชั่นและเครื่องประดับผู้ชาย':8,
     'กีฬาและการเดินทาง':9,
-    'บ้านและไลฟ์สไตล์':10, 
+    'ยานยนต์และรถจักรยานยนต์':10, 
     "ตั๋วและบัตรกำนัน":11
 }
 # ============================== variable =================
@@ -158,7 +174,10 @@ def Check_header(path_file):
         print("Check_data : ข้อมูล Excel ",e);  
 
 # Read Excell
-def postAPI_DB(data,id_shop,title_group,i1,link):
+def is_thai(text):
+    thai_unicode_range = (0x0E00, 0x0E7F)
+    return all(ord(char) in range(thai_unicode_range[0], thai_unicode_range[1] + 1) for char in text)
+def postAPI_DB(data,id_shop,link,date,time,website):
     """
     data: text ที่ทำการ += ในตัวแปร success_data_text
     id_shop : shop1_1_1
@@ -167,10 +186,8 @@ def postAPI_DB(data,id_shop,title_group,i1,link):
     link: link หมวดหลัก
     """
     try:
-        if(status_run_program):# หยุดทำงาน
-            return
         response = requests.post(
-            f"{uri_API}addb?id={id_shop}&&web=shopee&&group={title_group}&&title_group={title_group}&&link={link}",
+            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}',
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -178,14 +195,26 @@ def postAPI_DB(data,id_shop,title_group,i1,link):
                 "data":data
             }
         )
-        return response.text
+        return response
     except:
         return {"status":404,"message":"POST API ERROR."}
 def convert_to_integer(s):
     if 'พัน' in s:
-        return int(float(s.replace('พัน', '')) * 1000)
+        return int(float(s.replace('พัน', '')) * 1000);
+    elif 'ล้าน' in s:
+        return int(float(s.replace('ล้าน', '')) * 1000000);
     else:
         return int(s)
+    
+
+def get_datetime():
+  now = datetime.now()
+  date_str = now.strftime("%Y-%m-%d")
+  time_str = now.strftime("%H:%M:%S")
+  return {
+    "date": date_str,
+    "time": time_str,
+}
 def data_process(path_file,i1,i2,i3,group,link):
     try:
         find = pd.read_excel(path_file);
@@ -196,6 +225,9 @@ def data_process(path_file,i1,i2,i3,group,link):
         Data_everthing=[];
         success_data_text = ""
         for i in range(num_rows):
+            dt = get_datetime()
+            Date = dt['date']
+            Time = dt['time']
             data_process = {
                 "product":[],
                 "price_product_2":[],
@@ -211,7 +243,10 @@ def data_process(path_file,i1,i2,i3,group,link):
                 "Recommended_shops":[],
                 "count_review":[],
                 "maket":[],
-                "group":[]
+                'gruop':[],
+                'date':[],
+                'time':[],
+                'link':[]
             }
             data = "Product_"+str(i+1);
             Product = {
@@ -219,36 +254,60 @@ def data_process(path_file,i1,i2,i3,group,link):
                 }
             }
             # เข้าถึงข้อมูลแต่ละชิ้น
-            for j in range(12):
+            for j in range(len(header)):
                 data_input = str(find[header[j]][i]);
                 # print(data_input)
                 data_process[header_Values[header[j]]]=data_input;
             Product[data]=data_process;
             Product[data]["maket"] = "shopee";
             Product[data]["group"] = group;
+            # ****************************************************************
+            Product[data]['date'] = Date
+            Product[data]['time'] = Time
+            Product[data]['link'] = link
+            # ****************************************************************
             price_product1 = float(Product[data]["price_product_1"].replace(",",""));
             price_product2 = float(Product[data]["price_product_2"].replace(",",""));
             discount = (Product[data]["discount"]=='nan')and "" or Product[data]["discount"];
             price_product1 = (price_product1<=0)and "0" or price_product1;
             price_product2 = (price_product2<=0)and "0" or price_product2;
-            address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
-            sold = (Product[data]["sold"]=='nan')and "0" or Product[data]["sold"];
+            if is_thai(Product[data]["place"]):
+                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
+                address=address.replace("จังหวัด","");
+            else:
+                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+            if(len(Product[data]["sold"])>0):
+                sold = (Product[data]["sold"]=='nan')and "" or Product[data]["sold"];
+            else:
+                sold = "0"
             if("ขายแล้ว" in sold):
                 sold = convert_to_integer(sold.split(" ")[1])
             price_before = (Product[data]["price_before"]=='nan')and "" or Product[data]["price_before"]
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             # ****************************************************************
-            success_data_text += f'APRODUCT:::maket:::{Product[data]["maket"]}, group:::{group}, product:::{Product[data]["product"]}, price_product_2:::{price_product2}, price_product_1:::{price_product1}, image_product_1:::{Product[data]["image_product_1"]}, discount:::{discount}, image_product_2:::{Product[data]["image_product_2"]}, data_product:::{Product[data]["data_product"]}, price_before:::{price_before}, Emoji:::{Product[data]["Emoji"]}, sold:::{sold}, place:::{address}, Recommended_shops:::{Product[data]["Recommended_shops"]}'
             data_all.append(Product);
-            success_data = {
-                 "id":id_shop,
-                 "data":data_all
-            }
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
+            success_data_text += f'APRODUCT:::maket:::{Product[data]["maket"]},'
+            success_data_text += f'group:::{group},'
+            success_data_text += f'product:::{Product[data]["product"]},'
+            success_data_text += f'price_product_2:::{price_product2},' 
+            success_data_text += f'price_product_1:::{price_product1},'
+            success_data_text += f'image_product_1:::{Product[data]["image_product_1"]},'
+            success_data_text += f'discount:::{discount},'
+            success_data_text += f'image_product_2:::{Product[data]["image_product_2"]},'
+            success_data_text += f'data_product:::{Product[data]["data_product"]},'
+            success_data_text += f'price_before:::{price_before},'
+            success_data_text += f'Emoji:::{Product[data]["Emoji"]},'
+            success_data_text += f'sold:::{sold},'
+            success_data_text += f'place:::{address},'
+            success_data_text += f'Recommended_shops:::{Product[data]["Recommended_shops"]},'
+            success_data_text += f'date:::{Product[data]["date"]},'
+            success_data_text += f'time:::{Product[data]["time"]},'
+            success_data_text += f'link:::{Product[data]["link"]}'
             if(i==num_rows-1):
-                # print(success_data_text); #ข้อมูลที่จะส่งไป API
-                print(postAPI_DB(success_data_text,id_shop,group,i1,link));
+                print(success_data_text);
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee'));
         print("data_process : True")
     except Exception as e:
         print("data_process : False",e)
@@ -270,11 +329,11 @@ def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
     custom_sleep(2);
-    for i in range(7):
+    for i in range(6):
         if(status_run_program):# หยุดทำงาน
             return
         pyautogui.scroll(-750);
-        custom_sleep(6);
+        custom_sleep(7);
 def click(x,y):
     if(status_run_program):# หยุดทำงาน
         return
@@ -413,18 +472,27 @@ def run():
                 return
             print("====== Round [",k+1,"] Working [",data_link_for_shopee[k],"]======");
             Data = get_link();
-            num2=0;
             data_all = Data[data_link_for_shopee[k]]["shopee"];
+             # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+            Working.set(str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
+            # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
             # try: len(data_all)
-            for i in range(len(data_all)):
+            num2=(int(value_num2.get())-1);
+            for i in range(num2,len(data_all)):
                     if(status_run_program):# หยุดทำงาน
                         return
-                    num2+=1;
                     num3=0;
                     # try:
-                    for j in range(9):
-                        print("================")
-                        data_sum=data_all[i]+"/?page="+str(j);
+                    num3 = int(value_num3.get())-1
+                     # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+                    Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get()));
+                    # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                    for j in range(num3,9):
+                        print("================");
+                         # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+                        Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3+1));
+                        # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                        data_sum=data_all[i]+str(j);
                         main(data_sum,7,1,0,0);
                         find_shopee = status();
                         if(status_run_program):# หยุดทำงาน
@@ -435,13 +503,14 @@ def run():
                             print(path);
                             if(check_data(path_file+path)==True):
                                  # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                log.addLog("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_shopee[k]))
+                                log.addLog("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3))
                                 setTreeCommand()
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                print("data_%d_%d_%d group:%s : True"%(k+1,num2,num3,data_link_for_shopee[k]));
-                                data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_all[i]);
+                                print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
+                                data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum);
                             else:
-                                print("data_%d_%d_%d group:%s : False"%(k+1,num2,num3,data_link_for_shopee[k]));
+                                log.addLog("%s_%d_%d False"%(data_link_for_shopee[k],num2+1,num3))
+                                print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
                                 continue;
@@ -449,10 +518,13 @@ def run():
                             continue;
                         print("For_j : True");
                         print("================");
+                    num2+=1;
+                    value_num3.set(1)
                     # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
-            num1+=1
+            num1+=1;
+            value_num2.set(1)
             # except Exception as e:
             #     print("For_i : ",e);
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ 
@@ -461,7 +533,6 @@ def run_system():
     global status_run_program;
     status_run_program = False
     showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
-    # log.clearLog()
     setTreeCommand()
     t = threading.Thread(target=run)
     t.start();
@@ -471,52 +542,130 @@ def stop_program():
     showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
     messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
 # ****************** button start and stop ***********************************************************
-buttom_start = Button(app,text="Start",bg="#9ADE7B",fg="white",command=run_system)
-buttom_start.place(x=100,y=10,width=300,height=30)
-buttom_stop = Button(app,text="Stop",bg="#7360DF",fg="white",command=stop_program)
-buttom_stop.place(x=100,y=50,width=300,height=30)
+
+buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
+buttom_start.place(x=25,y=10,width=150,height=30)
+buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
+buttom_stop.place(x=25,y=50,width=150,height=30)
 buttom_stop = Button(app,text="ลบประวัติทั้งหมด",bg="#FF6868",fg="white",command=log.clearLog)
 buttom_stop.place(x=190,y=555,width=270,height=30)
 # entry = Entry(app, width=40)
 # entry.pack(pady=10)  
-# ****************** dropdown select group ***********************************************************
-options = ['อุปกรณ์-อิเล็กทรอนิกส์', 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 'ทีวีและเครื่องใช้ในบ้าน','สุขภาพและความงาม','ทารกและของเล่น','ของชำและสัตว์เลี้ยง','บ้านและไลฟ์สไตล์','แฟชั่นและเครื่องประดับผู้หญิง','แฟชั่นและเครื่องประดับผู้ชาย','กีฬาและการเดินทาง','ยานยนต์และรถจักรยานยนต์',"เครื่องประดับ","ตั๋วและบัตรกำนัน"]
-def on_dropdown_change(event):
-    selected_value = data_link_for_shopee_gui[event.widget.get()]
+
+# ****************** variable ***********************************************************
+
+value_link = get_link();
+selected_value_num_2 = StringVar()
+selected_value_num_3 = StringVar()
+value_num2 = StringVar()
+value_num2.set(1)
+check_count_gui = StringVar();
+check_count_gui.set(0);
+value_num3=StringVar();
+value_num3.set(1);
+Working = StringVar();
+selected_value.set('สุขภาพและความงาม')
+# Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
 
 # ****************** แสดง log ***********************************************************
 def setTreeCommand():
     table.delete(*table.get_children())
     data = log.getLog()
-    for i in range(len(data)):
-        table.insert('','end',values=(i,data[i]))
+    for i in range(len(data)):                         
+        table.insert('','end',values=(i,data[i]));
+
 header_gui = ['loop','group system']
 hdsize = [50,400]
 table = ttk.Treeview(app,columns=header_gui,show='headings')
 table.place(x=20,y=120,height=400)
+
 # header
 for h,s in zip(header_gui,hdsize):
     table.heading(h,text=h)
     table.column(h,width=s)
 setTreeCommand()
-# **************************************************************************************
+# ************************* Function*************************
 
+def Set_value_Working():
+    Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()))
+def on_dropdown_change(event):
+    selected_value.set(event.widget.get())
+    value_num2.set(1)
+    value_num3.set(1);
+    Set_value_Working()
+    number_dropdown_2();
+    number_dropdown_3()
+
+def on_dropdown_change_num2(event):
+    selected_num2 = event.widget.get()
+    value_num2.set(selected_num2)
+    Set_value_Working()
+    print(value_num2.get())
+
+def on_dropdown_change_num3(event):
+    value_num3.set(event.widget.get())
+    Set_value_Working()
+    print(value_num3.get());
+
+def number_dropdown_2():
+    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
+    selected = selected_value.get()
+    print(selected_value.get())
+    options_2=[str(i) for i in range(1,1+len(value_link[selected]['shopee']))]
+    selected_value_num_2.set(options_2[0])
+    print(selected_value_num_2.get());
+    dropdown_num_2['values'] = options_2
+    print(len(value_link[selected]['shopee']));
+
+def number_dropdown_3():
+    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
+    selected = selected_value.get()
+    print(selected_value.get())
+    options_3= [str(i) for i in range(1,10)]
+    selected_value_num_3.set(options_3[0])
+    print(selected_value_num_3.get());
+    dropdown_num_3['values'] = options_3
+    print(len(value_link[selected]['shopee']));
+
+def dropdown_value_num3(value):
+    selected_value_num_3 = [str(i) for i in range(value)]
+    dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
+    dropdown_num_3.place(width=50, x=230, y=90)
+
+# *************************************************************
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
-dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
+dropdown = ttk.Combobox(app, textvariable=selected_value,values=options);
 dropdown.place(x=20,y=90);
 titleStatusbot = Label(app,textvariable=showStatusBot)
 titleStatusbot.place(x=20,y=560)
+show_link_working = Label(app,textvariable=Working,font=36);
+show_link_working.place(x=200,y=20,width=280,height=50);
+dropdown.set(options[0])
+dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
+# *************************************************************
+# num_2
+dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
+dropdown_num_2.place(width=50, x=175, y=90)
+dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
+
+# *************************************************************
+# num3
+
+dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
+dropdown_num_3.place(width=50, x=230, y=90)
+dropdown_num_3.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
+# dropdown_num_.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
+
+# *************************************************************
+
+# terminal
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
 text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
 text.place(x=7,y=600)
 # Set a default value
-dropdown.set(options[0])
 # Bind the event handler to the <<ComboboxSelected>> event
-dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 app.mainloop()
-
 #  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
-
 
