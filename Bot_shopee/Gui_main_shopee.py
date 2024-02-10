@@ -266,8 +266,8 @@ def data_process(path_file,i1,i2,i3,group,link):
             Product[data]['time'] = Time
             Product[data]['link'] = link
             # ****************************************************************
-            price_product1 = float(Product[data]["price_product_1"].replace(","," "));
-            price_product2 = float(Product[data]["price_product_2"].replace(","," "));
+            price_product1 = float(Product[data]["price_product_1"].replace(",",""));
+            price_product2 = float(Product[data]["price_product_2"].replace(",",""));
             discount = (Product[data]["discount"]=='nan')and " " or Product[data]["discount"];
             price_product1 = (price_product1<=0)and "0" or price_product1;
             price_product2 = (price_product2<=0)and "0" or price_product2;
