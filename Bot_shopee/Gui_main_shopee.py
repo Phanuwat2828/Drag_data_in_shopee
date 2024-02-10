@@ -499,7 +499,7 @@ def run():
                             return
                         if(find_shopee==True):
                             num3+=1;
-                            path = change_name(k+1,num2,num3);
+                            path = change_name(k+1,num2+1,num3);
                             print(path);
                             if(check_data(path_file+path)==True):
                                  # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
