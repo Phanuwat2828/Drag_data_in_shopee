@@ -312,18 +312,18 @@ def data_process(path_file,i1,i2,i3,group,link):
             image_product_2 = Product[data]["image_product_2"]
             discount = Product[data]["discount"]
             data_product = Product[data]["data_product"]
-            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
+            price_product = float(Product[data]["price_product"].replace("฿"," ").replace(","," "))
             price_product = (price_product<=0)and "0" or price_product
             if(len(Product[data]["sold"])>0):
                 sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0];
             else:
                 sold = "0"
             if is_thai(Product[data]["place"]):
-                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
+                address = (Product[data]["place"]=='nan')and " " or Product[data]["place"]
             else:
-                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+                address = (Product[data]["place"]=='nan')and " " or ad[Product[data]["place"]]
             if 'จังหวัด' in address:
-                address = address.replace("จังหวัด","")
+                address = address.replace("จังหวัด"," ")
             count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
             maket = Product[data]["maket"]
 

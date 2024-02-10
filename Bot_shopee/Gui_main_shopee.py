@@ -41,7 +41,7 @@ class PrintRedirector:
         self.textbox.see(END)
 
 # path_api
-uri_API = 'https://e5da-14-207-201-178.ngrok-free.app/';
+uri_API = 'https://7bc2-14-207-201-178.ngrok-free.app/';
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd();
@@ -266,23 +266,23 @@ def data_process(path_file,i1,i2,i3,group,link):
             Product[data]['time'] = Time
             Product[data]['link'] = link
             # ****************************************************************
-            price_product1 = float(Product[data]["price_product_1"].replace(",",""));
-            price_product2 = float(Product[data]["price_product_2"].replace(",",""));
-            discount = (Product[data]["discount"]=='nan')and "" or Product[data]["discount"];
+            price_product1 = float(Product[data]["price_product_1"].replace(","," "));
+            price_product2 = float(Product[data]["price_product_2"].replace(","," "));
+            discount = (Product[data]["discount"]=='nan')and " " or Product[data]["discount"];
             price_product1 = (price_product1<=0)and "0" or price_product1;
             price_product2 = (price_product2<=0)and "0" or price_product2;
             if is_thai(Product[data]["place"]):
-                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"];
+                address = (Product[data]["place"]=='nan')and " " or Product[data]["place"];
                 address=address.replace("จังหวัด","");
             else:
-                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+                address = (Product[data]["place"]=='nan')and " " or ad[Product[data]["place"]]
             if(len(Product[data]["sold"])>0):
-                sold = (Product[data]["sold"]=='nan')and "" or Product[data]["sold"];
+                sold = (Product[data]["sold"]=='nan')and " " or Product[data]["sold"];
             else:
                 sold = "0"
             if("ขายแล้ว" in sold):
                 sold = convert_to_integer(sold.split(" ")[1])
-            price_before = (Product[data]["price_before"]=='nan')and "" or Product[data]["price_before"]
+            price_before = (Product[data]["price_before"]=='nan')and " " or Product[data]["price_before"]
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
             # ****************************************************************
@@ -332,7 +332,7 @@ def Scoll():
     for i in range(6):
         if(status_run_program):# หยุดทำงาน
             return
-        pyautogui.scroll(-750);
+        pyautogui.scroll(-725);
         custom_sleep(7);
 def click(x,y):
     if(status_run_program):# หยุดทำงาน
