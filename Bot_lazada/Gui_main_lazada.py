@@ -137,7 +137,7 @@ header_Values = {
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
 # api
-uri_API = "https://e5da-14-207-201-178.ngrok-free.app/"
+uri_API = "https://2b6c-14-207-201-178.ngrok-free.app/"
 # gui_
 font1 = ("Angsana New",25)
 app = Tk()
@@ -222,10 +222,10 @@ def Check_header(path_file):
         print("Check_data : ข้อมูล Excel ",e); 
 
 # Read Excell
-def postAPI_DB(data,id_shop,link,date,time,website):
+def postAPI_DB(data,id_shop,link,date,time,website,group):
     try:
         response = requests.post(
-            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}',
+            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}group={group}',
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -236,7 +236,6 @@ def postAPI_DB(data,id_shop,link,date,time,website):
         return response
     except:
         return {"status":404,"message":"POST API ERROR."}
-
 def is_thai(text):
     thai_unicode_range = (0x0E00, 0x0E7F)
     return all(ord(char) in range(thai_unicode_range[0], thai_unicode_range[1] + 1) for char in text)
@@ -248,6 +247,19 @@ def get_datetime():
     "date": date_str,
     "time": time_str,
 }
+def convert_to_integer(s):
+    if 'k' in s:
+        sum2 = (s.replace(' ชิ้น',''));
+        sum3 = (sum2.replace('k+',''));
+        return int(sum3)*1000;
+    elif '9,999+' in s:
+        sum2 = (s.replace(' ชิ้น',''));
+        sum3 = (sum2.replace('+',''));
+        return int(sum3.replace(',',''))+1;
+    else:
+        return int(s.replace(' ชิ้น',''))
+            
+            
 
 # process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
@@ -293,9 +305,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             for j in range(len(header)):
                 data_input = str(read_excel[header[j]][i]);
                 data_process[header_Values[header[j]]]=data_input;
-            
             # ****************************************************************
-
             Product = {}
             Product[data]= data_process
             Product[data]["maket"]="lazada"
@@ -306,29 +316,27 @@ def data_process(path_file,i1,i2,i3,group,link):
             id_shop = f'shop{i1}_{i2}_{i3}'
 
             # ****************************************************************
-
             product = Product[data]["product"]
             image_product_1 = Product[data]["image_product_1"]
             image_product_2 = Product[data]["image_product_2"]
             discount = Product[data]["discount"]
             data_product = Product[data]["data_product"]
-            price_product = float(Product[data]["price_product"].replace("฿"," ").replace(","," "))
+            price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
             if(len(Product[data]["sold"])>0):
                 sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0];
             else:
                 sold = "0"
+            sold = convert_to_integer(sold);
             if is_thai(Product[data]["place"]):
-                address = (Product[data]["place"]=='nan')and " " or Product[data]["place"]
+                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
             else:
-                address = (Product[data]["place"]=='nan')and " " or ad[Product[data]["place"]]
+                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
             if 'จังหวัด' in address:
-                address = address.replace("จังหวัด"," ")
+                address.replace("จังหวัด","")
             count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
             maket = Product[data]["maket"]
-
             # ****************************************************************
-
             success_data_text += f'APRODUCT:::maket:::{maket},'
             success_data_text += f'group:::{group},'
             success_data_text += f'product:::{product},'
@@ -347,15 +355,12 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'date:::{Product[data]["date"]},'
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
-
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-
             if(i==num_rows-1):
                 print(success_data_text)
-                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada'));
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
     except Exception as e:
         print(e);
-
 # Check_count
 def check_data_count(path): 
     try:
