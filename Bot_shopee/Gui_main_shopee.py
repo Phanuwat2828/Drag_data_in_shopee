@@ -498,7 +498,6 @@ def run():
                         if(status_run_program):# หยุดทำงาน
                             return
                         if(find_shopee==True):
-                            num3+=1;
                             path = change_name(k+1,num2+1,num3);
                             print(path);
                             if(check_data(path_file+path)==True):
@@ -514,6 +513,7 @@ def run():
                                 destination_path = path_file+un_process;
                                 shutil.move(path_file+path, destination_path)
                                 continue;
+                            num3+=1;
                         else:
                             continue;
                         print("For_j : True");
@@ -621,7 +621,7 @@ def number_dropdown_3():
     # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
     print(selected_value.get())
-    options_3= [str(i) for i in range(1,10)]
+    options_3= [str(i) for i in range(0,9)]
     selected_value_num_3.set(options_3[0])
     print(selected_value_num_3.get());
     dropdown_num_3['values'] = options_3
