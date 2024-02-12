@@ -177,7 +177,7 @@ def Check_header(path_file):
 def is_thai(text):
     thai_unicode_range = (0x0E00, 0x0E7F)
     return all(ord(char) in range(thai_unicode_range[0], thai_unicode_range[1] + 1) for char in text)
-def postAPI_DB(data,id_shop,link,date,time,website):
+def postAPI_DB(data,id_shop,link,date,time,website,group):
     """
     data: text ที่ทำการ += ในตัวแปร success_data_text
     id_shop : shop1_1_1
@@ -187,7 +187,7 @@ def postAPI_DB(data,id_shop,link,date,time,website):
     """
     try:
         response = requests.post(
-            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}',
+            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}&&group={group}',
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
@@ -307,7 +307,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'link:::{Product[data]["link"]}'
             if(i==num_rows-1):
                 print(success_data_text);
-                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee'));
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
         print("data_process : True")
     except Exception as e:
         print("data_process : False",e)
@@ -483,14 +483,14 @@ def run():
                         return
                     num3=0;
                     # try:
-                    num3 = int(value_num3.get())-1
+                    num3 = int(value_num3.get())
                      # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
                     Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get()));
                     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                     for j in range(num3,9):
                         print("================");
                          # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
-                        Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3+1));
+                        Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3));
                         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                         data_sum=data_all[i]+str(j);
                         main(data_sum,7,1,0,0);
@@ -519,7 +519,7 @@ def run():
                         print("For_j : True");
                         print("================");
                     num2+=1;
-                    value_num3.set(1)
+                    value_num3.set(0)
                     # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
@@ -562,7 +562,7 @@ value_num2.set(1)
 check_count_gui = StringVar();
 check_count_gui.set(0);
 value_num3=StringVar();
-value_num3.set(1);
+value_num3.set(0);
 Working = StringVar();
 selected_value.set('สุขภาพและความงาม')
 # Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
@@ -591,7 +591,7 @@ def Set_value_Working():
 def on_dropdown_change(event):
     selected_value.set(event.widget.get())
     value_num2.set(1)
-    value_num3.set(1);
+    value_num3.set(0);
     Set_value_Working()
     number_dropdown_2();
     number_dropdown_3()
