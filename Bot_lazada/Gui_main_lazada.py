@@ -690,7 +690,7 @@ selected_value.set('สุขภาพและความงาม')
 def setTreeCommand():
     table.delete(*table.get_children())
     data = log.getLog()
-    for i in range(len(data)):                         
+    for i in range(len(data)-1,-1,-1):                         
         table.insert('','end',values=(i,data[i]));
 
 header_gui = ['loop','group system']
