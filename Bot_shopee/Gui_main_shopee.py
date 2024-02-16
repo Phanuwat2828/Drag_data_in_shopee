@@ -41,7 +41,7 @@ class PrintRedirector:
         self.textbox.see(END)
 
 # path_api
-uri_API = 'https://7bc2-14-207-201-178.ngrok-free.app/';
+setting_insert = open('./log/setting.txt',mode='r',encoding='utf-8');
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd();
@@ -50,7 +50,6 @@ data_shopee = r'\Data_shopee';
 data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 8;
 # head_excel
 header_2 = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -127,8 +126,20 @@ data_link_for_shopee_gui  = {
     "ตั๋วและบัตรกำนัน":11
 }
 # ============================== variable =================
-
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
+def setting():
+    data = setting_insert.readlines()
+    data_setting = []
+    for i in range(len(data)):
+        data_setting.append(data[i].replace('\n','').split('=')[1]);
+    return data_setting;
+# ============================== variable_from_text =================
+data_setting = setting();
+uri_API=data_setting[0]
+desk_top = int(data_setting[1])
+px_scroll = int(data_setting[2])
+round_scroll = int(data_setting[3])
+key_progemon = data_setting[4];
 def status():
     try:
         file_names = os.listdir(path_file+data_shopee);
@@ -329,10 +340,10 @@ def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
     custom_sleep(2);
-    for i in range(6):
+    for i in range(round_scroll):
         if(status_run_program):# หยุดทำงาน
             return
-        pyautogui.scroll(-725);
+        pyautogui.scroll(px_scroll);
         custom_sleep(7);
 def click(x,y):
     if(status_run_program):# หยุดทำงาน
@@ -384,7 +395,7 @@ def main(x,t,e,t2,e2):
     # ********************************
     tab(1)
     Scoll();
-    ky.press_and_release('ctrl+m');
+    ky.press_and_release(key_progemon);
 
     custom_sleep(4);
     # ********************************
@@ -493,7 +504,7 @@ def run():
                         Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3));
                         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                         data_sum=data_all[i]+str(j);
-                        main(data_sum,7,1,0,0);
+                        main(data_sum,desk_top,1,0,0);
                         find_shopee = status();
                         if(status_run_program):# หยุดทำงาน
                             return

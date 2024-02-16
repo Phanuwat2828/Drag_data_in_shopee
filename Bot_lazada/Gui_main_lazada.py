@@ -136,8 +136,8 @@ header_Values = {
 }
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
-# api
-uri_API = "https://2b6c-14-207-201-178.ngrok-free.app/"
+# Setting
+setting_insert = open('./log/setting.txt',mode='r',encoding='utf-8');
 # gui_
 font1 = ("Angsana New",25)
 app = Tk()
@@ -151,7 +151,6 @@ value_num2 = StringVar()
 showStatusBot = StringVar()
 value_to_gui = IntVar()
 log = ReadAndWriteLog()
-
 # path
 bot_lazada = r'\Bot_lazada'
 path_file = os.getcwd();
@@ -160,9 +159,23 @@ data_lazada = r'\Data_lazada';
 data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
-desk_top = 7;
 staut_working = "test";
 
+
+
+def setting():
+    data = setting_insert.readlines()
+    data_setting = []
+    for i in range(len(data)):
+        data_setting.append(data[i].replace('\n','').split('=')[1]);
+    return data_setting;
+# ============================== variable_from_text =================
+data_setting = setting();
+uri_API=data_setting[0]
+desk_top = int(data_setting[1])
+px_scroll = int(data_setting[2])
+round_scroll = int(data_setting[3])
+key_progemon = data_setting[4]
 
 # link_json
 def statusLinkJson():
@@ -408,10 +421,10 @@ def custom_sleep(seconds):
     time.sleep(seconds)
 def Scoll():
     custom_sleep(2);
-    for i in range(6):
+    for i in range(round_scroll):
         if(status_run_program):# หยุดทำงาน
             return
-        pyautogui.scroll(-750);
+        pyautogui.scroll(px_scroll);
         custom_sleep(6);
 def click(x,y):
     pyautogui.click(x,y);
@@ -466,7 +479,7 @@ def main(x,t,e,t2,e2):
     Scoll();
     if(status_run_program):# หยุดทำงาน
         return
-    ky.press_and_release('ctrl+m');
+    ky.press_and_release(key_progemon);
 
     custom_sleep(4);
     # ********************************

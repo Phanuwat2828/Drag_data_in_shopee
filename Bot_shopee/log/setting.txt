@@ -1,0 +1,5 @@
+uri_Api=https://7bc2-14-207-201-178.ngrok-free.app/
+round_loop=7
+px_scroll=-725
+round_scroll=6
+key_progemon=ctrl+m
