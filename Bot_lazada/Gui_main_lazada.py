@@ -237,7 +237,7 @@ def Check_header(path_file):
 def postAPI_DB(data,id_shop,link,date,time,website,group):
     try:
         response = requests.post(
-            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}group={group}',
+            f'{uri_API}addb?idshop={id_shop}&&link={link}&&date={date}&&time={time}&&website={website}&&group={group}',
             headers={
                 "Content-type":"application/x-www-form-urlencoded"
             },
