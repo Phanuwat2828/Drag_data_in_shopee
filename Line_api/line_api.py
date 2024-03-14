@@ -1,6 +1,9 @@
 import requests;
-path = r'C:\gitclone\Drag_data_in_shopee\Line_api'
+from PIL import ImageGrab
+import os
+# path = r'C:\gitclone\Drag_data_in_shopee\Line_api'
 token_line  = '12PezhTC3uVcjGTlwxxmmzIfoHUviIyNi5X8SghZxfG' ;
+path = 'C:\gitclone\Drag_data_in_shopee\Line_api\imag\Error.png'
 
 
 # def send_problem(mesage_import,image_import):
@@ -14,10 +17,16 @@ token_line  = '12PezhTC3uVcjGTlwxxmmzIfoHUviIyNi5X8SghZxfG' ;
 #     status_line = requests.post(uri , headers=header , data=data);
 #     print(status_line.json()['message'])
 
+def data_image():
+    try:
+        ImageGrab.grab().save(path)
+    except Exception as e:
+        print(e)
+
+
 def lineNotify(message):
     payload = {'message':message}
-    return _lineNotify(payload)
-
+    return _lineNotify(payload);
 def notifyFile(filename):
     file = {'imageFile':open(filename,'rb')}
     payload = {'message': 'test'}
@@ -38,7 +47,9 @@ def _lineNotify(payload,file=None):
     headers = {'Authorization':'Bearer '+token_line}
     return requests.post(url, headers=headers , data = payload, files=file)
 
-print(lineNotify('Hello Bot i\'m batman and i\'ll kill you'),notifyFile(path+r'\\test2.png').text)
+data_image()
+print(lineNotify('Hello Bot i\'m batman and i\'ll kill you'),notifyFile(path).text)
+os.remove(path);
 # send_problem('Hello This is python tester api',path+'\\test_api2.jpg')
 
 
