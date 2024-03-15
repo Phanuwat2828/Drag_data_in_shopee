@@ -6,17 +6,6 @@ token_line  = '12PezhTC3uVcjGTlwxxmmzIfoHUviIyNi5X8SghZxfG' ;
 path = 'C:\gitclone\Drag_data_in_shopee\Line_api\imag\Error.png'
 
 
-# def send_problem(mesage_import,image_import):
-#     file = {'imageFile':open(image_import,'rb')}
-#     data={'message':mesage_import}
-
-#     uri = 'https://notify-api.line.me/api/notify'
-#     header  = {
-#         'Authorization':'Bearer '+token_line
-#     }
-#     status_line = requests.post(uri , headers=header , data=data);
-#     print(status_line.json()['message'])
-
 def data_image():
     try:
         ImageGrab.grab().save(path)
