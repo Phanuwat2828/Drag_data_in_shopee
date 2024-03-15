@@ -579,7 +579,7 @@ def run():
                             continue;
                         print("For_j : True");
                         print("================");
-                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2)+"_"+str(value_num3.get())))
+                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
                     num2+=1;
                     if(num2!=len(data_all)):
                        
