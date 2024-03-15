@@ -3,6 +3,7 @@ from tkinter import *
 import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
 import webbrowser,threading,subprocess,sys
+from PIL import ImageGrab
 # ++++++++++++++++++++++++++++++ gui ++++++++++++++++++++
 
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ import 
@@ -12,7 +13,7 @@ from fnmatch import fnmatch
 from pynput import keyboard,mouse
 from data_address import address as ad
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
-
+# dependency 'openpyxl'.  Use pip or conda to install openpyxl.
 # ============================== variable ================= main
 class ReadAndWriteLog():
     def __init__(self):
@@ -35,21 +36,21 @@ class ReadAndWriteLog():
 class PrintRedirector:
     def __init__(self, textbox):
         self.textbox = textbox
-
     def write(self, text):
         self.textbox.insert(END, text)
         self.textbox.see(END)
-
 # path_api
 setting_insert = open('./log/setting.txt',mode='r',encoding='utf-8');
 # path
 bot_shopee = r'\Bot_shopee';
 path_file = os.getcwd();
-drag_data = os.path.abspath(os.path.join(path_file, os.pardir))
+drag_data = os.path.abspath(os.path.join(path_file, os.pardir));
+path_project = os.getcwd()+f'\\imag'+'\\Error.png';
 data_shopee = r'\Data_shopee';
 data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
+
 # head_excel
 header_2 = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -127,6 +128,7 @@ data_link_for_shopee_gui  = {
 }
 # ============================== variable =================
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++
+# ==================================================================
 def setting():
     data = setting_insert.readlines()
     data_setting = []
@@ -140,6 +142,39 @@ desk_top = int(data_setting[1])
 px_scroll = int(data_setting[2])
 round_scroll = int(data_setting[3])
 key_progemon = data_setting[4];
+token_line  = data_setting[5];
+# ============================== Api Line ====================================
+
+def data_image():
+    try:
+        ImageGrab.grab().save(path_project)
+    except Exception as e:
+        print(e)
+
+def lineNotify(message):
+    payload = {'message':message}
+    return _lineNotify(payload);
+
+def notifyFile(filename):
+    file = {'imageFile':open(filename,'rb')}
+    payload = {'message': '\nรูปจากความผิดพลาด: '}
+    return _lineNotify(payload,file)
+
+def notifyPicture(url):
+    payload = {'message':" ",'imageThumbnail':url,'imageFullsize':url}
+    return _lineNotify(payload)
+
+def notifySticker(stickerID,stickerPackageID):
+    payload = {'message':" ",'stickerPackageId':stickerPackageID,'stickerId':stickerID}
+    return _lineNotify(payload)
+
+def _lineNotify(payload,file=None):
+    url = 'https://notify-api.line.me/api/notify'
+	#EDIT
+    headers = {'Authorization':'Bearer '+token_line}
+    return requests.post(url, headers=headers , data = payload, files=file)
+
+# ====================================================================================
 def status():
     try:
         file_names = os.listdir(path_file+data_shopee);
@@ -477,19 +512,25 @@ def run():
         if(status_run_program):# หยุดทำงาน
             return
         # ********************************
+
         num1=int(data_link_for_shopee_gui[selected_value.get()])
         for k in range(num1,len(data_link_for_shopee)):
+            #=================== start ======================
+            
+            #================================================
             if(status_run_program):# หยุดทำงาน
                 return
             print("====== Round [",k+1,"] Working [",data_link_for_shopee[k],"]======");
             Data = get_link();
             data_all = Data[data_link_for_shopee[k]]["shopee"];
              # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
-            Working.set(str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
+            Working.set(str(data_link_for_shopee[k])+" _ "+str(value_num2.get())+" _ "+str(value_num3.get()));
             # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            print(lineNotify('\nShopee: Working \nGroup: '+data_link_for_shopee[k]+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())));
             # try: len(data_all)
             num2=(int(value_num2.get())-1);
             for i in range(num2,len(data_all)):
+                    # len(data_all)
                     if(status_run_program):# หยุดทำงาน
                         return
                     num3=0;
@@ -498,12 +539,24 @@ def run():
                      # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
                     Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get()));
                     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                    for j in range(num3,9):
+                    error = 0;
+                    while(num3<9):
+                        if(error == 3):
+                            data_image()
+                            print(lineNotify('\nShopee: Error \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
+                            log.addLog("%s_%d_%d False"%(data_link_for_shopee[k],num2+1,num3))
+                            print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
+                            destination_path = path_file+un_process;
+                            shutil.move(path_file+path,destination_path)
+                            os.remove(path_project);
+                            error=0;
+                            return
+                        
                         print("================");
-                         # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+                        # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
                         Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3));
                         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                        data_sum=data_all[i]+str(j);
+                        data_sum=data_all[i]+str(num3);
                         main(data_sum,desk_top,1,0,0);
                         find_shopee = status();
                         if(status_run_program):# หยุดทำงาน
@@ -518,24 +571,27 @@ def run():
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
                                 print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
                                 data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum);
+                                num3+=1;
                             else:
-                                log.addLog("%s_%d_%d False"%(data_link_for_shopee[k],num2+1,num3))
-                                print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
-                                destination_path = path_file+un_process;
-                                shutil.move(path_file+path, destination_path)
-                                continue;
-                            num3+=1;
+                                error+=1;
+                                continue
                         else:
                             continue;
                         print("For_j : True");
                         print("================");
                     num2+=1;
+                    if(num2!=len(data_all)):
+                        print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
+                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+
                     value_num3.set(0)
                     # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
             num1+=1;
+            print(lineNotify('\nShopee: Success Group \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
             value_num2.set(1)
+            print(lineNotify('\nShopee: Next Group \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
             # except Exception as e:
             #     print("For_i : ",e);
 # ++++++++++++++++++++++++++++++ main ++++++++++++++++++++ 
