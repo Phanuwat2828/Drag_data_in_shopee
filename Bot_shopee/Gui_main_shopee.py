@@ -579,10 +579,11 @@ def run():
                             continue;
                         print("For_j : True");
                         print("================");
+                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2)+"_"+str(value_num3.get())))
                     num2+=1;
                     if(num2!=len(data_all)):
-                        print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
-                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+                       
+                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
 
                     value_num3.set(0)
                     # custom_sleep(120);  
