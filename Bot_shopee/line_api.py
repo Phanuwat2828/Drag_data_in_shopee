@@ -36,9 +36,9 @@ def _lineNotify(payload,file=None):
     headers = {'Authorization':'Bearer '+token_line}
     return requests.post(url, headers=headers , data = payload, files=file)
 
-data_image()
-print(lineNotify('Hello Bot i\'m batman and i\'ll kill you'),notifyFile(path).text)
-os.remove(path);
+# data_image()
+print(lineNotify('Hello Bot i\'m batman and i\'ll kill you'))
+# os.remove(path);
 # send_problem('Hello This is python tester api',path+'\\test_api2.jpg')
 
 

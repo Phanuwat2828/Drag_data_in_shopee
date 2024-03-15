@@ -351,10 +351,26 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'date:::{Product[data]["date"]},'
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
-            if(i==num_rows-1):
-                print(success_data_text);
-                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
+            error_api = False;
+            status_api = "";
+            for i in range(3):
+                if(i==num_rows-1):
+                    print(success_data_text);
+                    status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group);
+                if(status_api=='<Response [200]>'):
+                    error_api=True;
+                    break;
+                else:
+                    error_api=False;
+                    continue;
+            if(error_api==False):
+                data_image()
+                print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
+                return error_api; 
+            
+
         print("data_process : True")
+        
     except Exception as e:
         print("data_process : False",e)
 def Del():
@@ -570,8 +586,10 @@ def run():
                                 setTreeCommand()
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
                                 print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
-                                data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum);
-                                num3+=1;
+                                if(data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum)==False):
+                                    return
+                                else:
+                                    num3+=1;
                             else:
                                 error+=1;
                                 continue
@@ -581,11 +599,11 @@ def run():
                         print("================");
                     print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
                     num2+=1;
+                    value_num3.set(0)
                     if(num2!=len(data_all)):
-                       
                         print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
 
-                    value_num3.set(0)
+                   
                     # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
