@@ -365,7 +365,7 @@ def data_process(path_file,i1,i2,i3,group,link):
                     continue;
             if(error_api==False):
                 data_image()
-                print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
+                print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2+1)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
                 return error_api; 
             
 
@@ -559,7 +559,7 @@ def run():
                     while(num3<9):
                         if(error == 3):
                             data_image()
-                            print(lineNotify('\nShopee: Error \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
+                            print(lineNotify('\nShopee: Error \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
                             log.addLog("%s_%d_%d False"%(data_link_for_shopee[k],num2+1,num3))
                             print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
                             destination_path = path_file+un_process;
@@ -597,18 +597,18 @@ def run():
                             continue;
                         print("For_j : True");
                         print("================");
-                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
                     num2+=1;
                     value_num3.set(0)
                     if(num2!=len(data_all)):
-                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
 
                    
                     # custom_sleep(120);  
                     # except Exception as e:
                     #     print("For_j",e);
             num1+=1;
-            print(lineNotify('\nShopee: Success Group \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
+            print(lineNotify('\nShopee: Success Group \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
             value_num2.set(1)
             print(lineNotify('\nShopee: Next Group \nGroup: '+str(data_link_for_shopee[num1])+'\nId: '+str(data_link_for_shopee[num1])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
             # except Exception as e:
