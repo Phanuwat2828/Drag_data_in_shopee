@@ -51,6 +51,7 @@ data_shopee_xlsx = r'\shopee.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 
+
 # head_excel
 header_2 = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
@@ -241,7 +242,7 @@ def postAPI_DB(data,id_shop,link,date,time,website,group):
                 "data":data
             }
         )
-        return response
+        return response.status_code
     except:
         return {"status":404,"message":"POST API ERROR."}
 def convert_to_integer(s):
@@ -351,26 +352,23 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'date:::{Product[data]["date"]},'
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
-            error_api = False;
-            status_api = "";
-            for i in range(3):
-                if(i==num_rows-1):
-                    print(success_data_text);
-                    status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group);
-                if(status_api=='<Response [200]>'):
-                    error_api=True;
-                    break;
-                else:
-                    error_api=False;
-                    continue;
-            if(error_api==False):
-                data_image()
-                print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2+1)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
-                return error_api; 
-            
 
-        print("data_process : True")
-        
+        status_api ="";
+        error_api=False
+        if(i==num_rows-1):
+            print(success_data_text);
+            status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
+            print(status_api);
+        if(status_api=="200"):
+            error_api=True;
+        else:
+            error_api=False;
+        print("data_process : True");
+        if(error_api==False):
+            data_image()
+            print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2+1)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));  
+        return error_api;
+ 
     except Exception as e:
         print("data_process : False",e)
 def Del():
@@ -581,20 +579,22 @@ def run():
                             path = change_name(k+1,num2+1,num3);
                             print(path);
                             if(check_data(path_file+path)==True):
+                                print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
+                                status_api = data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum);
+                                if(status_api==False):
+                                    return
                                  # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
                                 log.addLog("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3))
                                 setTreeCommand()
                                 # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
-                                if(data_process(path_file+path,k+1,num2,num3,data_link_for_shopee[k],data_sum)==False):
-                                    return
-                                else:
-                                    num3+=1;
+                                num3+=1;
                             else:
                                 error+=1;
                                 continue
                         else:
-                            continue;
+                            data_image()
+                            print(lineNotify('\nShopee: ไม่พบไฟล์ \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
+                            return
                         print("For_j : True");
                         print("================");
                     print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
