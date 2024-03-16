@@ -281,7 +281,7 @@ def postAPI_DB(data,id_shop,link,date,time,website,group):
                 "data":data
             }
         )
-        return response
+        return response.status_code
     except:
         return {"status":404,"message":"POST API ERROR."}
 def is_thai(text):
@@ -404,22 +404,20 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-            error_api = False;
-            status_api = "";
-            for i in range(3):
-                if(i==num_rows-1):
-                    print(success_data_text);
-                    status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group);
-                if(status_api=='<Response [200]>'):
-                    error_api=True;
-                    break;
-                else:
-                    error_api=False;
-                    continue;
-            if(error_api==False):
-                data_image()
-                print(lineNotify('\nLazada: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                return error_api; 
+           
+        error_api = False;
+        status_api = "";
+        if(i==num_rows-1):
+            print(success_data_text);
+            status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group);
+        if(status_api=="200"):
+            error_api=True;
+        else:
+            error_api=False;
+        if(error_api==False):
+            data_image()
+            print(lineNotify('\nLazada: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+        return error_api;
     except Exception as e:
         print(e);
 # Check_count
@@ -694,16 +692,16 @@ def run():
                             
                                 path = change_name(k+1,file_name,num3+1);
                                 if(check_data(path_file+path)==True):
-                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                   
+                                    status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
+                                    if(status_api==False):
+                                        return
+                                    num3+=1;
+                                    # ***************************************************การเพิ่1ม log ยังไม่สำเร็จ *************************
+                                    print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
                                     log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1))
                                     setTreeCommand()
                                     # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                    print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
-                                    
-                                    if(data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum)==False):
-                                        return
-                                    else:
-                                        num3+=1;
                                 else:
                                     error+=1;
                                     continue
