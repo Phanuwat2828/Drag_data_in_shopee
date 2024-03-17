@@ -600,7 +600,7 @@ def run():
                             return
                         print("For_j : True");
                         print("================");
-                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
+                    print(lineNotify('\nShopee: Success Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3-1)))
                     num2+=1;
                     value_num3.set(0)
                     if(num2!=len(data_all)):
