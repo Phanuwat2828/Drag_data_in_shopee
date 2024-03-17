@@ -408,8 +408,8 @@ def data_process(path_file,i1,i2,i3,group,link):
         error_api = False;
         status_api = "";
         if(i==num_rows-1):
-            print(success_data_text);
             status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group);
+            print("Status : "+status_api);
         if(status_api=="200"):
             error_api=True;
         else:
@@ -637,7 +637,7 @@ def run():
             round_click = 3;
             num3=0; 
             status_count = False
-            main(data_all[i]+"/?page=1/",1,round_click,desk_top,1);
+            main(data_all[i]+"/?page=1",1,round_click,desk_top,1);
             if(status_run_program):# หยุดทำงาน
                 return
             if(statusLinkJson()==False):

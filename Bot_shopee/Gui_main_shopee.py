@@ -356,7 +356,7 @@ def data_process(path_file,i1,i2,i3,group,link):
         status_api ="";
         error_api=False
         if(i==num_rows-1):
-            print(success_data_text);
+            # print(success_data_text);
             status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
             print(status_api);
         if(status_api=="200"):
@@ -601,7 +601,7 @@ def run():
                     num2+=1;
                     value_num3.set(0)
                     if(num2!=len(data_all)):
-                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)))
+                        print(lineNotify('\nShopee: Next Id \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(value_num3.get())))
 
                    
                     # custom_sleep(120);  
