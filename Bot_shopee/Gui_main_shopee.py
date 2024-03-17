@@ -443,6 +443,8 @@ def main(x,t,e,t2,e2):
         return
     # ********************************
     tab(1)
+    data_image()
+    custom_sleep(1);
     Scoll();
     ky.press_and_release(key_progemon);
 
@@ -492,8 +494,7 @@ def main(x,t,e,t2,e2):
     if(status_run_program):# หยุดทำงาน
         return
     # ********************************
-    data_image()
-    custom_sleep(1);
+
     ky.press_and_release('ctrl+w')
     print("Main : โปรแกรมกำลังทำงาน");
 # Change_name

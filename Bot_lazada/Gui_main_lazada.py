@@ -300,6 +300,10 @@ def convert_to_integer(s):
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('k+',''));
         return int(sum3)*1000;
+    elif 'K' in s:
+        sum2 = (s.replace(' ชิ้น',''));
+        sum3 = (sum2.replace('K',''));
+        return int(float(sum3)*1000);
     elif '9,999+' in s:
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('+',''));
@@ -307,8 +311,6 @@ def convert_to_integer(s):
     else:
         return int(s.replace(' ชิ้น',''))
             
-            
-
 # process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
     """
@@ -408,8 +410,8 @@ def data_process(path_file,i1,i2,i3,group,link):
         error_api = False;
         status_api = "";
         if(i==num_rows-1):
-            status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group);
-            print("Status : "+status_api);
+            status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
+            print("Status : "+str(status_api));
         if(status_api=="200"):
             error_api=True;
         else:
@@ -522,6 +524,8 @@ def main(x,t,e,t2,e2):
     tab(1)
     if(status_run_program):# หยุดทำงาน
         return
+    data_image()
+    custom_sleep(1);
     Scoll();
     if(status_run_program):# หยุดทำงาน
         return
@@ -573,8 +577,7 @@ def main(x,t,e,t2,e2):
     if(status_run_program):# หยุดทำงาน
         return
     # ********************************
-    data_image()
-    custom_sleep(1);
+
     ky.press_and_release('ctrl+w')
     print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
@@ -651,7 +654,7 @@ def run():
                 round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
-                main(data_all[i]+"/?page=1/",1,round_click,desk_top,1);
+                main(data_all[i]+"/?page=1",1,round_click,desk_top,1);
                 if(status_run_program):# หยุดทำงาน
                     return
                 status_lazada = check_data_count(path_remove)
@@ -670,7 +673,7 @@ def run():
                         while(num3<count):
                             data_sum=data_all[i]+"/?page="+str(num3+1);
                             if(error == 3):
-                                print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3+1)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                                print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                                 log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
                                 print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
                                 destination_path = path_file+un_process;
@@ -684,23 +687,22 @@ def run():
                             Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(num3+1));
                             # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                             print("=======================");
-                            
                             main(data_sum,desk_top+1,1,0,0);
                             find_shopee = statusLinkJson();
                             if(find_shopee==True):
                             
                                 path = change_name(k+1,file_name,num3+1);
                                 if(check_data(path_file+path)==True):
-                                   
                                     status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
                                     if(status_api==False):
                                         return
-                                    num3+=1;
+
                                     # ***************************************************การเพิ่1ม log ยังไม่สำเร็จ *************************
                                     print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
                                     log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1))
                                     setTreeCommand()
                                     # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                    num3+=1;
                                 else:
                                     error+=1;
                                     continue
@@ -713,9 +715,13 @@ def run():
                         print(lineNotify('\nLazad: ไม่มีหน้านี้ในเว็บกรุณาลองเลือกไหม่อีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                         print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีกครั้ง")
                         return;
-                num2+=1;
-                if(num2!=len(data_all)):
-                    print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+                    num2+=1;
+                    if(num2!=len(data_all)):
+                        print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+            else:
+                print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                print("Main : ไม่มีหน้า")
+                return;
                 # else:
                 #     continue;
                 # print("For_J : True");
