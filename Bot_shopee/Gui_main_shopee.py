@@ -365,7 +365,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             error_api=False;
         print("data_process : True");
         if(error_api==False):
-            data_image()
+
             print(lineNotify('\nShopee: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2+1)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));  
         return error_api;
  
@@ -492,6 +492,8 @@ def main(x,t,e,t2,e2):
     if(status_run_program):# หยุดทำงาน
         return
     # ********************************
+    data_image()
+    custom_sleep(1);
     ky.press_and_release('ctrl+w')
     print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
@@ -556,7 +558,7 @@ def run():
                     error = 0;
                     while(num3<9):
                         if(error == 3):
-                            data_image()
+
                             print(lineNotify('\nShopee: Error \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
                             log.addLog("%s_%d_%d False"%(data_link_for_shopee[k],num2+1,num3))
                             print("%s_%d_%d True"%(data_link_for_shopee[k],num2+1,num3));
@@ -592,7 +594,7 @@ def run():
                                 error+=1;
                                 continue
                         else:
-                            data_image()
+
                             print(lineNotify('\nShopee: ไม่พบไฟล์ \nGroup: '+str(data_link_for_shopee[k])+'\nId: '+str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nShopee: Stop"));
                             return
                         print("For_j : True");
