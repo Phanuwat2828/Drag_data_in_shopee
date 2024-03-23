@@ -385,6 +385,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             if 'จังหวัด' in address:
                 address.replace("จังหวัด","")
             count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
+            count_review = count_review.replace("(", "").replace(")", "");
             maket = Product[data]["maket"]
             # ****************************************************************
             success_data_text += f'APRODUCT:::maket:::{maket},'
@@ -406,7 +407,6 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-           
         error_api = False;
         status_api = "";
         if(i==num_rows-1):

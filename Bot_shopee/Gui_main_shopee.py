@@ -329,6 +329,8 @@ def data_process(path_file,i1,i2,i3,group,link):
                 sold = "0"
             if("ขายแล้ว" in sold):
                 sold = convert_to_integer(sold.split(" ")[1])
+            string_with_parentheses = "(78)"
+            string_without_parentheses = string_with_parentheses.replace("(", "").replace(")", "")
             price_before = (Product[data]["price_before"]=='nan')and " " or Product[data]["price_before"]
             # ***************************ไอดีสินค้าหลัก*************************************
             id_shop = "shop"+str(i1)+"_"+str(i2)+"_"+str(i3);
