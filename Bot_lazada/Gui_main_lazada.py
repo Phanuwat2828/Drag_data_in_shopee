@@ -642,7 +642,7 @@ def run():
             round_click = 3;
             num3=0; 
             status_count = False
-            main(data_all[i]+"/?page=1",1,round_click,desk_top,1);
+            main(data_all[i]+"/?page=1&",1,round_click,desk_top,1);
             if(status_run_program):# หยุดทำงาน
                 return
             if(statusLinkJson()==False):
@@ -654,7 +654,7 @@ def run():
                 round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
-                main(data_all[i]+"/?page=1",1,round_click,desk_top,1);
+                main(data_all[i]+"/?page=1&",1,round_click,desk_top,1);
                 if(status_run_program):# หยุดทำงาน
                     return
                 status_lazada = check_data_count(path_remove)
@@ -671,7 +671,7 @@ def run():
                     if((num3+1)<=count):
                         error = 0;
                         while(num3<count):
-                            data_sum=data_all[i]+"/?page="+str(num3+1);
+                            data_sum=data_all[i]+"/?page="+str(num3+1)+"&";
                             if(error == 3):
                                 print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                                 log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
