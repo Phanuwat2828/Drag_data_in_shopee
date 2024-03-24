@@ -485,6 +485,7 @@ def type_and_enter(text):
             return
     ky.press_and_release('ctrl+v')
     custom_sleep(1);
+
 # bot is auto click on website
 def main(x,t,e,t2,e2):
     # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
@@ -580,6 +581,24 @@ def main(x,t,e,t2,e2):
 
     ky.press_and_release('ctrl+w')
     print("Main : โปรแกรมกำลังทำงาน");
+
+def get_chrome():
+    custom_sleep(2);
+    ky.press_and_release('ctrl+t')
+    controller = keyboard.Controller();
+    def enter(k):
+        for i in range(k):
+            if(status_run_program):# หยุดทำงาน
+                return
+            controller.press(keyboard.Key.enter);
+            controller.release(keyboard.Key.enter);
+    
+    type_and_enter("https://www.lazada.co.th/?dsource=share&laz_share_info=899993860_1_9300_100642496081_899993860_null&laz_token=164424db0b6be8cb2be84b3957c98e45&trafficFrom=17449020_303586&laz_trackid=2:mm_290511160_169702503_2126502503:clkgl3v531hpo8ndn2aopk&mkttid=clkgl3v531hpo8ndn2aopk");
+    custom_sleep(2);
+    enter(1)
+    custom_sleep(2);
+    # ky.press_and_release('ctrl+w')
+
 # Change_name
 def change_name(k,i,j):
     try:
@@ -608,12 +627,14 @@ def get_link():
     except Exception as e:
         print("Get_link : ไม่พบลิงค์ที่จะทำงาน \t",e);
 # run
-path_remove = path_file+data_lazada+data_lazada_xlsx    
+path_remove = path_file+data_lazada+data_lazada_xlsx
 def run():
     Del();
+    plat_1 = "/";
     if(status_run_program):# หยุดทำงาน
         return
     # ********************************
+    get_chrome();
     num1=int(data_link_for_lazada_gui[selected_value.get()]);
     for k in range(num1,len(data_link_for_lazada)):
         count = 0;
@@ -642,7 +663,8 @@ def run():
             round_click = 3;
             num3=0; 
             status_count = False
-            main(data_all[i]+"/?page=1&",1,round_click,desk_top,1);
+            
+            main("https:"+data_all[i],1,round_click,desk_top,1);
             if(status_run_program):# หยุดทำงาน
                 return
             if(statusLinkJson()==False):
@@ -654,7 +676,7 @@ def run():
                 round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
-                main(data_all[i]+"/?page=1&",1,round_click,desk_top,1);
+                main("https:"+data_all[i],1,round_click,desk_top,1);
                 if(status_run_program):# หยุดทำงาน
                     return
                 status_lazada = check_data_count(path_remove)
@@ -671,7 +693,7 @@ def run():
                     if((num3+1)<=count):
                         error = 0;
                         while(num3<count):
-                            data_sum=data_all[i]+"/?page="+str(num3+1)+"&";
+                            data_sum=data_all[i]+"/?page="+str(num3+1);
                             if(error == 3):
                                 print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                                 log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
