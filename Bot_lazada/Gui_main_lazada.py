@@ -740,10 +740,11 @@ def run():
                     num2+=1;
                     if(num2!=len(data_all)):
                         print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
-            else:
-                print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                print("Main : ไม่มีหน้า")
-                return;
+                        continue;
+                else:
+                    print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                    print("Main : ไม่มีหน้า")
+                    return;
                 # else:
                 #     continue;
                 # print("For_J : True");
