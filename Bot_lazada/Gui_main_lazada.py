@@ -374,17 +374,17 @@ def data_process(path_file,i1,i2,i3,group,link):
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
             if(len(Product[data]["sold"])>0):
-                sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0];
+                sold = Product[data]["sold"].split(" ")[0]=="nan"and "0" or Product[data]["sold"].split(" ")[0];
             else:
                 sold = "0"
             sold = convert_to_integer(sold);
             if is_thai(Product[data]["place"]):
-                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
+                address = Product[data]["place"]=='nan'and "" or Product[data]["place"]
             else:
-                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
+                address = Product[data]["place"]=='nan'and "" or ad[Product[data]["place"]]
             if 'จังหวัด' in address:
                 address.replace("จังหวัด","")
-            count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
+            count_review = Product[data]["count_review"]=="nan"and "0" or Product[data]["count_review"]
             count_review = count_review.replace("(", "").replace(")", "");
             maket = Product[data]["maket"]
             # ****************************************************************
@@ -579,7 +579,8 @@ def main(x,t,e,t2,e2):
         return
     # ********************************
 
-    ky.press_and_release('ctrl+w')
+    ky.press_and_release('ctrl+w');
+    custom_sleep(4);
     print("Main : โปรแกรมกำลังทำงาน");
 
 def get_chrome():

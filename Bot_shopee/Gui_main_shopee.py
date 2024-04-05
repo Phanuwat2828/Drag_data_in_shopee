@@ -410,7 +410,7 @@ def type_and_enter(text):
     ky.press_and_release('ctrl+v')
     custom_sleep(1);
     
-def main(x,t,e,t2,e2):
+def main(x,t,e,t2,e2,e1):
     controller = keyboard.Controller();
     custom_sleep(3);
     # ********************************
@@ -460,11 +460,14 @@ def main(x,t,e,t2,e2):
 # Mouse clicked at (1006, 88) with Button.left
     ky.press_and_release('F11')
     custom_sleep(4);
+    tab(1);
+    enter(e1);
+    
     # ********************************
     if(status_run_program):# หยุดทำงาน
         return
     # ********************************
-    tab(t);
+    tab(t-1);
     custom_sleep(4);
     # ********************************
     if(status_run_program):# หยุดทำงาน
@@ -498,6 +501,7 @@ def main(x,t,e,t2,e2):
     # ********************************
 
     ky.press_and_release('ctrl+w')
+    custom_sleep(4);
     print("Main : โปรแกรมกำลังทำงาน");
 # Change_name
 def change_name(k,i,j):
@@ -576,7 +580,7 @@ def run():
                         Working.set(str(data_link_for_shopee[k])+"_"+str(num2+1)+"_"+str(num3));
                         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                         data_sum=data_all[i]+str(num3);
-                        main(data_sum,desk_top,1,0,0);
+                        main(data_sum,desk_top,1,0,0,error);
                         find_shopee = status();
                         if(status_run_program):# หยุดทำงาน
                             return
