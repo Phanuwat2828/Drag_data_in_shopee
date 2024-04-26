@@ -53,22 +53,39 @@ data_link = r'\Data_link\data_link_all.json';
 
 
 # head_excel
-header_2 = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
-       'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
-       'bx++ig 2', 'k9JZlv 2', 'OwmBnn', 'JVW3E2', 'hxLzax']
+# header_2 = ['col-xs-2-4 href', 'Fd4QmV src', 'FTxtVW',
+#        'customized-overlay-image src', 'DgXDzJ', 'bPcAVl', 'k9JZlv',
+#        'bx++ig 2', 'k9JZlv 2', 'OwmBnn', 'JVW3E2', 'hxLzax']
+# header_Values = {
+#     'col-xs-2-4 href':"product",
+#     'Fd4QmV src':"image_product_1",
+#     'FTxtVW':"discount",
+#     'customized-overlay-image src':"image_product_2",
+#     'DgXDzJ':"data_product", 
+#     'bPcAVl':"price_before",
+#     'k9JZlv':"price_product_1",
+#     'bx++ig 2':"Emoji",
+#     'k9JZlv 2':"price_product_2",
+#     'OwmBnn':"sold",
+#     'JVW3E2':"place", 
+#     'hxLzax':"Recommended_shops"
+# }
+header_2 = ['col-xs-2-4 href','+nCgfX src', 'woNqvZ',
+       'customized-overlay-image src',  'j5GxYe', 'bPcAVl', 't7piUP',
+       'bx++ig 2', '_1Mfhcw', 'dlVgYJ','UxAJ0R','zuP556']
 header_Values = {
     'col-xs-2-4 href':"product",
-    'Fd4QmV src':"image_product_1",
-    'FTxtVW':"discount",
+    '+nCgfX src':"image_product_1",
+    'woNqvZ':"discount",
     'customized-overlay-image src':"image_product_2",
-    'DgXDzJ':"data_product", 
+    'j5GxYe':"data_product", 
     'bPcAVl':"price_before",
-    'k9JZlv':"price_product_1",
+    't7piUP':"price_product_1",
     'bx++ig 2':"Emoji",
-    'k9JZlv 2':"price_product_2",
-    'OwmBnn':"sold",
-    'JVW3E2':"place", 
-    'hxLzax':"Recommended_shops"
+    '_1Mfhcw':"price_product_2",
+    'dlVgYJ':"sold",
+    'UxAJ0R':"place", 
+    'zuP556':"Recommended_shops"
 }
 # Link_all
 data_link_for_shopee  = {
@@ -313,11 +330,16 @@ def data_process(path_file,i1,i2,i3,group,link):
             Product[data]['time'] = Time
             Product[data]['link'] = link
             # ****************************************************************
+            # price_product1 = float(Product[data]["price_product_1"].replace(",",""));
+            # price_product2 = float(Product[data]["price_product_2"].replace(",",""));
+            # discount = (Product[data]["discount"]=='nan')and " " or Product[data]["discount"];
+            # price_product1 = (price_product1<=0)and "0" or price_product1;
+            # price_product2 = (price_product2<=0)and "0" or price_product2;
             price_product1 = float(Product[data]["price_product_1"].replace(",",""));
-            price_product2 = float(Product[data]["price_product_2"].replace(",",""));
+            price_product2 = Product[data]["price_product_2"].replace(",","");
             discount = (Product[data]["discount"]=='nan')and " " or Product[data]["discount"];
             price_product1 = (price_product1<=0)and "0" or price_product1;
-            price_product2 = (price_product2<=0)and "0" or price_product2;
+            # price_product2 = (price_product2<=0)and "0" or price_product2;
             if is_thai(Product[data]["place"]):
                 address = (Product[data]["place"]=='nan')and " " or Product[data]["place"];
                 address=address.replace("จังหวัด","");
