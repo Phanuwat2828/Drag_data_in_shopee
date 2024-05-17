@@ -296,16 +296,17 @@ def get_datetime():
     "time": time_str,
 }
 def convert_to_integer(s):
-    if 'k' in s:
+    if 'k' or 'k+' in s:
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('k+',''));
-        return int(sum3)*1000;
+        sum3 = (sum3.replace('K',''));
+        return float(sum3)*1000;
     elif '9,999+' in s:
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('+',''));
-        return int(sum3.replace(',',''))+1;
+        return float(sum3.replace(',',''))+1;
     else:
-        return int(s.replace(' ชิ้น',''))
+        return float(s.replace(' ชิ้น',''))
             
             
 
@@ -405,7 +406,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'link:::{Product[data]["link"]}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
-                print(success_data_text)
+                print("Api : ส่งสำเร็จ");
                 print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
     except Exception as e:
         print(e);
