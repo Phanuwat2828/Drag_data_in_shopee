@@ -281,7 +281,7 @@ def postAPI_DB(data,id_shop,link,date,time,website,group):
                 "data":data
             }
         )
-        return response.status_code
+        return response
     except:
         return {"status":404,"message":"POST API ERROR."}
 def is_thai(text):
@@ -300,10 +300,6 @@ def convert_to_integer(s):
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('k+',''));
         return int(sum3)*1000;
-    elif 'K' in s:
-        sum2 = (s.replace(' ชิ้น',''));
-        sum3 = (sum2.replace('K',''));
-        return int(float(sum3)*1000);
     elif '9,999+' in s:
         sum2 = (s.replace(' ชิ้น',''));
         sum3 = (sum2.replace('+',''));
@@ -311,6 +307,8 @@ def convert_to_integer(s):
     else:
         return int(s.replace(' ชิ้น',''))
             
+            
+
 # process excel file to Json(API)
 def data_process(path_file,i1,i2,i3,group,link):
     """
@@ -374,18 +372,17 @@ def data_process(path_file,i1,i2,i3,group,link):
             price_product = float(Product[data]["price_product"].replace("฿","").replace(",",""))
             price_product = (price_product<=0)and "0" or price_product
             if(len(Product[data]["sold"])>0):
-                sold = Product[data]["sold"].split(" ")[0]=="nan"and "0" or Product[data]["sold"].split(" ")[0];
+                sold = (Product[data]["sold"].split(" ")[0]=="nan")and "0" or Product[data]["sold"].split(" ")[0];
             else:
                 sold = "0"
             sold = convert_to_integer(sold);
             if is_thai(Product[data]["place"]):
-                address = Product[data]["place"]=='nan'and "" or Product[data]["place"]
+                address = (Product[data]["place"]=='nan')and "" or Product[data]["place"]
             else:
-                address = Product[data]["place"]=='nan'and "" or ad[Product[data]["place"]]
+                address = (Product[data]["place"]=='nan')and "" or ad[Product[data]["place"]]
             if 'จังหวัด' in address:
                 address.replace("จังหวัด","")
-            count_review = Product[data]["count_review"]=="nan"and "0" or Product[data]["count_review"]
-            count_review = count_review.replace("(", "").replace(")", "");
+            count_review = (Product[data]["count_review"]=="nan")and "0" or Product[data]["count_review"]
             maket = Product[data]["maket"]
             # ****************************************************************
             success_data_text += f'APRODUCT:::maket:::{maket},'
@@ -407,19 +404,9 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
-        error_api = False;
-        status_api = "";
-        if(i==num_rows-1):
-            status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
-            print("Status : "+str(status_api));
-        if(status_api=="200"):
-            error_api=True;
-        else:
-            error_api=False;
-        if(error_api==False):
-
-            print(lineNotify('\nLazada: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-        return error_api;
+            if(i==num_rows-1):
+                print(success_data_text)
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
     except Exception as e:
         print(e);
 # Check_count
@@ -732,7 +719,8 @@ def run():
                             else:
                                 continue;
                             print("=======================");
-                        print(lineNotify('\nLazada: Success Id \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)))
+                        
+                        print(lineNotify('\nLazada: Success Id \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
                         value_num3.set(1);
                     else:
                         print(lineNotify('\nLazad: ไม่มีหน้านี้ในเว็บกรุณาลองเลือกไหม่อีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));

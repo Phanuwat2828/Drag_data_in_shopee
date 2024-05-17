@@ -10,8 +10,6 @@ import pyautogui
 from pynput import keyboard
 import shutil
 import keyboard as ky
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import pyperclip
 
 

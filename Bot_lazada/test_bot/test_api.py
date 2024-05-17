@@ -10,8 +10,6 @@ import pyautogui
 from pynput import keyboard
 import shutil
 import keyboard as ky
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import pyperclip
 from data_address import address as ad
 
@@ -141,4 +139,4 @@ data_link_for_lazada  = {
     8: 'แฟชั่นและเครื่องประดับผู้ชาย',
     9: 'กีฬาและการเดินทาง',
     10: 'ยานยนต์และรถจักรยานยนต์'}
-data_process(path_file+data_lazada+xlsx_test,1,1,1,'อุปกรณ์-อิเล็กทรอนิกส์',"")
+data_process(path_file+data_lazada+xlsx_test,1,1,3,'อุปกรณ์-อิเล็กทรอนิกส์',"")
