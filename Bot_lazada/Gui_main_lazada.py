@@ -736,7 +736,7 @@ def run():
             num3=0; 
             status_count = False
             
-            main3("https:"+data_all[i],1,round_click,desk_top,1);
+            main("https:"+data_all[i],1,round_click,desk_top,1);
             if(status_run_program):# หยุดทำงาน
                 return
             if(statusLinkJson()==False):
@@ -748,7 +748,7 @@ def run():
                 round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
-                main3("https:"+data_all[i],1,round_click,desk_top,1);
+                main("https:"+data_all[i],1,round_click,desk_top,1);
                 if(status_run_program):# หยุดทำงาน
                     return
                 status_lazada = check_data_count(path_remove)
