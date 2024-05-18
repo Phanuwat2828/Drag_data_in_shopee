@@ -570,6 +570,89 @@ def main(x,t,e,t2,e2):
     ky.press_and_release('ctrl+w');
     custom_sleep(4);
     print("Main : โปรแกรมกำลังทำงาน");
+def main3(x,t,e,t2,e2):
+    # webbrowser.open_new_tab("https://www.lazada.co.th/?spm=a2o4m.searchlistcategory.header.dhome.520251eequOvSC")
+    controller = keyboard.Controller();
+    custom_sleep(3);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    ky.press_and_release('ctrl+t')
+    def enter(k):
+        for i in range(k):
+            if(status_run_program):# หยุดทำงาน
+                return
+            controller.press(keyboard.Key.enter);
+            controller.release(keyboard.Key.enter);
+    def tab(t):
+        for i in range(t):
+            if(status_run_program):# หยุดทำงาน
+                return
+            controller.press(keyboard.Key.tab);
+            controller.release(keyboard.Key.tab);
+    # input path
+    type_and_enter(x);
+    custom_sleep(2);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************          
+    enter(1)
+    # Mouse clicked at (1360, 264) with Button.left
+    custom_sleep(4);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    tab(1)
+    if(status_run_program):# หยุดทำงาน
+        return
+    data_image()
+    ky.press_and_release(key_progemon);
+    custom_sleep(2);
+    ky.press_and_release('F11')
+    custom_sleep(4);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    tab(t);
+    custom_sleep(4);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    enter(e)
+    custom_sleep(1);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    tab(t2);
+    custom_sleep(1);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    enter(e2)
+    # Mouse clicked at (1118, 17) with Button.left
+    custom_sleep(2);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+    ky.press_and_release('alt+F4')
+    # reface
+    custom_sleep(1);
+    # ********************************
+    if(status_run_program):# หยุดทำงาน
+        return
+    # ********************************
+
+    ky.press_and_release('ctrl+w');
+    custom_sleep(4);
+    print("Main : โปรแกรมกำลังทำงาน");
 
 def get_chrome():
     custom_sleep(2);
@@ -653,7 +736,7 @@ def run():
             num3=0; 
             status_count = False
             
-            main("https:"+data_all[i],1,round_click,desk_top,1);
+            main3("https:"+data_all[i],1,round_click,desk_top,1);
             if(status_run_program):# หยุดทำงาน
                 return
             if(statusLinkJson()==False):
@@ -665,79 +748,75 @@ def run():
                 round_click = 2;
                 print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
                 os.remove(path_remove);
-                main("https:"+data_all[i],1,round_click,desk_top,1);
+                main3("https:"+data_all[i],1,round_click,desk_top,1);
                 if(status_run_program):# หยุดทำงาน
                     return
                 status_lazada = check_data_count(path_remove)
                 if(c==2):
                     print(lineNotify('\nLazada: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(value_num3.get())+'\nLink: '+data_all[i]+"/?page=0"),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                     return
-            # try:
-                if(status_lazada==True):
-                    print("Main : ค้นหาหน้าสำเร็จ")
-                    status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
-                if(status_count==True):
-                    count = page()
-                    num3 = int(value_num3.get())-1
-                    if((num3+1)<=count):
-                        error = 0;
-                        while(num3<count):
-                            data_sum=data_all[i]+"/?page="+str(num3+1);
-                            if(error == 3):
-                                print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                                log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
-                                print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
-                                destination_path = path_file+un_process;
-                                shutil.move(path_file+path, destination_path)
-                                return;
-                            # ********************************
-                            if(status_run_program):# หยุดทำงาน
-                                return
-                            # ********************************
-                            # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
-                            Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(num3+1));
-                            # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                            print("=======================");
-                            main(data_sum,desk_top+1,1,0,0);
-                            find_shopee = statusLinkJson();
-                            if(find_shopee==True):
-                            
-                                path = change_name(k+1,file_name,num3+1);
-                                if(check_data(path_file+path)==True):
-                                    status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
-                                    if(status_api==False):
-                                        return
-
-                                    # ***************************************************การเพิ่1ม log ยังไม่สำเร็จ *************************
-                                    print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
-                                    log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1))
-                                    setTreeCommand()
-                                    # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
-                                    num3+=1;
-                                else:
-                                    error+=1;
-                                    continue
-                            else:
-                                continue;
-                            print("=======================");
+            if(status_lazada==True):
+                print("Main : ค้นหาหน้าสำเร็จ")
+                status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);
+            if(status_count==True):
+                count = page();
+                num3 = int(value_num3.get())-1
+                if((num3+1)<=count):
+                    error = 0;
+                    while(num3<count):
+                        data_sum=data_all[i]+"/?page="+str(num3+1);
+                        if(error == 3):
+                            print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                            log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
+                            print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
+                            destination_path = path_file+un_process;
+                            shutil.move(path_file+path, destination_path)
+                            return;
+                        # ********************************
+                        if(status_run_program):# หยุดทำงาน
+                            return
+                        # ********************************
+                        # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
+                        Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(num3+1));
+                        # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                        print("=======================");
+                        main(data_sum,desk_top+1,1,0,0);
+                        find_shopee = statusLinkJson();
+                        if(find_shopee==True):
                         
-                        print(lineNotify('\nLazada: Success Id \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
-                        value_num3.set(1);
-                    else:
-                        print(lineNotify('\nLazad: ไม่มีหน้านี้ในเว็บกรุณาลองเลือกไหม่อีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                        print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีกครั้ง")
-                        return;
+                            path = change_name(k+1,file_name,num3+1);
+                            if(check_data(path_file+path)==True):
+                                status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
+                                if(status_api==False):
+                                    return
+                                # ***************************************************การเพิ่1ม log ยังไม่สำเร็จ *************************
+                                print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
+                                log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1))
+                                setTreeCommand()
+                                # ***************************************************การเพิ่ม log ยังไม่สำเร็จ *************************
+                                num3+=1;
+                            else:
+                                error+=1;
+                                continue
+                        else:
+                            continue;
+                        print("=======================");
+                    
+                    print(lineNotify('\nLazada: Success Id \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
+                    value_num3.set(1);
                     num2+=1;
-                    if(num2!=len(data_all)):
-                        print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
-                        continue;
                 else:
-                    print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                    print("Main : ไม่มีหน้า")
+                    print(lineNotify('\nLazad: ไม่มีหน้านี้ในเว็บกรุณาลองเลือกไหม่อีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                    print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีกครั้ง")
                     return;
-                # else:
-                #     continue;
-                # print("For_J : True");
+                
+                if(num2!=len(data_all)):
+                    print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
+                    continue;
+            else:
+                print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                print("Main : ไม่มีหน้า")
+                return;      
         print(lineNotify('\nLazada: Success Group \nGroup:'+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
         num1+=1;
         value_num2.set(1)
