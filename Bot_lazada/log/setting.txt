@@ -1,6 +1,6 @@
 uri_Api=http://26.101.123.48:8080/
-round_loop=7
+round_loop=6
 px_scroll=-725
-round_scroll=6
+round_scroll=7
 key_progemon=ctrl+m
 token=nGnbL3BAXcIgiGmu3tMxtYWubJdqqVtx6Vz2lkwhg4E

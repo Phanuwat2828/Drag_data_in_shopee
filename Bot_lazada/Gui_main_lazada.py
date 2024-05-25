@@ -3,7 +3,7 @@
 from tkinter import *
 import tkinter as tk
 from tkinter import messagebox,scrolledtext,ttk
-import webbrowser,threading,subprocess,sys
+import webbrowser,threading,subprocess,sys,math
 from PIL import ImageGrab
 # ==================================== Main +++++++++++++++++++++++++++
 import requests,os,json,time,pandas as pd,pyautogui,shutil,pyperclip,keyboard as ky , datetime as dt
@@ -415,26 +415,31 @@ def check_data_count(path):
     try:
         if(status_run_program):# หยุดทำงาน
             return
-        header = ['ant-pagination-item 6']
+        header = ['ant-pagination-item 3']
         df = pd.read_excel(path)
         is_subset = all(item in df.columns for item in header);
         print("Status Check_Data_count : พบหน้าเว็บทั้งหมด ",is_subset);
         return is_subset;
     except Exception as e:  
         print("Status Check_Data_count : ไม่พบหน้าเว็บทั้งหมด ",e);
-
 def page():
     try:
-        if(status_run_program):# หยุดทำงาน
-            return
         path = path_file+data_lazada+data_lazada_xlsx
         df = pd.read_excel(path)
-        test ='ant-pagination-item 6'
+        head_xlsx ='ant-pagination-item '
         num = [];
-        num.append(int(df[test][2]))
+        j=0;
+        for i in range(0,7):
+            if head_xlsx+str(i) in df :
+                count = df[head_xlsx+str(i)]
+                while(True):
+                    if not (math.isnan(count[j])) or j==10:
+                        num.append(int(count[j]));
+                        break;
+                    j+=1;
         os.remove(path);
-        print("page_count : พบหน้าเว็บทั้งหมด ",num[0]);
-        return num[0];
+        print("page_count : พบหน้าเว็บทั้งหมด ",max(num));
+        return max(num);
     except Exception as e:
         print("page_count : ไม่พบหน้าเว็บทั้งหมด ",e);
 def Del():
@@ -732,29 +737,36 @@ def run():
              # +++++++++++++++++++++++++++++++++++++++++++++++ Show_Status ++++++++++++++++++++++++++++++++++++
             Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(value_num3.get()));
             # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-            round_click = 3;
+             # round_click = 3;
             num3=0; 
             status_count = False
             
-            main("https:"+data_all[i],1,round_click,desk_top,1);
-            if(status_run_program):# หยุดทำงาน
-                return
-            if(statusLinkJson()==False):
-                print("Main : ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง");
-                print(lineNotify('\nLazada: ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(value_num3.get())+'\nLink: '+data_all[i]+"/?page=0"),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
-                return 
-            status_lazada = check_data_count(path_remove);
-            for c in range(status_lazada==False):
-                round_click = 2;
-                print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
-                os.remove(path_remove);
-                main("https:"+data_all[i],1,round_click,desk_top,1);
+            # main3("https:"+data_all[i],1,round_click,desk_top,1);
+            # if(status_run_program):# หยุดทำงาน
+            #     return
+            status_lazada = False;
+            round_click = 1;
+            for c in range(0,4):
+                # print("Main : เกิดข้อพิดพลาดกำลังค้นหาหน้าอีกครั้ง...")
+                
+                main3("https:"+data_all[i],1,round_click,desk_top,1);
+             
                 if(status_run_program):# หยุดทำงาน
                     return
-                status_lazada = check_data_count(path_remove)
-                if(c==2):
+                if(statusLinkJson()==False and round_click==2):
+                    print("Main : ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง");
+                    print(lineNotify('\nLazada: ไม่พบไฟล์กรุณาเช็คเส้นทางดาวน์โหลดแล้วลองอีกครั้ง \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(value_num3.get())+'\nLink: '+data_all[i]+"/?page=0"),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
+                    return 
+                status_lazada = check_data_count(path_remove);
+                
+                if(c==4):
                     print(lineNotify('\nLazada: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(value_num3.get())+'\nLink: '+data_all[i]+"/?page=0"),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                     return
+                elif status_lazada :
+                    break;
+                round_click+=1;
+                os.remove(path_remove);
+            
             if(status_lazada==True):
                 print("Main : ค้นหาหน้าสำเร็จ")
                 status_count = check_data_count(path_file+data_lazada+data_lazada_xlsx);

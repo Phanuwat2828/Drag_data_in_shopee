@@ -2,15 +2,13 @@ import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
 
-
-
 def process():
     for i in range(0,40):
         data_item = data["mods"]["listItems"][i];
         name = data_item['name']
         image = data_item['image']
         price = float(data_item['priceShow'].replace("฿","").replace(",",""));
-        location = data_item['location']
+ 
         if "discount" in data_item:
             discount = data_item['discount'].replace("% ","").replace("Off","");
         else :
@@ -32,6 +30,11 @@ def process():
             sold = float(data_item["itemSoldCntShow"].replace(" sold","").replace(" ชิ้น","").replace("K",""));
         else :
             sold = 0.0;
+        
+        if "location" in data_item :
+            location = data_item['location']
+        else : 
+            location = ''
         print("==============",(i+1),"=================");
         print(name);
         print(image);
@@ -56,7 +59,7 @@ session.mount('http://', HTTPAdapter(max_retries=retry_strategy))
 session.mount('https://', HTTPAdapter(max_retries=retry_strategy))
 
 # Define URL
-url = 'https://www.lazada.co.th/shop-mobiles/?ajax=true&isFirstRequest=true&page='
+url = 'https://www.lazada.co.th/shop-gas-stoves/?ajax=true&isFirstRequest=true&page='
 
 try:
     # Make the request with timeout
@@ -64,8 +67,7 @@ try:
         print("===============================================================")
         print("\t\t\tround",_);
         print("===============================================================")
-        response = session.get(url+str(_), timeout=10)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response = requests.get(url+str(_))
         data = response.json();
         process();
 
