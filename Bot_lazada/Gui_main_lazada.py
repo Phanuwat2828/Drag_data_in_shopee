@@ -407,7 +407,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
                 print("Api : ส่งสำเร็จ");
-                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
+                # print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
     except Exception as e:
         print(e);
 # Check_count
@@ -415,7 +415,7 @@ def check_data_count(path):
     try:
         if(status_run_program):# หยุดทำงาน
             return
-        header = ['ant-pagination-item 3']
+        header = ['ant-pagination-item']
         df = pd.read_excel(path)
         is_subset = all(item in df.columns for item in header);
         print("Status Check_Data_count : พบหน้าเว็บทั้งหมด ",is_subset);
