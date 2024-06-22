@@ -63,7 +63,7 @@ data_link_for_lazada  = {
     8:'แฟชั่นและเครื่องประดับผู้ชาย',
     9:'กีฬาและการเดินทาง',
     10:'ยานยนต์และรถจักรยานยนต์', 
-    11:"ตั๋วและบัตรกำนัน"
+    
 }
 data_link_for_lazada_gui  = {
     'อุปกรณ์-อิเล็กทรอนิกส์':0,
@@ -77,7 +77,7 @@ data_link_for_lazada_gui  = {
     'แฟชั่นและเครื่องประดับผู้ชาย':8,
     'กีฬาและการเดินทาง':9,
     'ยานยนต์และรถจักรยานยนต์':10, 
-    "ตั๋วและบัตรกำนัน":11
+   
 }
 options = ['อุปกรณ์-อิเล็กทรอนิกส์',
     'อุปกรณ์เสริม-อิเล็กทรอนิกส์',
@@ -90,7 +90,7 @@ options = ['อุปกรณ์-อิเล็กทรอนิกส์',
     'แฟชั่นและเครื่องประดับผู้ชาย',
     'กีฬาและการเดินทาง',
     'ยานยนต์และรถจักรยานยนต์', 
-    "ตั๋วและบัตรกำนัน"
+  
 ]
 # new_data = [
 #     'สุขภาพและความงาม',
@@ -407,7 +407,7 @@ def data_process(path_file,i1,i2,i3,group,link):
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
             if(i==num_rows-1):
                 print("Api : ส่งสำเร็จ");
-                # print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
+                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
     except Exception as e:
         print(e);
 # Check_count
@@ -775,9 +775,10 @@ def run():
                 num3 = int(value_num3.get())-1
                 if((num3+1)<=count):
                     error = 0;
+                    round_click2 = 0;
                     while(num3<count):
                         data_sum=data_all[i]+"/?page="+str(num3+1);
-                        if(error == 3):
+                        if(error == 4):
                             print(lineNotify('\nLazad: Error \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                             log.addLog("%s_%d_%d False"%(data_link_for_lazada[k],file_name,num3))
                             print("%s_%d_%d Flase"%(data_link_for_lazada[k],file_name,num3));
@@ -792,15 +793,18 @@ def run():
                         Working.set(str(data_link_for_lazada[k])+"_"+str(file_name)+"_"+str(num3+1));
                         # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                         print("=======================");
-                        main(data_sum,desk_top+1,1,0,0);
+                        print(round_click2);
+                        main(data_sum,1,round_click2,desk_top,1);
+                        round_click2+=1;
                         find_shopee = statusLinkJson();
                         if(find_shopee==True):
-                        
                             path = change_name(k+1,file_name,num3+1);
                             if(check_data(path_file+path)==True):
                                 status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
                                 if(status_api==False):
                                     return
+                                error = 0;
+                                round_click2 = round_click2-1;
                                 # ***************************************************การเพิ่1ม log ยังไม่สำเร็จ *************************
                                 print("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1));
                                 log.addLog("%s_%d_%d True"%(data_link_for_lazada[k],file_name,num3+1))
@@ -809,10 +813,14 @@ def run():
                                 num3+=1;
                             else:
                                 error+=1;
+                                if(error==1 and round_click2-1>0):
+                                    round_click2=0;
+                                
                                 continue
                         else:
                             continue;
                         print("=======================");
+                        
                     
                     print(lineNotify('\nLazada: Success Id \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
                     value_num3.set(1);
@@ -822,19 +830,21 @@ def run():
                     print("Main : ไม่มีหน้านี้ในเว็บกรุณาลองอีกครั้ง")
                     return;
                 
-                if(num2!=len(data_all)):
+                if(num2!=len(data_all) and num1<len(options)):
                     print(lineNotify('\nLazada: Next Id \nGroup: '+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(num2+1)+"_"+str(value_num3.get())))
                     continue;
             else:
                 print(lineNotify('\nLazad: ไม่มีหน้า \nGroup: '+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(value_num2.get())+"_"+str(num3)+'\nLink: '+data_sum),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));
                 print("Main : ไม่มีหน้า")
                 return;      
-        print(lineNotify('\nLazada: Success Group \nGroup:'+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
+        # print(lineNotify('\nLazada: Success Group \nGroup:'+str(data_link_for_lazada[k])+'\nId: '+str(data_link_for_lazada[k])+"_"+str(num2+1)+"_"+str(num3)))
         num1+=1;
         value_num2.set(1)
-        print(lineNotify('\nLazada: Next Group \nGroup:'+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
+        if(num1<len(options)):
+            print(lineNotify('\nLazada: Next Group \nGroup:'+str(data_link_for_lazada[num1])+'\nId: '+str(data_link_for_lazada[num1])+"_"+str(value_num2.get())+"_"+str(value_num3.get())))
         # except Exception as e:
         #     print("For_i : ",e)
+    print(lineNotify('Bot lazada : ทำงานทุกลิงค์ครบแล้ว '));
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
     global status_run_program;
