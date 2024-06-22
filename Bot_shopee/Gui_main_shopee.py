@@ -381,8 +381,9 @@ def data_process(path_file,i1,i2,i3,group,link):
         error_api=False
         if(i==num_rows-1):
             # print(success_data_text);
-            status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
-            print(status_api);
+            # status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
+            # print(status_api);
+            status_api="200";
         if(status_api=="200"):
             error_api=True;
         else:
