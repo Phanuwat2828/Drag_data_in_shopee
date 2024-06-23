@@ -1,0 +1,808 @@
+{
+  "group": 1,
+  "id": "shop1_1_1",
+  "title_Grop": "อุปกรณ์-อิเล็กทรอนิกส์",
+  "website": "lazada",
+  "data": [
+    {
+      "Product_1": {
+        "product": "https://www.lazada.co.th/products/samsung-gt-e1200-2g-i4317870740.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/23337d90398332fd6f547725314ce5eb.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/8e923149eea751a3c9707c1057875514.jpg_80x80q80.jpg_.webp",
+        "data_product": "(Free shipping) Samsung GT E1200 push button mobile phone model Samsung hero easy to use, convenient to carry 2G",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "9,999+ sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(2606)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿224.00"
+      }
+    },
+    {
+      "Product_2": {
+        "product": "https://www.lazada.co.th/products/vivo-y30-5g-smartphone-2-12gb-512gb-andorid-mobile-phone-i5033924912.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/ab05b21b44259a8b2f40c9fa589833ea.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/ab05b21b44259a8b2f40c9fa589833ea.png_80x80q80.png_.webp",
+        "data_product": "โทรศัพท์มือถือ VIVO Y30 5G ของแท้ Smartphone รองรับ2ซิม โทรศัพท์ ของแท้ แรม12GB รอม512GB โทรศัพท์ถูกๆ Andorid มือถือ Mobile phone โทรศัพท์ถูกๆ โทรศัพท์สมา ส่งฟรี โทรศัพท์ราคถูก มือถือราคาถูก รับเล่นเกม โทรสับราคาถูก โทรศัพท์สำห มือถือราคาถูกๆ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "447 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(75)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿999.00"
+      }
+    },
+    {
+      "Product_3": {
+        "product": "https://www.lazada.co.th/products/vivo-y22s-ram6128gb1-655-90hz-snapdragon-680-i4776195203.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/a46f0e01dcf8a06e61fc395ccfe9fa76.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "Vivo Y22s Ram6/128gb Brand new & Genuine",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(1)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,232.00"
+      }
+    },
+    {
+      "Product_4": {
+        "product": "https://www.lazada.co.th/products/samsung-hero-3g-e3309-3g-i4181340810.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/bee778b3cd5f0e34584ed4ff1e6e6140.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "Samsung Hero 3G E3309 Samsung hero phone, color screen, can take pictures with push button, support 3G, Thai menu",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "915 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(246)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿618.00"
+      }
+    },
+    {
+      "Product_5": {
+        "product": "https://www.lazada.co.th/products/0-oppo-a57-ram4gb4gb64128gb-656-5000-mah-33w-i3896031153.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/2b83849f91c65bf99eb4647aae883c39.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/2b83849f91c65bf99eb4647aae883c39.jpg_80x80q80.jpg_.webp",
+        "data_product": "[ผ่อน 0%] OPPO A57 เพิ่มหน่วยความจำได้ (RAM4GB+4GB/64,128GB) จอกว้าง 6.56\" แบตฯ 5000 mAh มาพร้อมชาร์จไว 33W",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "655 sold",
+        "place": "Chachoengsao",
+        "Recommended_shops": [],
+        "count_review": "(142)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,291.00"
+      }
+    },
+    {
+      "Product_6": {
+        "product": "https://www.lazada.co.th/products/vivo-v25-5g-ram8128gb-i4168951798.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/41f9567904b6522d72cd9252bb01fa2d.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/354a741d7ebba3ffeee869a2e0c78e2f.png_80x80q80.png_.webp",
+        "data_product": "Vivo V25 5G  Ram8/128gb(เครื่องศูนย์ไทยเคลียสตอค ประกันร้าน)ถ่ายพอร์ตเทรตสวยทุกสภาพแสง ส่งฟรี!",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "15 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(3)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿8,489.00"
+      }
+    },
+    {
+      "Product_7": {
+        "product": "https://www.lazada.co.th/products/new-poco-x6-pro-5g-mediatek-dimensity-8300-ultra-120hz-67w-5000-mah-15-i5010933008.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/507898edd9ddc2f0467a2a55ed7e09a0.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/752b8459050fda626e87476011cebdd1.jpg_80x80q80.jpg_.webp",
+        "data_product": "[New] POCO X6 Pro 5G | โทรศัพท์มือถือ ชิปเซ็ท MediaTek Dimensity 8300-Ultra จอตอบสนองไว 120Hz ชาร์จเร็ว 67W 5000 mAh รับประกัน 15 เดือน",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "2k+ sold",
+        "place": "Samut Prakan",
+        "Recommended_shops": [],
+        "count_review": "(776)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿12,289.00"
+      }
+    },
+    {
+      "Product_8": {
+        "product": "https://www.lazada.co.th/products/230-i1385662334.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/f8baea32205e8adb7543b34fc6c5c13e.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/7ac75efa53e92067ba2b4cf34868a508.jpg_80x80q80.jpg_.webp",
+        "data_product": "230 โทรศัพท์มือถือ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "135 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(51)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿389.00"
+      }
+    },
+    {
+      "Product_9": {
+        "product": "https://www.lazada.co.th/products/y7pro2018-62-3-32-i2871897504.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/417c49e3dd53a56352f3b571ac222978.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "มือถือ   Y7pro(2018)มือ✌️หน้าจอ 6.2  🌺แรม3 รอม 32กิ๊ก 🌺ฟรีชุดชาร์จ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "120 sold",
+        "place": "Maha Sarakham",
+        "Recommended_shops": [],
+        "count_review": "(28)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿1,090.00"
+      }
+    },
+    {
+      "Product_10": {
+        "product": "https://www.lazada.co.th/products/c55-4g5g-2-63-ram16g-rom512g-hd-facebook-line-youtube-i5051399828.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/358cd3b9cd773c2c38a0ed71db33e7d6.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/358cd3b9cd773c2c38a0ed71db33e7d6.jpg_80x80q80.jpg_.webp",
+        "data_product": "โทรศัพท์ C55 โทรศัพท์ถูกๆ โปรโมชั่นใหม่ สมาร์ทโฟน 4G/5G รองรับ 2 ซิม โทรศัพท์มือถือ 6.3 นิ้ว (Ram16G + Rom512G) สมาร์ทโฟน HD พิกเซลสูงมาก กล้องหน้า เหมาะสำหรับ Facebook Line Youtube ใช้งานได้เร็ว โทรศัพท์ราคาถูกๆ พร้อมส่งในไทย",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "15 sold",
+        "place": "Nakhon Pathom",
+        "Recommended_shops": [],
+        "count_review": "(3)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿959.00"
+      }
+    },
+    {
+      "Product_11": {
+        "product": "https://www.lazada.co.th/products/0-vivo-v25-5g-cpd-mediatek-dimensity-900-644-50mp-af-64mp-ois-8mp-super-wide-i4002232082.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/8505355783fd10d08e71d6d8dd75f76b.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "[ผ่อน 0%] vivo V25 5G โทรศัพท์มือถือ วีโว่ | CPD : MediaTek Dimensity 900 | จอ 6.44 นิ้ว | กล้องหน้า 50MP AF กล้องหลัง 64MP OIS + 8MP Super wide-angle + 2MP Macro",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "323 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(122)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿11,999.00"
+      }
+    },
+    {
+      "Product_12": {
+        "product": "https://www.lazada.co.th/products/vivo-y02s-5g-smartphone-2-12gb-512gb-andorid-mobile-phone-i5018001372.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/13bc7dd4b21fe687bdfb10029b96153c.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/cece8c93180b327b425e612c124eecdb.jpg_80x80q80.jpg_.webp",
+        "data_product": "โทรศัพท์มือถือ VIVO Y02S 5G ของแท้ Smartphone รองรับ2ซิม โทรศัพท์ ของแท้ แรม12GB รอม512GB โทรศัพท์ถูกๆ Andorid มือถือ Mobile phone โทรศัพท์ถูกๆ โทรศัพท์สมา ส่งฟรี โทรศัพท์ราคถูก มือถือราคาถูก รับเล่นเกม โทรสับราคาถูก โทรศัพท์สำห มือถือราคาถูกๆ โทรศัพท์",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "411 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(72)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿1,181.01"
+      }
+    },
+    {
+      "Product_13": {
+        "product": "https://www.lazada.co.th/products/3-i4016068532.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/Sb5ee84549f9f413893c04cabe4b77326Y.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "วีโก้ ซันนี่ 3 พลัสพร้อมใช้งาน แถมฟรีสายชาร์จ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "21 sold",
+        "place": "Maha Sarakham",
+        "Recommended_shops": [],
+        "count_review": "(6)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿450.00"
+      }
+    },
+    {
+      "Product_14": {
+        "product": "https://www.lazada.co.th/products/f-b-for-iphone-15-pro-max-14-pro-max-13-pro-max12-pro-max11-proxs-maxxrx8-7-plus-6s6-i4201785951.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/S5892bd66bdde49e3921482b97c4ca0beb.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/ff/kf/S5892bd66bdde49e3921482b97c4ca0beb.jpg_80x80q80.jpg_.webp",
+        "data_product": "❤️F + B full clear glass film❤️For iPhone  15 Pro Max 14 Pro Max 13 pro max/ 12 pro max/ 11 pro/xs max/xr/x| 8/ 7 Plus 6S/6",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "487 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(108)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿55.00"
+      }
+    },
+    {
+      "Product_15": {
+        "product": "https://www.lazada.co.th/products/vivo-y31-5g-smartphone-2-12gb-512gb-andorid-mobile-phone-i5018017810.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/76008273e8c43e79961a605fb9f20ed8.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/76008273e8c43e79961a605fb9f20ed8.jpg_80x80q80.jpg_.webp",
+        "data_product": "โทรศัพท์มือถือ VIVO Y31 5G ของแท้ Smartphone รองรับ2ซิม โทรศัพท์ ของแท้ แรม12GB รอม512GB โทรศัพท์ถูกๆ Andorid มือถือ Mobile phone โทรศัพท์ถูกๆ โทรศัพท์สมา ส่งฟรี โทรศัพท์ราคถูก มือถือราคาถูก รับเล่นเกม โทรสับราคาถูก โทรศัพท์สำห มือถือราคาถูกๆ โทรศัพท์",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "414 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(65)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿984.01"
+      }
+    },
+    {
+      "Product_16": {
+        "product": "https://www.lazada.co.th/products/new-poco-m6-pro-8gb256gb12gb512gb-mediatek-helio-g99-ultra-120hz-64mp-15-i5009793213.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/ae8878a1b1ab7dbc3b693631f796e015.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/51f0cb8da4f0e5195075fbea5a488c77.jpg_80x80q80.jpg_.webp",
+        "data_product": "[New] POCO M6 Pro 8GB+256GB/12GB+512GB |ชิปเซ็ท MediaTek Helio G99-Ultra จอตอบสนองไว 120Hz กล้อง 64MP รับประกัน 15 เดือน",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "197 sold",
+        "place": "Samut Prakan",
+        "Recommended_shops": [],
+        "count_review": "(48)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿6,998.00"
+      }
+    },
+    {
+      "Product_17": {
+        "product": "https://www.lazada.co.th/products/realme-c51464gb-ai-50mp-supervooc-33w-674-90hz-5000mah-i4888389781.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/9c9b84f973c70b5352206312a25a99a2.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/f7359701f4fdcb3f09c038fc5919bd48.jpg_80x80q80.jpg_.webp",
+        "data_product": "realme C51(4+64GB) กล้อง AI 50MP | ชาร์จไว SUPERVOOC 33W | จอขนาดใหญ่ 6.74นิ้ว 90Hz | แบตเตอรี่ 5000mAh",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "1k+ sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(166)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,450.00"
+      }
+    },
+    {
+      "Product_18": {
+        "product": "https://www.lazada.co.th/products/nokia-105-2015-2000-15-snake-xenzia-bubblebash2-fm-2g-i3872740423.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/247c796917337fcabc6f46910f974126.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/27d763c6496a986b62dd57e3393a7420.jpg_80x80q80.jpg_.webp",
+        "data_product": "Snake xenzia bubblebash2 FM flashlight 2G Nokia 105 ( 2015 ) 2,000",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "4k+ sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(1057)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿215.00"
+      }
+    },
+    {
+      "Product_19": {
+        "product": "https://www.lazada.co.th/products/poco-c65-ram-6gb-rom-128gb-cpu-mediatek-helio-g85-5000mah-18w-1-i4974926530.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/cdf3e54f16074ccaf2c145579401c7db.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/26335ca4b7d0a73622905dd7b50aefc2.png_80x80q80.png_.webp",
+        "data_product": "POCO C65 RAM 6GB ROM 128GB CPU : MediaTek Helio G85 แบตเตอรี่ :  5,000mAh รองรับชาร์จไว 18W ประกันศูนย์ 1 ปี",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,790.00"
+      }
+    },
+    {
+      "Product_20": {
+        "product": "https://www.lazada.co.th/products/samsung-galaxy-a05s-6128gb-67-5000-mah-50mp-2mp-macro-2mp-depth-triple-camera-i4913279556.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/cef3a7b4320775adb74e9c2e965a7137.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/3bec0f508f7d2eeef8cc40279d5213d5.png_80x80q80.png_.webp",
+        "data_product": "Samsung Galaxy A05s - ซัมซุง 6+128GB จอ6.7 นิ้ว แบต5,000 mAh กล้อง50MP + 2MP (Macro) + 2MP (Depth) Triple Camera",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "22 sold",
+        "place": "Nakhon Si Thammarat",
+        "Recommended_shops": [],
+        "count_review": "(2)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿5,125.00"
+      }
+    },
+    {
+      "Product_21": {
+        "product": "https://www.lazada.co.th/products/poco-c65-6gb128gb-mediatek-helio-g85-ai-3-50mp-15-i4920637430.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/4a6db73b592022ee5faa72baa3946eb4.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/4a6db73b592022ee5faa72baa3946eb4.jpg_80x80q80.jpg_.webp",
+        "data_product": "POCO C65 6GB+128GB ชิปเซ็ตทรงพลัง MediaTek Helio G85 กล้อง AI 3 ตัว 50MP | รับประกัน 15 เดือน",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "3k+ sold",
+        "place": "Samut Prakan",
+        "Recommended_shops": [],
+        "count_review": "(784)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,499.00"
+      }
+    },
+    {
+      "Product_22": {
+        "product": "https://www.lazada.co.th/products/vivoy17s-4g-464gb-6128gb-2-50mp-5000mah-1-i4970864604.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/ca0b21966aab0afae4c0ae5cac7fa6c1.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/0a3f32baf5ae6db5cb942a4e65fcfbfb.jpg_80x80q80.jpg_.webp",
+        "data_product": "VivoY17s 4G (4+64GB และ 6+128GB) กล้องหลัง2ตัว 50MP แบต5000mAh ไม่มีหัวชาร์จในกล่อง (รับประกันศูนย์ 1 ปี)",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "29 sold",
+        "place": "Nakhon Si Thammarat",
+        "Recommended_shops": [],
+        "count_review": "(12)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,590.00"
+      }
+    },
+    {
+      "Product_23": {
+        "product": "https://www.lazada.co.th/products/skg-a2-6-ram-3gb-rom32gb-2-2in116-1-i352472671.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/f9c04906b063c0ac355a59e308d79a4b.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/4dee2148fa542d63bea495264b343f60.jpg_80x80q80.jpg_.webp",
+        "data_product": "SKG มือถือ A2 จอใหญ่ 6นิ้ว RAM 3GB ROM32GB 2ซิม ปลดล็อคด้วยใบหน้า แถมฟรี เคส+ฟิล์ม+จอยเกมจับ2in1+เมมโมรี่การ์ด16กิ๊ก [ รับประกันศูนย์ไทย 1 ปีเต็ม!! ]",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,990.00"
+      }
+    },
+    {
+      "Product_24": {
+        "product": "https://www.lazada.co.th/products/wiko-suuny-2-plus-i4865707115.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/Sa55dd5c51a374b33b7e8ec42404c8c69l.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/ff/kf/Sb35ba87cdb424e2a94828f72afa0c690E.jpg_80x80q80.jpg_.webp",
+        "data_product": "Wiko Suuny 2 plus แถมฟรีสสายชาร์จ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Maha Sarakham",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿450.00"
+      }
+    },
+    {
+      "Product_25": {
+        "product": "https://www.lazada.co.th/products/vivo-v25-5g-ram8128gb-i4169035239.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/41f9567904b6522d72cd9252bb01fa2d.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/354a741d7ebba3ffeee869a2e0c78e2f.png_80x80q80.png_.webp",
+        "data_product": "Vivo V25 5G Ram8/128gb (เครื่องศูนย์ไทยเคลียสตอค ประกันร้าน)ถ่ายพอร์ตเทรตสวยทุกสภาพแสง ส่งฟรี!",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "38 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(14)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿8,880.00"
+      }
+    },
+    {
+      "Product_26": {
+        "product": "https://www.lazada.co.th/products/oppo-reno6-5g-2-smartphone-4g5g-12gb-512gb-mobile-phone-i5001835039.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/4365021623a49913dcfdc31932db38f7.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/4365021623a49913dcfdc31932db38f7.png_80x80q80.png_.webp",
+        "data_product": "โทรศัพท์ ของแท้ OPPO Reno6 5G โทรศัพท์มือถือ รองรับ2ซิม Smartphone 4G/5G โทรศัพท์สมา แรม12GB รอม512GB โทรศัพท์ถูกๆ มือถือ Mobile phone โทรศัพท์ถูกๆ มือถือราคาถูกๆ โทรศัพท์สำห รับเล่นเกม โทรสับราคาถูก มือถือ โทรศัพท์สำห ส่งฟรี โทรศัพท์ราคถูก",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "456 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(88)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿984.01"
+      }
+    },
+    {
+      "Product_27": {
+        "product": "https://www.lazada.co.th/products/oppo-a17-65-8256gb-5000-mah-1-i4936630564.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/370af29e485784f711501aaea04a6281.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/0b70b88ce3df23434c7a49611548a9be.jpg_80x80q80.jpg_.webp",
+        "data_product": "( ส่งฟรี ) OPPO A17 สมาร์ทโฟน หน้าจอ 6.5 นิ้ว | 8+256GB | สินค้าเครื่องใหม่ | 5000 mAh | มีภาษาไทย | ร้านรับประกัน 1ปี",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "117 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(46)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,348.00"
+      }
+    },
+    {
+      "Product_28": {
+        "product": "https://www.lazada.co.th/products/vivo-v5-4-32-i3483607027.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/S673535620e2e45dd939c7ddb49f57c8eS.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "Vivo v5 📱 มือ✌️หน้าจอ ใหญ่ 🌺แรม 4 รอม 32 🌺ฟรีชุดชาร์จ",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "52 sold",
+        "place": "Maha Sarakham",
+        "Recommended_shops": [],
+        "count_review": "(15)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿1,090.00"
+      }
+    },
+    {
+      "Product_29": {
+        "product": "https://www.lazada.co.th/products/oppo-a58-4g-8128gb-672-50-2mp-depth-dual-camera-5000-mah-fast-charging-33w-i4819930544.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/c2b6d1e568caf5c69358801103f8f1be.png_200x200q80.png_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/ff/kf/S4643cc6ed9864b9392feb2b522925fcer.jpg_80x80q80.jpg_.webp",
+        "data_product": "OPPO A58 4G - ออปโป้ 8+128GB 6.72 นิ้ว กล้อง 50 + 2MP (Depth) ล้านพิกเซล Dual Camera แบต5,000 mAh Fast Charging 33W",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "28 sold",
+        "place": "Nakhon Si Thammarat",
+        "Recommended_shops": [],
+        "count_review": "(1)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿5,850.00"
+      }
+    },
+    {
+      "Product_30": {
+        "product": "https://www.lazada.co.th/products/4g-m-horse-hug-4g-1-i4865311566.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/9650ce4718bed3e2a6f4349693756a6e.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/72bd6223eca1c923376204eb2bfa63a7.jpg_80x80q80.jpg_.webp",
+        "data_product": "โทรศัพท์ มือถือปุ่มกด4Gรุ่นใหม่ m-horse HUG (4Gแท้) ราคาถูก แบตอึด เสียงดัง จอสี ปุ่มกดใหญ่ เมนูภาษาไทย ประกันศูนย์ไทย 1ปี",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "202 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(112)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿830.00"
+      }
+    },
+    {
+      "Product_31": {
+        "product": "https://www.lazada.co.th/products/realme-c51-ram-464gb-674-5000-mah-33w-1-i4871055405.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/e8c1e5ac8a7ccf515d8303bb163234ae.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/b6bb287a5c311afb4e2e2f0cc694f8b9.jpg_80x80q80.jpg_.webp",
+        "data_product": "Realme C51 (Ram 4+64GB) หน้าจอ 6.74 แบตเตอรี่ 5,000 mAh ชาร์จไว 33W ประกันศูนย์ไทย 1 ปี",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿3,399.00"
+      }
+    },
+    {
+      "Product_32": {
+        "product": "https://www.lazada.co.th/products/vivo-y17s-6128gb-1-by-jaymart-no-adapter-i4884462121.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/92ca4a97c88ecc437be1adb755e05881.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/fb2fc4a740e6d5ba4e52c4d5143a1327.jpg_80x80q80.jpg_.webp",
+        "data_product": "Vivo Y17s (6/128GB) (รับประกันศูนย์ 1 ปี) By Jaymart (No Adapter ไม่มีอะแดปเตอร์)",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "40 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(15)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,999.00"
+      }
+    },
+    {
+      "Product_33": {
+        "product": "https://www.lazada.co.th/products/benco-pro-6128gb-8256gb-4g-lte-68-fullhd-64mp-5000-mah-33w-1-i4860849215.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/S80ad1494e87f4155abfc1d9f3337f668Z.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/ff/kf/Sab03fafd79734a118f21343c3dc188ecT.jpg_80x80q80.jpg_.webp",
+        "data_product": "Benco S1 Pro (6+128GB) (8+256GB) 4G LTE หน้าจอ 6.8\" FullHD กล้อง 64MP แบตเตอรี่ 5,000 mAh ชาร์จเร็ว 33W ประกันศูนย์ไทย 1ปี แถมฟรี!หูฟังบูลทูธ+เคส",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "nan",
+        "place": "Nakhon Nayok",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,220.00"
+      }
+    },
+    {
+      "Product_34": {
+        "product": "https://www.lazada.co.th/products/2020-oppo-a31-6128gb-8256gb-triple-camera-65-1-i4322966929.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/38122847b607bdcb2917995702c848ff.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/5b9e3a4607d1223f1733e9680e8c3f63.jpg_80x80q80.jpg_.webp",
+        "data_product": "(Free shipping) 2020 Oppo A31 ( 6 + 128GB 8 + 256GB ) + Triple Camera + 6.5 widescreen (1 year warranty)",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "330 sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(139)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿1,899.00"
+      }
+    },
+    {
+      "Product_35": {
+        "product": "https://www.lazada.co.th/products/samsung-galaxy-8128gb256gb-i4477523708.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/513cdc00e756f103eb284bbf3f8167bc.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/bfd027c39155b2b7a6a697587377fa3e.jpg_80x80q80.jpg_.webp",
+        "data_product": "Samsung Galaxy S23 (8/128GB,256GB)",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "160 sold",
+        "place": "Chachoengsao",
+        "Recommended_shops": [],
+        "count_review": "(42)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿20,190.00"
+      }
+    },
+    {
+      "Product_36": {
+        "product": "https://www.lazada.co.th/products/new-poco-x6-5g-12256-12512-64-mp-67w-5100-mah-15-i5010787687.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/5d08fadffd505439a6bfb0de9c1ad2da.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/cfb148025fb1d4d07ea168ac6d2b8996.jpg_80x80q80.jpg_.webp",
+        "data_product": "[New] POCO X6 5G (12+256) / (12+512) | โทรศัพท์มือถือ ดีไซน์บางเบา กล้อง 64 MP ชาร์จเร็ว 67W 5100 mAh รับประกัน 15 เดือน",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "257 sold",
+        "place": "Samut Prakan",
+        "Recommended_shops": [],
+        "count_review": "(94)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿9,999.00"
+      }
+    },
+    {
+      "Product_37": {
+        "product": "https://www.lazada.co.th/products/true-super-hero-4g-i2844404927.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/ed6d888af82c590ba01740b42056aa9a.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "True super hero 4g เเดง  ใช้ได้เฉพาะทรู",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "91 sold",
+        "place": "Maha Sarakham",
+        "Recommended_shops": [],
+        "count_review": "(17)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿199.00"
+      }
+    },
+    {
+      "Product_38": {
+        "product": "https://www.lazada.co.th/products/reama-c35-i4984287032.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/6dfe18018f4a5a279083ad9e05d333a7.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "nan",
+        "data_product": "reama c35",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "10 sold",
+        "place": "Pathum Thani",
+        "Recommended_shops": [],
+        "count_review": "nan",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿397.56"
+      }
+    },
+    {
+      "Product_39": {
+        "product": "https://www.lazada.co.th/products/benco-pro-6128gb-8256gb-4g-lte-68-fullhd-64mp-5000-mah-33w-1-i4860471097.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/ff/kf/Sf8ccdc09d263497b9a26828e7d3a8b42q.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/ff/kf/Sd4534c10e319415eacc8d058e9ae7689K.jpg_80x80q80.jpg_.webp",
+        "data_product": "Benco S1 Pro (6+128GB) (8+256GB) 4G LTE หน้าจอ 6.8\" FullHD กล้อง 64MP แบตเตอรี่ 5,000 mAh ชาร์จเร็ว 33W ประกันศูนย์ 1ปี แถมฟรี!หูฟังบูลทูธ+เคส",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "62 sold",
+        "place": "Nakhon Nayok",
+        "Recommended_shops": [],
+        "count_review": "(36)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,190.00"
+      }
+    },
+    {
+      "Product_40": {
+        "product": "https://www.lazada.co.th/products/realme-c53-6128gb-674-5000-mah-1-i4727592602.html",
+        "price_product_2": [],
+        "price_product_1": [],
+        "image_product_1": "https://lzd-img-global.slatic.net/g/p/fbdd7f0c1f3265b8d280f4cca3feb732.jpg_200x200q80.jpg_.webp",
+        "discount": [],
+        "image_product_2": "https://lzd-img-global.slatic.net/g/p/611d2c33f40e7c550658b116ed12b557.jpg_80x80q80.jpg_.webp",
+        "data_product": "REALME C53 (6/128GB) จอ 6.74 นิ้ว แบตเตอรี่ 5000 mAh มือถือ เรียลมี สินค้ารับประกันศูนย์ 1 ปี",
+        "price_before": [],
+        "Emoji": [],
+        "sold": "5k+ sold",
+        "place": "Bangkok",
+        "Recommended_shops": [],
+        "count_review": "(1055)",
+        "maket": "lazada",
+        "group": "อุปกรณ์-อิเล็กทรอนิกส์",
+        "price_product": "฿4,360.00"
+      }
+    }
+  ]
+}
