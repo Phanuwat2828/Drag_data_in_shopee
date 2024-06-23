@@ -70,21 +70,22 @@ data_link = r'\Data_link\data_link_all.json';
 #     'JVW3E2':"place", 
 #     'hxLzax':"Recommended_shops"
 # }
-header_2 = ['col-xs-2-4 href','+nCgfX src', 'woNqvZ',
-       'customized-overlay-image src',  'j5GxYe', 'bPcAVl', 't7piUP',
-       'bx++ig 2', '_1Mfhcw', 'dlVgYJ','UxAJ0R','zuP556']
+# head_excel
+header_2 = ['col-xs-2-4 href','image1', 'woNqvZ',
+       'image2',  'discount', 'product', 'price2',
+       'sold', 'place', 'price1','bx++ig 2','zuP556']
 header_Values = {
     'col-xs-2-4 href':"product",
-    '+nCgfX src':"image_product_1",
-    'woNqvZ':"discount",
-    'customized-overlay-image src':"image_product_2",
-    'j5GxYe':"data_product", 
-    'bPcAVl':"price_before",
-    't7piUP':"price_product_1",
+    'image1':"image_product_1",
+    'discount':"discount",
+    'image2':"image_product_2",
+    'product':"data_product", 
+    'before':"price_before",
+    'price1':"price_product_1",
     'bx++ig 2':"Emoji",
-    '_1Mfhcw':"price_product_2",
-    'dlVgYJ':"sold",
-    'UxAJ0R':"place", 
+    'price2':"price_product_2",
+    'sold':"sold",
+    'place':"place", 
     'zuP556':"Recommended_shops"
 }
 # Link_all
@@ -380,7 +381,7 @@ def data_process(path_file,i1,i2,i3,group,link):
         status_api ="";
         error_api=False
         if(i==num_rows-1):
-            # print(success_data_text);
+            print(success_data_text);
             # status_api = str(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Shopee',group));
             # print(status_api);
             status_api="200";
