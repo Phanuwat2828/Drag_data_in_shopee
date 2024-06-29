@@ -408,9 +408,21 @@ def data_process(path_file,i1,i2,i3,group,link):
             success_data_text += f'time:::{Product[data]["time"]},'
             success_data_text += f'link:::{Product[data]["link"]}'
             # ถ้าข้อมูลครบ 60 ค่อยบันทึก .json และส่ง API
+            status_api = "";
+            error_api = False;
             if(i==num_rows-1):
-                print("Api : ส่งสำเร็จ");
-                print(postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group));
+                for i in range(0,not error_api,3):
+                    status_api = postAPI_DB(success_data_text,id_shop,link,Date,Time,'Lazada',group);
+                    print(status_api);
+                if(status_api=="200"):
+                    error_api = True;
+                else:
+                    error_api = False;
+                # print(status_api);
+            
+            if(error_api==False):
+                 print(lineNotify('\nLazada: Api_Error \nGroup: '+str(group)+'\nId: '+str(group)+"_"+str(i2+1)+"_"+str(i3)+'\nLink: '+link),notifyFile(path_project).text,lineNotify("\nLazada: Stop"));  
+            return error_api;
     except Exception as e:
         print(e);
 # Check_count
@@ -825,7 +837,6 @@ def run():
                             return;
                         # ********************************
                         if(status_run_program):# หยุดทำงาน
-                            
                             print(lineNotify("\nLazada: Stop"));
                             return
                         # ********************************
@@ -842,6 +853,7 @@ def run():
                             if(check_data(path_file+path)==True):
                                 status_api = data_process(path_file+path,k+1,file_name,num3+1,data_link_for_lazada[k],data_sum);
                                 if(status_api==False):
+                                    print(lineNotify("\nLazada_Api : ไม่สามารถส่งข้อมูลได้กรุณาลองอีกครั้ง"))
                                     return
                                 error = 0;
                                 round_click2 = round_click2-1;
