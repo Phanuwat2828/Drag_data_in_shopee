@@ -1,0 +1,6 @@
+uri_Api=https://73ea-2405-9800-ba20-8ef2-ca-adaa-f643-d556.ngrok-free.app/
+round_loop=6
+px_scroll=-725
+round_scroll=7
+key_progemon=ctrl+m
+token=nGnbL3BAXcIgiGmu3tMxtYWubJdqqVtx6Vz2lkwhg4E
