@@ -11,7 +11,7 @@ from pynput import keyboard
 import shutil
 import keyboard as ky
 import pyperclip
-from data_address import address as ad
+# from data_address import address as ad
 
 uri_API = ""
 
@@ -126,7 +126,7 @@ data_lazada_xlsx = r'\lazada.xlsx';
 un_process = r'\Unprocess';
 data_link = r'\Data_link\data_link_all.json';
 # ชื่อ xlsx
-xlsx_test = r'\data_0_1_1.xlsx';
+xlsx_test = r'\data_1_1_1.xlsx';
 data_link_for_lazada  = {
     0: 'อุปกรณ์-อิเล็กทรอนิกส์',
     1: 'อุปกรณ์เสริม-อิเล็กทรอนิกส์', 

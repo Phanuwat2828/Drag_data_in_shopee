@@ -76,5 +76,6 @@ address={
 'Uttaradit':'อุตรดิตถ์',
 'Ubon Ratchathani':'อุบลราชธานี',
 'Phra Nakhon Si Ayutthaya':'พระนครศรีอยุธยา',
-'Overseas':'ต่างประเทศ'
+'Overseas':'ต่างประเทศ',
+'China':'จีน'
 }
