@@ -1,4 +1,4 @@
-uri_Api=https://73ea-2405-9800-ba20-8ef2-ca-adaa-f643-d556.ngrok-free.app/
+uri_Api=http://26.158.60.250:8080/
 round_loop=6
 px_scroll=-725
 round_scroll=7
