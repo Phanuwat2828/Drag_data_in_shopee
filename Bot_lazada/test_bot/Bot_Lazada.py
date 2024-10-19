@@ -132,7 +132,7 @@ header_Values = {
     'Price':"price_product",
     'Sold':"sold",
     'Amount':"count_review", 
-    'oa6ri':"place"
+    'Place':"place"
 }
 Data = [];
 #  ==================================== ... +++++++++++++++++++++++++++
@@ -142,7 +142,6 @@ setting_insert = open('./log/setting.txt',mode='r',encoding='utf-8');
 font1 = ("Angsana New",25)
 app = Tk()
 app.title("Lazada")
-app.config(bg="#332941") 
 app.geometry("500x900-0+0")
 # ****************** varible in GUI tk ***********************************************************
 selected_value = StringVar()
@@ -900,144 +899,133 @@ def run():
         #     print("For_i : ",e)
     # print(lineNotify('Bot lazada : ทำงานทุกลิงค์ครบแล้ว '));
 # +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
+# +++++++++++++++++++++++++++++++++++++++++++++++ Command GUI button ++++++++++++++++++++++++++++++++++++
 def run_system():
-    global status_run_program;
+    global status_run_program
     status_run_program = False
     showStatusBot.set("สถาณะการทำงาน : กำลังทำงาน")
     setTreeCommand()
     t = threading.Thread(target=run)
-    t.start();
+    t.start()
+
 def stop_program():
-    global status_run_program;
-    status_run_program= True
+    global status_run_program
+    status_run_program = True
     showStatusBot.set("สถาณะการทำงาน : หยุดทำงาน")
-    messagebox.showinfo("โปรแกรม'หยุดทำงาน'",f"โปรแกรม'หยุดทำงาน'");
+    messagebox.showinfo("โปรแกรม'หยุดทำงาน'", f"โปรแกรม'หยุดทำงาน'")
+
 # ****************** button start and stop ***********************************************************
 
-buttom_start = Button(app,text="start bot",bg="#9ADE7B",fg="white",command=run_system)
-buttom_start.place(x=25,y=10,width=150,height=30)
-buttom_stop = Button(app,text="stop bot",bg="#7360DF",fg="white",command=stop_program)
-buttom_stop.place(x=25,y=50,width=150,height=30)
-buttom_stop = Button(app,text="ลบประวัติทั้งหมด",bg="#FF6868",fg="white",command=log.clearLog)
-buttom_stop.place(x=190,y=555,width=270,height=30)
-# entry = Entry(app, width=40)
-# entry.pack(pady=10)  
+buttom_start = Button(app, text="start bot", bg="#9ADE7B", fg="white", command=run_system)
+buttom_stop = Button(app, text="stop bot", bg="#7360DF", fg="white", command=stop_program)
+buttom_clear = Button(app, text="ลบประวัติทั้งหมด", bg="#FF6868", fg="white", command=log.clearLog)
 
 # ****************** variable ***********************************************************
 
-value_link = get_link();
+value_link = get_link()
 selected_value_num_2 = StringVar()
 selected_value_num_3 = StringVar()
 value_num2 = StringVar()
 value_num2.set(1)
-check_count_gui = StringVar();
-check_count_gui.set(0);
-value_num3=StringVar();
-value_num3.set(1);
-Working = StringVar();
+check_count_gui = StringVar()
+check_count_gui.set(0)
+value_num3 = StringVar()
+value_num3.set(1)
+Working = StringVar()
 selected_value.set('สุขภาพและความงาม')
-# Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()));
 
 # ****************** แสดง log ***********************************************************
+
 def setTreeCommand():
     table.delete(*table.get_children())
     data = log.getLog()
-    for i in range(len(data)-1,-1,-1):                         
-        table.insert('','end',values=(i,data[i]));
+    for i in range(len(data) - 1, -1, -1):
+        table.insert('', 'end', values=(i, data[i]))
 
-header_gui = ['loop','group system']
-hdsize = [50,400]
-table = ttk.Treeview(app,columns=header_gui,show='headings')
-table.place(x=20,y=120,height=400)
+header_gui = ['loop', 'group system']
+hdsize = [50, 400]
+table = ttk.Treeview(app, columns=header_gui, show='headings')
 
 # header
-for h,s in zip(header_gui,hdsize):
-    table.heading(h,text=h)
-    table.column(h,width=s)
+for h, s in zip(header_gui, hdsize):
+    table.heading(h, text=h)
+    table.column(h, width=s)
 setTreeCommand()
-# ************************* Function*************************
+
+# ************************* Function *************************
 
 def Set_value_Working():
-    Working.set(str(selected_value.get())+"_"+str(value_num2.get())+"_"+str(value_num3.get()))
+    Working.set(str(selected_value.get()) + "_" + str(value_num2.get()) + "_" + str(value_num3.get()))
+
 def on_dropdown_change(event):
     selected_value.set(event.widget.get())
     value_num2.set(1)
-    value_num3.set(1);
+    value_num3.set(1)
     Set_value_Working()
-    number_dropdown_2();
+    number_dropdown_2()
     number_dropdown_3()
 
 def on_dropdown_change_num2(event):
     selected_num2 = event.widget.get()
     value_num2.set(selected_num2)
     Set_value_Working()
-    print(value_num2.get())
 
 def on_dropdown_change_num3(event):
     value_num3.set(event.widget.get())
     Set_value_Working()
-    print(value_num3.get());
 
 def number_dropdown_2():
-    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
-    print(selected_value.get())
-    options_2=[str(i) for i in range(1,1+len(value_link[selected]['lazada']))]
+    options_2 = [str(i) for i in range(1, 1 + len(value_link[selected]['lazada']))]
     selected_value_num_2.set(options_2[0])
-    print(selected_value_num_2.get());
     dropdown_num_2['values'] = options_2
-    print(len(value_link[selected]['lazada']));
 
 def number_dropdown_3():
-    # ตรวจสอบว่ามีค่าที่ถูกเลือกใน dropdown แรกหรือไม่
     selected = selected_value.get()
-    print(selected_value.get())
-    options_3= [str(i) for i in range(1,103)]
+    options_3 = [str(i) for i in range(1, 103)]
     selected_value_num_3.set(options_3[0])
-    print(selected_value_num_3.get());
     dropdown_num_3['values'] = options_3
-    print(len(value_link[selected]['lazada']));
 
 def dropdown_value_num3(value):
     selected_value_num_3 = [str(i) for i in range(value)]
-    dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
-    dropdown_num_3.place(width=50, x=230, y=90)
+    dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3, values=selected_value_num_3)
 
 # *************************************************************
 showStatusBot.set("สถาณะการทำงาน : ยังไม่ทำงาน")
-dropdown = ttk.Combobox(app, textvariable=selected_value,values=options);
-dropdown.place(x=20,y=90);
-titleStatusbot = Label(app,textvariable=showStatusBot)
-titleStatusbot.place(x=20,y=560)
-show_link_working = Label(app,textvariable=Working,font=36);
-show_link_working.place(x=200,y=20,width=280,height=50);
-dropdown.set(options[0])
+dropdown = ttk.Combobox(app, textvariable=selected_value, values=options)
 dropdown.bind("<<ComboboxSelected>>", on_dropdown_change)
 
 # *************************************************************
 # num_2
-dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2 ,values=selected_value_num_2);
-dropdown_num_2.place(width=50, x=175, y=90)
-dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2);
+dropdown_num_2 = ttk.Combobox(app, textvariable=selected_value_num_2)
+dropdown_num_2.bind("<<ComboboxSelected>>", on_dropdown_change_num2)
 
 # *************************************************************
 # num3
-
-dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3 ,values=selected_value_num_3);
-dropdown_num_3.place(width=50, x=230, y=90)
-dropdown_num_3.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
-# dropdown_num_.bind("<<ComboboxSelected>>", on_dropdown_change_num3);
+dropdown_num_3 = ttk.Combobox(app, textvariable=selected_value_num_3)
+dropdown_num_3.bind("<<ComboboxSelected>>", on_dropdown_change_num3)
 
 # *************************************************************
-
 # terminal
 text = scrolledtext.ScrolledText(app, wrap=WORD, width=60, height=15)
-text.pack(pady=10)
 sys.stdout = PrintRedirector(text)
-text.place(x=7,y=600)
-# Set a default value
-# Bind the event handler to the <<ComboboxSelected>> event
+
+# ****************** การจัดเรียงด้วย grid ***********************************************************
+
+buttom_start.grid(row=0, column=0, padx=10, pady=10, sticky="nsew")
+buttom_stop.grid(row=1, column=0, padx=10, pady=10, sticky="nsew")
+buttom_clear.grid(row=2, column=0, padx=10, pady=10, sticky="nsew")
+
+dropdown.grid(row=0, column=1, padx=10, pady=10, sticky="nsew")
+dropdown_num_2.grid(row=1, column=1, padx=10, pady=10, sticky="nsew")
+dropdown_num_3.grid(row=2, column=1, padx=10, pady=10, sticky="nsew")
+
+# ตาราง log
+table.grid(row=3, column=0, columnspan=2, padx=10, pady=10, sticky="nsew")
+text.grid(row=4, column=0, columnspan=2, padx=10, pady=10, sticky="nsew")
+
+# ปรับขนาด widget ตามขนาดหน้าต่าง
+app.grid_rowconfigure(3, weight=1)  # ขยาย log table
+app.grid_rowconfigure(4, weight=1)  # ขยาย text area
+app.grid_columnconfigure(1, weight=1)  # ขยาย dropdown และปุ่ม
 app.mainloop()
-#  ++++++++++++++++++++++++++++++++++++ gui +++++++++++++++++++++++++++++
-
-
